@@ -28,7 +28,9 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    {{ block "head" . }}{{ end }}
+    {{ block "head" . }}
+	<link rel="stylesheet" media="all" href="{{ .Site.Params.asset_path }}css/main.css"/>
+	{{ end }}
 
     
     <meta property="og:image" content="{{ .Site.Params.asset_path }}images/opengraph-image.png?0.24.0">

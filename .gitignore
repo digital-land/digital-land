@@ -102,3 +102,6 @@ ENV/
 
 # HUGO
 /public
+/static/css/*
+
+/node_modules

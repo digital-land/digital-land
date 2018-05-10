@@ -5,6 +5,8 @@
 To build/run site you need:
 
 - [Hugo](https://gohugo.io)
+- [Node](https://nodejs.org/en/) and [Npm](https://www.npmjs.com/)
+- [Gulp](https://gulpjs.com/)
 
 ## Development
 
