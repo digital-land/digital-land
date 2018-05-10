@@ -1,6 +1,9 @@
-baseURL = "http://example.org/"
+baseURL = "http://localhost:1313"
 languageCode = "en-uk"
 title = "Digital Land Pattern Portfolio"
 theme = "govuk"
 
 staticDir = ["static", "src/govuk_template/assets"]
+
+[params]
+	servicename = "Digital Land Services"

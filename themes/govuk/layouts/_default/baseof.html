@@ -54,7 +54,7 @@
     </div>
 
     
-    <header role="banner" id="global-header" class="{{ block "header_class" . }}{{ end }}">
+    <header role="banner" id="global-header" class="{{ block "header_class" . }}{{ end }} with-proposition">
       <div class="header-wrapper">
         <div class="header-global">
           <div class="header-logo">
@@ -64,7 +64,26 @@
           </div>
           {{ block "inside_header" . }}{{ end }}
         </div>
-        {{ block "proposition_header" . }}{{ end }}
+        {{ block "proposition_header" . }}
+			  <div class="header-proposition">
+			    <div class="content">
+			      <a href="#proposition-links" class="js-header-toggle menu">Menu</a>
+			      <nav id="proposition-menu">
+			        <a href="/" id="proposition-name">
+			          {{ block "service_name" . }}
+			            {{ if isset .Site.Params "servicename" }}{{ .Site.Params.servicename }}{{ end }}
+			          {{ end }}
+			        </a>
+
+			        <ul id="proposition-links">
+			          <li><a href="{{ .Site.BaseURL }}" class="active">Pattern Portfolio</a></li>
+								<li><a href="">Data Explorer</a></li>
+			        </ul>
+
+			      </nav>
+			    </div>
+			  </div>
+				{{ end }}
       </div>
     </header>
     
