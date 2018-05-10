@@ -1,3 +1,8 @@
 {{ define "content" }}
-	Single page
+<main id="content" role="main">
+	<h1 class="heading-xlarge">
+	  <span class="heading-secondary">{{ .Section | humanize }}</span>
+	  {{ .Title }}
+	</h1>
+</main>
 {{ end }}
