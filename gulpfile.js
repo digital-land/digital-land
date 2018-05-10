@@ -1,5 +1,6 @@
 var gulp          = require("gulp");
 var sass          = require("gulp-sass");
+var clean         = require('gulp-clean');
 
 // set paths ...
 var config = {
@@ -7,8 +8,14 @@ var config = {
 	destPath: "static/css"
 }
 
+// Delete our old css files
+gulp.task('clean-css', function () {
+  return gulp.src('static/css/**/*', {read: false})
+    .pipe(clean());
+});
+
 // compile scss to CSS
-gulp.task("scss", function() {
+gulp.task("scss", ['clean-css'], function() {
 	return gulp.src( config.scssPath + '/*.scss')
 	.pipe(sass({outputStyle: 'expanded',
 		includePaths: [ 'src/govuk_frontend_toolkit/stylesheets',
@@ -17,5 +24,10 @@ gulp.task("scss", function() {
 	.pipe(gulp.dest(config.destPath))
 })
 
-// Set scss as default task
-gulp.task("default", ["scss"]);
+// Watch src folder for changes
+gulp.task("watch", ["scss"], function () {
+  gulp.watch("src/scss/**/*", ["scss"])
+});
+
+// Set watch as default task
+gulp.task("default", ["watch"]);

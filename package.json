@@ -4,7 +4,9 @@
   "description": "hugo server -D",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+		"start": "gulp scss && hugo serve -D & gulp watch",
+    "scss": "gulp scss",
+		"watch": "gulp watch"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,7 @@
   "homepage": "https://github.com/communitiesuk/digital-land-portfolio#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
     "gulp-sass": "^4.0.1"
   }
 }

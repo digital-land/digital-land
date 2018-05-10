@@ -12,5 +12,9 @@ To build/run site you need:
 
 To develop the site locally, run:
 
+- `gulp` to generate css and run watch task
 - `hugo server -D` to rebuild and server entire site. `-D` flag is required to generate the draft content.
 
+Alternatively, run:
+
+- `npm run start` to generate css, start gulp watch task and run hugo server in the background
