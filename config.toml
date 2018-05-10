@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313"
+baseURL = "https://digital-land-portfolio.cloudapps.digital/"
 languageCode = "en-uk"
 title = "Digital Land Pattern Portfolio"
 theme = "govuk"
