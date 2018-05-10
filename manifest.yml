@@ -1,0 +1,5 @@
+---
+applications:
+- name: digital-land-portfolio
+  memory: 64M
+  buildpack: staticfile_buildpack
