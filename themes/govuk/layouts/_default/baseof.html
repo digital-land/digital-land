@@ -92,7 +92,14 @@
 
     <div id="global-header-bar"></div>
 
-    {{ block "content" . }}{{ end }}
+
+    {{ block "content" . }}
+		<div id="content" role="main">
+			{{ partial "phase_banner_prototype.html" . }}
+
+			{{ block "content_inner" . }}{{ end }}
+		</div>
+		{{ end }}
 
     <footer class="group js-footer" id="footer" role="contentinfo">
 

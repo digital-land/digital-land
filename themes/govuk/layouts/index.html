@@ -1,8 +1,6 @@
-{{ define "content" }}
-<div id="content" role="main">
+{{ define "content_inner" }}
 	<h1 class="heading-xlarge">Digital Land Pattern Portfolio</h1>
 	{{ range (where .Data.Pages "Section" "pattern") }}
 		{{ partial "pattern-display.html" . }}
 	{{ end }}
-</div>
 {{ end }}
