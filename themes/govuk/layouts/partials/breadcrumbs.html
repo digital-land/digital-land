@@ -1,0 +1,14 @@
+<div class="breadcrumbs">
+	<ol>
+		<li><a href="{{ .Site.BaseURL }}">Portfolio</a></li>
+		<li>
+			{{$sec := .Section}}
+			{{with .Site.GetPage "section" $sec}}
+			<a href="{{.Permalink}}">{{ $sec | humanize }}</a>
+			{{end}}
+		</li>
+		<li>
+			{{ .Title }}
+		</li>
+  </ol>
+</div>
