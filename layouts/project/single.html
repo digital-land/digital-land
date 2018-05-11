@@ -1,0 +1,30 @@
+{{ define "content_inner" }}
+<main id="content" role="main">
+	<h1 class="heading-xlarge">
+	  <span class="heading-secondary">{{ .Section | humanize }}</span>
+	  {{ .Title }}
+	</h1>
+
+	<dl>
+		<dt>Website:</dt>
+		<dd><a href="{{ .Params.project_url }}">{{ .Params.project_url }}</a></dd>
+	</dl>
+
+	<div class="text">
+		{{ .Content }}
+	</div>
+
+<div class="grid-row">
+	<div class="column-two-thirds">
+		{{ with .Resources.ByType "image" }}
+		  <div class="Gallery">
+		    {{ range . }}
+		     	<img src="{{ .RelPermalink }}" />
+		    {{ end }}
+		  </div>
+		{{ end }}
+	</div>
+</div>
+
+</main>
+{{ end }}

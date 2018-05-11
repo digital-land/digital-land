@@ -15,6 +15,10 @@ $path: "/public/images/";
 	@extend %site-width-container;
 }
 
+#content img {
+	max-width: 100%;
+}
+
 .hero {
 	background: $govuk-blue;
 	color: $page-colour;
