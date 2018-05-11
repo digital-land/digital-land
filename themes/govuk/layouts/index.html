@@ -16,15 +16,21 @@
 	</header>
 
 	<div id="content" role="main">
-		<h3 class="heading-medium">Patterns</h3>
 
+		<h3 class="heading-medium">Patterns</h3>
 		<div class="grid-row">
-		{{ range (where .Data.Pages "Section" "pattern") }}
-			{{ partial "pattern-display.html" . }}
-		{{ end }}
+			{{ range (where .Data.Pages "Section" "pattern") }}
+				{{ partial "pattern-display.html" . }}
+			{{ end }}
 		</div>
 
 		<h3 class="heading-medium">Interesting use cases</h3>
+		<div class="grid-row">
+			{{ range first 1 (where .Data.Pages "Section" "project") }}
+				{{ partial "project-display.html" . }}
+			{{ end }}
+		</div>
+
 	</div>
 
 {{ end }}
