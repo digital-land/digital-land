@@ -1,9 +1,11 @@
-<li>
-	<a href="{{ .URL }}">
-	{{ if isset .Params "displayname" }}
-	  {{ .Params.displayname }}
-	{{ else }}
-	  {{ .LinkTitle }}
-	{{ end }}
-	</a>
-</li>
+<div class="column-one-third">
+	<h2 class="heading-small">
+		<a href="{{ .URL }}">
+		{{ if isset .Params "displayname" }}
+		  {{ .Params.displayname }}
+		{{ else }}
+		  {{ .LinkTitle }}
+		{{ end }}
+		</a>
+	</h2>
+</div>

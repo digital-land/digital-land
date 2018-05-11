@@ -17,9 +17,12 @@
 
 	<div id="content" role="main">
 		<h3 class="heading-medium">Patterns</h3>
+
+		<div class="grid-row">
 		{{ range (where .Data.Pages "Section" "pattern") }}
 			{{ partial "pattern-display.html" . }}
 		{{ end }}
+		</div>
 
 		<h3 class="heading-medium">Interesting use cases</h3>
 	</div>
