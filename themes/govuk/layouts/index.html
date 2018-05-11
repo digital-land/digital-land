@@ -1,6 +1,28 @@
-{{ define "content_inner" }}
-	<h1 class="heading-xlarge">Digital Land Pattern Portfolio</h1>
-	{{ range (where .Data.Pages "Section" "pattern") }}
-		{{ partial "pattern-display.html" . }}
-	{{ end }}
+{{ define "body_classes" }}with-hero{{ end }}
+
+{{ define "content" }}
+
+	<div class="full-page-width-container">
+	{{ partial "phase_banner_prototype.html" . }}
+	</div>
+
+	<header class="hero">
+		<div class="hero_content">
+			<h1 class="heading-xlarge">Digital Land Pattern Portfolio</h1>
+			<p class="lede text">
+				A collection of ways people are using housing data, including the datasets they find useful.
+			</p>
+		</div>
+	</header>
+
+	<div id="content" role="main">
+		<h3 class="heading-medium">Patterns</h3>
+		{{ range (where .Data.Pages "Section" "pattern") }}
+			{{ partial "pattern-display.html" . }}
+		{{ end }}
+
+		<h3 class="heading-medium">Interesting use cases</h3>
+	</div>
+
 {{ end }}
+		
