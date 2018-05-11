@@ -8,6 +8,9 @@ $path: "/images/";
 // Import all project components
 @import "components/hero";
 
+* {
+	font-family: "HelveticaNeue", "Helvetica Neue", "Arial", "Helvetica", sans-serif !important;
+}
 
 .full-page-width-container {
 	@extend %site-width-container;
