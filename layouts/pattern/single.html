@@ -1,0 +1,17 @@
+{{ define "content_inner" }}
+<main id="content" role="main">
+	<h1 class="heading-xlarge">
+	  <span class="heading-secondary">{{ .Section | humanize }}</span>
+	  {{ .Title }}
+	</h1>
+
+<h3 class="heading-medium">Example use cases/projects</h3>
+
+<h2 class="heading-large">Useful data</h2>
+<ul>
+{{ range .Params.datasets }}
+	<li><a href="{{ .url }}">{{ .name }}</a></li>
+{{ end }}
+</ul>
+</main>
+{{ end }}
