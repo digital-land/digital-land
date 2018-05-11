@@ -5,4 +5,4 @@ draft: false
 display_name: Notices
 ---
 
-Example content
+This is the notices pattern.
