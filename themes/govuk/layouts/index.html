@@ -26,7 +26,7 @@
 
 		<h3 class="heading-medium">Interesting use cases</h3>
 		<div class="grid-row">
-			{{ range first 1 (where .Data.Pages "Section" "project") }}
+			{{ range first 4 (where .Data.Pages "Section" "project") }}
 				{{ partial "project-display.html" . }}
 			{{ end }}
 		</div>
