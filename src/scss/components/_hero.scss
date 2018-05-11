@@ -1,0 +1,28 @@
+// Hero banner
+//
+// Creates blue banner at top of gov.uk page
+// useful for front pages of service/site
+//
+// ===================
+
+.with-hero {
+	#global-header-bar {
+		display: none;
+	}
+}
+
+.hero {
+	background: $govuk-blue;
+	color: $page-colour;
+	@include media(tablet) {
+		margin-bottom: $gutter;
+	}
+}
+
+.hero_content {
+	@extend %site-width-container;
+	padding: 25px 0 15px;
+	@include media(tablet) {
+		padding: 40px 0 30px;
+	}
+}

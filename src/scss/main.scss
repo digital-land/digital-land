@@ -5,11 +5,9 @@ $path: "/public/images/";
 // Import all the govuk-elements partials listed in _govuk-elements.scss
 @import "govuk-elements";
 
-.with-hero {
-	#global-header-bar {
-		display: none;
-	}
-}
+// Import all project components
+@import "components/hero";
+
 
 .full-page-width-container {
 	@extend %site-width-container;
@@ -17,20 +15,4 @@ $path: "/public/images/";
 
 #content img {
 	max-width: 100%;
-}
-
-.hero {
-	background: $govuk-blue;
-	color: $page-colour;
-	@include media(tablet) {
-		margin-bottom: $gutter;
-	}
-}
-
-.hero_content {
-	@extend %site-width-container;
-	padding: 25px 0 15px;
-	@include media(tablet) {
-		padding: 40px 0 30px;
-	}
 }
