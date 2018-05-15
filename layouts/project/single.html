@@ -40,5 +40,14 @@
 	</div>
 </div>
 
+<div class="grid-row">
+{{ with .Resources.ByType "page" }}
+	{{ range . }}
+	<h3 class="heading-medium">{{ .Title }}</h3>
+	{{ .Content }}
+	{{ end }}
+{{ end }}
+</div>
+
 </main>
 {{ end }}
