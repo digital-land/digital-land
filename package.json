@@ -4,10 +4,10 @@
   "description": "hugo server -D",
   "main": "index.js",
   "scripts": {
-		"start": "gulp scss && hugo serve -D & gulp watch",
+    "start": "gulp scss && hugo serve -D & gulp watch",
     "scss": "gulp scss",
-		"watch": "gulp watch",
-    "build": "gulp scss && hugo && cp ./manifest.yml public/"
+    "watch": "gulp watch",
+    "build": "rm -rf public && gulp scss && hugo && cp ./manifest.yml public/"
   },
   "repository": {
     "type": "git",

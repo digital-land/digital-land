@@ -1,0 +1,23 @@
+language: node_js
+sudo: required
+
+before_install:
+  - sudo apt-get -qq update
+  - sudo apt-get install -y hugo
+
+before_script:
+  - npm install
+
+script:
+  - npm run build
+
+deploy:
+  provider: cloudfoundry
+  api: https://api.cloud.service.gov.uk
+  username: adam.shimali@gmail.com
+  password:
+    secure: lholtiimSL3VAC6RmzPgRIUclkvvmLnuu0qtUF+Tn6FG7kysTEPNR8WqDJNPKemBHCFI7f4Uk080EXtwKUYLtxizJj2BsAP4zT8V7uBXWIwim/IJle6wyUy/V/N73WqL+DO/TLF2IUIzQu5esp/MTXFtjHG+NNH2K/LTO5LobBB8CGLsu7SDX/IWuAAWtX/j6TAa/BhUKIymzO+VuBwXCLOubUfjSoI3/a1sPP2SjeSXWzNrSNSHl7rI8M18JAKJT7zrj4zjrDKDCMdB9XrCVgGtElR6P7/+5oRa7XEDTYnzMuhs/GrHmOvJGJ1qFlYVXTz1KzhvB61/O7j9wgOwUhDcSACX8tK9kLZ4plqFnPdyTvkTPFepFu4QItZaC45Y2+zZiuCByR5hu8yJUilKbzzdq8JIoV9KAHlxcHlf4+oQ75geAg9nBESBJDIZ9aD17ZksITvTZqLAjMcqAhnvGMzXL4kbaAuRX8Vq5tiaZxUEfMmNgw0THwzAf/MKjRUJrr2jW1jYWSkqD2wZAbMKiA4M2cm1DZcpkBUOiN0uCP3EuqlcvEvxT5znWA9/IlsCjYP4tY1aMfDsEX4v2mRlqnzBozk7tOdiGrWWCBMm5V7q2XhcYcqtrtiPTzvvS7MTFcF88MFxGy0Ryro1twTrLTv5Le4x4J8XWEiuEJv/dTc=
+  organization: mhclg-digital-land
+  space: digital-land
+  on:
+    repo: communitiesuk/digital-land-portfolio
