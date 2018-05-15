@@ -13,26 +13,20 @@
 		</div>
 		
 		<ul class="grid-row">
-			{{ range ($.Site.GetPage "taxonomyTerm" "patterns").Pages }}
+			{{ range ($.Site.GetPage "section" "pattern").Pages }}
 			<li class="column-half">
 				<h3 class="heading-medium"><a href="{{ .Permalink }}">{{ .Title | humanize }}</a></h3>
 				<ul class="list-bullet">
-					{{ range .Pages }}
-					<li hugo-nav="{{ .RelPermalink}}"><a href="{{ .Permalink}}"> {{ .LinkTitle }}</a></li>
+				{{ $pattern := .Title }}
+				{{ range ($.Site.GetPage "section" "project").Pages }}
+					{{ if in .Params.patterns $pattern }}
+						<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
 					{{ end }}
+				{{ end }}
 				</ul>
 			</li>
 			{{ end }}
-		  <!-- {{ range $key, $taxonomy := .Site.Taxonomies.patterns }}
-		    <li class="column-half">
-					<h3 class="heading-medium"><a href="">{{ $key | humanize }}</a></h3>
-					<ul class="list-bullet">
-						{{ range $taxonomy.Pages }}
-						<li hugo-nav="{{ .RelPermalink}}"><a href="{{ .Permalink}}"> {{ .LinkTitle }} </a> </li>
-						{{ end }}
-					</ul>
-				</li>
-		  {{ end }} -->
+
 		</ul>
 
 	</main>

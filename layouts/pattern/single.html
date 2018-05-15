@@ -8,13 +8,21 @@
 	  {{ .Title }}
 	</h1>
 
-<h3 class="heading-medium">Example use cases/projects</h3>
+	<h3 class="heading-medium">Example use cases/projects</h3>
+	<ul class="list-bullet">
+	{{ $pattern := .Title }}
+	{{ range ($.Site.GetPage "section" "project").Pages }}
+		{{ if in .Params.patterns $pattern }}
+			<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+		{{ end }}
+	{{ end }}
+	</ul>
 
-<h2 class="heading-large">Useful data</h2>
-<ul>
-{{ range .Params.datasets }}
-	<li><a href="{{ .url }}">{{ .name }}</a></li>
-{{ end }}
-</ul>
+	<h2 class="heading-large">Useful data</h2>
+	<ul>
+	{{ range .Params.datasets }}
+		<li><a href="{{ .url }}">{{ .name }}</a></li>
+	{{ end }}
+	</ul>
 </main>
 {{ end }}
