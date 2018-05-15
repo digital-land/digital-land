@@ -41,12 +41,14 @@
 </div>
 
 <div class="grid-row">
-{{ with .Resources.ByType "page" }}
-	{{ range . }}
-	<h3 class="heading-medium">{{ .Title }}</h3>
-	{{ .Content }}
+	<div class="column-two-thirds">
+	{{ with .Resources.ByType "page" }}
+		{{ range . }}
+		<h3 class="heading-medium">{{ .Title }}</h3>
+		{{ .Content }}
+		{{ end }}
 	{{ end }}
-{{ end }}
+	</div>
 </div>
 
 </main>
