@@ -27,6 +27,17 @@
 		  </div>
 		{{ end }}
 	</div>
+
+	<div class="column-one-third">
+		<h3 class="heading-medium heading-flush">Associated patterns</h3>
+		{{ with .Params.patterns }}
+		<ul>
+			{{ range . }}
+			<li class="tag"><a href="{{ "pattern" | absURL }}/{{ . | urlize }}">{{ . }}</a></li>
+			{{ end }}
+		</ul>
+		{{ end }}
+	</div>
 </div>
 
 </main>

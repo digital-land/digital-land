@@ -8,6 +8,7 @@ $path: "/images/";
 // Import all project components
 @import "components/hero";
 @import "components/definition-list";
+@import "components/tags";
 
 * {
 	font-family: "HelveticaNeue", "Helvetica Neue", "Arial", "Helvetica", sans-serif !important;
@@ -21,6 +22,14 @@ $path: "/images/";
 	max-width: 100%;
 }
 
+.heading-flush {
+	border-top: 5px solid $govuk-blue;
+	margin-top: 0;
+	padding-top: em(5, 16);
+  @include media(tablet) {
+    padding-top: em(8);
+  }
+}
 
 .project-display {
 	.project-display__title {
