@@ -8,8 +8,15 @@ before_install:
 before_script:
   - npm install
 
+cache:
+  directories:
+    - "node_modules"
+
 script:
   - npm run build
+
+before_deploy:
+  - cd ./public
 
 deploy:
   provider: cloudfoundry
