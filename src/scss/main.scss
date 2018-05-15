@@ -7,6 +7,7 @@ $path: "/images/";
 
 // Import all project components
 @import "components/hero";
+@import "components/definition-list";
 
 * {
 	font-family: "HelveticaNeue", "Helvetica Neue", "Arial", "Helvetica", sans-serif !important;
@@ -26,4 +27,12 @@ $path: "/images/";
 		text-align: center;
 		margin-top: 5px;
 	}
+}
+
+.project-meta-data {
+  margin-bottom: em(30, 16);
+
+  @include media(tablet) {
+    margin-bottom: em(30);
+  }
 }
