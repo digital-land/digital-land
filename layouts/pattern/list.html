@@ -15,7 +15,7 @@
 		<ul class="grid-row">
 			{{ range ($.Site.GetPage "taxonomyTerm" "patterns").Pages }}
 			<li class="column-half">
-				<h3 class="heading-medium"><a href="{{ .Permalink }}">{{ .Title}}</a></h3>
+				<h3 class="heading-medium"><a href="{{ .Permalink }}">{{ .Title | humanize }}</a></h3>
 				<ul class="list-bullet">
 					{{ range .Pages }}
 					<li hugo-nav="{{ .RelPermalink}}"><a href="{{ .Permalink}}"> {{ .LinkTitle }}</a></li>
