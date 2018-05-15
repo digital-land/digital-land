@@ -1,0 +1,40 @@
+{{ define "content" }}
+
+	<main id="content" role="main">
+
+		<h1 class="heading-xlarge">
+		  {{ .Title }}
+		</h1>
+
+		<div class="grid-row">
+			<div class="column-two-thirds">
+				<p class="lede">{{ .Summary }}</p>
+			</div>
+		</div>
+		
+		<ul class="grid-row">
+			{{ range ($.Site.GetPage "taxonomyTerm" "patterns").Pages }}
+			<li class="column-half">
+				<h3 class="heading-medium"><a href="{{ .Permalink }}">{{ .Title}}</a></h3>
+				<ul class="list-bullet">
+					{{ range .Pages }}
+					<li hugo-nav="{{ .RelPermalink}}"><a href="{{ .Permalink}}"> {{ .LinkTitle }}</a></li>
+					{{ end }}
+				</ul>
+			</li>
+			{{ end }}
+		  <!-- {{ range $key, $taxonomy := .Site.Taxonomies.patterns }}
+		    <li class="column-half">
+					<h3 class="heading-medium"><a href="">{{ $key | humanize }}</a></h3>
+					<ul class="list-bullet">
+						{{ range $taxonomy.Pages }}
+						<li hugo-nav="{{ .RelPermalink}}"><a href="{{ .Permalink}}"> {{ .LinkTitle }} </a> </li>
+						{{ end }}
+					</ul>
+				</li>
+		  {{ end }} -->
+		</ul>
+
+	</main>
+
+{{ end }}

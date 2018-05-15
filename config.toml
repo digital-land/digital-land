@@ -5,5 +5,8 @@ theme = "govuk"
 
 staticDir = ["static", "src/govuk_template/assets", "src/govuk_elements/assets"]
 
+[taxonomies]
+	pattern = "patterns"
+
 [params]
 	servicename = "Digital Land Services"
