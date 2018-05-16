@@ -41,7 +41,9 @@
 </div>
 
 <div class="grid-row">
-	{{ if isset .Params "datasets"}}
+{{ if isset .Params "datasets"}}
+	<!-- need to check datasets array length > 0 -->
+	{{ if gt (len .Params.datasets) 0 }}
 	<div class="column-two-thirds">
 		<h3 class="heading-medium">Data used</h3>
 		<table>
@@ -62,6 +64,7 @@
 		</table>
 	</div>
 	{{ end }}
+{{ end }}
 
 	<div class="column-two-thirds">
 	{{ with .Resources.ByType "page" }}
