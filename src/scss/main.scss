@@ -31,6 +31,11 @@ $path: "/images/";
   }
 }
 
+.small {
+	font-weight: normal;
+	@include core-19();
+}
+
 .project-display {
 	.project-display__title {
 		text-align: center;

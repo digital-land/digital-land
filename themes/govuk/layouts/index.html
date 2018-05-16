@@ -24,7 +24,7 @@
 			{{ end }}
 		</div>
 
-		<h3 class="heading-medium">Interesting use cases</h3>
+		<h3 class="heading-medium">Interesting use cases <span class="small">(<a href="/project">see more projects</a>)</span></h3>
 		<div class="grid-row">
 			{{ range first 4 (where .Data.Pages "Section" "project") }}
 				{{ partial "project-display.html" . }}
