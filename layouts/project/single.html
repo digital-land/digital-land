@@ -41,6 +41,28 @@
 </div>
 
 <div class="grid-row">
+	{{ if isset .Params "datasets"}}
+	<div class="column-two-thirds">
+		<h3 class="heading-medium">Data used</h3>
+		<table>
+			<thead>
+				<tr>
+					<th scope=col>Dataset</th>
+					<th scope=col>Quality</th>
+				</tr>
+			</thead>
+			<tbody>
+				{{ range .Params.datasets }}
+				<tr>
+					<th scope="row">{{ . }}</th>
+					<td>?</td>
+				</tr>
+				{{ end }}
+			</tbody>
+		</table>
+	</div>
+	{{ end }}
+
 	<div class="column-two-thirds">
 	{{ with .Resources.ByType "page" }}
 		{{ range . }}
