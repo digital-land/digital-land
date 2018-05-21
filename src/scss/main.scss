@@ -50,3 +50,16 @@ $path: "/images/";
     margin-bottom: em(30);
   }
 }
+
+.pattern-display {
+	margin-bottom: $gutter;
+}
+
+.pattern-icon {
+	max-width: 200px;
+	background: $panel-colour;
+	@include border-radius(5%);
+	img {
+		
+	}
+}
