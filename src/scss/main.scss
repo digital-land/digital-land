@@ -55,6 +55,12 @@ $path: "/images/";
 	margin-bottom: $gutter;
 }
 
+.pattern-display-single {
+	max-width: 150px;
+	background: $panel-colour;
+	@include border-radius(5%);
+}
+
 .pattern-icon {
 	max-width: 200px;
 	background: $panel-colour;

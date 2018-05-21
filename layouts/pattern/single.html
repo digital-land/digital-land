@@ -8,6 +8,17 @@
 	  {{ .Title }}
 	</h1>
 
+	<div class="grid-row">
+		<div class="column-quarter">
+			<div class="pattern-display-single">
+				<img src="/images/icons/{{ .Params.icon }}" alt="" />
+			</div>
+		</div>
+		<div class="column-half">
+			{{ .Content }}
+		</div>
+	</div>
+
 	<h3 class="heading-medium">Example use cases/projects</h3>
 	<ul class="list-bullet">
 	{{ $pattern := .Title }}
