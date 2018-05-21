@@ -1,26 +1,23 @@
-{{ define "content" }}
+{{ define "content_inner" }}
 
-	<main id="content" role="main">
+	<h1 class="heading-xlarge">
+		<span class="heading-secondary">{{ if isset .Params "cat_name" }}{{ .Params.cat_name | humanize }}{{ end }}</span>
+	  {{ .Title }}
+	</h1>
 
-		<h1 class="heading-xlarge">
-		  {{ .Title }}
-		</h1>
+	<div class="grid-row">
+		<div class="column-two-thirds">
+			<p class="lede">{{ .Summary }}</p>
 
-		<div class="grid-row">
-			<div class="column-two-thirds">
-				<p class="lede">{{ .Summary }}</p>
+			<ul>
+	    {{ range .Data.Pages }}
+        <li>
+					<a href="{{.Permalink}}">{{.Title}}</a>
+        </li>
+	    {{ end }}
+			</ul>
 
-				<ul>
-		    {{ range .Data.Pages }}
-	        <li>
-						<a href="{{.Permalink}}">{{.Title}}</a>
-	        </li>
-		    {{ end }}
-				</ul>
-
-			</div>
 		</div>
-
-	</main>
+	</div>
 
 {{ end }}

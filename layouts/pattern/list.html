@@ -1,34 +1,31 @@
-{{ define "content" }}
+{{ define "content_inner" }}
 
-	<main id="content" role="main">
+	<h1 class="heading-xlarge">
+		<span class="heading-secondary">{{ if isset .Params "cat_name" }}{{ .Params.cat_name | humanize }}{{ end }}</span>
+	  {{ .Title }}
+	</h1>
 
-		<h1 class="heading-xlarge">
-		  {{ .Title }}
-		</h1>
-
-		<div class="grid-row">
-			<div class="column-two-thirds">
-				<p class="lede">{{ .Summary }}</p>
-			</div>
+	<div class="grid-row">
+		<div class="column-two-thirds">
+			<p class="lede">{{ .Summary }}</p>
 		</div>
-		
-		<ul class="grid-row">
-			{{ range ($.Site.GetPage "section" "pattern").Pages }}
-			<li class="column-half">
-				<h3 class="heading-medium"><a href="{{ .Permalink }}">{{ .Title | humanize }}</a></h3>
-				<ul class="list-bullet">
-				{{ $pattern := .Title }}
-				{{ range ($.Site.GetPage "section" "project").Pages }}
-					{{ if in .Params.patterns $pattern }}
-						<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-					{{ end }}
+	</div>
+	
+	<ul class="grid-row">
+		{{ range ($.Site.GetPage "section" "pattern").Pages }}
+		<li class="column-half">
+			<h3 class="heading-medium"><a href="{{ .Permalink }}">{{ .Title | humanize }}</a></h3>
+			<ul class="list-bullet">
+			{{ $pattern := .Title }}
+			{{ range ($.Site.GetPage "section" "project").Pages }}
+				{{ if in .Params.patterns $pattern }}
+					<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
 				{{ end }}
-				</ul>
-			</li>
 			{{ end }}
+			</ul>
+		</li>
+		{{ end }}
 
-		</ul>
-
-	</main>
+	</ul>
 
 {{ end }}
