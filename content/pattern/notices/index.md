@@ -6,4 +6,4 @@ display_name: Notices
 icon: "notices.svg"
 ---
 
-This is the notices pattern.
+This is the notices pattern, it is a collection of projects aimed at improving how people are notified about the planning applications submitted and reviewed in an area.

@@ -6,4 +6,6 @@ display_name:
 icon: "approval_stamp.svg"
 ---
 
-Example content
+This pattern is a collection of projects aiming to improve the planning applications that get submitted. This could be projects aiming to improve the success rate of applications or aiming to reduce the amount of work involved in creating an application.
+
+We are also interested the datasets that make these projects possible.

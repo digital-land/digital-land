@@ -6,4 +6,6 @@ display_name:
 icon: "better_local_plans.svg"
 ---
 
-Example content
+Local plans are a huge, costly undertaking done by each planning authority. These plans are then used by everybody, developers of all sizes and the planning authroities themselves. Therefore it would be good if they are easier to create and subsequently easier to use.
+
+This pattern is a collection of projects and the related datasets that aim to make that possible.

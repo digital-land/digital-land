@@ -6,4 +6,4 @@ display_name:
 icon: "property_info.svg"
 ---
 
-Example content
+The "Info about a property" pattern is a collection of projects aiming to improve the availablity, accessibility and readability of data about a particular property.
