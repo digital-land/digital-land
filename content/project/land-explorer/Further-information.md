@@ -1,5 +1,5 @@
 ---
-title: "Creator comments"
+title: "Further information"
 ---
 
 An area to add comments from people who worked on the project.

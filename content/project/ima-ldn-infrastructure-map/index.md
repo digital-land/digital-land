@@ -4,6 +4,7 @@ date: 2018-05-15T15:29:53+08:00
 draft: false
 project_url: "https://maps.london.gov.uk/ima/"
 patterns: ["Info about an area", "Geographies"]
+datasets: ["London Development Database", "Barbour ABI construction data", "Ofcom broadband speeds", "Protected views", "Flood zones", "Sewer map", "Air quality"]
 ---
 
 IMA LDN has been developed to support improved planning, delivery and coordination of infrastructure throughout the capital, by providing improved visibility of London's future growth, infrastructure investment and development pipeline.
