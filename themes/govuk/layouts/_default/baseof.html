@@ -119,7 +119,7 @@
           </div>
 
           <div class="copyright">
-            <a href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/copyright-and-re-use/crown-copyright/">{{ .Site.Params.crown_copyright_message | default "&copy; Crown copyright" }}</a>
+            <a href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/copyright-and-re-use/crown-copyright/">{{ .Site.Params.crown_copyright_message | default "&copy; Crown copyright" | safeHTML }}</a>
           </div>
         </div>
       </div>
