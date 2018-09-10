@@ -1,11 +1,5 @@
 ---
 title: "Net development value"
-draft: false
-datasets:
-- name: "dataset1"
-  url: #
-- name: "dataset2"
-  url: #
 ---
 
 The net development value is the estimated amount of money that a property development expects to make once all costs ([land value] (/wiki/benchmark-land-value), development, marketing etc) and [sales] (/wiki/gross-development-value) have been taken into consideration.

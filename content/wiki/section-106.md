@@ -1,11 +1,5 @@
 ---
 title: "Section 106"
-draft: false
-datasets:
-- name: "dataset1"
-  url: #
-- name: "dataset2"
-  url: #
 ---
 
 Section 106 is a legal agreement between an property developer and the local planning authority. It is used to mitigate the impact of any new property development to the local community and infrastructure.

@@ -1,11 +1,5 @@
 ---
 title: "Data use is restricted"
-draft: false
-datasets:
-- name: "dataset1"
-  url: #
-- name: "dataset2"
-  url: #
 ---
 
 Much data is made available under an open government licence, but with additional, restrictive terms.

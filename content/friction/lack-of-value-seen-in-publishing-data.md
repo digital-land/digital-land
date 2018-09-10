@@ -1,11 +1,5 @@
 ---
 title: "Lack of value seen in publishing data"
-draft: false
-datasets:
-- name: "dataset1"
-  url: #
-- name: "dataset2"
-  url: #
 ---
 
 Some local authorities have seen benefits in publishing open data. Mid-Sussex for example, reported a fall in calls to their call-centre by making tree preservation orders open data. 

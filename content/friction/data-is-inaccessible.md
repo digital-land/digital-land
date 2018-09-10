@@ -1,11 +1,5 @@
 ---
 title: "Data is inaccessible"
-draft: false
-datasets:
-- name: "dataset1"
-  url: #
-- name: "dataset2"
-  url: #
 ---
 
 Data needed is seldom found online, with many datasets held locally and in widely varying formats.

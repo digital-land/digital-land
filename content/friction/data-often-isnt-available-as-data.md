@@ -1,11 +1,5 @@
 ---
 title: "Data often isn't available as data"
-draft: false
-datasets:
-- name: "dataset1"
-  url: #
-- name: "dataset2"
-  url: #
 ---
 
 Often even the most basic information often isn’t available as data. For example, every local planning authority should publish a local plan, but there isn’t an authoritative list of local planning authorities, and there isn’t a single list of local plans.

@@ -1,11 +1,5 @@
 ---
 title: "Local land charge"
-draft: false
-datasets:
-- name: "dataset1"
-  url: #
-- name: "dataset2"
-  url: #
 ---
 
 A local land charge is a restriction on a piece of land or property that can limit its use or bind the owner to a payment of a sum of money. Charges can include:

@@ -1,11 +1,5 @@
 ---
 title: "Affordable housing"
-draft: false
-datasets:
-- name: "dataset1"
-  url: #
-- name: "dataset2"
-  url: #
 ---
 
 Affordable housing includes social rented, affordable rented and intermediate housing, provided to specified eligible households whose needs are not met by the market. It can be a new-build property or a private sector property that has been purchased for use as an affordable home.

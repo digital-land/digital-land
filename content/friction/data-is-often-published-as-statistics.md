@@ -1,11 +1,5 @@
 ---
 title: "Data is often published as statistics"
-draft: false
-datasets:
-- name: "dataset1"
-  url: #
-- name: "dataset2"
-  url: #
 ---
 
 Much of the data is compiled in raw form, but only published by government in the form of statistics.

@@ -1,11 +1,5 @@
 ---
 title: "Uncertainty around what data is needed"
-draft: false
-datasets:
-- name: "dataset1"
-  url: #
-- name: "dataset2"
-  url: #
 ---
 
 It’s hard to determine what data is needed to make a better planning application. We have asked local authorities for their lists of constraints, but often these are general concerns (e.g. “Gas”) rather than a more precise reference to an authoritative source of information. 

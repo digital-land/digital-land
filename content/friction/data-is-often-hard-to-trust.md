@@ -1,11 +1,5 @@
 ---
 title: "Data is often hard to trust"
-draft: false
-datasets:
-- name: "dataset1"
-  url: #
-- name: "dataset2"
-  url: #
 ---
 
 Users aren’t always confident that the data will be maintained. We spoke to several small companies who had built business processes based on [Energy Performance Certificate data] (/wiki/energy-performance-certificate-data), now concerned they haven’t been updated as promised.

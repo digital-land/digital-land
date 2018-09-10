@@ -1,11 +1,5 @@
 ---
 title: "The same data is inconsistent across publishers"
-draft: false
-datasets:
-- name: "dataset1"
-  url: #
-- name: "dataset2"
-  url: #
 ---
 
 Often the same specific types of data are defined or formatted differently depending on the publisher. This inconsistency exists even where a standard is in place.

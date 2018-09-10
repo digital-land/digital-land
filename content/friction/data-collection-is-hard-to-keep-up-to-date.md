@@ -1,11 +1,5 @@
 ---
 title: "Data collection is hard to keep up to date"
-draft: false
-datasets:
-- name: "dataset1"
-  url: #
-- name: "dataset2"
-  url: #
 ---
 
 It’s often hard to write an automatic process to download a dataset:

@@ -1,11 +1,5 @@
 ---
 title: "Fear of feedback"
-draft: false
-datasets:
-- name: "dataset1"
-  url: #
-- name: "dataset2"
-  url: #
 ---
 
 The quality of many datasets is poor, and feedback can be a source of improvement. However we heard many perceived reasons not to publish, including uninformed feedback: “your site says my village has [contaminated land] (/wiki/contaminated-land)!”.

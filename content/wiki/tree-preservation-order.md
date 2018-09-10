@@ -1,11 +1,5 @@
 ---
 title: "Tree preservation order"
-draft: false
-datasets:
-- name: "dataset1"
-  url: #
-- name: "dataset2"
-  url: #
 ---
 
 A Tree Preservation Order is an order made by a local planning authority in England to protect specific trees, groups of trees or woodlands in the interests of amenity. An Order prohibits the:
