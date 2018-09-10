@@ -14,8 +14,8 @@ A Tree Preservation Order is an order made by a local planning authority in Engl
 * topping
 * lopping
 * uprooting
-* wilful damage
-* wilful destruction
+* willful damage
+* willful destruction
 
 of trees without the local planning authority’s written consent. If consent is given, it can be subject to conditions which have to be followed. In the Secretary of State’s view, cutting roots is also a prohibited activity and requires the authority’s consent.
 
