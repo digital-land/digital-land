@@ -1,5 +1,7 @@
 ---
 title: "Contaminated Land"
+wikidata: Q5164914
+wikipedia: https://en.wikipedia.org/wiki/Contaminated_land
 ---
 
 Land is legally defined as ‘contaminated land’ where substances are causing or could cause:

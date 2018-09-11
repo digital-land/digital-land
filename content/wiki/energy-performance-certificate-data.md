@@ -1,5 +1,7 @@
 ---
 title: "Energy Performance Certificate Data"
+wikidata: Q897144
+wikipedia: https://en.wikipedia.org/wiki/Energy_Performance_Certificate_(United_Kingdom)
 ---
 
 [Energy Performance Certificates] (https://www.gov.uk/buy-sell-your-home/energy-performance-certificates) (EPCs) are needed whenever a property is:

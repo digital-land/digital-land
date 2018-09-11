@@ -1,5 +1,7 @@
 ---
-title: "Geographies"
+title: "Greenfield site"
+wikidata: Q12018455
+wikipedia: https://en.wikipedia.org/wiki/Greenfield_land
 ---
 
-The geographies pattern is a collection of datasets and projects associated around UK geographies, whether that is large regions or smaller local areas.
+Greenfield land is undeveloped land in either a city or urban area.

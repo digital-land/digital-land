@@ -1,5 +1,7 @@
 ---
 title: "Brownfield sites"
+wikidata: Q896586
+wikipedia: https://en.wikipedia.org/wiki/Brownfield_land
 ---
 
 * Are often on disused or derelict land.
