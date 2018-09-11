@@ -1,6 +1,6 @@
 ---
-title: Alphas
-cat_name: "Alphas"
+title: Alpha
+cat_name: "Alpha"
 ---
 
-As we progress through alpha we intend to test various hypothesis though building a set of tools.
+As we progress through the alpha phase we intend to test various hypothesis though prototyping various tools.
