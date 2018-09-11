@@ -4,7 +4,7 @@
 	{{ partial "breadcrumbs.html" . }}
 
 	<h1 class="heading-xlarge">
-	  <span class="heading-secondary">{{ .Section | humanize }}</span>
+	  <span class="heading-secondary">Project</span>
 	  {{ .Title }}
 	</h1>
 
@@ -33,7 +33,7 @@
 		{{ with .Params.patterns }}
 		<ul>
 			{{ range . }}
-			<li class="tag"><a href="{{ "pattern" | absURL }}/{{ . | urlize }}">{{ . }}</a></li>
+			<li class="tag"><a href="{{ "portfolio/pattern" | absURL }}/{{ . | urlize }}">{{ . }}</a></li>
 			{{ end }}
 		</ul>
 		{{ end }}

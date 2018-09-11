@@ -1,0 +1,43 @@
+{{ define "content_inner" }}
+<main id="content" role="main">
+
+	{{ partial "breadcrumbs.html" . }}
+
+	<h1 class="heading-xlarge">
+	  <span class="heading-secondary">Pattern</span>
+	  {{ .Title }}
+	</h1>
+
+	<div class="grid-row">
+		<div class="column-quarter">
+			<div class="pattern-display-single">
+				<img src="/images/icons/{{ .Params.icon }}" alt="Icon for the '{{ .Title }}' pattern" />
+			</div>
+		</div>
+		<div class="column-half">
+			{{ .Content }}
+		</div>
+	</div>
+
+	<h3 class="heading-medium">Example use cases/projects</h3>
+	<ul class="list-bullet">
+    {{ range .Site.Taxonomies }}
+      {{ range $key, $value := . }}
+        {{ if eq (urlize $key) (urlize $.Title) }}
+          {{ range $value.Pages }}
+            <li><a href="{{.URL}}">{{ .Title }}</a></li>
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+
+	</ul>
+
+	<h2 class="heading-large">Useful data</h2>
+	<ul>
+	{{ range .Params.datasets }}
+		<li><a href="{{ .url }}">{{ .name }}</a></li>
+	{{ end }}
+	</ul>
+</main>
+{{ end }}

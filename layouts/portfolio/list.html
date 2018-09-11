@@ -1,0 +1,80 @@
+{{ define "body_classes" }}with-hero{{ end }}
+
+{{ define "content" }}
+
+	<div class="full-page-width-container">
+	{{ partial "phase_banner_prototype.html" . }}
+	</div>
+
+	<header class="hero">
+		<div class="hero_content">
+			<h1 class="heading-xlarge">Digital Land Pattern Portfolio</h1>
+			<p class="lede text">
+				A collection of ways people are using housing data, including the datasets they find useful.
+			</p>
+		</div>
+	</header>
+
+	<div id="content" role="main">
+
+    {{ range .Sections }}
+      <a href="{{ .URL }}">{{ .Title }}</a>{{ .URL }}
+    {{ end }}
+
+    <br />
+    {{ .CurrentSection.Title }}
+    <br />
+    {{ .Parent.Title }}
+    <br />
+    {{ $a := $.Site.GetPage "taxonomyTerm" "notices"}}
+    {{ $a.URL }}
+
+    <h3 class="heading-medium">Patterns</h3>
+    <div class="grid-row">
+    {{ range ($.Site.GetPage "/portfolio/pattern").Pages }}
+      {{ partial "pattern-display.html" . }}
+    {{ end }}
+    </div>
+
+		<h3 class="heading-medium">Interesting use cases <span class="small">(<a href="/portfolio/project">see more projects</a>)</span></h3>
+		<div class="grid-row">
+			{{ range first 4 ($.Site.GetPage "/portfolio/project").Pages }}
+				{{ partial "project-display.html" . }}
+			{{ end }}
+		</div>
+
+{{ $pats := ($.Site.GetPage "/portfolio/pattern").Pages }}
+{{ range first 2 $pats }}
+  {{ . }}
+{{ end }}
+
+
+  <section>
+    Test: {{ range $name, $pagelist := $.Site.Taxonomies.patterns }}
+    {{ $name }}<br />
+      {{ range $pagelist }}
+        {{ .URL }}
+      {{ end }}
+    {{ end }}
+    <ul>
+      {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
+        <li><a href="{{ "/" | relLangURL}}{{ $taxonomyname | urlize }}">{{ $taxonomyname }}</a>
+          <ul>{{ $taxonomy }}
+            {{ range $key, $value := $taxonomy }}
+              {{ $a := $.Site.GetPage "taxonomyTerm" $key }}
+            <li><a href="{{ $a.URL }}">{{ $key | humanize }}</a></li>
+              <ul>
+              {{ range $value.Pages }}
+                  <li><a href="{{ .Permalink}}"> {{ .LinkTitle }} </a> </li>
+              {{ end }}
+              </ul>
+            {{ end }}
+          </ul>
+        </li>
+      {{ end }}
+    </ul>
+  </section>
+
+</div>
+
+{{ end }}

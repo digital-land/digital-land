@@ -3,6 +3,7 @@ title: "Info about an area"
 date: 2018-05-10T15:25:55+08:00
 draft: false
 display_name:
+layout: pattern
 icon: "area_polygon.svg"
 datasets:
 - name: "Land Registry Titles"

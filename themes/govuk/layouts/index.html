@@ -8,27 +8,34 @@
 
 	<header class="hero">
 		<div class="hero_content">
-			<h1 class="heading-xlarge">Digital Land Pattern Portfolio</h1>
-			<p class="lede text">
-				A collection of ways people are using housing data, including the datasets they find useful.
-			</p>
+			<h1 class="heading-xlarge">{{ .Title }}</h1>
+			{{ .Content }}
 		</div>
 	</header>
 
 	<div id="content" role="main">
 
-		<h3 class="heading-medium">Patterns</h3>
+		<h3 class="heading-medium">Sections</h3>
 		<div class="grid-row">
-			{{ range (where .Data.Pages "Section" "pattern") }}
-				{{ partial "pattern-display.html" . }}
-			{{ end }}
+      <div class="column-two-thirds">
+        <ul class="list-bullet">
+          <li><a href="/friction">Points of friction</a></li>
+          <li><a href="/portfolio">Portfolio</a></li>
+          <li><a href="/wiki">Wiki</a></li>
+          <li>Categories: <a href="/legislation">legislation</a>, <a href="/copyright">copyright</a>, <a href="/licence">licence</a></li>
+        </ul>
+      </div>
 		</div>
 
-		<h3 class="heading-medium">Interesting use cases <span class="small">(<a href="/project">see more projects</a>)</span></h3>
+		<h3 class="heading-medium">Team</h3>
 		<div class="grid-row">
-			{{ range first 4 (where .Data.Pages "Section" "project") }}
-				{{ partial "project-display.html" . }}
-			{{ end }}
+      <div class="column-two-thirds">
+        <li>Paul Downey</li>
+        <li>Adam Shimali</li>
+        <li>Matt Lucht</li>
+        <li>Colm Britton</li>
+        <li>Michael Nottingham</li>
+      </div>
 		</div>
 
 	</div>
