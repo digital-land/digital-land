@@ -99,6 +99,7 @@
 
     {{ block "content" . }}
 		<div id="content" class="govuk-width-container">
+      {{ partial "breadcrumbs.html" . }}
       <main class="govuk-main-wrapper">
 			{{ block "content_inner" . }}{{ end }}
       </main>
