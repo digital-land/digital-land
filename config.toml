@@ -8,6 +8,20 @@ staticDir = ["static", "src/govuk_template/assets", "src/govuk_elements/assets"]
 [params]
 	servicename = "Digital Land Services"
 
+  # Nav links in the side bar
+  [[params.propositionlinks]]
+  name = "Portfolio"
+  url = "/portfolio"
+  currentpage = true
+
+  [[params.propositionlinks]]
+  name = "Data Explorer"
+  url = "https://digital-land-explorer.cloudapps.digital/"
+
+  [[params.propositionlinks]]
+  name = "Prototypes"
+  url = "https://section-106-prototype.cloudapps.digital/"
+
 [taxonomies]
   tag = "tags"
   pattern = "patterns"
