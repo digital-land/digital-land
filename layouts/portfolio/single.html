@@ -67,7 +67,9 @@
 	{{ with .Resources.ByType "page" }}
 		{{ range . }}
 		<h3 class="govuk-heading-m">{{ .Title }}</h3>
-		{{ .Content }}
+    <div class="markdown-output">
+      {{ .Content }}
+    </div>
 		{{ end }}
 	{{ end }}
 	</div>

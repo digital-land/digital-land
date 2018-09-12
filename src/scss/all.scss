@@ -85,8 +85,10 @@ $govuk-images-path: '/static/govuk-frontend/assets/images/';
 
 .markdown-output {
   @include govuk-responsive-margin(6, "bottom");
+  p:first-child {
+    margin-top: 0;
+  }
   p {
-    margin: 0;
     @extend .govuk-body;
   }
 }
