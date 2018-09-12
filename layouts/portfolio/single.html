@@ -1,7 +1,4 @@
 {{ define "content_inner" }}
-<main id="content" class="govuk-width-container" role="main">
-
-	{{ partial "breadcrumbs.html" . }}
 
   <span class="govuk-caption-xl">Project</span>
 	<h1 class="govuk-heading-xl">
@@ -46,18 +43,18 @@
 	{{ if gt (len .Params.datasets) 0 }}
 	<div class="govuk-grid-column-two-thirds">
 		<h3 class="govuk-heading-m">Data used</h3>
-		<table>
-			<thead>
-				<tr>
-					<th scope=col>Dataset</th>
-					<th scope=col>Quality</th>
+		<table class="govuk-table">
+			<thead class="govuk-table__head">
+				<tr class="govuk-table__row">
+					<th class="govuk-table__header" scope=col>Dataset</th>
+					<th class="govuk-table__header" scope=col>Quality</th>
 				</tr>
 			</thead>
-			<tbody>
+			<tbody class="govuk-table__body">
 				{{ range .Params.datasets }}
-				<tr>
-					<th scope="row">{{ . }}</th>
-					<td>?</td>
+				<tr class="govuk-table__row">
+					<th class="govuk-table__header" scope="row">{{ . }}</th>
+					<td class="govuk-table__cell">?</td>
 				</tr>
 				{{ end }}
 			</tbody>
@@ -76,5 +73,4 @@
 	</div>
 </div>
 
-</main>
 {{ end }}
