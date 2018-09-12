@@ -1,0 +1,83 @@
+{{ define "content_inner" }}
+
+  <span class="govuk-caption-xl">Project</span>
+	<h1 class="govuk-heading-xl">
+	  {{ .Title }}
+	</h1>
+
+	<dl class="definition-inline project-meta-data">
+		<dt>Website</dt>
+		<dd><a href="{{ .Params.project_url }}">{{ .Params.project_url }}</a></dd>
+	</dl>
+
+	<div class="markdown-output">
+		{{ .Content }}
+	</div>
+
+<div class="govuk-grid-row">
+	<div class="govuk-grid-column-two-thirds">
+		{{ with .Resources.ByType "image" }}
+		  <div class="Gallery">
+		    {{ range . }}
+		     	<img src="{{ .RelPermalink }}" />
+		    {{ end }}
+		  </div>
+		{{ end }}
+	</div>
+
+	<div class="govuk-grid-column-one-third">
+		<h3 class="govuk-heading-m govuk-heading-flush">Related patterns</h3>
+		{{ with .Params.patterns }}
+		<ul class="govuk-list">
+			{{ range . }}
+			<li class="tag"><a href="{{ "portfolio/pattern" | absURL }}/{{ . | urlize }}">{{ . }}</a></li>
+			{{ end }}
+		</ul>
+		{{ end }}
+	</div>
+</div>
+
+<div class="govuk-grid-row project-page-section">
+{{ if isset .Params "datasets"}}
+	<!-- need to check datasets array length > 0 -->
+	{{ if gt (len .Params.datasets) 0 }}
+	<div class="govuk-grid-column-two-thirds">
+		<h3 class="govuk-heading-m">Data used</h3>
+		<table class="govuk-table">
+			<thead class="govuk-table__head">
+				<tr class="govuk-table__row">
+					<th class="govuk-table__header" scope=col>Dataset</th>
+					<th class="govuk-table__header" scope=col>Quality</th>
+				</tr>
+			</thead>
+			<tbody class="govuk-table__body">
+				{{ range .Params.datasets }}
+				<tr class="govuk-table__row">
+					<th class="govuk-table__header" scope="row">{{ . }}</th>
+					<td class="govuk-table__cell">?</td>
+				</tr>
+				{{ end }}
+			</tbody>
+		</table>
+	</div>
+	{{ end }}
+{{ end }}
+</div>
+
+<!-- loop over any related content files -->
+{{ with .Resources.ByType "page" }}
+  {{ range . }}
+  <div class="govuk-grid-row project-page-section">
+  	<div class="govuk-grid-column-two-thirds">
+	
+  		<h3 class="govuk-heading-m">{{ .Title }}</h3>
+      <div class="markdown-output">
+        {{ .Content }}
+      </div>
+
+  	</div>
+  </div>
+  {{ end }}
+{{ end }}
+
+{{ end }}

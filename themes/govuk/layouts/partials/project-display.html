@@ -1,10 +1,10 @@
-<div class="column-one-quarter project-display">
+<div class="govuk-grid-column-one-quarter project-display">
 	{{ with .Resources.ByType "image" }}
     {{ range . }}
      	<img src="{{ .RelPermalink }}" />
     {{ end }}
 	{{ end }}
-	<h2 class="heading-small project-display__title">
+	<h2 class="govuk-heading-s project-display__title">
 		<a href="{{ .URL }}">
 		{{ if isset .Params "displayname" }}
 		  {{ .Params.displayname }}

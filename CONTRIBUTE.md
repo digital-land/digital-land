@@ -22,7 +22,7 @@ Follow the instructions below and submit a pull request.
 
 First, create a new project entry. To do so run:
 ```
-hugo new project/<name-of-project>/index.md
+hugo new portfolio/project/<name-of-project>/index.md
 ```
 
 This will create an empty project file. This file has 2 parts:
