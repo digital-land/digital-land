@@ -1,4 +1,4 @@
-# Digital Land Pattern Portfolio
+# Digital Land
 
 ## Environment reqs
 
