@@ -23,5 +23,8 @@
     "gulp": "^3.9.1",
     "gulp-clean": "^0.4.0",
     "gulp-sass": "^4.0.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.10"
   }
 }
