@@ -30,4 +30,4 @@ deploy:
   organization: mhclg-digital-land
   space: digital-land
   on:
-    repo: communitiesuk/digital-land-portfolio
+    repo: communitiesuk/digital-land
