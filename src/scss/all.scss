@@ -92,3 +92,7 @@ $govuk-images-path: '/static/govuk-frontend/assets/images/';
     @extend .govuk-body;
   }
 }
+
+.project-page-section {
+  @include govuk-responsive-margin(6, "top");
+}
