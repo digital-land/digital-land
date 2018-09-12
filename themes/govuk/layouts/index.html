@@ -2,43 +2,44 @@
 
 {{ define "content" }}
 
-	<div class="full-page-width-container">
-	{{ partial "phase_banner_prototype.html" . }}
-	</div>
-
 	<header class="hero">
-		<div class="hero_content">
-			<h1 class="heading-xlarge">{{ .Title }}</h1>
+		<div class="hero_content govuk-width-container">
+			<h1 class="govuk-heading-xl hero-heading">{{ .Title }}</h1>
 			{{ .Content }}
 		</div>
 	</header>
 
-	<div id="content" role="main">
+	<main id="content" class="govuk-main-wrapper" role="main">
 
-		<h3 class="heading-medium">Sections</h3>
-		<div class="grid-row">
-      <div class="column-two-thirds">
-        <ul class="list-bullet">
-          <li><a href="/friction">Points of friction</a></li>
-          <li><a href="/portfolio">Portfolio</a></li>
-          <li><a href="/wiki">Wiki</a></li>
-          <li>Categories: <a href="/legislation">legislation</a>, <a href="/copyright">copyright</a>, <a href="/licence">licence</a></li>
-        </ul>
-      </div>
-		</div>
+    <div class="govuk-width-container">
 
-		<h3 class="heading-medium">Team</h3>
-		<div class="grid-row">
-      <div class="column-two-thirds">
-        <li>Paul Downey</li>
-        <li>Adam Shimali</li>
-        <li>Matt Lucht</li>
-        <li>Colm Britton</li>
-        <li>Michael Nottingham</li>
-      </div>
-		</div>
+  		<h3 class="govuk-heading-m">Sections</h3>
+  		<div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+          <ul class="govuk-list govuk-list--bullet">
+            <li><a href="/friction">Points of friction</a></li>
+            <li><a href="/portfolio">Portfolio</a></li>
+            <li><a href="/wiki">Wiki</a></li>
+            <li>Categories: <a href="/legislation">legislation</a>, <a href="/copyright">copyright</a>, <a href="/licence">licence</a></li>
+          </ul>
+        </div>
+  		</div>
 
-	</div>
+  		<h3 class="govuk-heading-m">Team</h3>
+  		<div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+          <ul class="govuk-list govuk-list--bullet">
+            <li>Paul Downey</li>
+            <li>Adam Shimali</li>
+            <li>Matt Lucht</li>
+            <li>Colm Britton</li>
+            <li>Michael Nottingham</li>
+          </ul>
+        </div>
+  		</div>
+
+    </div>
+	</main>
 
 {{ end }}
 		

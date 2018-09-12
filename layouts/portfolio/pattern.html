@@ -1,26 +1,28 @@
 {{ define "content_inner" }}
-<main id="content" role="main">
+<main id="content" class="govuk-width-container" role="main">
 
 	{{ partial "breadcrumbs.html" . }}
 
-	<h1 class="heading-xlarge">
-	  <span class="heading-secondary">Pattern</span>
+  <span class="govuk-caption-xl">Pattern</span>
+	<h1 class="govuk-heading-xl">
 	  {{ .Title }}
 	</h1>
 
-	<div class="grid-row">
-		<div class="column-quarter">
+	<div class="govuk-grid-row pattern-page-header">
+		<div class="govuk-grid-column-one-quarter">
 			<div class="pattern-display-single">
 				<img src="/images/icons/{{ .Params.icon }}" alt="Icon for the '{{ .Title }}' pattern" />
 			</div>
 		</div>
-		<div class="column-half">
+		<div class="govuk-grid-column-one-half">
+      <div class="markdown-output">
 			{{ .Content }}
+      </div>
 		</div>
 	</div>
 
-	<h3 class="heading-medium">Example use cases/projects</h3>
-	<ul class="list-bullet">
+	<h3 class="govuk-heading-m">Example use cases/projects</h3>
+	<ul class="govuk-list govuk-list--bullet">
     {{ range .Site.Taxonomies }}
       {{ range $key, $value := . }}
         {{ if eq (urlize $key) (urlize $.Title) }}
@@ -33,8 +35,8 @@
 
 	</ul>
 
-	<h2 class="heading-large">Useful data</h2>
-	<ul>
+	<h2 class="govuk-heading-m">Useful data</h2>
+	<ul class="govuk-list govuk-list--bullet">
 	{{ range .Params.datasets }}
 		<li><a href="{{ .url }}">{{ .name }}</a></li>
 	{{ end }}

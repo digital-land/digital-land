@@ -2,4 +2,4 @@
 title: "Digital Land"
 ---
 
-<p class="lede text">Things MHCLG are working on in the digital land space.</p>
+<p class="govuk-body-l">Things MHCLG are working on in the digital land space.</p>

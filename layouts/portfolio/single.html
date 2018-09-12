@@ -1,10 +1,10 @@
 {{ define "content_inner" }}
-<main id="content" role="main">
+<main id="content" class="govuk-width-container" role="main">
 
 	{{ partial "breadcrumbs.html" . }}
 
-	<h1 class="heading-xlarge">
-	  <span class="heading-secondary">Project</span>
+  <span class="govuk-caption-xl">Project</span>
+	<h1 class="govuk-heading-xl">
 	  {{ .Title }}
 	</h1>
 
@@ -13,12 +13,12 @@
 		<dd><a href="{{ .Params.project_url }}">{{ .Params.project_url }}</a></dd>
 	</dl>
 
-	<div class="text">
+	<div class="markdown-output">
 		{{ .Content }}
 	</div>
 
-<div class="grid-row">
-	<div class="column-two-thirds">
+<div class="govuk-grid-row">
+	<div class="govuk-grid-column-two-thirds">
 		{{ with .Resources.ByType "image" }}
 		  <div class="Gallery">
 		    {{ range . }}
@@ -28,10 +28,10 @@
 		{{ end }}
 	</div>
 
-	<div class="column-one-third">
-		<h3 class="heading-medium heading-flush">Related patterns</h3>
+	<div class="govuk-grid-column-one-third">
+		<h3 class="govuk-heading-m govuk-heading-flush">Related patterns</h3>
 		{{ with .Params.patterns }}
-		<ul>
+		<ul class="govuk-list">
 			{{ range . }}
 			<li class="tag"><a href="{{ "portfolio/pattern" | absURL }}/{{ . | urlize }}">{{ . }}</a></li>
 			{{ end }}
@@ -40,12 +40,12 @@
 	</div>
 </div>
 
-<div class="grid-row">
+<div class="govuk-grid-row">
 {{ if isset .Params "datasets"}}
 	<!-- need to check datasets array length > 0 -->
 	{{ if gt (len .Params.datasets) 0 }}
-	<div class="column-two-thirds">
-		<h3 class="heading-medium">Data used</h3>
+	<div class="govuk-grid-column-two-thirds">
+		<h3 class="govuk-heading-m">Data used</h3>
 		<table>
 			<thead>
 				<tr>
@@ -66,10 +66,10 @@
 	{{ end }}
 {{ end }}
 
-	<div class="column-two-thirds">
+	<div class="govuk-grid-column-two-thirds">
 	{{ with .Resources.ByType "page" }}
 		{{ range . }}
-		<h3 class="heading-medium">{{ .Title }}</h3>
+		<h3 class="govuk-heading-m">{{ .Title }}</h3>
 		{{ .Content }}
 		{{ end }}
 	{{ end }}
