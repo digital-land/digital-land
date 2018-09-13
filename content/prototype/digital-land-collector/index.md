@@ -5,6 +5,5 @@ source: https://github.com/communitiesuk/digital-land-collector
 priority: now
 ---
 
-We will continue to iterate our process for collecting datasets as we find them to report on the state of publications, and exemplify the work necessary to keep a copy of a dataset up to date.
-
-[https://github.com/communitiesuk/digital-land-collector](https://github.com/communitiesuk/digital-land-collector)
+The Digital Land team regularly updates 
+[this](https://github.com/communitiesuk/digital-land-collector) collection of datasets related to housing and land. We use it to assess the state of published data and gauge the work necessary to keep a copy of a dataset up to date.
