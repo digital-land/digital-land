@@ -1,6 +1,5 @@
 ---
 title: Friction
-cat_name: "Friction"
 ---
 
 We learned there are many points of friction when building services on top of government data.
