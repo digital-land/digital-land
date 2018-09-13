@@ -1,6 +1,7 @@
 ---
 copyright: natural-england
-name: Natural England copyright
+name: Natural England Copyright
+title: Natural England Copyright
 ---
 
 © Natural England copyright.
