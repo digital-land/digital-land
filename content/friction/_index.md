@@ -1,12 +1,11 @@
 ---
-title: Friction
+title: Points of Friction
 ---
 
-We learned there are many points of friction when building services on top of government data.
+The team identified many different points of friction that make it difficult for people to find, create, trust or use data.
 
-None of these points of friction by themselves are insurmountable to someone wanting to use any individual dataset once, but is a burden on people building services which need information only available from government.
 
-The cumulative effect of these individual points of friction, multiplied across each dataset, and repeated in each company needing.
+None of these points of friction will stop someone from engaging with a single dataset one time, but would be a problem for those needing to work with the data regularly.
 
-The work needed to discover, find and use data, and the lack of trust in data published by government, is a significant barrier to innovation.
 
+The cumulative effect of all these points of friction multiplied across many datasets is a significant barrier to innovation and the ability of people to use the data.
