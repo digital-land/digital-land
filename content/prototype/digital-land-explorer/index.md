@@ -1,5 +1,6 @@
 ---
 title: "Digital Land Explorer"
+lastmod: "2018-09-14"
 user: service-builder
 source: https://digital-land-explorer.cloudapps.digital/
 priority: now

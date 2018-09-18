@@ -9,4 +9,5 @@
     <a href="{{.Permalink}}">{{.Title}}</a>
   </h2>
   <p class="govuk-body">Hypothesis: {{ .Params.hypothesis }}</p>
+  <p>Last updated: {{ dateFormat "2 January, 2006" .Lastmod }}</p>
 </li>

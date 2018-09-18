@@ -1,5 +1,6 @@
 ---
 title: "Validator"
+lastmod: "2018-09-18"
 user: data-publisher
 source:
 priority: now

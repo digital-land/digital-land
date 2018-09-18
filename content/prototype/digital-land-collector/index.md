@@ -1,5 +1,6 @@
 ---
 title: "Digital Land Collector"
+lastmod: "2018-09-14"
 user: service-builder
 source: https://github.com/communitiesuk/digital-land-collector
 priority: now

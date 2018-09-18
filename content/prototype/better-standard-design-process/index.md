@@ -1,5 +1,6 @@
 ---
 title: "Better standard design process"
+lastmod: "2018-09-14"
 user: data-standard-establishers
 source:
 priority: now
