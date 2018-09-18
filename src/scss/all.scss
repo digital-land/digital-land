@@ -14,6 +14,7 @@ $govuk-images-path: '/static/govuk-frontend/assets/images/';
 @import "overrides/all";
 
 // Import all project components
+@import "project-components/blockquote";
 @import "project-components/hero";
 @import "project-components/definition-list";
 @import "project-components/tags";
