@@ -1,0 +1,13 @@
+
+.prototype-progress-flag {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.in-progress-flag {
+  color: govuk-colour("turquoise");
+}
+
+.later-flag {
+  color: govuk-colour("light-blue");
+}

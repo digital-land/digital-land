@@ -36,4 +36,4 @@ datasets:
   url: #
 ---
 
-The "Info about an area" pattern is a collection of projects that are aiming to improve the quality of the data that somebody can access about a given area. They usually involve combining a number of datasets, which we are also interested in collecting.
+These projects aim to improve the quality of the data related to a given area.

@@ -1,0 +1,7 @@
+<li>
+  {{ if .Params.priority }}
+  <span class='prototype-progress-flag {{ if eq .Params.priority "now" }}in-progress-flag{{ else }}later-flag{{ end }}'>
+    {{- if eq .Params.priority "now" }}In progress{{ else }}Later{{ end }}</span>
+  {{ end }}
+  <a href="{{.Permalink}}">{{.Title}}</a>
+</li>

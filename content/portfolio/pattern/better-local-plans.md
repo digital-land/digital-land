@@ -12,6 +12,4 @@ datasets:
   url: #
 ---
 
-Local plans are a huge, costly undertaking done by each planning authority. These plans are then used by everybody, developers of all sizes and the planning authroities themselves. Therefore it would be good if they are easier to create and subsequently easier to use.
-
-This pattern is a collection of projects and the related datasets that aim to make that possible.
+These projects work towards better local plans, which are huge, costly undertakings faced by all planning authorities. Local plans have a wide range of users, including developers of all sizes and the planning authorities themselves. So everyone would benefit if these were easier to create and easier to use.
