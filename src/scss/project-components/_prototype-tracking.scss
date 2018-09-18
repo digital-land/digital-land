@@ -11,6 +11,9 @@
   }
   .prototype-heading {
     margin-bottom: 5px;
+    a {
+      color: $govuk-text-colour;
+    }
   }
 }
 
