@@ -1,7 +1,12 @@
-<li>
-  {{ if .Params.priority }}
-  <span class='prototype-progress-flag {{ if eq .Params.priority "now" }}in-progress-flag{{ else }}later-flag{{ end }}'>
-    {{- if eq .Params.priority "now" }}In progress{{ else }}Later{{ end }}</span>
-  {{ end }}
-  <a href="{{.Permalink}}">{{.Title}}</a>
+<li class='prototype-summary-item prototype-summary-item
+  {{- if eq .Params.priority "now" }}--inprogress{{ end }}
+  {{- if eq .Params.priority "next" }}--later{{ end }}'>
+  <h2 class="govuk-heading-s prototype-heading">
+    {{ if .Params.priority }}
+    <span class='prototype-progress-flag {{ if eq .Params.priority "now" }}in-progress-flag{{ else }}later-flag{{ end }}'>
+      {{- if eq .Params.priority "now" }}In progress{{ else }}Later{{ end }}</span>
+    {{ end }}
+    <a href="{{.Permalink}}">{{.Title}}</a>
+  </h2>
+  <p class="govuk-body">Hypothesis: {{ .Params.hypothesis }}</p>
 </li>
