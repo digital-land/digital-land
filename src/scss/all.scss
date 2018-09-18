@@ -19,6 +19,8 @@ $govuk-images-path: '/static/govuk-frontend/assets/images/';
 @import "project-components/definition-list";
 @import "project-components/tags";
 
+@import "project-components/markdown";
+
 // =====================
 // Hacks: or things I can't find in GOVUK design system
 // =====================
@@ -82,16 +84,6 @@ $govuk-images-path: '/static/govuk-frontend/assets/images/';
 
 .pattern-page-header {
   @include govuk-responsive-margin(6, "bottom");
-}
-
-.markdown-output {
-  @include govuk-responsive-margin(6, "bottom");
-  p:first-child {
-    margin-top: 0;
-  }
-  p {
-    @extend .govuk-body;
-  }
 }
 
 .project-page-section {
