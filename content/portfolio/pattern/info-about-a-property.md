@@ -22,4 +22,4 @@ datasets:
   url: #
 ---
 
-The "Info about a property" pattern is a collection of projects aiming to improve the availablity, accessibility and readability of data about a particular property.
+These projects aim to improve the availability, accessibility and readability of data related to a particular property.

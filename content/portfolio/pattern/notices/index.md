@@ -16,4 +16,4 @@ datasets:
   url: #
 ---
 
-This is the notices pattern, it is a collection of projects aimed at improving how people are notified about the planning applications submitted and reviewed in an area.
+These projects aim to improve how people are notified about the planning applications submitted and reviewed in an area.

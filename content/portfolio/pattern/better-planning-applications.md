@@ -26,6 +26,6 @@ datasets:
   url: #
 ---
 
-This pattern is a collection of projects aiming to improve the planning applications that get submitted. This could be projects aiming to improve the success rate of applications or aiming to reduce the amount of work involved in creating an application.
+These projects aim to improve the quality of planning applications, for example by increasing the success rate of applications or reducing the amount of work involved in creating one.
 
-We are also interested the datasets that make these projects possible.
+We are also interested in the datasets that make these projects possible.
