@@ -1,12 +1,16 @@
 {{ define "content_inner" }}
 
-  <span class="govuk-caption-xl">{{ .Section | humanize }}</span>
-	<h1 class="govuk-heading-xl">
-	  {{ .Title }}
-	</h1>
-
 	<div class="govuk-grid-row">
 		<div class="govuk-grid-column-two-thirds">
+      <span class="govuk-caption-xl">{{ .Section | humanize }}</span>
+    	<h1 class="govuk-heading-xl">
+    	  {{ .Title }}
+    	</h1>
+		</div>
+	</div>
+
+	<div class="govuk-grid-row">
+		<div class="govuk-grid-column-two-thirds markdown-output">
 			{{ .Content }}
 		</div>
 	</div>
