@@ -1,3 +1,21 @@
+.prototype-summary-item {
+  border-top: 1px solid govuk-colour(grey-3);
+  padding-top: 10px;
+  margin-bottom: $govuk-gutter-half;
+
+  &--inprogress {
+    border-color: govuk-colour("turquoise");
+  }
+  &--later {
+    border-color: govuk-colour("light-blue");
+  }
+  .prototype-heading {
+    margin-bottom: 5px;
+    a {
+      color: $govuk-text-colour;
+    }
+  }
+}
 
 .prototype-progress-flag {
   text-transform: uppercase;

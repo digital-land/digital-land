@@ -12,11 +12,11 @@
         {{ .Content }}
       </div>
 
-			<ul class="govuk-list govuk-list--bullet">
-	    {{ range .Data.Pages }}
+      <ul class="govuk-list">
+      {{ range .Data.Pages }}
         {{ partial "prototype-summary.html" . }}
-	    {{ end }}
-			</ul>
+      {{ end }}
+      </ul>
 
 		</div>
 	</div>
