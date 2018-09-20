@@ -91,3 +91,21 @@ $govuk-images-path: '/static/govuk-frontend/assets/images/';
 .project-page-section {
   @include govuk-responsive-margin(6, "top");
 }
+
+.prototype-update-container {
+  @include govuk-responsive-padding(6, "top");
+  @include govuk-responsive-padding(6, "bottom");
+  border-bottom: 1px solid govuk-colour(grey-2);
+
+  ul:last-child {
+    margin-bottom: 0;
+  }
+
+  &:first-of-type {
+    @include govuk-responsive-margin(3, "top");
+  }
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
