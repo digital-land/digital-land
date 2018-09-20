@@ -14,9 +14,9 @@ The frontmatter should contain the following fields:
 | :---- | :----- | :------ |
 | `title` | The title of prototype | Free text e.g Validator |
 | `lastmod` | Date the prototype was last updated | Date in format "2018-09-18" |
-| user | The user group the prototype is for | One of `data-publisher`\|`service-builder`\|`data-standard-establishers` |
-| priority | The status of the prototype | One of `now`\|`next` |
-| hypothesis | What we expect to see if the prototype is successful | |
+| `user` | The user group the prototype is for | One of `data-publisher`\|`service-builder`\|`data-standard-establishers` |
+| `priority` | The status of the prototype | One of `now`\|`next` |
+| `hypothesis` | What we expect to see if the prototype is successful | |
 
 When adding updates use the `{{< prototype-update >}}` shortcode. The first argument is the title of the update. The second argument is option and should be the time period the updates were made in. E.g
 
