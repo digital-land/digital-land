@@ -21,4 +21,4 @@ Alternatively, run:
 
 ## Creating content
 
-See [creating content](https://github.com/communitiesuk/digital-land/blob/master/CREATE-CONTENT.md) documentation
+See [creating content](CREATE-CONTENT.md) documentation
