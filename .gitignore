@@ -106,8 +106,7 @@ ENV/
 
 /node_modules
 
-.DS_Store
-
 *.swp
 
-
+.DS_Store
+content/Alphas/.DS_Store
