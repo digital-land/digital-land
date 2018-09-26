@@ -4,9 +4,10 @@ documentation_url: https://www.gov.uk/guidance/tree-preservation-orders-and-tree
 abbreviation: TPO
 wikipedia: https://en.wikipedia.org/wiki/Tree_preservation_order
 wikidata: Q7837624
+legislation: uksi-2012-605
 ---
 
-A Tree Preservation Order is an order made by a local planning authority in England to protect specific trees, groups of trees or woodlands in the interests of amenity. An Order prohibit  the:
+A Tree Preservation Order is an order made by a local planning authority in England to protect specific trees, groups of trees or woodlands in the interests of amenity. An Order prohibit the:
 
 * cutting down
 * topping
