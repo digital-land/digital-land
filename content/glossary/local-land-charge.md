@@ -6,7 +6,7 @@ A local land charge is a restriction on a piece of land or property that can lim
 
 * planning decisions
 * road agreements
-* [tree preservation orders] (/wiki/tree-preservation-order)
+* [tree preservation orders] (/glossary/tree-preservation-order)
 * conservation areas and listed buildings notices
 * environmental health notices
 * charges or objections made against previous owners
