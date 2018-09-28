@@ -20,6 +20,14 @@
   .hero-heading, p {
     color: $govuk-body-background-colour;
   }
+  a {
+    color: govuk-colour("white");
+
+  }
+
+  a:hover {
+    color: govuk-colour("grey-2");
+  }
 }
 
 .hero_content {
