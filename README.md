@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/communitiesuk/digital-land.svg?branch=master)](https://travis-ci.org/communitiesuk/digital-land)
+
 # Digital Land
 
 ## Environment reqs
