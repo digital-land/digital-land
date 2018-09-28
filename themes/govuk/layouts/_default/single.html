@@ -1,11 +1,27 @@
 {{ define "content_inner" }}
-<main id="content" role="main">
 
-	{{ partial "breadcrumbs.html" . }}
+	<div class="govuk-grid-row">
+		<div class="govuk-grid-column-two-thirds">
+      <span class="govuk-caption-xl">{{ .Section | humanize }}</span>
+    	<h1 class="govuk-heading-xl">
+    	  {{ .Title }}
+    	</h1>
+		</div>
+	</div>
 
-	<h1 class="heading-xlarge">
-	  <span class="heading-secondary">{{ .Section | humanize }}</span>
-	  {{ .Title }}
-	</h1>
-</main>
+	<div class="govuk-grid-row">
+		<div class="govuk-grid-column-two-thirds markdown-output">
+			{{ .Content }}
+		</div>
+	</div>
+
+  {{ if (isset .Params "tags") }}
+	<h2 class="govuk-heading-l">Tags</h2>
+	<ul>
+    {{ range .Params.tags }}
+		<li><a href="{{ .Permalink }}">{{ .name }}</a></li>
+    {{ end }}
+	</ul>
+  {{ end }}
+
 {{ end }}

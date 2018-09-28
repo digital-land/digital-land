@@ -1,0 +1,6 @@
+<ul id="proposition-links">
+  {{ $url := .Site.BaseURL }}
+  {{ range .Site.Params.propositionlinks }}
+    <li><a href="{{ .url }}" {{ if isset . "currentpage" }}class="active"{{ end }}>{{ .name }}</a></li>
+  {{ end }} 
+</ul>

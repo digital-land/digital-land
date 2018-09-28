@@ -1,2 +1,4 @@
 +++
+[blackfriday]
+    extensions = [hardLineBreak]
 +++

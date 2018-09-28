@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Patterns on Digital Land Pattern Portfolio</title>
+    <link>https://digital-land-portfolio.cloudapps.digital/pattern/</link>
+    <description>Recent content in Patterns on Digital Land Pattern Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Thu, 10 May 2018 15:26:36 +0800</lastBuildDate>
+    
+	<atom:link href="https://digital-land-portfolio.cloudapps.digital/pattern/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Better planning applications</title>
+      <link>https://digital-land-portfolio.cloudapps.digital/pattern/better-planning-applications/</link>
+      <pubDate>Thu, 10 May 2018 15:26:36 +0800</pubDate>
+      
+      <guid>https://digital-land-portfolio.cloudapps.digital/pattern/better-planning-applications/</guid>
+      <description>This pattern is a collection of projects aiming to improve the planning applications that get submitted. This could be projects aiming to improve the success rate of applications or aiming to reduce the amount of work involved in creating an application.
+We are also interested the datasets that make these projects possible.</description>
+    </item>
+    
+    <item>
+      <title>Better local plans</title>
+      <link>https://digital-land-portfolio.cloudapps.digital/pattern/better-local-plans/</link>
+      <pubDate>Thu, 10 May 2018 15:26:26 +0800</pubDate>
+      
+      <guid>https://digital-land-portfolio.cloudapps.digital/pattern/better-local-plans/</guid>
+      <description>Local plans are a huge, costly undertaking done by each planning authority. These plans are then used by everybody, developers of all sizes and the planning authroities themselves. Therefore it would be good if they are easier to create and subsequently easier to use.
+This pattern is a collection of projects and the related datasets that aim to make that possible.</description>
+    </item>
+    
+    <item>
+      <title>Info about a property</title>
+      <link>https://digital-land-portfolio.cloudapps.digital/pattern/info-about-a-property/</link>
+      <pubDate>Thu, 10 May 2018 15:26:11 +0800</pubDate>
+      
+      <guid>https://digital-land-portfolio.cloudapps.digital/pattern/info-about-a-property/</guid>
+      <description>The &amp;ldquo;Info about a property&amp;rdquo; pattern is a collection of projects aiming to improve the availablity, accessibility and readability of data about a particular property.</description>
+    </item>
+    
+    <item>
+      <title>Info about an area</title>
+      <link>https://digital-land-portfolio.cloudapps.digital/pattern/info-about-an-area/</link>
+      <pubDate>Thu, 10 May 2018 15:25:55 +0800</pubDate>
+      
+      <guid>https://digital-land-portfolio.cloudapps.digital/pattern/info-about-an-area/</guid>
+      <description>The &amp;ldquo;Info about an area&amp;rdquo; pattern is a collection of projects that are aiming to improve the quality of the data that somebody can access about a given area. They usually involve combining a number of datasets, which we are also interested in collecting.</description>
+    </item>
+    
+    <item>
+      <title>Notices</title>
+      <link>https://digital-land-portfolio.cloudapps.digital/pattern/notices/</link>
+      <pubDate>Thu, 10 May 2018 15:12:10 +0800</pubDate>
+      
+      <guid>https://digital-land-portfolio.cloudapps.digital/pattern/notices/</guid>
+      <description>This is the notices pattern, it is a collection of projects aimed at improving how people are notified about the planning applications submitted and reviewed in an area.</description>
+    </item>
+    
+    <item>
+      <title>Geographies</title>
+      <link>https://digital-land-portfolio.cloudapps.digital/pattern/geographies/</link>
+      <pubDate>Thu, 10 May 2018 11:07:34 +0800</pubDate>
+      
+      <guid>https://digital-land-portfolio.cloudapps.digital/pattern/geographies/</guid>
+      <description>The geographies pattern is a collection of datasets and projects associated around UK geographies, whether that is large regions or smaller local areas.</description>
+    </item>
+    
+  </channel>
+</rss>

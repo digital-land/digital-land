@@ -1,4 +1,4 @@
-# Digital Land Pattern Portfolio
+# Digital Land
 
 ## Environment reqs
 
@@ -18,3 +18,7 @@ To develop the site locally, run:
 Alternatively, run:
 
 - `npm run start` to generate css, start gulp watch task and run hugo server in the background
+
+## Creating content
+
+See [creating content](CREATE-CONTENT.md) documentation.

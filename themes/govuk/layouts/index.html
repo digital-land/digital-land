@@ -2,36 +2,41 @@
 
 {{ define "content" }}
 
-	<div class="full-page-width-container">
-	{{ partial "phase_banner_prototype.html" . }}
-	</div>
-
 	<header class="hero">
-		<div class="hero_content">
-			<h1 class="heading-xlarge">Digital Land Pattern Portfolio</h1>
-			<p class="lede text">
-				A collection of ways people are using housing data, including the datasets they find useful.
-			</p>
+		<div class="hero_content govuk-width-container">
+			<h1 class="govuk-heading-xl hero-heading">{{ .Title }}</h1>
+			{{ .Content }}
 		</div>
 	</header>
 
-	<div id="content" role="main">
+	<main id="content" class="govuk-main-wrapper" role="main">
 
-		<h3 class="heading-medium">Patterns</h3>
-		<div class="grid-row">
-			{{ range (where .Data.Pages "Section" "pattern") }}
-				{{ partial "pattern-display.html" . }}
-			{{ end }}
-		</div>
+    <div class="govuk-width-container">
 
-		<h3 class="heading-medium">Interesting use cases <span class="small">(<a href="/project">see more projects</a>)</span></h3>
-		<div class="grid-row">
-			{{ range first 4 (where .Data.Pages "Section" "project") }}
-				{{ partial "project-display.html" . }}
-			{{ end }}
-		</div>
+  		<h3 class="govuk-heading-m">Sections</h3>
+  		<div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+          <ul class="govuk-list govuk-list--bullet">
+            <li><a href="/friction">Points of friction</a>
+              <span class="govuk-caption-m">Issues users have with finding, making and using housing and planning data</span>
+              </li>
+            <li><a href="/portfolio">Portfolio</a>
+               <span class="govuk-caption-m">A collection of external projects demonstrating ways people use housing data</span>
+              </li>
+            </li>
+            <li><a href="/glossary">Glossary</a>
+               <span class="govuk-caption-m">Definitions for frequently used terms in housing and planning</span>
+             </li>
+            <li><a href="/prototype">Prototypes</a>
+               <span class="govuk-caption-m">Proposed prototypes and high level findings from our initial investigations 
+               </span>
+            </li>
+          </ul>
+        </div>
+  		</div>
 
-	</div>
+    </div>
+	</main>
 
 {{ end }}
 		

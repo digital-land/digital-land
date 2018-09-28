@@ -105,3 +105,8 @@ ENV/
 /static/css/*
 
 /node_modules
+
+*.swp
+
+.DS_Store
+content/Alphas/.DS_Store

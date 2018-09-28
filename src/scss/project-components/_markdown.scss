@@ -1,0 +1,19 @@
+// Markdown output
+//
+// Shoehorning hugo content .md output into govuk
+// styles
+//
+// ===================
+.markdown-output {
+  @include govuk-responsive-margin(6, "bottom");
+  p:first-child {
+    margin-top: 0;
+  }
+  p {
+    @extend .govuk-body;
+  }
+  ul {
+    @extend .govuk-list;
+    @extend .govuk-list--bullet;
+  }
+}

@@ -1,0 +1,43 @@
+{{ define "content_inner" }}
+<main id="content" class="govuk-width-container" role="main">
+
+  <span class="govuk-caption-xl">Pattern</span>
+	<h1 class="govuk-heading-xl">
+	  {{ .Title }}
+	</h1>
+
+	<div class="govuk-grid-row pattern-page-header">
+		<div class="govuk-grid-column-one-quarter">
+			<div class="pattern-display-single">
+				<img src="/images/icons/{{ .Params.icon }}" alt="Icon for the '{{ .Title }}' pattern" />
+			</div>
+		</div>
+		<div class="govuk-grid-column-one-half">
+      <div class="markdown-output">
+			{{ .Content }}
+      </div>
+		</div>
+	</div>
+
+	<h3 class="govuk-heading-m">Example use cases/projects</h3>
+	<ul class="govuk-list govuk-list--bullet">
+    {{ range .Site.Taxonomies }}
+      {{ range $key, $value := . }}
+        {{ if eq (urlize $key) (urlize $.Title) }}
+          {{ range $value.Pages }}
+            <li><a href="{{.URL}}">{{ .Title }}</a></li>
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+
+	</ul>
+
+	<h2 class="govuk-heading-m">Useful data</h2>
+	<ul class="govuk-list govuk-list--bullet">
+	{{ range .Params.datasets }}
+		<li><a href="{{ .url }}">{{ .name }}</a></li>
+	{{ end }}
+	</ul>
+</main>
+{{ end }}

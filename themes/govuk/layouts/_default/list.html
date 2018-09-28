@@ -1,15 +1,18 @@
 {{ define "content_inner" }}
 
-	<h1 class="heading-xlarge">
-		<span class="heading-secondary">{{ if isset .Params "cat_name" }}{{ .Params.cat_name | humanize }}{{ end }}</span>
+  <span class="govuk-caption-xl">{{ if isset .Params "cat_name" }}{{ .Params.cat_name | humanize }}{{ end }}</span>
+	<h1 class="govuk-heading-xl">
 	  {{ .Title }}
 	</h1>
 
-	<div class="grid-row">
-		<div class="column-two-thirds">
-			<p class="lede">{{ .Summary }}</p>
+	<div class="govuk-grid-row">
+		<div class="govuk-grid-column-two-thirds">
+			<p class="govuk-body-l">{{ .Params.lede }}</p>
+      <div class="markdown-output">
+        {{ .Content }}
+      </div>
 
-			<ul>
+			<ul class="govuk-list govuk-list--bullet">
 	    {{ range .Data.Pages }}
         <li>
 					<a href="{{.Permalink}}">{{.Title}}</a>

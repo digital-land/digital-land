@@ -1,0 +1,32 @@
+{{ define "body_classes" }}with-hero{{ end }}
+
+{{ define "content" }}
+
+	<header class="hero">
+		<div class="hero_content govuk-width-container">
+			<h1 class="govuk-heading-xl hero-heading">Digital Land Pattern Portfolio</h1>
+			<p class="govuk-body-l">
+				{{ .Content }}
+			</p>
+		</div>
+	</header>
+
+	<div id="content" class="govuk-width-container" role="main">
+
+    <h3 class="govuk-heading-m">Patterns</h3>
+    <div class="govuk-grid-row">
+    {{ range ($.Site.GetPage "/portfolio/pattern").Pages }}
+      {{ partial "pattern-display.html" . }}
+    {{ end }}
+    </div>
+
+		<h3 class="govuk-heading-m">Interesting use cases <span class="small">(<a href="/portfolio/project">see more projects</a>)</span></h3>
+		<div class="govuk-grid-row">
+			{{ range first 4 ($.Site.GetPage "/portfolio/project").Pages }}
+				{{ partial "project-display.html" . }}
+			{{ end }}
+		</div>
+
+</div>
+
+{{ end }}

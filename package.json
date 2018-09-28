@@ -1,5 +1,5 @@
 {
-  "name": "digital-land-portfolio",
+  "name": "digital-land",
   "version": "0.1.0",
   "description": "hugo server -D",
   "main": "index.js",
@@ -11,17 +11,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/communitiesuk/digital-land-portfolio.git"
+    "url": "git+https://github.com/communitiesuk/digital-land.git"
   },
   "author": "MHCLG",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/communitiesuk/digital-land-portfolio/issues"
+    "url": "https://github.com/communitiesuk/digital-land/issues"
   },
-  "homepage": "https://github.com/communitiesuk/digital-land-portfolio#readme",
+  "homepage": "https://github.com/communitiesuk/digital-land#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-clean": "^0.4.0",
     "gulp-sass": "^4.0.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.10"
   }
 }
