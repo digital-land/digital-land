@@ -1,5 +1,5 @@
 ---
-title: up-to-date-data
+title: Up-to-date data
 user: PropTech
 ---
 

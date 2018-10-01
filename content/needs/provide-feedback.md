@@ -1,5 +1,5 @@
 ---
-title: provide-feedback
+title: Provide feedback
 user: PropTech
 ---
 
