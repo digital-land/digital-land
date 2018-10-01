@@ -2,4 +2,4 @@
 title: Users
 ---
 
-Through discovery we've identified a numer of users.
+The potential users of services we may provide.
