@@ -1,5 +1,5 @@
 ---
-title: Development Corporation
+title: "Development Corporation"
 wikidata: Q5266682
 wikipedia: https://en.wikipedia.org/wiki/Development_corporation#United_Kingdom
 ---

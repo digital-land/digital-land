@@ -1,5 +1,5 @@
 ---
-title: Ward
+title: "Ward"
 wikipedia: https://en.wikipedia.org/wiki/Wards_and_electoral_divisions_of_the_United_Kingdom
 wikidata: Q589282
 ---

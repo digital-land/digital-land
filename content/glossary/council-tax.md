@@ -1,5 +1,5 @@
 ---
-title: Council Tax
+title: "Council Tax"
 wikipedia: https://en.wikipedia.org/wiki/Council_Tax
 wikidata: Q322148
 legislation: ukpga-1992-14

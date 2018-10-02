@@ -1,5 +1,5 @@
 ---
-title: Safeguarding
+title: "Safeguarding"
 documentation_url: https://www.gov.uk/government/collections/hs2-safeguarding
 ---
 

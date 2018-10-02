@@ -1,5 +1,5 @@
 ---
-title: Annual monitoring report
+title: "Annual monitoring report"
 wikipedia:
 wikidata:
 ---

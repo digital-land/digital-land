@@ -1,5 +1,5 @@
 ---
-title: Listed Building
+title: "Listed Building"
 documentation_url: https://historicengland.org.uk/listing/what-is-designation/listed-buildings/
 wikipedia: https://en.wikipedia.org/wiki/Listed_building
 wikidata: Q570600

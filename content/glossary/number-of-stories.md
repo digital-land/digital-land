@@ -1,5 +1,5 @@
 ---
-title: Number of stories
+title: "Number of stories"
 ---
 
 

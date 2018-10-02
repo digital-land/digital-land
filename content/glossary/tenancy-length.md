@@ -1,5 +1,5 @@
 ---
-title: Tenancy length
+title: "Tenancy length"
 wikipedia:
 wikidata:
 ---

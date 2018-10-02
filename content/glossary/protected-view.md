@@ -1,5 +1,5 @@
 ---
-title: Protected View
+title: "Protected View"
 wikipedia: https://en.wikipedia.org/wiki/Protected_view
 wikidata: Q4118263
 alternative-name: Protected Vista

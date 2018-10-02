@@ -1,5 +1,5 @@
 ---
-title: Housing benefit
+title: "Housing benefit"
 wikipedia:
 wikidata:
 ---
