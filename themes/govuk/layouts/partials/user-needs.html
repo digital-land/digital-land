@@ -1,0 +1,15 @@
+{{ $needs := (where .Site.Pages "Section" "needs")  }}
+{{ range .Site.Params.users }}
+  {{ $userType := . }}
+  <div class="govuk-grid-column-one-half">
+  <h2 class="govuk-heading-s">{{ $userType }}</h2>
+  <h3 class="govuk-body">Their needs:</h3>
+  <ul class="govuk-list govuk-list--bullet">
+  {{ range $needs }}
+    {{ if in .Params.user $userType }}
+      <li><a href="{{ .URL }}">{{ .Title }}</a></li>
+    {{ end }}
+  {{ end }}
+  </ul>
+  </div>
+{{ end }}

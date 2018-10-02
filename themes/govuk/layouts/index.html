@@ -11,7 +11,7 @@
 
 	<main id="content" class="govuk-main-wrapper" role="main">
 
-    <div class="govuk-width-container">
+    <div class="govuk-width-container index-section">
 
   		<h3 class="govuk-heading-m">Sections</h3>
   		<div class="govuk-grid-row">
@@ -31,17 +31,23 @@
                <span class="govuk-caption-m">Proposed prototypes and high level findings from our initial investigations 
                </span>
             </li>
-            <li><a href="/users">Users</a>
-               <span class="govuk-caption-m">Users who play a role in the design, creation and usage of land and housing data
-               </span>
-            </li>
-            <li><a href="/needs">Needs</a>
-               <span class="govuk-caption-m">User needs that we've identified during discovery and alpha
-               </span>
-            </li>
           </ul>
         </div>
   		</div>
+
+      <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible" />
+
+      <div class="index-section">
+        <h3 class="govuk-heading-m">Our users</h3>
+        {{ with .Site.GetPage "/users/_index.md" }}
+        <div class="govuk-body">{{ .Content }}</div>
+        {{ end }}
+        <div class="govuk-grid-row">
+        {{ partial "user-needs.html" . }}
+        </div>
+      </div>
+
+      
 
     </div>
 	</main>
