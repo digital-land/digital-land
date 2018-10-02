@@ -19,7 +19,7 @@
       <ul class="govuk-list">
 
       {{ $needs := (where .Site.Pages "Section" "needs")  }}
-      {{ range .Site.Params.users }}
+      {{ range .Data.Pages }}
         <li>
         {{ $userType := .Title }}
         <h2 class="govuk-heading-m">{{ $userType }}</h2>
