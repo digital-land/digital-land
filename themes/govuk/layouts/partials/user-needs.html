@@ -1,15 +1,33 @@
 {{ $needs := (where .Site.Pages "Section" "needs")  }}
 {{ range .Site.Params.users }}
+
   {{ $userType := . }}
-  <div class="govuk-grid-column-one-half">
-  <h2 class="govuk-heading-s">{{ $userType }}</h2>
-  <h3 class="govuk-body">Their needs:</h3>
-  <ul class="govuk-list govuk-list--bullet">
+
+  {{ $.Scratch.Set "counter" 0 }}
   {{ range $needs }}
     {{ if in .Params.user $userType }}
-      <li><a href="{{ .URL }}">{{ .Title }}</a></li>
+      {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
     {{ end }}
   {{ end }}
-  </ul>
-  </div>
+  {{ $theCount := $.Scratch.Get "counter" }}
+  
+<div class="govuk-grid-column-one-half">
+  <h2 class="govuk-heading-s">{{ $userType }}</h2>
+  <details class="govuk-details">
+    <summary class="govuk-details__summary">
+      <span class="govuk-details__summary-text">
+        {{$theCount}} need{{ if ne $theCount 1 }}s{{ end }} discovered
+      </span>
+    </summary>
+    <div class="govuk-details__text">
+      <ul class="govuk-list govuk-list--bullet">
+      {{ range $needs }}
+        {{ if in .Params.user $userType }}
+        <li><a href="{{ .URL }}">{{ .Title }}</a></li>
+        {{ end }}
+      {{ end }}
+      </ul>
+    </div>
+  </details>
+</div>
 {{ end }}
