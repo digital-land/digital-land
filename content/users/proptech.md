@@ -1,5 +1,5 @@
 ---
-title: PropTech
+title: PropTech Developers
 ---
 
-PropTech are people who are building services on land and housing data. We have examples of these services on our [portfolio page] (/portfolio/).
+Software developers who create digital tools that use land and housing data to make it easier to develop, buy, sell or rent property. Resources here include tools for collecting data and exploring its use.

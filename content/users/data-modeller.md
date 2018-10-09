@@ -2,4 +2,4 @@
 title: Data Modeller
 ---
 
-Data modellers are people who design a data standard based on policy and user needs.
+People who create data specifications, such as those commissioned by councils to write the specifications for land and housing datasets.

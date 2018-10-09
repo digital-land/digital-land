@@ -6,7 +6,7 @@ theme = "govuk"
 staticDir = ["static", "src/govuk_template/assets", "src/govuk_elements/assets"]
 
 [params]
-	servicename = "Digital Land"
+  servicename = "Digital Land"
     users = ["Data Maintainer", "Data Modeller", "Policy Maker", "PropTech"]
 
   # Nav links in the side bar
@@ -16,8 +16,24 @@ staticDir = ["static", "src/govuk_template/assets", "src/govuk_elements/assets"]
   currentpage = true
 
   [[params.propositionlinks]]
-  name = "Section 106 and Viability Assessments"
-  url = "https://section-106-prototype.cloudapps.digital/"
+  name = "Collector"
+  url = "/prototype/digital-land-collector/"
+
+  [[params.propositionlinks]]
+  name = "Explorer"
+  url = "/prototype/digital-land-explorer/"
+
+  [[params.propositionlinks]]
+  name = "Prototypes"
+  url = "/prototype/"
+
+  [[params.propositionlinks]]
+  name = "Guidance"
+  url = "/glossary/"
+
+  [[params.propositionlinks]]
+  name = "Users"
+  url = "/users/"
 
 [taxonomies]
   tag = "tags"

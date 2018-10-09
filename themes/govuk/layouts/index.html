@@ -13,41 +13,66 @@
 
     <div class="govuk-width-container index-section">
 
-  		<h3 class="govuk-heading-m">Sections</h3>
-  		<div class="govuk-grid-row">
+      <div class="index-section">
+        <h3 class="govuk-heading-m">Our mission</h3>
+        {{ with .Site.GetPage "/mission/_index.md" }}
+          <div class="govuk-body">{{ .Content }}</div>
+        {{ end }}
+      </div>
+
+      <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible" />
+
+      <h3 class="govuk-heading-m">Users of land and housing data</h3>
+      <div class="govuk-grid-row">
         <div class="govuk-grid-column-full">
           <ul class="govuk-list govuk-list--bullet">
-            <li><a href="/friction">Points of friction</a>
-              <span class="govuk-caption-m">Issues users have with finding, making and using housing and planning data</span>
-              </li>
-            <li><a href="/portfolio">Portfolio</a>
-               <span class="govuk-caption-m">A collection of external projects demonstrating ways people use housing data</span>
-              </li>
+            <li><a href="/users/proptech">PropTech developer</a>
+              {{ with .Site.GetPage "/users/proptech.md" }}
+              <div class="govuk-body">{{ .Content }}</div></li>
+            {{ end }}
             </li>
-            <li><a href="/glossary">Glossary</a>
-               <span class="govuk-caption-m">Definitions for frequently used terms in housing and planning</span>
-             </li>
-            <li><a href="/prototype">Prototypes</a>
-               <span class="govuk-caption-m">Proposed prototypes and high level findings from our initial investigations 
+            <li><a href="/users/data-maintainer">Data maintainer</a>
+              {{ with .Site.GetPage "/users/data-maintainer.md" }}
+              <div class="govuk-body">{{ .Content }}</div></li>
+            {{ end }}
+            </li>
+            <li><a href="/users/data-modeller">Data modeller</a>
+              {{ with .Site.GetPage "/users/data-modeller.md" }}
+              <div class="govuk-body">{{ .Content }}</div></li>
+            {{ end }}
+            </li>
+            <li><a href="/users/policy-maker">Policy maker</a>
+              {{ with .Site.GetPage "/users/policy-maker.md" }}
+              <div class="govuk-body">{{ .Content }}</div></li>
+            {{ end }}
+            </li>
                </span>
             </li>
           </ul>
         </div>
-  		</div>
+      </div>  
 
       <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible" />
 
-      <div class="index-section">
-        <h3 class="govuk-heading-m">Our users</h3>
-        {{ with .Site.GetPage "/users/_index.md" }}
-        <div class="govuk-body">{{ .Content }}</div>
-        {{ end }}
-        <div class="govuk-grid-row">
-        {{ partial "user-needs.html" . }}
+      <h3 class="govuk-heading-m">Resources</h3>
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-full">
+          <ul class="govuk-list govuk-list--bullet">
+            <li><a href="/overview">Overview</a>
+              <span class="govuk-caption-m">A brief summary of the challenges of improving land and housing data quality and our hypotheses</span></li>
+            <li><a href="/prototype/digital-land-collector/">Digital Land Collector</a>
+              <span class="govuk-caption-m">A collection of data publications for each land and housing ‘concern’ – the planning constraints and conveyancing charges determined by regulation – with links to relevant legislation</span></li>  
+            <li><a href="/prototype/digital-land-explorer/">Digital Land Explorer</a>
+              <span class="govuk-caption-m">An interactive map rendering the data we’ve collected and mapped using geospatial data. Includes a list of data publications mapped, organisations and licences involved</span></li>   
+            <li><a href="/prototype">Prototypes</a>
+               <span class="govuk-caption-m">Other experimental tools and resources to test the hypotheses we have on how data can be improved for our users</span></li>
+            <li><a href="/glossary">Guidance</a>
+               <span class="govuk-caption-m">Guidance on how to comply with data requirements, mapping data, data definitions and specifications</span></li>     
+            <li><a href="/portfolio">Portfolio</a>
+               <span class="govuk-caption-m">A collection of external projects that demonstrate ways people are using housing data, including the datasets they find useful</span></li>
+          </ul>
         </div>
-      </div>
-
-      
+      </div>     
 
     </div>
 	</main>
