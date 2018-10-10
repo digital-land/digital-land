@@ -21,7 +21,9 @@
       {{ $needs := (where .Site.Pages "Section" "needs")  }}
       {{ range .Data.Pages }}
         <li>
-        {{ $userType := .Title }}
+        
+        {{ $userType := .Params.abbr }}
+        
         <h2 class="govuk-heading-m">{{ $userType }}</h2>
         <h3 class="govuk-body">Their needs:</h3>
         <ul class="govuk-list govuk-list--bullet">
