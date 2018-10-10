@@ -24,7 +24,8 @@
         
         {{ $userType := .Params.abbr }}
         
-        <h2 class="govuk-heading-m">{{ $userType }}</h2>
+        <h2 class="govuk-heading-m"><a href="{{ .URL }}">{{ $userType }}</a></h2>
+        <div class="markdown-output">{{ .Content }}</div>
         <h3 class="govuk-body">Their needs:</h3>
         <ul class="govuk-list govuk-list--bullet">
         {{ range $needs }}
