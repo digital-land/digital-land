@@ -16,4 +16,20 @@
     @extend .govuk-list;
     @extend .govuk-list--bullet;
   }
+  h1 {
+    @extend .govuk-heading-xl;
+    @include govuk-responsive-margin(8, "top");
+  }
+  h2 {
+    @extend .govuk-heading-l;
+    @include govuk-responsive-margin(6, "top");
+  }
+  h3 {
+    @extend .govuk-heading-m;
+    @include govuk-responsive-margin(4, "top");
+  }
+  h4 {
+    @extend .govuk-heading-s;
+    @include govuk-responsive-margin(2, "top");
+  }
 }
