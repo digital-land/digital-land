@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Better Local Plans on Digital Land</title>
+    <link>https://digital-land.cloudapps.digital/patterns/better-local-plans/</link>
+    <description>Recent content in Better Local Plans on Digital Land</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Tue, 22 May 2018 05:24:37 +0800</lastBuildDate>
+    
+	<atom:link href="https://digital-land.cloudapps.digital/patterns/better-local-plans/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Urban Intelligence: Howard</title>
+      <link>https://digital-land.cloudapps.digital/portfolio/project/urban-intelligence-howard/</link>
+      <pubDate>Tue, 22 May 2018 05:24:37 +0800</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/portfolio/project/urban-intelligence-howard/</guid>
+      <description>A central repository of planning policy. Aimed at developers, large and small, as well as local authorities.</description>
+    </item>
+    
+    <item>
+      <title>ODI Leeds clearer plan</title>
+      <link>https://digital-land.cloudapps.digital/portfolio/project/odi-leeds-clearer-plan/</link>
+      <pubDate>Wed, 16 May 2018 14:43:49 +0800</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/portfolio/project/odi-leeds-clearer-plan/</guid>
+      <description>&amp;ndash; Provide a desciption of the project &amp;ndash;</description>
+    </item>
+    
+    <item>
+      <title>Land insights</title>
+      <link>https://digital-land.cloudapps.digital/portfolio/project/land-insights/</link>
+      <pubDate>Tue, 15 May 2018 14:59:57 +0800</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/portfolio/project/land-insights/</guid>
+      <description>LandInsight is a subscription service that helps users find and assess off-market land. It combines maps, data and tools to help discover new opportunities.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Licences on Digital Land</title>
+    <link>https://digital-land.cloudapps.digital/licence/</link>
+    <description>Recent content in Licences on Digital Land</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    
+	<atom:link href="https://digital-land.cloudapps.digital/licence/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Environment Agency Conditional Licence</title>
+      <link>https://digital-land.cloudapps.digital/licence/environment-agency-conditional/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/licence/environment-agency-conditional/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Historic England GIS terms</title>
+      <link>https://digital-land.cloudapps.digital/licence/historic-england/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/licence/historic-england/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>INSPIRE End User Licence</title>
+      <link>https://digital-land.cloudapps.digital/licence/inspire-end-user/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/licence/inspire-end-user/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Land Registry INSPIRE</title>
+      <link>https://digital-land.cloudapps.digital/licence/land-registry-inspire/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/licence/land-registry-inspire/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Open Government Licence</title>
+      <link>https://digital-land.cloudapps.digital/licence/ogl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/licence/ogl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unknown Licence</title>
+      <link>https://digital-land.cloudapps.digital/licence/unknown/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/licence/unknown/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

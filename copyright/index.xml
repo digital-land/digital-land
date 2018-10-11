@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Copyright on Digital Land</title>
+    <link>https://digital-land.cloudapps.digital/copyright/</link>
+    <description>Recent content in Copyright on Digital Land</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    
+	<atom:link href="https://digital-land.cloudapps.digital/copyright/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Crown Copyright</title>
+      <link>https://digital-land.cloudapps.digital/copyright/crown-copyright/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/copyright/crown-copyright/</guid>
+      <description>© Crown copyright and database right 2018</description>
+    </item>
+    
+    <item>
+      <title>Crown Copyright and Ordnance Survey</title>
+      <link>https://digital-land.cloudapps.digital/copyright/crown-copyright-os/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/copyright/crown-copyright-os/</guid>
+      <description>© Crown copyright and database rights 2018 Ordnance Survey 100026316.</description>
+    </item>
+    
+    <item>
+      <title>Historic England Copyright</title>
+      <link>https://digital-land.cloudapps.digital/copyright/historic-england/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/copyright/historic-england/</guid>
+      <description>© Historic England 2018. Contains Ordnance Survey data © Crown copyright and database right 2018 The Historic England GIS Data contained in this material was obtained on 21 April 2018. The most publicly available up to date Historic England GIS Data can be obtained from http://www.HistoricEngland.org.uk.</description>
+    </item>
+    
+    <item>
+      <title>Natural England Copyright</title>
+      <link>https://digital-land.cloudapps.digital/copyright/natural-england/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/copyright/natural-england/</guid>
+      <description>© Natural England copyright. Contains Ordnance Survey data © Crown copyright and database right 2018.</description>
+    </item>
+    
+    <item>
+      <title>ONS Boundary</title>
+      <link>https://digital-land.cloudapps.digital/copyright/ons-boundary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/copyright/ons-boundary/</guid>
+      <description>Contains National Statistics data © Crown copyright and database right 2018 Contains OS data © Crown copyright and database right 2018</description>
+    </item>
+    
+    <item>
+      <title>Unknown Copyright</title>
+      <link>https://digital-land.cloudapps.digital/copyright/unknown/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/copyright/unknown/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

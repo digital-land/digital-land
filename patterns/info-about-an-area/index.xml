@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Info About an Area on Digital Land</title>
+    <link>https://digital-land.cloudapps.digital/patterns/info-about-an-area/</link>
+    <description>Recent content in Info About an Area on Digital Land</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Tue, 31 Jul 2018 14:44:08 +0100</lastBuildDate>
+    
+	<atom:link href="https://digital-land.cloudapps.digital/patterns/info-about-an-area/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bristol Maps</title>
+      <link>https://digital-land.cloudapps.digital/portfolio/project/bristol-maps/</link>
+      <pubDate>Tue, 31 Jul 2018 14:44:08 +0100</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/portfolio/project/bristol-maps/</guid>
+      <description>Map of Bristol that allows you to apply layers of information from numerous data sets, both current and an historic view.</description>
+    </item>
+    
+    <item>
+      <title>Prospective.io</title>
+      <link>https://digital-land.cloudapps.digital/portfolio/project/prospective-io/</link>
+      <pubDate>Tue, 19 Jun 2018 15:40:49 +0800</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/portfolio/project/prospective-io/</guid>
+      <description>We&amp;rsquo;re developing tailored products for a range of industries including planning and architecture, real estate development, transport and logistics, retail and marketing, investment and insurance. ​ Our solutions will enable public and private sector organisations to optimise property design, development and investment processes, streamline service provision and improve transport and infrastructure operations.</description>
+    </item>
+    
+    <item>
+      <title>London street trees</title>
+      <link>https://digital-land.cloudapps.digital/portfolio/project/london-street-trees/</link>
+      <pubDate>Mon, 28 May 2018 15:54:17 +0100</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/portfolio/project/london-street-trees/</guid>
+      <description>This map plots the 700,000+ trees and the tree type in the city of London.</description>
+    </item>
+    
+    <item>
+      <title>Mapping Greater Manchester</title>
+      <link>https://digital-land.cloudapps.digital/portfolio/project/mapping-greater-manachester/</link>
+      <pubDate>Tue, 22 May 2018 05:31:49 +0800</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/portfolio/project/mapping-greater-manachester/</guid>
+      <description>Originally developed in 2014&amp;frasl;15 to create a map of social and physical infrastructure across Greater Manchester, but has since expanded to focus on planning, housing, environmental, social, economic and demographic data.</description>
+    </item>
+    
+    <item>
+      <title>Land usage UK</title>
+      <link>https://digital-land.cloudapps.digital/portfolio/project/land-usage-uk/</link>
+      <pubDate>Wed, 16 May 2018 15:21:29 +0800</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/portfolio/project/land-usage-uk/</guid>
+      <description>A visualisation of how land is used in the UK, separated by region and local authority.</description>
+    </item>
+    
+    <item>
+      <title>London schools and fast food outlets</title>
+      <link>https://digital-land.cloudapps.digital/portfolio/project/london-schools-fast-food/</link>
+      <pubDate>Wed, 16 May 2018 14:56:25 +0800</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/portfolio/project/london-schools-fast-food/</guid>
+      <description>A simple map to analyse a proposed policy to restrict fast food outlets being within 400m of a school in the capital.</description>
+    </item>
+    
+    <item>
+      <title>Edinburgh tree map</title>
+      <link>https://digital-land.cloudapps.digital/portfolio/project/edinburgh-tree-map/</link>
+      <pubDate>Tue, 15 May 2018 20:08:56 +0800</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/portfolio/project/edinburgh-tree-map/</guid>
+      <description>This project plots all the trees and tree types known to Edinburgh City Council.</description>
+    </item>
+    
+    <item>
+      <title>IMA LDN Infrastructure map</title>
+      <link>https://digital-land.cloudapps.digital/portfolio/project/ima-ldn-infrastructure-map/</link>
+      <pubDate>Tue, 15 May 2018 15:29:53 +0800</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/portfolio/project/ima-ldn-infrastructure-map/</guid>
+      <description>IMA LDN has been developed to support improved planning, delivery and coordination of infrastructure throughout the capital, by providing improved visibility of London&amp;rsquo;s future growth, infrastructure investment and development pipeline.</description>
+    </item>
+    
+    <item>
+      <title>Land insights</title>
+      <link>https://digital-land.cloudapps.digital/portfolio/project/land-insights/</link>
+      <pubDate>Tue, 15 May 2018 14:59:57 +0800</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/portfolio/project/land-insights/</guid>
+      <description>LandInsight is a subscription service that helps users find and assess off-market land. It combines maps, data and tools to help discover new opportunities.</description>
+    </item>
+    
+    <item>
+      <title>Land explorer</title>
+      <link>https://digital-land.cloudapps.digital/portfolio/project/land-explorer/</link>
+      <pubDate>Fri, 11 May 2018 14:35:42 +0800</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/portfolio/project/land-explorer/</guid>
+      <description>Land Explorer helps you find information about land in the UK.</description>
+    </item>
+    
+  </channel>
+</rss>

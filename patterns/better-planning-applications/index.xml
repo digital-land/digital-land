@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Better Planning Applications on Digital Land</title>
+    <link>https://digital-land.cloudapps.digital/patterns/better-planning-applications/</link>
+    <description>Recent content in Better Planning Applications on Digital Land</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Tue, 19 Jun 2018 15:40:49 +0800</lastBuildDate>
+    
+	<atom:link href="https://digital-land.cloudapps.digital/patterns/better-planning-applications/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Prospective.io</title>
+      <link>https://digital-land.cloudapps.digital/portfolio/project/prospective-io/</link>
+      <pubDate>Tue, 19 Jun 2018 15:40:49 +0800</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/portfolio/project/prospective-io/</guid>
+      <description>We&amp;rsquo;re developing tailored products for a range of industries including planning and architecture, real estate development, transport and logistics, retail and marketing, investment and insurance. ​ Our solutions will enable public and private sector organisations to optimise property design, development and investment processes, streamline service provision and improve transport and infrastructure operations.</description>
+    </item>
+    
+    <item>
+      <title>Urban Intelligence: Howard</title>
+      <link>https://digital-land.cloudapps.digital/portfolio/project/urban-intelligence-howard/</link>
+      <pubDate>Tue, 22 May 2018 05:24:37 +0800</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/portfolio/project/urban-intelligence-howard/</guid>
+      <description>A central repository of planning policy. Aimed at developers, large and small, as well as local authorities.</description>
+    </item>
+    
+    <item>
+      <title>The future of planning</title>
+      <link>https://digital-land.cloudapps.digital/portfolio/project/the-future-of-planning/</link>
+      <pubDate>Fri, 11 May 2018 14:35:42 +0800</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/portfolio/project/the-future-of-planning/</guid>
+      <description>A project to improve the way we produce planning applications. Read more about the project</description>
+    </item>
+    
+  </channel>
+</rss>

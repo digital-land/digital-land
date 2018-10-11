@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Patterns on Digital Land</title>
+    <link>https://digital-land.cloudapps.digital/patterns/</link>
+    <description>Recent content in Patterns on Digital Land</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Tue, 22 May 2018 05:24:37 +0800</lastBuildDate>
+    
+	<atom:link href="https://digital-land.cloudapps.digital/patterns/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Better Local Plans</title>
+      <link>https://digital-land.cloudapps.digital/patterns/better-local-plans/</link>
+      <pubDate>Tue, 22 May 2018 05:24:37 +0800</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/patterns/better-local-plans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Better Planning Applications</title>
+      <link>https://digital-land.cloudapps.digital/patterns/better-planning-applications/</link>
+      <pubDate>Tue, 19 Jun 2018 15:40:49 +0800</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/patterns/better-planning-applications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Geographies</title>
+      <link>https://digital-land.cloudapps.digital/patterns/geographies/</link>
+      <pubDate>Tue, 31 Jul 2018 14:44:08 +0100</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/patterns/geographies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Info About a Property</title>
+      <link>https://digital-land.cloudapps.digital/patterns/info-about-a-property/</link>
+      <pubDate>Tue, 22 May 2018 05:01:17 +0800</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/patterns/info-about-a-property/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Info About an Area</title>
+      <link>https://digital-land.cloudapps.digital/patterns/info-about-an-area/</link>
+      <pubDate>Tue, 31 Jul 2018 14:44:08 +0100</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/patterns/info-about-an-area/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Notices</title>
+      <link>https://digital-land.cloudapps.digital/patterns/notices/</link>
+      <pubDate>Wed, 16 May 2018 14:43:49 +0800</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/patterns/notices/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

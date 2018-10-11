@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Points of Friction on Digital Land</title>
+    <link>https://digital-land.cloudapps.digital/friction/</link>
+    <description>Recent content in Points of Friction on Digital Land</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    
+	<atom:link href="https://digital-land.cloudapps.digital/friction/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Asking for open data isn’t open data</title>
+      <link>https://digital-land.cloudapps.digital/friction/asking-for-open-data-isnt-open-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/friction/asking-for-open-data-isnt-open-data/</guid>
+      <description>Often there is no direct download for the data, but rather an email contact, who in many cases must be emailed separately for each requested dataset. This was the case when we tried to compile a national database of tree preservation orders. Of the 80 datasets listed on data.gov.uk, 31 were behind an email gateway operated by misoportal.com.
+Many users fear data you have to request cannot then be presented in services, even when it’s licensed as open data:</description>
+    </item>
+    
+    <item>
+      <title>Data collection is hard to keep up to date</title>
+      <link>https://digital-land.cloudapps.digital/friction/data-collection-is-hard-to-keep-up-to-date/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/friction/data-collection-is-hard-to-keep-up-to-date/</guid>
+      <description>It’s often hard to write an automatic process to download a dataset:
+ URLs change or break Some data is made using JavaScript which only works when a human is present Many datasets are kept behind email or permissions-walls  These barriers mean collecting and updating datasets published by organisations including Ordnance Survey, Environment Agency, Historic England and many local authorities is a manual process.</description>
+    </item>
+    
+    <item>
+      <title>Data is inaccessible</title>
+      <link>https://digital-land.cloudapps.digital/friction/data-is-inaccessible/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/friction/data-is-inaccessible/</guid>
+      <description>Data needed is seldom found online, with many datasets held locally and in widely varying formats.
+Local plans are often locked inside PDF documents, for example, which means the values can’t be extracted automatically. This is particularly difficult for geospatial data, where conservation and other areas are presented as images.
+Even where there are regional or national repositories of data, these typically do not link to the actual data, but often rather to an authority or other data publisher’s homepage or to a dead link.</description>
+    </item>
+    
+    <item>
+      <title>Data is not always available in bulk</title>
+      <link>https://digital-land.cloudapps.digital/friction/data-is-not-always-available-in-bulk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/friction/data-is-not-always-available-in-bulk/</guid>
+      <description>Data is also sometimes only accessible in a limited fashion through proprietary tools, such as a mapping tool for tree preservation orders that lets you search for individual trees but doesn’t display the complete dataset.</description>
+    </item>
+    
+    <item>
+      <title>Data is often hard to trust</title>
+      <link>https://digital-land.cloudapps.digital/friction/data-is-often-hard-to-trust/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/friction/data-is-often-hard-to-trust/</guid>
+      <description>Users aren’t always confident that the data will be maintained. We spoke to several small companies who had built business processes based on Energy Performance Certificate data, now concerned they haven’t been updated as promised.
+Unreliable data undermines the value of any product based on that data, and impedes the development of such products.</description>
+    </item>
+    
+    <item>
+      <title>Data is often published as statistics</title>
+      <link>https://digital-land.cloudapps.digital/friction/data-is-often-published-as-statistics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/friction/data-is-often-published-as-statistics/</guid>
+      <description>Much of the data is compiled in raw form, but only published by government in the form of statistics.
+Local plan making involves commissioning a lot of data, but that evidence is often unavailable with the local plan, but later challenged during the planning appeals process.
+Raw data has more use-cases than statistics, so limiting access to raw data is in effect limiting the development of innovative products for the housing marketplace.</description>
+    </item>
+    
+    <item>
+      <title>Data often isn&#39;t available as data</title>
+      <link>https://digital-land.cloudapps.digital/friction/data-often-isnt-available-as-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/friction/data-often-isnt-available-as-data/</guid>
+      <description>Often even the most basic information often isn’t available as data. For example, every local planning authority should publish a local plan, but there isn’t an authoritative list of local planning authorities, and there isn’t a single list of local plans.
+The best public list of local planning authorities we’ve found is a PDF published by the planning inspectorate, but the data in this is text, which requires effort and care to process.</description>
+    </item>
+    
+    <item>
+      <title>Data use is restricted</title>
+      <link>https://digital-land.cloudapps.digital/friction/data-use-is-restricted/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/friction/data-use-is-restricted/</guid>
+      <description>Much data is made available under an open government licence, but with additional, restrictive terms.
+National radon data, for example, commissioned by the Health and Safety Executive is made available “for planning purposes only” and one brownfield register publisher explicitly warns against building services which compete with Ordnance Survey.
+Such restrictions limit unforseen, innovative use-cases for the data.</description>
+    </item>
+    
+    <item>
+      <title>Fear of feedback</title>
+      <link>https://digital-land.cloudapps.digital/friction/fear-of-feedback/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/friction/fear-of-feedback/</guid>
+      <description>The quality of many datasets is poor, and feedback can be a source of improvement. However we heard many perceived reasons not to publish, including uninformed feedback:
+ your site says my village has contaminated land!.
+ </description>
+    </item>
+    
+    <item>
+      <title>Lack of value seen in publishing data</title>
+      <link>https://digital-land.cloudapps.digital/friction/lack-of-value-seen-in-publishing-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/friction/lack-of-value-seen-in-publishing-data/</guid>
+      <description>Some local authorities have seen benefits in publishing open data. Mid-Sussex for example, reported a fall in calls to their call-centre by making tree preservation orders open data.
+However many organisations see publishing data is seen as a burden, an externality, with little return on the costs of publication.</description>
+    </item>
+    
+    <item>
+      <title>The same data is inconsistent across publishers</title>
+      <link>https://digital-land.cloudapps.digital/friction/data-is-inconsistent-across-publishers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/friction/data-is-inconsistent-across-publishers/</guid>
+      <description>Often the same specific types of data are defined or formatted differently depending on the publisher. This inconsistency exists even where a standard is in place.
+For example, among the 330 lists made available to meet the brownfield register standard we found 31 different file formats and a wide range of character encoding, blank lines, blank column names, incorrect formatting, incompatibility and other useability issues.
+This widespread inconsistency across publishers is problematic for anyone developing data-based products that serve the housing market nationwide.</description>
+    </item>
+    
+    <item>
+      <title>Uncertainty around what data is needed</title>
+      <link>https://digital-land.cloudapps.digital/friction/uncertainty-around-what-data-is-needed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/friction/uncertainty-around-what-data-is-needed/</guid>
+      <description>It’s hard to determine what data is needed to make a better planning application. We have asked local authorities for their lists of constraints, but often these are general concerns (e.g. “Gas”) rather than a more precise reference to an authoritative source of information.
+It would be difficult to create a service that knows which authority to send a planning application to, let alone which pieces of data are needed to create a strong planning application.</description>
+    </item>
+    
+  </channel>
+</rss>

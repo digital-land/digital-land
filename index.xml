@@ -1,0 +1,1292 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digital Land</title>
+    <link>https://digital-land.cloudapps.digital/</link>
+    <description>Recent content on Digital Land</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Wed, 19 Sep 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://digital-land.cloudapps.digital/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Digital Land Portfolio</title>
+      <link>https://digital-land.cloudapps.digital/prototype/digital-land-portfolio/</link>
+      <pubDate>Wed, 19 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/prototype/digital-land-portfolio/</guid>
+      <description>We made a portfolio of patterns and use-cases for digital land data during discovery. We will review the need for this tool, or if it can be iterated to cover the needs for a handbook.
+Update 1  Sept 2018
+ added 2 projects; Bristol Maps and Propective.io updated portfolio to use Govuk design system   Initial  May 2018
+ created a portfolio for the team to collect interesting projects in the digital land space categorised these projects according to some patterns we have observed  notices better local plans better planning applications geographies information about an area information about a property    </description>
+    </item>
+    
+    <item>
+      <title>Validator</title>
+      <link>https://digital-land.cloudapps.digital/prototype/validator/</link>
+      <pubDate>Tue, 18 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/prototype/validator/</guid>
+      <description>This tool will assist publishers ensure their publication meets a standard, such as the brownfield sites register standard, and the emerging standards for Local Plans and Section 106.
+Update 2  Sept 2018
+ added regex validators to text for correct planning application states   Update 1  July 2018
+ created validator for brownfield sites (brownfield sites standard) collected links to all published brownfield site registers (number?) added warnings if the csv file is not served correctly   </description>
+    </item>
+    
+    <item>
+      <title>Better data standard specifications</title>
+      <link>https://digital-land.cloudapps.digital/prototype/better-data-standard-specifications/</link>
+      <pubDate>Fri, 14 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/prototype/better-data-standard-specifications/</guid>
+      <description>A tool to generate specifications from a formal schema may help people write better specifications.</description>
+    </item>
+    
+    <item>
+      <title>Better standard design process</title>
+      <link>https://digital-land.cloudapps.digital/prototype/better-standard-design-process/</link>
+      <pubDate>Fri, 14 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/prototype/better-standard-design-process/</guid>
+      <description>We need a new, much better approach for people developing data standards, based on needs of users, with scope for learning and iteration.</description>
+    </item>
+    
+    <item>
+      <title>Builder</title>
+      <link>https://digital-land.cloudapps.digital/prototype/builder/</link>
+      <pubDate>Fri, 14 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/prototype/builder/</guid>
+      <description>A tool for making a dataset from scratch. For example, the brownfield sites register requires codes, a webform could include drop-downs and pre-populated fields.</description>
+    </item>
+    
+    <item>
+      <title>Business case builder</title>
+      <link>https://digital-land.cloudapps.digital/prototype/business-case-builder/</link>
+      <pubDate>Fri, 14 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/prototype/business-case-builder/</guid>
+      <description>Guidance, use-cases, economic models and patterns help more people make more data available.</description>
+    </item>
+    
+    <item>
+      <title>Data field dictionary</title>
+      <link>https://digital-land.cloudapps.digital/prototype/data-field-dictionary/</link>
+      <pubDate>Fri, 14 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/prototype/data-field-dictionary/</guid>
+      <description>We need a distributed way to enable multiple people establishing standards which are consistent with each other. We can work with the registers team on new field register names, and investigate using OSM tags and Wikidata properties.</description>
+    </item>
+    
+    <item>
+      <title>Digital Land Collector</title>
+      <link>https://digital-land.cloudapps.digital/prototype/digital-land-collector/</link>
+      <pubDate>Fri, 14 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/prototype/digital-land-collector/</guid>
+      <description>The Digital Land team regularly updates this collection of datasets related to housing and land. We use it to assess the state of published data and gauge the work necessary to keep a copy of a dataset up to date.</description>
+    </item>
+    
+    <item>
+      <title>Digital Land Explorer</title>
+      <link>https://digital-land.cloudapps.digital/prototype/digital-land-explorer/</link>
+      <pubDate>Fri, 14 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/prototype/digital-land-explorer/</guid>
+      <description>We will continue to develop our explorer to better understand data which is available and demonstrate to others how to consume collected data.
+Update 2  July 2018
+ display metadata for each publication/dataset users can exlore individual datasets  all data shown on map user can inspect a point or polygon to see properties  lazy loading and clustering added so that users can explore larger datasets   Update 1  June 2018</description>
+    </item>
+    
+    <item>
+      <title>Digital Land Handbook</title>
+      <link>https://digital-land.cloudapps.digital/prototype/digital-land-handbook/</link>
+      <pubDate>Fri, 14 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/prototype/digital-land-handbook/</guid>
+      <description>Guidance and documentation for the collector and explorers to help others to understand how to find data, overcome points of friction and increase the use and trust of government data.</description>
+    </item>
+    
+    <item>
+      <title>Maturity Model</title>
+      <link>https://digital-land.cloudapps.digital/prototype/maturity-model/</link>
+      <pubDate>Fri, 14 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/prototype/maturity-model/</guid>
+      <description>A set of criteria to assess the status of an existing dataset. The collector could use this model and the validator (below) to report on invalid datasets, how frequently each dataset is updated, when a dataset goes missing, etc. These could be surfaced on the explorer.</description>
+    </item>
+    
+    <item>
+      <title>Registers</title>
+      <link>https://digital-land.cloudapps.digital/prototype/registers/</link>
+      <pubDate>Fri, 14 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/prototype/registers/</guid>
+      <description>Building the collector highlighted the need for several authoritative datasets which we have prototyped. Where possible we should identify the appropriate custodian and work with GDS to establish these as GOV.UK registers.</description>
+    </item>
+    
+    <item>
+      <title>Supporting feedback</title>
+      <link>https://digital-land.cloudapps.digital/prototype/supporting-feedback/</link>
+      <pubDate>Fri, 14 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/prototype/supporting-feedback/</guid>
+      <description>Tools for soliciting and handling feedback on a geospatial dataset.</description>
+    </item>
+    
+    <item>
+      <title>Viewer</title>
+      <link>https://digital-land.cloudapps.digital/prototype/viewer/</link>
+      <pubDate>Fri, 14 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/prototype/viewer/</guid>
+      <description>A tool to show an individual dataset on a map and to give other feedback to someone making a dataset before it is published.</description>
+    </item>
+    
+    <item>
+      <title>Bristol Maps</title>
+      <link>https://digital-land.cloudapps.digital/portfolio/project/bristol-maps/</link>
+      <pubDate>Tue, 31 Jul 2018 14:44:08 +0100</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/portfolio/project/bristol-maps/</guid>
+      <description>Map of Bristol that allows you to apply layers of information from numerous data sets, both current and an historic view.</description>
+    </item>
+    
+    <item>
+      <title>Prospective.io</title>
+      <link>https://digital-land.cloudapps.digital/portfolio/project/prospective-io/</link>
+      <pubDate>Tue, 19 Jun 2018 15:40:49 +0800</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/portfolio/project/prospective-io/</guid>
+      <description>We&amp;rsquo;re developing tailored products for a range of industries including planning and architecture, real estate development, transport and logistics, retail and marketing, investment and insurance. ​ Our solutions will enable public and private sector organisations to optimise property design, development and investment processes, streamline service provision and improve transport and infrastructure operations.</description>
+    </item>
+    
+    <item>
+      <title>London street trees</title>
+      <link>https://digital-land.cloudapps.digital/portfolio/project/london-street-trees/</link>
+      <pubDate>Mon, 28 May 2018 15:54:17 +0100</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/portfolio/project/london-street-trees/</guid>
+      <description>This map plots the 700,000+ trees and the tree type in the city of London.</description>
+    </item>
+    
+    <item>
+      <title>Mapping Greater Manchester</title>
+      <link>https://digital-land.cloudapps.digital/portfolio/project/mapping-greater-manachester/</link>
+      <pubDate>Tue, 22 May 2018 05:31:49 +0800</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/portfolio/project/mapping-greater-manachester/</guid>
+      <description>Originally developed in 2014&amp;frasl;15 to create a map of social and physical infrastructure across Greater Manchester, but has since expanded to focus on planning, housing, environmental, social, economic and demographic data.</description>
+    </item>
+    
+    <item>
+      <title>Urban Intelligence: Howard</title>
+      <link>https://digital-land.cloudapps.digital/portfolio/project/urban-intelligence-howard/</link>
+      <pubDate>Tue, 22 May 2018 05:24:37 +0800</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/portfolio/project/urban-intelligence-howard/</guid>
+      <description>A central repository of planning policy. Aimed at developers, large and small, as well as local authorities.</description>
+    </item>
+    
+    <item>
+      <title>Private Eye: Overseas ownership</title>
+      <link>https://digital-land.cloudapps.digital/portfolio/project/private-eye-overseas-ownership/</link>
+      <pubDate>Tue, 22 May 2018 05:01:17 +0800</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/portfolio/project/private-eye-overseas-ownership/</guid>
+      <description>&amp;ndash; Provide a desciption of the project &amp;ndash;</description>
+    </item>
+    
+    <item>
+      <title>Land usage UK</title>
+      <link>https://digital-land.cloudapps.digital/portfolio/project/land-usage-uk/</link>
+      <pubDate>Wed, 16 May 2018 15:21:29 +0800</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/portfolio/project/land-usage-uk/</guid>
+      <description>A visualisation of how land is used in the UK, separated by region and local authority.</description>
+    </item>
+    
+    <item>
+      <title>London schools and fast food outlets</title>
+      <link>https://digital-land.cloudapps.digital/portfolio/project/london-schools-fast-food/</link>
+      <pubDate>Wed, 16 May 2018 14:56:25 +0800</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/portfolio/project/london-schools-fast-food/</guid>
+      <description>A simple map to analyse a proposed policy to restrict fast food outlets being within 400m of a school in the capital.</description>
+    </item>
+    
+    <item>
+      <title>ODI Leeds clearer plan</title>
+      <link>https://digital-land.cloudapps.digital/portfolio/project/odi-leeds-clearer-plan/</link>
+      <pubDate>Wed, 16 May 2018 14:43:49 +0800</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/portfolio/project/odi-leeds-clearer-plan/</guid>
+      <description>&amp;ndash; Provide a desciption of the project &amp;ndash;</description>
+    </item>
+    
+    <item>
+      <title>Edinburgh tree map</title>
+      <link>https://digital-land.cloudapps.digital/portfolio/project/edinburgh-tree-map/</link>
+      <pubDate>Tue, 15 May 2018 20:08:56 +0800</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/portfolio/project/edinburgh-tree-map/</guid>
+      <description>This project plots all the trees and tree types known to Edinburgh City Council.</description>
+    </item>
+    
+    <item>
+      <title>IMA LDN Infrastructure map</title>
+      <link>https://digital-land.cloudapps.digital/portfolio/project/ima-ldn-infrastructure-map/</link>
+      <pubDate>Tue, 15 May 2018 15:29:53 +0800</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/portfolio/project/ima-ldn-infrastructure-map/</guid>
+      <description>IMA LDN has been developed to support improved planning, delivery and coordination of infrastructure throughout the capital, by providing improved visibility of London&amp;rsquo;s future growth, infrastructure investment and development pipeline.</description>
+    </item>
+    
+    <item>
+      <title>Land insights</title>
+      <link>https://digital-land.cloudapps.digital/portfolio/project/land-insights/</link>
+      <pubDate>Tue, 15 May 2018 14:59:57 +0800</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/portfolio/project/land-insights/</guid>
+      <description>LandInsight is a subscription service that helps users find and assess off-market land. It combines maps, data and tools to help discover new opportunities.</description>
+    </item>
+    
+    <item>
+      <title>Land explorer</title>
+      <link>https://digital-land.cloudapps.digital/portfolio/project/land-explorer/</link>
+      <pubDate>Fri, 11 May 2018 14:35:42 +0800</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/portfolio/project/land-explorer/</guid>
+      <description>Land Explorer helps you find information about land in the UK.</description>
+    </item>
+    
+    <item>
+      <title>Surrey Planning Application Map</title>
+      <link>https://digital-land.cloudapps.digital/portfolio/project/surrey-planning-application-map/</link>
+      <pubDate>Fri, 11 May 2018 14:35:42 +0800</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/portfolio/project/surrey-planning-application-map/</guid>
+      <description>A project to display recent planning applications in the local Surrey area.</description>
+    </item>
+    
+    <item>
+      <title>The future of planning</title>
+      <link>https://digital-land.cloudapps.digital/portfolio/project/the-future-of-planning/</link>
+      <pubDate>Fri, 11 May 2018 14:35:42 +0800</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/portfolio/project/the-future-of-planning/</guid>
+      <description>A project to improve the way we produce planning applications. Read more about the project</description>
+    </item>
+    
+    <item>
+      <title>Better planning applications</title>
+      <link>https://digital-land.cloudapps.digital/portfolio/pattern/better-planning-applications/</link>
+      <pubDate>Thu, 10 May 2018 15:26:36 +0800</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/portfolio/pattern/better-planning-applications/</guid>
+      <description>These projects aim to improve the quality of planning applications, for example by increasing the success rate of applications or reducing the amount of work involved in creating one.
+We are also interested in the datasets that make these projects possible.</description>
+    </item>
+    
+    <item>
+      <title>Better local plans</title>
+      <link>https://digital-land.cloudapps.digital/portfolio/pattern/better-local-plans/</link>
+      <pubDate>Thu, 10 May 2018 15:26:26 +0800</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/portfolio/pattern/better-local-plans/</guid>
+      <description>These projects work towards better local plans, which are huge, costly undertakings faced by all planning authorities. Local plans have a wide range of users, including developers of all sizes and the planning authorities themselves. So everyone would benefit if these were easier to create and easier to use.</description>
+    </item>
+    
+    <item>
+      <title>Info about a property</title>
+      <link>https://digital-land.cloudapps.digital/portfolio/pattern/info-about-a-property/</link>
+      <pubDate>Thu, 10 May 2018 15:26:11 +0800</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/portfolio/pattern/info-about-a-property/</guid>
+      <description>These projects aim to improve the availability, accessibility and readability of data related to a particular property.</description>
+    </item>
+    
+    <item>
+      <title>Info about an area</title>
+      <link>https://digital-land.cloudapps.digital/portfolio/pattern/info-about-an-area/</link>
+      <pubDate>Thu, 10 May 2018 15:25:55 +0800</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/portfolio/pattern/info-about-an-area/</guid>
+      <description>These projects aim to improve the quality of the data related to a given area.</description>
+    </item>
+    
+    <item>
+      <title>Notices</title>
+      <link>https://digital-land.cloudapps.digital/portfolio/pattern/notices/</link>
+      <pubDate>Thu, 10 May 2018 15:12:10 +0800</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/portfolio/pattern/notices/</guid>
+      <description>These projects aim to improve how people are notified about the planning applications submitted and reviewed in an area.</description>
+    </item>
+    
+    <item>
+      <title>Geographies</title>
+      <link>https://digital-land.cloudapps.digital/portfolio/pattern/geographies/</link>
+      <pubDate>Thu, 10 May 2018 11:07:34 +0800</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/portfolio/pattern/geographies/</guid>
+      <description>These data sets and projects are associated with specifc UK geographical locations, from smaller local areas to larger regions.</description>
+    </item>
+    
+    <item>
+      <title>Access to data in bulk</title>
+      <link>https://digital-land.cloudapps.digital/needs/access-to-data-in-bulk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/needs/access-to-data-in-bulk/</guid>
+      <description>When building a service, I want to be able to access data in bulk, so that I do not have to make multiple requests for data</description>
+    </item>
+    
+    <item>
+      <title>Access to raw data</title>
+      <link>https://digital-land.cloudapps.digital/needs/maintained-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/needs/maintained-data/</guid>
+      <description>When building a service, I want to have access to raw data (as opposed to calculated statistical data), so that I am able to get the fullest value from the data</description>
+    </item>
+    
+    <item>
+      <title>Affordable housing</title>
+      <link>https://digital-land.cloudapps.digital/glossary/affordable-housing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/affordable-housing/</guid>
+      <description>Affordable housing includes social rented, affordable rented and intermediate housing, provided to specified eligible households whose needs are not met by the market. It can be a new-build property or a private sector property that has been purchased for use as an affordable home.
+Each year Homes England publish statistics on the supply of affordable homes.</description>
+    </item>
+    
+    <item>
+      <title>Air quality management</title>
+      <link>https://digital-land.cloudapps.digital/glossary/air-quality-management/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/air-quality-management/</guid>
+      <description>In an effort to reduce air pollution the Department for Environment, Food and Rural Affairs have set air quality targets for each local authority.
+When a local authority identifies an area where they are at risk of not meeting their target they must set an Air Quality Action Plan.</description>
+    </item>
+    
+    <item>
+      <title>Aircraft noise</title>
+      <link>https://digital-land.cloudapps.digital/glossary/aircraft-noise/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/aircraft-noise/</guid>
+      <description>Land located close to airports and flight paths may be subject to aircraft noise. This noise is classified in three ways:
+ Mechanical noise — rotation of the engine parts, most noticeable when fan blades reach supersonic speeds Aerodynamic noise — from the airflow around the surfaces of the aircraft, especially when flying low at high speeds Noise from aircraft systems — cockpit and cabin pressurization and conditioning systems, and Auxiliary Power units  The Aviation Policy Framework outlines planning considerations with regards to aircraft noise.</description>
+    </item>
+    
+    <item>
+      <title>Ancient Monuments and Archaeological Areas Act 1979</title>
+      <link>https://digital-land.cloudapps.digital/legislation/ukpga-1979-46/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/legislation/ukpga-1979-46/</guid>
+      <description>Regulations relating to the the preservation of ancient monuments and sites of archaeological or historic importance.</description>
+    </item>
+    
+    <item>
+      <title>Ancient Monuments and Archaeological Sites</title>
+      <link>https://digital-land.cloudapps.digital/glossary/ancient-monuments-and-archaeological-sites/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/ancient-monuments-and-archaeological-sites/</guid>
+      <description>Sites of archaeological or historic importance are protected by the Ancient Monuments and Archaeological Areas Act 1979 and are listed on the National Heritage List for England. This gives them legally protected status.
+In order to carry out any work to a scheduled ancient monument or site you will need to apply to Historic England for a Scheduled Monument Consent.</description>
+    </item>
+    
+    <item>
+      <title>Annual monitoring report</title>
+      <link>https://digital-land.cloudapps.digital/glossary/annual-monitoring-report/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/annual-monitoring-report/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Area of archaeologial potential</title>
+      <link>https://digital-land.cloudapps.digital/glossary/area-of-archaeological-potential/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/area-of-archaeological-potential/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Asking for open data isn’t open data</title>
+      <link>https://digital-land.cloudapps.digital/friction/asking-for-open-data-isnt-open-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/friction/asking-for-open-data-isnt-open-data/</guid>
+      <description>Often there is no direct download for the data, but rather an email contact, who in many cases must be emailed separately for each requested dataset. This was the case when we tried to compile a national database of tree preservation orders. Of the 80 datasets listed on data.gov.uk, 31 were behind an email gateway operated by misoportal.com.
+Many users fear data you have to request cannot then be presented in services, even when it’s licensed as open data:</description>
+    </item>
+    
+    <item>
+      <title>Benchmark land value</title>
+      <link>https://digital-land.cloudapps.digital/glossary/benchmark-land-value/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/benchmark-land-value/</guid>
+      <description>Benchmark land value is the estimated cost of the land given its current use.</description>
+    </item>
+    
+    <item>
+      <title>Brownfield sites</title>
+      <link>https://digital-land.cloudapps.digital/glossary/brownfield-site/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/brownfield-site/</guid>
+      <description>Are often on disused or derelict land. Are more available in the North and Midlands (but most housing demand is in the south east). Are valuable as existing buildings can be split up into more homes on any one site. The site has already been developed so reduces urban sprawl. Use unsightly areas for building developments, so improves the urban environment. Are found in urban areas, so building housing there reduces demand on car use.</description>
+    </item>
+    
+    <item>
+      <title>Building age</title>
+      <link>https://digital-land.cloudapps.digital/glossary/building-age/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/building-age/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building use</title>
+      <link>https://digital-land.cloudapps.digital/glossary/building-use/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/building-use/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Community infrastructure levy</title>
+      <link>https://digital-land.cloudapps.digital/glossary/community-infrastructure-levy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/community-infrastructure-levy/</guid>
+      <description>The Community Infrastructure Levy (CIL) is a planning charge, introduced by the Planning Act 2008 as a tool for local authorities in England and Wales to help deliver infrastructure to support the development of their area. It came into force on 6 April 2010 through the Community Infrastructure Levy Regulations 2010.</description>
+    </item>
+    
+    <item>
+      <title>Con29</title>
+      <link>https://digital-land.cloudapps.digital/glossary/con29/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/con29/</guid>
+      <description>The CON29 form has been in use for over 50 years and was created to complement the Local Land Charges Register search. The form contains a standard set of enquiries agreed by central government, the Law Society and local authorities.</description>
+    </item>
+    
+    <item>
+      <title>Conservation area</title>
+      <link>https://digital-land.cloudapps.digital/glossary/conservation-area/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/conservation-area/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contaminated Land</title>
+      <link>https://digital-land.cloudapps.digital/glossary/contaminated-land/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/contaminated-land/</guid>
+      <description>Land is legally defined as ‘contaminated land’ where substances are causing or could cause:
+ significant harm to people, property or protected species significant pollution of surface waters (for example lakes and rivers) or groundwater harm to people as a result of radioactivity  Contaminated land may previously have been used as a:
+ factory mine steel mill refinery landfill  </description>
+    </item>
+    
+    <item>
+      <title>Council Tax</title>
+      <link>https://digital-land.cloudapps.digital/glossary/council-tax/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/council-tax/</guid>
+      <description>Introduced in the Local Government Finance Act 1992, Council Tax is a tax on domestic property.
+There are eight council tax bands (A to H) for which a property will fall into one of based on the property value as determined by the Valuation Office Agency.
+The amount of council tax owed for each band is determined by each local authority and various discount or reduction schemes apply, such as a discount for sole occupancy.</description>
+    </item>
+    
+    <item>
+      <title>Country Park</title>
+      <link>https://digital-land.cloudapps.digital/glossary/country-park/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/country-park/</guid>
+      <description>A country park is an area designated for people to visit and enjoy recreation in a countryside environment.</description>
+    </item>
+    
+    <item>
+      <title>Countryside and Rights of Way Act 2000</title>
+      <link>https://digital-land.cloudapps.digital/legislation/ukpga-2000-37/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/legislation/ukpga-2000-37/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Crown Copyright</title>
+      <link>https://digital-land.cloudapps.digital/copyright/crown-copyright/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/copyright/crown-copyright/</guid>
+      <description>© Crown copyright and database right 2018</description>
+    </item>
+    
+    <item>
+      <title>Crown Copyright and Ordnance Survey</title>
+      <link>https://digital-land.cloudapps.digital/copyright/crown-copyright-os/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/copyright/crown-copyright-os/</guid>
+      <description>© Crown copyright and database rights 2018 Ordnance Survey 100026316.</description>
+    </item>
+    
+    <item>
+      <title>Data Maintainer</title>
+      <link>https://digital-land.cloudapps.digital/users/data-maintainer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/users/data-maintainer/</guid>
+      <description>People who submit or update data. Developers who must submit data to comply with regulatory requirements, for example. Or local authorities who collect and maintain land and housing data. Resources here include tools for validating datasets and guidance on ensuring compliance.</description>
+    </item>
+    
+    <item>
+      <title>Data Modeller</title>
+      <link>https://digital-land.cloudapps.digital/users/data-modeller/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/users/data-modeller/</guid>
+      <description>People who create data specifications, such as those commissioned by councils to write the specifications for land and housing datasets.</description>
+    </item>
+    
+    <item>
+      <title>Data collection is hard to keep up to date</title>
+      <link>https://digital-land.cloudapps.digital/friction/data-collection-is-hard-to-keep-up-to-date/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/friction/data-collection-is-hard-to-keep-up-to-date/</guid>
+      <description>It’s often hard to write an automatic process to download a dataset:
+ URLs change or break Some data is made using JavaScript which only works when a human is present Many datasets are kept behind email or permissions-walls  These barriers mean collecting and updating datasets published by organisations including Ordnance Survey, Environment Agency, Historic England and many local authorities is a manual process.</description>
+    </item>
+    
+    <item>
+      <title>Data is inaccessible</title>
+      <link>https://digital-land.cloudapps.digital/friction/data-is-inaccessible/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/friction/data-is-inaccessible/</guid>
+      <description>Data needed is seldom found online, with many datasets held locally and in widely varying formats.
+Local plans are often locked inside PDF documents, for example, which means the values can’t be extracted automatically. This is particularly difficult for geospatial data, where conservation and other areas are presented as images.
+Even where there are regional or national repositories of data, these typically do not link to the actual data, but often rather to an authority or other data publisher’s homepage or to a dead link.</description>
+    </item>
+    
+    <item>
+      <title>Data is not always available in bulk</title>
+      <link>https://digital-land.cloudapps.digital/friction/data-is-not-always-available-in-bulk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/friction/data-is-not-always-available-in-bulk/</guid>
+      <description>Data is also sometimes only accessible in a limited fashion through proprietary tools, such as a mapping tool for tree preservation orders that lets you search for individual trees but doesn’t display the complete dataset.</description>
+    </item>
+    
+    <item>
+      <title>Data is often hard to trust</title>
+      <link>https://digital-land.cloudapps.digital/friction/data-is-often-hard-to-trust/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/friction/data-is-often-hard-to-trust/</guid>
+      <description>Users aren’t always confident that the data will be maintained. We spoke to several small companies who had built business processes based on Energy Performance Certificate data, now concerned they haven’t been updated as promised.
+Unreliable data undermines the value of any product based on that data, and impedes the development of such products.</description>
+    </item>
+    
+    <item>
+      <title>Data is often published as statistics</title>
+      <link>https://digital-land.cloudapps.digital/friction/data-is-often-published-as-statistics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/friction/data-is-often-published-as-statistics/</guid>
+      <description>Much of the data is compiled in raw form, but only published by government in the form of statistics.
+Local plan making involves commissioning a lot of data, but that evidence is often unavailable with the local plan, but later challenged during the planning appeals process.
+Raw data has more use-cases than statistics, so limiting access to raw data is in effect limiting the development of innovative products for the housing marketplace.</description>
+    </item>
+    
+    <item>
+      <title>Data often isn&#39;t available as data</title>
+      <link>https://digital-land.cloudapps.digital/friction/data-often-isnt-available-as-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/friction/data-often-isnt-available-as-data/</guid>
+      <description>Often even the most basic information often isn’t available as data. For example, every local planning authority should publish a local plan, but there isn’t an authoritative list of local planning authorities, and there isn’t a single list of local plans.
+The best public list of local planning authorities we’ve found is a PDF published by the planning inspectorate, but the data in this is text, which requires effort and care to process.</description>
+    </item>
+    
+    <item>
+      <title>Data use is restricted</title>
+      <link>https://digital-land.cloudapps.digital/friction/data-use-is-restricted/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/friction/data-use-is-restricted/</guid>
+      <description>Much data is made available under an open government licence, but with additional, restrictive terms.
+National radon data, for example, commissioned by the Health and Safety Executive is made available “for planning purposes only” and one brownfield register publisher explicitly warns against building services which compete with Ordnance Survey.
+Such restrictions limit unforseen, innovative use-cases for the data.</description>
+    </item>
+    
+    <item>
+      <title>Developer contributions</title>
+      <link>https://digital-land.cloudapps.digital/glossary/developer-contribution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/developer-contribution/</guid>
+      <description>A policy introduced in the 1990 Town and Country Planning Act means that in order gain planning permission a property developer may be required to provide a contribution to mitigate any impact to local infrastructure.
+The contributions can be financial or non-financial. For instance, a developer may be required to provide a percentage of affordable housing within a new property development, or they may be required to provide a financial contribution to increase the intake of a local school.</description>
+    </item>
+    
+    <item>
+      <title>Development Corporation</title>
+      <link>https://digital-land.cloudapps.digital/glossary/development-corporation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/development-corporation/</guid>
+      <description>Development Corporations are organisations, established byt the Government, for the purpose of urban development. They are often for the development of new surbudan areas or the redevelopment of existing ones.</description>
+    </item>
+    
+    <item>
+      <title>Easy access to data</title>
+      <link>https://digital-land.cloudapps.digital/needs/easy-access-to-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/needs/easy-access-to-data/</guid>
+      <description>When building a service, I want access to data without having to ask for it</description>
+    </item>
+    
+    <item>
+      <title>Energy Performance Certificate Data</title>
+      <link>https://digital-land.cloudapps.digital/glossary/energy-performance-certificate-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/energy-performance-certificate-data/</guid>
+      <description>Energy Performance Certificates (EPCs) are needed whenever a property is:
+ built sold rented  You must order an EPC for potential buyers and tenants before you market your property to sell or rent.
+An EPC contains:
+ information about a property’s energy use and typical energy costs recommendations about how to reduce energy use and save money  An EPC gives a property an energy efficiency rating from A (most efficient) to G (least efficient) and is valid for 10 years.</description>
+    </item>
+    
+    <item>
+      <title>Ensure data meets the specification</title>
+      <link>https://digital-land.cloudapps.digital/needs/ensure-data-meets-the-specification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/needs/ensure-data-meets-the-specification/</guid>
+      <description>Before publishing a data, I want to be able to validate that data I&amp;rsquo;ve collect meets the specification, so that I can fix any issues</description>
+    </item>
+    
+    <item>
+      <title>Environment Agency Conditional Licence</title>
+      <link>https://digital-land.cloudapps.digital/licence/environment-agency-conditional/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/licence/environment-agency-conditional/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fear of feedback</title>
+      <link>https://digital-land.cloudapps.digital/friction/fear-of-feedback/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/friction/fear-of-feedback/</guid>
+      <description>The quality of many datasets is poor, and feedback can be a source of improvement. However we heard many perceived reasons not to publish, including uninformed feedback:
+ your site says my village has contaminated land!.
+ </description>
+    </item>
+    
+    <item>
+      <title>Flood zone</title>
+      <link>https://digital-land.cloudapps.digital/glossary/flood-zone/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/flood-zone/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Greenbelt</title>
+      <link>https://digital-land.cloudapps.digital/glossary/greenbelt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/greenbelt/</guid>
+      <description>A policy for controlling urban growth and sprawl. Rings of countryside where urbanisation will be resisted for the foreseeable future, maintaining an area where agriculture, forestry and outdoor leisure can prevail.</description>
+    </item>
+    
+    <item>
+      <title>Greenfield site</title>
+      <link>https://digital-land.cloudapps.digital/glossary/greenfield-site/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/greenfield-site/</guid>
+      <description>Greenfield land is undeveloped land in either a city or urban area.</description>
+    </item>
+    
+    <item>
+      <title>Gross development value</title>
+      <link>https://digital-land.cloudapps.digital/glossary/gross-development-value/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/gross-development-value/</guid>
+      <description>Gross development value is the estimated value that a new development could fetch. To work out the gross development value the property developer needs to factor in the percentage of affordable housing that the relevant local authority states in their local plan policy.</description>
+    </item>
+    
+    <item>
+      <title>Health and safety executive</title>
+      <link>https://digital-land.cloudapps.digital/glossary/health-and-safety-executive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/health-and-safety-executive/</guid>
+      <description>The Health and Safety Executive is the body responsible for the encouragement, regulation and enforcement of workplace health, safety and welfare, and for research into occupational risks in Great Britain. It is a non-departmental public body of the United Kingdom.</description>
+    </item>
+    
+    <item>
+      <title>Historic England Copyright</title>
+      <link>https://digital-land.cloudapps.digital/copyright/historic-england/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/copyright/historic-england/</guid>
+      <description>© Historic England 2018. Contains Ordnance Survey data © Crown copyright and database right 2018 The Historic England GIS Data contained in this material was obtained on 21 April 2018. The most publicly available up to date Historic England GIS Data can be obtained from http://www.HistoricEngland.org.uk.</description>
+    </item>
+    
+    <item>
+      <title>Historic England GIS terms</title>
+      <link>https://digital-land.cloudapps.digital/licence/historic-england/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/licence/historic-england/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Historic map vectors</title>
+      <link>https://digital-land.cloudapps.digital/glossary/historic-map-vectors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/historic-map-vectors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Housing benefit</title>
+      <link>https://digital-land.cloudapps.digital/glossary/housing-benefit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/housing-benefit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Housing waiting list</title>
+      <link>https://digital-land.cloudapps.digital/glossary/housing-waiting-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/housing-waiting-list/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>INSPIRE End User Licence</title>
+      <link>https://digital-land.cloudapps.digital/licence/inspire-end-user/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/licence/inspire-end-user/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lack of value seen in publishing data</title>
+      <link>https://digital-land.cloudapps.digital/friction/lack-of-value-seen-in-publishing-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/friction/lack-of-value-seen-in-publishing-data/</guid>
+      <description>Some local authorities have seen benefits in publishing open data. Mid-Sussex for example, reported a fall in calls to their call-centre by making tree preservation orders open data.
+However many organisations see publishing data is seen as a burden, an externality, with little return on the costs of publication.</description>
+    </item>
+    
+    <item>
+      <title>Land Registry INSPIRE</title>
+      <link>https://digital-land.cloudapps.digital/licence/land-registry-inspire/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/licence/land-registry-inspire/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Land Terrier</title>
+      <link>https://digital-land.cloudapps.digital/glossary/land-terrier/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/land-terrier/</guid>
+      <description>A land terrier is a record system for an institution&amp;rsquo;s land and property holdings. It differs from a land registry in that it is maintained for the organisation&amp;rsquo;s own needs and may not be publicly accessible.</description>
+    </item>
+    
+    <item>
+      <title>Listed Building</title>
+      <link>https://digital-land.cloudapps.digital/glossary/listed-building/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/listed-building/</guid>
+      <description>Status attributed to buildings with special architectural or historical interest. Results in additional restrictions being applied in the planning system in an attempt to protect it for future generations. There are categories of listed buildings, called Grades. The higher the grade the more restrictions that apply.</description>
+    </item>
+    
+    <item>
+      <title>Local Land Charges Act 1975</title>
+      <link>https://digital-land.cloudapps.digital/legislation/ukpa-1975-76/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/legislation/ukpa-1975-76/</guid>
+      <description>An Act to make fresh provision for and in connection with the keeping of local land charges registers and the registration of matters therein.</description>
+    </item>
+    
+    <item>
+      <title>Local development scheme</title>
+      <link>https://digital-land.cloudapps.digital/glossary/local-development-scheme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/local-development-scheme/</guid>
+      <description>Local development schemes are public &amp;lsquo;project plans&amp;rsquo; which identify which local development documents will be produced, in what order and when. It became a statutory requirement for local planning authorities in the UK to produce these schemes under the Planning and Compulsory Purchase Act 2004.
+The local development scheme acts as the starting point for the community and stakeholders to find out about the local authority&amp;rsquo;s planning policies in respect to a particular place or issue, and what the status of those policies is.</description>
+    </item>
+    
+    <item>
+      <title>Local land charge</title>
+      <link>https://digital-land.cloudapps.digital/glossary/local-land-charge/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/local-land-charge/</guid>
+      <description>A local land charge is a restriction on a piece of land or property that can limit its use or bind the owner to a payment of a sum of money. Charges can include:
+ planning decisions road agreements tree preservation orders conservation areas and listed buildings notices environmental health notices charges or objections made against previous owners  A local land charges search will highlight these charges and help you to make an informed choice about buying the parcel of land or property.</description>
+    </item>
+    
+    <item>
+      <title>Local plan</title>
+      <link>https://digital-land.cloudapps.digital/glossary/local-plan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/local-plan/</guid>
+      <description>A local plan sets out local planning policies and identifies how land is used, determining what will be built where. Adopted local plans provide the framework for development across England. Local peoples&amp;rsquo; views are vital in shaping a local plan, helping determine how their community develops.</description>
+    </item>
+    
+    <item>
+      <title>Local planning authority</title>
+      <link>https://digital-land.cloudapps.digital/glossary/local-planning-authority/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/local-planning-authority/</guid>
+      <description>A local planning authority is the local government body that is empowered by law to exercise urban planning functions for a particular area.</description>
+    </item>
+    
+    <item>
+      <title>Localism Act 2011</title>
+      <link>https://digital-land.cloudapps.digital/legislation/ukpga-2011-20/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/legislation/ukpga-2011-20/</guid>
+      <description>An Act to make provision about the functions and procedures of local and certain other authorities; to make provision about the functions of the Commission for Local Administration in England; to enable the recovery of financial sanctions imposed by the Court of Justice of the European Union on the United Kingdom from local and public authorities; to make provision about local government finance; to make provision about town and country planning, the Community Infrastructure Levy and the authorisation of nationally significant infrastructure projects; to make provision about social and other housing; to make provision about regeneration in London; and for connected purposes.</description>
+    </item>
+    
+    <item>
+      <title>Maintained data</title>
+      <link>https://digital-land.cloudapps.digital/needs/access-to-raw-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/needs/access-to-raw-data/</guid>
+      <description>When using a dataset, I want to have confidence that the dataset is being maintained, so that I can trust that the data is relevent and usable</description>
+    </item>
+    
+    <item>
+      <title>Mineral safeguarding area</title>
+      <link>https://digital-land.cloudapps.digital/glossary/mineral-safeguarding-area/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/mineral-safeguarding-area/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>National Park</title>
+      <link>https://digital-land.cloudapps.digital/glossary/national-park/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/national-park/</guid>
+      <description>Areas in the UK designated under the National Parks and Access to the Countryside Act (2016).</description>
+    </item>
+    
+    <item>
+      <title>National Parks and Access to the Countryside Act 1949</title>
+      <link>https://digital-land.cloudapps.digital/legislation/ukpga-geo6-12-13-14-97/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/legislation/ukpga-geo6-12-13-14-97/</guid>
+      <description>An Act to make provision for National Parks and the establishment of a National Parks Commission.</description>
+    </item>
+    
+    <item>
+      <title>National Planning Policy Framework</title>
+      <link>https://digital-land.cloudapps.digital/glossary/national-planning-policy-framework/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/national-planning-policy-framework/</guid>
+      <description>The revised National Planning Policy Framework (NPPF) was published on July 24th 2018 and sets out government&amp;rsquo;s planning policies for England and how these are expected to be applied.</description>
+    </item>
+    
+    <item>
+      <title>Natural England Copyright</title>
+      <link>https://digital-land.cloudapps.digital/copyright/natural-england/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/copyright/natural-england/</guid>
+      <description>© Natural England copyright. Contains Ordnance Survey data © Crown copyright and database right 2018.</description>
+    </item>
+    
+    <item>
+      <title>Net development value</title>
+      <link>https://digital-land.cloudapps.digital/glossary/net-development-value/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/net-development-value/</guid>
+      <description>The net development value is the estimated amount of money that a property development expects to make once all costs (land value, development, marketing etc) and sales have been taken into consideration.
+As a part of the viability assessment a third party may work with a property developer and local authority to ensure that estimates reflect current market values.</description>
+    </item>
+    
+    <item>
+      <title>Number of stories</title>
+      <link>https://digital-land.cloudapps.digital/glossary/number-of-stories/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/number-of-stories/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Number of tenancy</title>
+      <link>https://digital-land.cloudapps.digital/glossary/number-of-tenancy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/number-of-tenancy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ONS Boundary</title>
+      <link>https://digital-land.cloudapps.digital/copyright/ons-boundary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/copyright/ons-boundary/</guid>
+      <description>Contains National Statistics data © Crown copyright and database right 2018 Contains OS data © Crown copyright and database right 2018</description>
+    </item>
+    
+    <item>
+      <title>Open Government Licence</title>
+      <link>https://digital-land.cloudapps.digital/licence/ogl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/licence/ogl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Parking restriction</title>
+      <link>https://digital-land.cloudapps.digital/glossary/parking-restriction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/parking-restriction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Planning Act 2008</title>
+      <link>https://digital-land.cloudapps.digital/legislation/ukpga-2008-29/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/legislation/ukpga-2008-29/</guid>
+      <description>The Planning Act 2008 introduced Community Infrastructure Levy planning charges.</description>
+    </item>
+    
+    <item>
+      <title>Planning and Compulsory Purchase Act 2004</title>
+      <link>https://digital-land.cloudapps.digital/legislation/ukpha-2004-5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/legislation/ukpha-2004-5/</guid>
+      <description>Regulation for local development schemes.</description>
+    </item>
+    
+    <item>
+      <title>Policy Maker</title>
+      <link>https://digital-land.cloudapps.digital/users/policy-maker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/users/policy-maker/</guid>
+      <description>Government policy professionals who decide what and how data must be supplied and maintained by developers, local authorities and others involved in the housing sector.</description>
+    </item>
+    
+    <item>
+      <title>PropTech Developers</title>
+      <link>https://digital-land.cloudapps.digital/users/proptech/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/users/proptech/</guid>
+      <description>Software developers who create digital tools that use land and housing data to make it easier to develop, buy, sell or rent property. Resources here include tools for collecting data and exploring its use.</description>
+    </item>
+    
+    <item>
+      <title>Protected View</title>
+      <link>https://digital-land.cloudapps.digital/glossary/protected-view/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/protected-view/</guid>
+      <description>A protected view or protected vista is the legal requirement within urban planning to preserve the view of a specific place or historic building from another location.</description>
+    </item>
+    
+    <item>
+      <title>Provide feedback</title>
+      <link>https://digital-land.cloudapps.digital/needs/provide-feedback/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/needs/provide-feedback/</guid>
+      <description>When data is incorrect or missing, I want to be able to inform the data maintainer, so that they can fix the dataset.</description>
+    </item>
+    
+    <item>
+      <title>Radon</title>
+      <link>https://digital-land.cloudapps.digital/glossary/radon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/radon/</guid>
+      <description>Radon is a colourless, odourless radioactive gas. It is formed by the radioactive decay of the small amounts of uranium that occur naturally in all rocks and soils.</description>
+    </item>
+    
+    <item>
+      <title>Ramsar site</title>
+      <link>https://digital-land.cloudapps.digital/glossary/ramsar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/ramsar/</guid>
+      <description>A Ramsar site is wetlands of international importance designated under the Ramsar Convention.</description>
+    </item>
+    
+    <item>
+      <title>Safeguarding</title>
+      <link>https://digital-land.cloudapps.digital/glossary/safeguarding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/safeguarding/</guid>
+      <description>Safeguarding is an established part of the planning process, designed to ensure that land which has been identified for major infrastructure projects is protected from conflicting developments.</description>
+    </item>
+    
+    <item>
+      <title>Section 106</title>
+      <link>https://digital-land.cloudapps.digital/glossary/section-106/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/section-106/</guid>
+      <description>Section 106 is a legal agreement between an property developer and the local planning authority. It is used to mitigate the impact of any new property development to the local community and infrastructure.
+The Section 106 agreement contains one or more developer contributions which support the generation of affordable housing, or contribute towards local infrastructure such as green spaces, schools or highway maintenance.</description>
+    </item>
+    
+    <item>
+      <title>Site of special scientific interest</title>
+      <link>https://digital-land.cloudapps.digital/glossary/special-scientific-interest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/special-scientific-interest/</guid>
+      <description>A Site of Special Scientific Interest (SSSI) is a formal conservation designation for an area which is of particular interest because of its fauna, flora or geological or physiological features.
+Local authorities are required to have policies within their local plan to protect SSSIs, and should a planning application be submitted either on or close to the site then the appropriate conversation body must be consulted.
+Orginally established in the National Parks and Access to the Countryside Act 1949.</description>
+    </item>
+    
+    <item>
+      <title>Tenancy deposit</title>
+      <link>https://digital-land.cloudapps.digital/glossary/tenancy-deposit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/tenancy-deposit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tenancy length</title>
+      <link>https://digital-land.cloudapps.digital/glossary/tenancy-length/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/tenancy-length/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Local Government Finance Act 1992</title>
+      <link>https://digital-land.cloudapps.digital/legislation/ukpga-1992-14/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/legislation/ukpga-1992-14/</guid>
+      <description>Legislation introducing Council Tax.</description>
+    </item>
+    
+    <item>
+      <title>The Local Land Charges Rules 2018</title>
+      <link>https://digital-land.cloudapps.digital/legislation/uksi-2018-273/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/legislation/uksi-2018-273/</guid>
+      <description>Regulations pertaining to the Local Land Charges Act 1975 including easements.</description>
+    </item>
+    
+    <item>
+      <title>The Town and Country Planning (Local Planning) (England) Regulations 2012</title>
+      <link>https://digital-land.cloudapps.digital/legislation/uksi-2012-605/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/legislation/uksi-2012-605/</guid>
+      <description>Legislation for Tree Preservation Orders</description>
+    </item>
+    
+    <item>
+      <title>The Town and Country Planning (Local Planning) (England) Regulations 2012</title>
+      <link>https://digital-land.cloudapps.digital/legislation/uksi-2012-767/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/legislation/uksi-2012-767/</guid>
+      <description>Regulations for local planning in England coming into force April 2012.</description>
+    </item>
+    
+    <item>
+      <title>The same data is inconsistent across publishers</title>
+      <link>https://digital-land.cloudapps.digital/friction/data-is-inconsistent-across-publishers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/friction/data-is-inconsistent-across-publishers/</guid>
+      <description>Often the same specific types of data are defined or formatted differently depending on the publisher. This inconsistency exists even where a standard is in place.
+For example, among the 330 lists made available to meet the brownfield register standard we found 31 different file formats and a wide range of character encoding, blank lines, blank column names, incorrect formatting, incompatibility and other useability issues.
+This widespread inconsistency across publishers is problematic for anyone developing data-based products that serve the housing market nationwide.</description>
+    </item>
+    
+    <item>
+      <title>Town and Country Planning Act 1990</title>
+      <link>https://digital-land.cloudapps.digital/legislation/ukpga-1990-8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/legislation/ukpga-1990-8/</guid>
+      <description>An Act to consolidate certain enactments relating to town and country planning (excluding special controls in respect of buildings and areas of special architectural or historic interest and in respect of hazardous substances) with amendments to give effect to recommendations of the Law Commission.</description>
+    </item>
+    
+    <item>
+      <title>Tree preservation order</title>
+      <link>https://digital-land.cloudapps.digital/glossary/tree-preservation-order/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/tree-preservation-order/</guid>
+      <description>A Tree Preservation Order is an order made by a local planning authority in England to protect specific trees, groups of trees or woodlands in the interests of amenity. An Order prohibit the:
+ cutting down topping lopping uprooting wilful damage wilful destruction  of trees without the local planning authority’s written consent. If consent is given, it can be subject to conditions which have to be followed. In the Secretary of State’s view, cutting roots is also a prohibited activity and requires the authority’s consent.</description>
+    </item>
+    
+    <item>
+      <title>Uncertainty around what data is needed</title>
+      <link>https://digital-land.cloudapps.digital/friction/uncertainty-around-what-data-is-needed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/friction/uncertainty-around-what-data-is-needed/</guid>
+      <description>It’s hard to determine what data is needed to make a better planning application. We have asked local authorities for their lists of constraints, but often these are general concerns (e.g. “Gas”) rather than a more precise reference to an authoritative source of information.
+It would be difficult to create a service that knows which authority to send a planning application to, let alone which pieces of data are needed to create a strong planning application.</description>
+    </item>
+    
+    <item>
+      <title>Unknown Copyright</title>
+      <link>https://digital-land.cloudapps.digital/copyright/unknown/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/copyright/unknown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unknown Licence</title>
+      <link>https://digital-land.cloudapps.digital/licence/unknown/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/licence/unknown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unrestrictive usage</title>
+      <link>https://digital-land.cloudapps.digital/needs/unrestrictive-usage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/needs/unrestrictive-usage/</guid>
+      <description>When building a service, I want to use data openly and without any prohibitive restrictions, so that I am able to get full value from the data</description>
+    </item>
+    
+    <item>
+      <title>Up-to-date data</title>
+      <link>https://digital-land.cloudapps.digital/needs/up-to-date-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/needs/up-to-date-data/</guid>
+      <description>When I am building a service, I want to have confidence that I have access to the most recent data, so that the thing I am building is useful and relevant.</description>
+    </item>
+    
+    <item>
+      <title>Viability assessement</title>
+      <link>https://digital-land.cloudapps.digital/glossary/viability-assessment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/viability-assessment/</guid>
+      <description>A viability assessment is a part of the planning application process and is used to help a property development and local authority determine a fair developer contribution that will for a section 106 agreement.</description>
+    </item>
+    
+    <item>
+      <title>Ward</title>
+      <link>https://digital-land.cloudapps.digital/glossary/ward/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/ward/</guid>
+      <description>Wards in the UK are electoral districts represented by one or more councillors. They are the primary unit of English electoral geography.</description>
+    </item>
+    
+    <item>
+      <title>Waste sites</title>
+      <link>https://digital-land.cloudapps.digital/glossary/waste-sites/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/glossary/waste-sites/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Water Resources Act 1991</title>
+      <link>https://digital-land.cloudapps.digital/legislation/ukpga-1991-57/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/legislation/ukpga-1991-57/</guid>
+      <description>An Act of Parliment that that regulates water resources, water quality and pollution, and flood defence.</description>
+    </item>
+    
+    <item>
+      <title>What data is needed</title>
+      <link>https://digital-land.cloudapps.digital/needs/what-data-is-needed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/needs/what-data-is-needed/</guid>
+      <description>When defining a data standard, I want to know what data is needed, so that the right data is made available</description>
+    </item>
+    
+  </channel>
+</rss>

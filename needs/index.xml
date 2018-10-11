@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Needs on Digital Land</title>
+    <link>https://digital-land.cloudapps.digital/needs/</link>
+    <description>Recent content in Needs on Digital Land</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    
+	<atom:link href="https://digital-land.cloudapps.digital/needs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Access to data in bulk</title>
+      <link>https://digital-land.cloudapps.digital/needs/access-to-data-in-bulk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/needs/access-to-data-in-bulk/</guid>
+      <description>When building a service, I want to be able to access data in bulk, so that I do not have to make multiple requests for data</description>
+    </item>
+    
+    <item>
+      <title>Access to raw data</title>
+      <link>https://digital-land.cloudapps.digital/needs/maintained-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/needs/maintained-data/</guid>
+      <description>When building a service, I want to have access to raw data (as opposed to calculated statistical data), so that I am able to get the fullest value from the data</description>
+    </item>
+    
+    <item>
+      <title>Easy access to data</title>
+      <link>https://digital-land.cloudapps.digital/needs/easy-access-to-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/needs/easy-access-to-data/</guid>
+      <description>When building a service, I want access to data without having to ask for it</description>
+    </item>
+    
+    <item>
+      <title>Ensure data meets the specification</title>
+      <link>https://digital-land.cloudapps.digital/needs/ensure-data-meets-the-specification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/needs/ensure-data-meets-the-specification/</guid>
+      <description>Before publishing a data, I want to be able to validate that data I&amp;rsquo;ve collect meets the specification, so that I can fix any issues</description>
+    </item>
+    
+    <item>
+      <title>Maintained data</title>
+      <link>https://digital-land.cloudapps.digital/needs/access-to-raw-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/needs/access-to-raw-data/</guid>
+      <description>When using a dataset, I want to have confidence that the dataset is being maintained, so that I can trust that the data is relevent and usable</description>
+    </item>
+    
+    <item>
+      <title>Provide feedback</title>
+      <link>https://digital-land.cloudapps.digital/needs/provide-feedback/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/needs/provide-feedback/</guid>
+      <description>When data is incorrect or missing, I want to be able to inform the data maintainer, so that they can fix the dataset.</description>
+    </item>
+    
+    <item>
+      <title>Unrestrictive usage</title>
+      <link>https://digital-land.cloudapps.digital/needs/unrestrictive-usage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/needs/unrestrictive-usage/</guid>
+      <description>When building a service, I want to use data openly and without any prohibitive restrictions, so that I am able to get full value from the data</description>
+    </item>
+    
+    <item>
+      <title>Up-to-date data</title>
+      <link>https://digital-land.cloudapps.digital/needs/up-to-date-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/needs/up-to-date-data/</guid>
+      <description>When I am building a service, I want to have confidence that I have access to the most recent data, so that the thing I am building is useful and relevant.</description>
+    </item>
+    
+    <item>
+      <title>What data is needed</title>
+      <link>https://digital-land.cloudapps.digital/needs/what-data-is-needed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/needs/what-data-is-needed/</guid>
+      <description>When defining a data standard, I want to know what data is needed, so that the right data is made available</description>
+    </item>
+    
+  </channel>
+</rss>

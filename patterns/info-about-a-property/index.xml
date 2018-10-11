@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Info About a Property on Digital Land</title>
+    <link>https://digital-land.cloudapps.digital/patterns/info-about-a-property/</link>
+    <description>Recent content in Info About a Property on Digital Land</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Tue, 22 May 2018 05:01:17 +0800</lastBuildDate>
+    
+	<atom:link href="https://digital-land.cloudapps.digital/patterns/info-about-a-property/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Private Eye: Overseas ownership</title>
+      <link>https://digital-land.cloudapps.digital/portfolio/project/private-eye-overseas-ownership/</link>
+      <pubDate>Tue, 22 May 2018 05:01:17 +0800</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/portfolio/project/private-eye-overseas-ownership/</guid>
+      <description>&amp;ndash; Provide a desciption of the project &amp;ndash;</description>
+    </item>
+    
+    <item>
+      <title>Land insights</title>
+      <link>https://digital-land.cloudapps.digital/portfolio/project/land-insights/</link>
+      <pubDate>Tue, 15 May 2018 14:59:57 +0800</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/portfolio/project/land-insights/</guid>
+      <description>LandInsight is a subscription service that helps users find and assess off-market land. It combines maps, data and tools to help discover new opportunities.</description>
+    </item>
+    
+    <item>
+      <title>Land explorer</title>
+      <link>https://digital-land.cloudapps.digital/portfolio/project/land-explorer/</link>
+      <pubDate>Fri, 11 May 2018 14:35:42 +0800</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/portfolio/project/land-explorer/</guid>
+      <description>Land Explorer helps you find information about land in the UK.</description>
+    </item>
+    
+  </channel>
+</rss>

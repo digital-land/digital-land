@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Prototypes on Digital Land</title>
+    <link>https://digital-land.cloudapps.digital/prototype/</link>
+    <description>Recent content in Prototypes on Digital Land</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Wed, 19 Sep 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://digital-land.cloudapps.digital/prototype/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Digital Land Portfolio</title>
+      <link>https://digital-land.cloudapps.digital/prototype/digital-land-portfolio/</link>
+      <pubDate>Wed, 19 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/prototype/digital-land-portfolio/</guid>
+      <description>We made a portfolio of patterns and use-cases for digital land data during discovery. We will review the need for this tool, or if it can be iterated to cover the needs for a handbook.
+Update 1  Sept 2018
+ added 2 projects; Bristol Maps and Propective.io updated portfolio to use Govuk design system   Initial  May 2018
+ created a portfolio for the team to collect interesting projects in the digital land space categorised these projects according to some patterns we have observed  notices better local plans better planning applications geographies information about an area information about a property    </description>
+    </item>
+    
+    <item>
+      <title>Validator</title>
+      <link>https://digital-land.cloudapps.digital/prototype/validator/</link>
+      <pubDate>Tue, 18 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/prototype/validator/</guid>
+      <description>This tool will assist publishers ensure their publication meets a standard, such as the brownfield sites register standard, and the emerging standards for Local Plans and Section 106.
+Update 2  Sept 2018
+ added regex validators to text for correct planning application states   Update 1  July 2018
+ created validator for brownfield sites (brownfield sites standard) collected links to all published brownfield site registers (number?) added warnings if the csv file is not served correctly   </description>
+    </item>
+    
+    <item>
+      <title>Better data standard specifications</title>
+      <link>https://digital-land.cloudapps.digital/prototype/better-data-standard-specifications/</link>
+      <pubDate>Fri, 14 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/prototype/better-data-standard-specifications/</guid>
+      <description>A tool to generate specifications from a formal schema may help people write better specifications.</description>
+    </item>
+    
+    <item>
+      <title>Better standard design process</title>
+      <link>https://digital-land.cloudapps.digital/prototype/better-standard-design-process/</link>
+      <pubDate>Fri, 14 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/prototype/better-standard-design-process/</guid>
+      <description>We need a new, much better approach for people developing data standards, based on needs of users, with scope for learning and iteration.</description>
+    </item>
+    
+    <item>
+      <title>Builder</title>
+      <link>https://digital-land.cloudapps.digital/prototype/builder/</link>
+      <pubDate>Fri, 14 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/prototype/builder/</guid>
+      <description>A tool for making a dataset from scratch. For example, the brownfield sites register requires codes, a webform could include drop-downs and pre-populated fields.</description>
+    </item>
+    
+    <item>
+      <title>Business case builder</title>
+      <link>https://digital-land.cloudapps.digital/prototype/business-case-builder/</link>
+      <pubDate>Fri, 14 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/prototype/business-case-builder/</guid>
+      <description>Guidance, use-cases, economic models and patterns help more people make more data available.</description>
+    </item>
+    
+    <item>
+      <title>Data field dictionary</title>
+      <link>https://digital-land.cloudapps.digital/prototype/data-field-dictionary/</link>
+      <pubDate>Fri, 14 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/prototype/data-field-dictionary/</guid>
+      <description>We need a distributed way to enable multiple people establishing standards which are consistent with each other. We can work with the registers team on new field register names, and investigate using OSM tags and Wikidata properties.</description>
+    </item>
+    
+    <item>
+      <title>Digital Land Collector</title>
+      <link>https://digital-land.cloudapps.digital/prototype/digital-land-collector/</link>
+      <pubDate>Fri, 14 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/prototype/digital-land-collector/</guid>
+      <description>The Digital Land team regularly updates this collection of datasets related to housing and land. We use it to assess the state of published data and gauge the work necessary to keep a copy of a dataset up to date.</description>
+    </item>
+    
+    <item>
+      <title>Digital Land Explorer</title>
+      <link>https://digital-land.cloudapps.digital/prototype/digital-land-explorer/</link>
+      <pubDate>Fri, 14 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/prototype/digital-land-explorer/</guid>
+      <description>We will continue to develop our explorer to better understand data which is available and demonstrate to others how to consume collected data.
+Update 2  July 2018
+ display metadata for each publication/dataset users can exlore individual datasets  all data shown on map user can inspect a point or polygon to see properties  lazy loading and clustering added so that users can explore larger datasets   Update 1  June 2018</description>
+    </item>
+    
+    <item>
+      <title>Digital Land Handbook</title>
+      <link>https://digital-land.cloudapps.digital/prototype/digital-land-handbook/</link>
+      <pubDate>Fri, 14 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/prototype/digital-land-handbook/</guid>
+      <description>Guidance and documentation for the collector and explorers to help others to understand how to find data, overcome points of friction and increase the use and trust of government data.</description>
+    </item>
+    
+    <item>
+      <title>Maturity Model</title>
+      <link>https://digital-land.cloudapps.digital/prototype/maturity-model/</link>
+      <pubDate>Fri, 14 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/prototype/maturity-model/</guid>
+      <description>A set of criteria to assess the status of an existing dataset. The collector could use this model and the validator (below) to report on invalid datasets, how frequently each dataset is updated, when a dataset goes missing, etc. These could be surfaced on the explorer.</description>
+    </item>
+    
+    <item>
+      <title>Registers</title>
+      <link>https://digital-land.cloudapps.digital/prototype/registers/</link>
+      <pubDate>Fri, 14 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/prototype/registers/</guid>
+      <description>Building the collector highlighted the need for several authoritative datasets which we have prototyped. Where possible we should identify the appropriate custodian and work with GDS to establish these as GOV.UK registers.</description>
+    </item>
+    
+    <item>
+      <title>Supporting feedback</title>
+      <link>https://digital-land.cloudapps.digital/prototype/supporting-feedback/</link>
+      <pubDate>Fri, 14 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/prototype/supporting-feedback/</guid>
+      <description>Tools for soliciting and handling feedback on a geospatial dataset.</description>
+    </item>
+    
+    <item>
+      <title>Viewer</title>
+      <link>https://digital-land.cloudapps.digital/prototype/viewer/</link>
+      <pubDate>Fri, 14 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://digital-land.cloudapps.digital/prototype/viewer/</guid>
+      <description>A tool to show an individual dataset on a map and to give other feedback to someone making a dataset before it is published.</description>
+    </item>
+    
+  </channel>
+</rss>
