@@ -1,5 +1,5 @@
 ---
-title: "Brownfield site validator"
+title: "Brownfield sites"
 status: alpha
 ---
 
