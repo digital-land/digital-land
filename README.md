@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/communitiesuk/digital-land.svg?branch=master)](https://travis-ci.org/communitiesuk/digital-land)
+[![Build Status](https://travis-ci.org/digital-land/digital-land.svg?branch=master)](https://travis-ci.org/digital-land/digital-land)
 
 # Digital Land
 
