@@ -1,4 +1,4 @@
-baseURL = "https://digital-land.cloudapps.digital/"
+baseURL = "https://digital-land.github.io/"
 languageCode = "en-uk"
 title = "Digital Land"
 theme = "govuk"
