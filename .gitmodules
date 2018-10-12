@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = git@github.com:digital-land/digital-land.github.io.git
+	branch = master
