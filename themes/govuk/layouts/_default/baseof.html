@@ -16,14 +16,14 @@
     <!--[if lt IE 9]><script src="/javascripts/ie.js?0.24.0"></script><![endif]-->
 
     <link rel="shortcut icon" href="/images/favicon.ico?0.24.0" type="image/x-icon" />
-    
+
     <link rel="mask-icon" href="/images/gov.uk_logotype_crown.svg?0.24.0" color="#0b0c0c">
     <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-180x180.png?0.24.0">
     <link rel="apple-touch-icon" sizes="167x167" href="/images/apple-touch-icon-167x167.png?0.24.0">
     <link rel="apple-touch-icon" sizes="152x152" href="/images/apple-touch-icon-152x152.png?0.24.0">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png?0.24.0">
 
-    
+
     <meta name="theme-color" content="#0b0c0c" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -32,7 +32,7 @@
 		<link rel="stylesheet" media="all" href="/css/all.css"/>
 		{{ end }}
 
-    
+
     <meta property="og:image" content="/images/opengraph-image.png?0.24.0">
   </head>
 
@@ -48,12 +48,12 @@
     </div>
 
     <div id="global-cookie-message">
-      
+
         {{ block "cookie_message" . }}{{ end }}
-      
+
     </div>
 
-    
+
     <header role="banner" id="global-header" class="{{ block "header_class" . }}{{ end }} with-proposition">
       <div class="header-wrapper">
         <div class="header-global">
@@ -83,7 +83,7 @@
 				{{ end }}
       </div>
     </header>
-    
+
 
     {{ block "after_header" . }}{{ end }}
 
@@ -92,7 +92,7 @@
     <div class="govuk-width-container">
       {{ partial "phase_banner_prototype.html" . }}
     </div>
-    
+
 
     {{ block "content" . }}
 		<div id="content" class="govuk-width-container">
@@ -112,14 +112,14 @@
           <div class="footer-meta-inner">
             {{ block "footer_support_links" . }}
             <ul>
-                <li>This site has been built using <a href="https://github.com/communitiesuk/digital-land-portfolio">open source</a> software, contributions are welcome.
+                <li>This site has been built using <a href="https://github.com/digital-land">open source</a> software, contributions are welcome.
             </ul>
             {{ end }}
             <div class="open-government-licence">
               <p class="logo"><a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="license">Open Government Licence</a></p>
-              
+
                 {{ block "licence_message" . }}<p>All content is available under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="license">Open Government Licence v3.0</a>, except where otherwise stated</p>{{ end }}
-              
+
             </div>
           </div>
 
@@ -136,7 +136,7 @@
 
     {{ block "body_end" . }}{{ end }}
 
-    
+
     <script>if (typeof window.GOVUK === 'undefined') document.body.className = document.body.className.replace('js-enabled', '');</script>
   </body>
 </html>
