@@ -3,9 +3,9 @@ title: Overview
 ---
 Housing data finds its origin in real-world needs – the needs of the community, of developers, of the environment – all of which legislation and regulation tries to balance.
 
-Legislation gives rise to what we term land and housing ‘concerns’, of which there are more than 300. 
+Legislation gives rise to what we term land and housing ‘concerns’, of which there are more than 300.
 
-These comprise:
+These concerns comprise:
 
 * “constraints” for planning (eg tree preservation orders)
 * “charges” for conveyancing
@@ -18,7 +18,7 @@ Legislation lays out some requirements for each concern. It doesn’t dictate sp
 
 ### Mapping
 
-One solution to overcoming data inconsistency is to map the useful data from individual publications into datasets that are consistent. Doing this work after the fact is inefficient and time consuming. We’re developing guides and tools to make it less so. The Digital Land Explorer demonstrates how data that’s been mapped can be used. 
+One solution to overcoming data inconsistency is to map the useful data from individual publications into datasets that are consistent. Doing this work after the fact is inefficient and time consuming. We’re developing guides and tools to make it less so. The Digital Land Explorer demonstrates how data that’s been mapped can be used.
 
 ### Better specifications
 
