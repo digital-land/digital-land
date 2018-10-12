@@ -5,7 +5,7 @@ Housing data finds its origin in real-world needs – the needs of the community
 
 Legislation gives rise to what we term land and housing ‘concerns’, of which there are more than 300.
 
-These concerns comprise:
+These comprise:
 
 * “constraints” for planning (eg tree preservation orders)
 * “charges” for conveyancing
