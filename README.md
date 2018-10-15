@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/digital-land.svg?branch=master)](https://travis-ci.org/digital-land)
 
 # Digital Land
 
