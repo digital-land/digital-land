@@ -16,13 +16,6 @@ To build/run site you need:
 
 ## Development
 
-Before you start working on the site for the first time, clone the github pages repo into a subdirectory inside
-this project, called 'public'
-
-- `git clone git@github.com:digital-land/digital-land.github.io.git public`
-
-* Note we are not using a git submodule for this as suggested in Hugo docs as it just did not work.
-
 To develop the site locally, run:
 
 - `gulp` to generate css and run watch task
@@ -37,8 +30,8 @@ Alternatively, run:
 See [creating content](CREATE-CONTENT.md) documentation.
 
 
-## Deploy site
+## Deploy of site
 
-There is a script to deploy the site to the github pages repo. You need to have cloned [https://github.com/digital-land/digital-land.github.io](https://github.com/digital-land/digital-land.github.io) into a subdirectory, named 'public'. See details above.
+On commit to master there is a travis build that generates deploys the static pages using the deploy.sh script in this repo.
 
-- To deploy the site run `./deploy.sh`
+If you absolutely must deploy manually, delete any public directory you have first, then clone the digital-land.github.io repo (see above), make your changes and then run `./deploy.sh` Otherwise let travis take care of it
