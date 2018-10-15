@@ -1,5 +1,5 @@
 ---
-title: "Developer Contributions"
+title: "Developer contributions"
 status: alpha
 ---
 
@@ -13,46 +13,38 @@ This page outlines how the Developer Contribution policy team are working with p
 
 ### Our hypothesis
 
-Some words about our hypothesis
+Section 106 contributions are published as documents. We believed that by offering planning authorities a simple form they'd be able to identify pertinent information from within the document and publish it as summary data.
 
 ### What we tested
-* [collecting Section 106 executive summary](https://section-106-prototype.cloudapps.digital/create-section106)
+* [a tool to collect Section 106 data](https://section-106-prototype.cloudapps.digital/create-section106)
 
-### What we've learnt
+### What we've learned
 
-Some words about what we've learnt
-
-## Creating a viability assessment summary
-
-### Our hypothesis
-
-Some words about our hypothesis
-
-### What we tested
-
-* [create a viability assessment summary](https://section-106-prototype.cloudapps.digital/viability/create-summary)
-
-### What we learnt
-
-Some words about what we've learnt
+Through speaking with planning authorities we learned that many were already using third party tools to help them manage their developer contributions. Asking to double-key the much of the same data into an additional form would become burdensome and likely lead to a poor quality of data.
 
 ## An index of viability assessments
 
 ### Our hypothesis
 
-Some words about our hypothesis
+Finding published viability assessments is extremely difficult. We believe that if we provide an index of viability assessments, along with key information then this will be of value to local authorities and interested members of the community.
 
 ### What we tested
 
-* [index of viability asessments](https://section-106-prototype.cloudapps.digital/viability/)
+* [an index of viability assessments](https://section-106-prototype.cloudapps.digital/viability/)
 
-### What we learnt
+### What we learned
 
-Some words about what we've learnt
+This hypothesis is currently untested.  
+
+# Next steps
+
+* explore the feasibility of getting Section 106 data out of third party tools
+* design and test an aggregated view of the developer contribution data
+* work with planning authorities to populate and test the index of viability assessments
 
 # Data fields
 
-Specification not yet defined.
+The specification has not yet defined.
 
 # Publications
 
