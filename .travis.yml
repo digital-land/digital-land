@@ -10,7 +10,7 @@ before_install:
 
 before_script:
   - npm install
-  - git clone git@github.com:digital-land/digital-land.github.io.git public
+  - git clone https://github.com/digital-land/digital-land.github.io.git public
 
 cache:
   directories:
