@@ -101,7 +101,6 @@ ENV/
 .mypy_cache/
 
 # HUGO
-/public
 /static/css/*
 
 /node_modules
