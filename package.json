@@ -7,7 +7,7 @@
     "start": "gulp scss && hugo serve -D & gulp watch",
     "scss": "gulp scss",
     "watch": "gulp watch",
-    "build": "rm -rf public && gulp scss && hugo"
+    "build": "rm -rf public/css && gulp scss"
   },
   "repository": {
     "type": "git",
