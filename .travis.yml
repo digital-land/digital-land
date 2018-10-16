@@ -13,7 +13,7 @@ cache:
   directories:
   - node_modules
 script:
-- npm run scss
+- npm run build
 deploy:
   provider: script
   script: bash ./deploy.sh
