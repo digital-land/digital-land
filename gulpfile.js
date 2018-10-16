@@ -5,7 +5,7 @@ var clean         = require('gulp-clean');
 // set paths ...
 var config = {
 	scssPath: "src/scss",
-	destPath: "static/css",
+	destPath: "static/stylesheets",
   assetPath: "static/govuk-frontend/assets"
 }
 

@@ -102,7 +102,7 @@ ENV/
 
 # HUGO
 /public
-/static/css/*
+/static/stylesheets/*
 
 /node_modules
 
