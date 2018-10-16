@@ -3,5 +3,4 @@ title: Data Maintainer
 abbr: Data Maintainer
 ---
 
-People who submit or update data. Developers who must submit data to comply with regulatory requirements, for example. Or local authorities who collect and maintain land and housing data.
-Resources here include tools for validating datasets and guidance on ensuring compliance.
+Developers complying with regulations, local authorities collecting land and housing data, and others submitting or updating data.
