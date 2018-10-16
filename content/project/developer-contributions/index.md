@@ -7,6 +7,8 @@ The [National Planning Policy Framework] (https://www.gov.uk/government/publicat
 
 This page outlines how the Developer Contribution policy team are working with planning authorities to design and test a new data standard for [Section 106 agreements](/glossary/section-106/) and [viability assessments](/glossary/viability-assessment).
 
+We have published [a blog post](https://mhclgdigital.blog.gov.uk/2018/10/16/making-developer-contributions-open-and-transparent/) with more information about this project.
+
 {{< govuk-section-break "xl" >}}
 
 ## Prototypes
@@ -54,10 +56,10 @@ This hypothesis is currently untested.
 
 ## Data fields
 
-The specification has not yet defined.
+The specification has not yet been defined.
 
 {{< govuk-section-break "xl" >}}
 
 ## Publications
 
-There are no publication for this specification.
+There are no publications for this specification.
