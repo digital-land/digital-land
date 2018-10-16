@@ -109,3 +109,13 @@ $govuk-images-path: '/govuk-frontend/assets/images/';
     border-bottom: none;
   }
 }
+.prototype-summary {
+  @include govuk-responsive-padding(6, "top");
+  .prototype-summary--heading {
+    margin-top: 0;
+  }
+  .prototype-progress-flag {
+    margin-bottom: 5px;
+    display: inline-block;
+  }
+}

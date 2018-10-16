@@ -24,6 +24,11 @@
 
 .in-progress-flag {
   color: govuk-colour("turquoise");
+  &--inverse {
+    background: govuk-colour("turquoise");
+    color: #fff;
+    padding: 3px 5px 0;
+  }
 }
 
 .later-flag {
