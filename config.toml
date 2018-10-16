@@ -17,12 +17,8 @@ staticDir = ["static", "src/govuk_template/assets", "src/govuk_elements/assets"]
   currentpage = true
 
   [[params.propositionlinks]]
-  name = "Collector"
-  url = "/prototype/digital-land-collector/"
-
-  [[params.propositionlinks]]
-  name = "Explorer"
-  url = "/prototype/digital-land-explorer/"
+  name = "Projects"
+  url = "/project/"
 
   [[params.propositionlinks]]
   name = "Prototypes"
