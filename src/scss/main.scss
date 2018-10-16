@@ -1,0 +1,112 @@
+// set up constants and imports
+$govuk-fonts-path: '/govuk-frontend/assets/fonts/';
+$govuk-images-path: '/govuk-frontend/assets/images/';
+
+@import "settings/all";
+@import "tools/all";
+@import "helpers/all";
+
+@import "core/all";
+@import "objects/all";
+
+@import "components/all";
+
+@import "utilities/all";
+@import "overrides/all";
+
+// Import all project components
+@import "project-components/blockquote";
+@import "project-components/hero";
+@import "project-components/definition-list";
+@import "project-components/tags";
+
+@import "project-components/prototype-tracking";
+
+@import "project-components/markdown";
+
+// =====================
+// Hacks: or things I can't find in GOVUK design system
+// =====================
+.govuk-body,
+.govuk-body-l {
+  max-width: 30em;
+}
+
+// =====================
+// Project scss
+// =====================
+
+#content img {
+	max-width: 100%;
+}
+
+.heading-flush {
+	border-top: 5px solid govuk-colour(blue);
+	margin-top: 0;
+	padding-top: govuk-em(5, 16);
+  @include govuk-media-query($from: tablet) {
+    padding-top: govuk-em(8, 19);
+  }
+}
+
+.small {
+	font-weight: normal;
+  @include govuk-font($size: 19);
+}
+
+.project-display {
+	.project-display__title {
+		text-align: center;
+		margin-top: 5px;
+	}
+}
+
+.project-meta-data {
+  margin-bottom: govuk-em(30, 16);
+
+  @include govuk-media-query($from: tablet) {
+    margin-bottom: govuk-em(30, 19);
+  }
+}
+
+.pattern-display {
+	@include govuk-responsive-margin(6, "bottom");
+}
+
+.pattern-display-single {
+	max-width: 150px;
+	background: govuk-colour("grey-3");
+	border-radius: 5%;
+}
+
+.pattern-icon {
+	max-width: 200px;
+	background: govuk-colour("grey-3");
+	border-radius: 5%;
+}
+
+.pattern-page-header {
+  @include govuk-responsive-margin(6, "bottom");
+}
+
+.project-page-section {
+  @include govuk-responsive-margin(6, "top");
+}
+
+.prototype-update-container {
+  @include govuk-responsive-padding(6, "top");
+  @include govuk-responsive-padding(6, "bottom");
+  border-bottom: 1px solid govuk-colour(grey-2);
+
+  ul:last-child {
+    margin-bottom: 0;
+  }
+
+  &:first-of-type {
+    @include govuk-responsive-margin(3, "top");
+  }
+
+  &:last-child {
+    border-bottom: none;
+  }
+}

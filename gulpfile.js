@@ -1,6 +1,7 @@
 var gulp          = require("gulp");
 var sass          = require("gulp-sass");
 var clean         = require('gulp-clean');
+var rev           = require('gulp-rev');
 
 // set paths ...
 var config = {
@@ -23,7 +24,10 @@ gulp.task("scss", ['clean-css'], function() {
 			'src/govuk_template/assets/stylesheets',
 			'src/govuk_elements/assets/sass',
       'src/govuk-frontend']})).on('error', sass.logError)
+    .pipe(rev())
 	.pipe(gulp.dest(config.destPath))
+    .pipe(rev.manifest('manifest.json'))
+    .pipe(gulp.dest('./data'));
 })
 
 // Watch src folder for changes

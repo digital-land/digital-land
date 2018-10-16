@@ -29,7 +29,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     {{ block "head" . }}
-		<link rel="stylesheet" media="all" href="/stylesheets/main.css"/>
+		<link rel="stylesheet" media="all" href="/stylesheets/{{ index .Site.Data.manifest "main.css" }}"/>
 		{{ end }}
 
 
