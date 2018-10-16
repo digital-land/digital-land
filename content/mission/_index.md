@@ -2,11 +2,10 @@
 title: Our mission
 ---
 
-Opening up the housing market to more developers and buyers requires innovation and efficiency, which in turn require high quality land and housing data. But that data isn’t easy to find, use, create or trust. As a result it’s more difficult for:
+The Digital Land team investigates ways to make land and housing data easier to find, use and trust so that:
 
-* proptech companies to create digital tools that make it easier to develop, sell, buy or rent 
-* developers to navigate regulations and find opportunities to build
-* government to make policies and services that work for everyone
+* proptech companies can create digital tools that make it easier to develop, sell, buy or rent
+* land/housing developers can comply with regulations and find opportunities to build
+* government can create policies and services that work for everyone
 
-Digital Land is working to improve the quality and availability of data for four main groups of users.
 
