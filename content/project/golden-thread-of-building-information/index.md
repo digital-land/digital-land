@@ -9,19 +9,13 @@ In the 2018 [Independent Review of Building Regulations and Fire Safety](https:/
 
 ## Prototypes
 
-### Prototype name
-
-#### Our hypothesis
-
-
-#### What we tested
-
-
-#### What we've learned
+We've not yet started to prototype for this project.
 
 {{< govuk-section-break "xl" >}}
 
 ## Next steps
+
+* we're meeting with the team from the Building Safety Programme to demo the work we've done so far around [Developer Contributions](/project/developer-contributions/) and [Brownfield Sites](/project/brownfield-sites/)
 
 {{< govuk-section-break "xl" >}}
 

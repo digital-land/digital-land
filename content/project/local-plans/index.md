@@ -9,15 +9,7 @@ Overview here...
 
 ## Prototypes
 
-### Prototype name
-
-#### Our hypothesis
-
-
-#### What we tested
-
-
-#### What we've learned
+We've not yet started prototype for this project.
 
 {{< govuk-section-break "xl" >}}
 
