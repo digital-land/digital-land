@@ -1,23 +1,23 @@
-var gulp          = require("gulp");
-var sass          = require("gulp-sass");
-var clean         = require('gulp-clean');
-var rev           = require('gulp-rev');
+const gulp          = require("gulp");
+const sass          = require("gulp-sass");
+const clean         = require('gulp-clean');
+const rev           = require('gulp-rev');
 
 // set paths ...
-var config = {
+const config = {
 	scssPath: "src/scss",
 	destPath: "static/stylesheets",
   assetPath: "static/govuk-frontend/assets"
 }
 
 // Delete our old css files
-gulp.task('clean-css', function () {
+gulp.task('clean-css', function cleanCss () {
   return gulp.src('static/css/**/*', {read: false})
     .pipe(clean());
 });
 
 // compile scss to CSS
-gulp.task("scss", ['clean-css'], function() {
+gulp.task("scss", gulp.series('clean-css'), function compileSass () {
 	return gulp.src( config.scssPath + '/*.scss')
 	.pipe(sass({outputStyle: 'expanded',
 		includePaths: [ 'src/govuk_frontend_toolkit/stylesheets',
@@ -31,15 +31,15 @@ gulp.task("scss", ['clean-css'], function() {
 })
 
 // Watch src folder for changes
-gulp.task("watch", ["scss"], function () {
+gulp.task("watch", gulp.series("scss"), function watchAssets () {
   gulp.watch("src/scss/**/*", ["scss"])
 });
 
-gulp.task('copy-assets', function() {
+gulp.task('copy-assets', function copyAssets () {
   gulp.src('src/govuk-frontend/assets/**/*')
     .pipe(gulp.dest(config.assetPath));
 });
 
-gulp.task("generate", ["copy-assets", "scss"]);
+gulp.task("generate", gulp.series("copy-assets", "scss"));
 // Set watch as default task
-gulp.task("default", ["watch"]);
+gulp.task("default", gulp.series("watch"));
