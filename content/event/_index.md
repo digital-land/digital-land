@@ -6,6 +6,8 @@ title: Events
 **Time:** 1 November 2018  
 **Location:** First Floor SW, Fry Building
 
+We plan to show more work on collecting concerns, progress on developer contributions, and testing the brownfield sites registers with policy and local authority users.
+
 ### Show and Tell
 **Time:** 18 October 2018  
 **Location:** First Floor SW, Fry Building
