@@ -7,44 +7,56 @@ All local authorities must [publish a register of brownfield sites](https://www.
 
 We were interested in learning about how this policy was implemented, the process that local authorities follow to publish the data, and whether there were any tools that we could build to help people collect and maintain the data.
 
-# Prototypes
+{{< govuk-section-break "xl" >}}
 
-## A way of validating the collected data
+## Prototypes
 
-### Our hypothesis
+{{< prototype-heading "A way of validating the collected data" >}}
+  {{< progress-tag "in-progress" >}}In progress{{< /progress-tag >}}
+{{< /prototype-heading >}}
+
+#### Our hypothesis
 
 Through speaking with local authorities we understood that often times the person responsible for collecting the brownfield site data
 
-### What we tested
+#### What we tested
 * [validation tool for brownfield sites](https://brownfield-sites-validator.cloudapps.digital/)
 
-### What we've learned
+#### What we've learned
 
 Some words about what we've learned
 
-## A way of fixing errors
+{{< prototype-heading "A way of fixing errors" >}}
+  {{< progress-tag "in-progress" >}}In progress{{< /progress-tag >}}
+{{< /prototype-heading >}}
 
 A lot of the errors we identified were common mistakes such as switching the GeoX and GeoY co-ordinates, or removing empty rows. There are a number of things that we can fix automatically and provide an improved .csv file.
 
-### Our hypothesis
+#### Our hypothesis
 
 We believe that by providing the maintainers of brownfield site data a way of automatically fixing common problems that this will result to an improved quality of data.
 
-### What we tested
+#### What we tested
 * [validation tool for brownfield sites](https://brownfield-sites-validator.cloudapps.digital/)
 
-### What we've learned
+#### What we've learned
 
 Some words about what we've learned
 
-# Next steps
+{{< govuk-section-break "xl" >}}
+
+## Next steps
 
 * next we'll be doing these things...
 
-# Data fields
+{{< govuk-section-break "xl" >}}
+
+## Data fields
 
 Specification not yet defined.
 
-# Publications
+{{< govuk-section-break "xl" >}}
+
+## Publications
 
 There are no publication for this specification.

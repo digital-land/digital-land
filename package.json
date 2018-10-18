@@ -26,6 +26,7 @@
     "gulp-sass": "^4.0.1"
   },
   "dependencies": {
+    "hugo": "0.0.3",
     "lodash": "^4.17.10"
   }
 }
