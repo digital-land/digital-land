@@ -20,13 +20,9 @@
   },
   "homepage": "https://github.com/communitiesuk/digital-land#readme",
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-clean": "^0.4.0",
     "gulp-rev": "^8.1.1",
     "gulp-sass": "^4.0.1"
-  },
-  "dependencies": {
-    "hugo": "0.0.3",
-    "lodash": "^4.17.10"
   }
 }
