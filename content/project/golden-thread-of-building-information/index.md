@@ -3,36 +3,34 @@ title: "Golden thread of building information"
 status: alpha
 ---
 
-Overview here...
+In the 2018 [Independent Review of Building Regulations and Fire Safety](https://www.gov.uk/government/publications/independent-review-of-building-regulations-and-fire-safety-final-report) there is a recommendation that there is a 'digital record' for buildings. We are working with the Building Safety Programme to understand what a 'digital record' might look like, and how the data could be collected and made available.
 
-# Prototypes
+{{< govuk-section-break "xl" >}}
 
-## Prototype name
+## Prototypes
 
-### Our hypothesis
+### Prototype name
 
-hypothesis
-
-### What we tested
-* [a link to the thing](https://digital-land.github.io/prototype)
-
-### What we've learned
-
-What we learned.
+#### Our hypothesis
 
 
+#### What we tested
 
-# Next steps
 
-* do 1
-* do 2
-* do 3
-* do 4
+#### What we've learned
 
-# Data fields
+{{< govuk-section-break "xl" >}}
+
+## Next steps
+
+{{< govuk-section-break "xl" >}}
+
+## Data fields
 
 The specification has not yet defined.
 
-# Publications
+{{< govuk-section-break "xl" >}}
+
+## Publications
 
 There are no publication for this specification.

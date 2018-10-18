@@ -5,34 +5,32 @@ status: alpha
 
 Overview here...
 
-# Prototypes
+{{< govuk-section-break "xl" >}}
 
-## Prototype name
+## Prototypes
 
-### Our hypothesis
+### Prototype name
 
-hypothesis
-
-### What we tested
-* [a link to the thing](https://digital-land.github.io/prototype)
-
-### What we've learned
-
-What we learned.
+#### Our hypothesis
 
 
+#### What we tested
 
-# Next steps
 
-* do 1
-* do 2
-* do 3
-* do 4
+#### What we've learned
 
-# Data fields
+{{< govuk-section-break "xl" >}}
+
+## Next steps
+
+{{< govuk-section-break "xl" >}}
+
+## Data fields
 
 The specification has not yet defined.
 
-# Publications
+{{< govuk-section-break "xl" >}}
+
+## Publications
 
 There are no publication for this specification.
