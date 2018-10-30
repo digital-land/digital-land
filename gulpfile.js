@@ -36,7 +36,7 @@ gulp.task("watch", gulp.series("scss"), function watchAssets () {
 });
 
 gulp.task('copy-assets', function copyAssets () {
-  gulp.src('src/govuk-frontend/assets/**/*')
+  return gulp.src('src/govuk-frontend/assets/**/*')
     .pipe(gulp.dest(config.assetPath));
 });
 
