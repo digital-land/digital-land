@@ -4,7 +4,7 @@
   "description": "hugo server -D",
   "main": "index.js",
   "scripts": {
-    "start": "gulp scss && hugo serve -D --disableFastRender& gulp watch",
+    "start": "gulp scss && hugo serve -D --disableFastRender & gulp watch",
     "scss": "gulp scss",
     "watch": "gulp watch",
     "build": "gulp scss && hugo"
