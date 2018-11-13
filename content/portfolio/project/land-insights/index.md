@@ -1,5 +1,5 @@
 ---
-title: Land insights
+title: LandInsight
 date: 2018-05-15T14:59:57+08:00
 draft: false
 project_url: "https://www.landinsight.io/"
