@@ -3,7 +3,7 @@ title: Blog posts
 ---
 
 ### [It can be difficult to make data from information](https://mhclgdigital.blog.gov.uk/2018/10/25/data-and-information/)
-**By:** Paul Downey
+**By:** Paul Downey  
 **Posted on:** 25 October 2018
 
 Based on our learnings from discovery, this is the first in a series of blog posts that explains the points of friction that our users face when trying to use housing data. 
