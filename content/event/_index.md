@@ -26,7 +26,7 @@ We showed some progress on the [digital land website](https://digital-land.githu
 
 The team visited the excellent <a href="https://wellcomecollection.org/exhibitions/Wk4sPSQAACcANwrX">Living with Buildings</a> exhibition ahead of retrospective and <a href="http://www.jamiearnold.com/blog/2014/07/22/seven-questions-to-build-a-roadmap">roadmapping</a> sessions in Camden. We were particularly surprised by the invective <a href="https://en.wikipedia.org/wiki/Charles_Booth_(social_reformer)">Charles Booth</a> used on his poverty maps. 
 
-<a href="https://www.flickr.com/photos/psd/45382997651/" title="Living with buildings exhibition at the Wellcome Collection sketchnotes by psd"><img src="https://farm2.staticflickr.com/1940/45382997651_b9853d331e_z.jpg" width="640" height="463" alt="Living with buildings exhibition at the Wellcome Collection sketchnotes by psd"></a>
+<a href="https://www.flickr.com/photos/psd/45382997651/" title="Living with buildings exhibition at the Wellcome Collection sketchnotes by psd"><img src="https://farm2.staticflickr.com/1940/45382997651_b9853d331e_z.jpg" alt="Living with buildings exhibition at the Wellcome Collection sketchnotes by psd"></a>
 
 ### Show and Tell
 **Time:** 4 October 2018  
@@ -34,7 +34,7 @@ The team visited the excellent <a href="https://wellcomecollection.org/exhibitio
 
 A joint show and tell with the <a href="https://mhclgdigital.blog.gov.uk/category/local-digital-team/">Local Digital Team</a>. We demonstrated the updates to the [brownfield site validation tool](https://digital-land.github.io/project/brownfield-sites/) and gave an overview of the proposed information architecture of the [digital land website](https://digital-land.github.io/)
 
-<a href="https://www.flickr.com/photos/psd/44683395594/in/dateposted-ff/" title="content-plan"><img src="https://farm2.staticflickr.com/1902/44683395594_6057937641_z.jpg" width="640" height="458" alt="content-plan"></a>
+<a href="https://www.flickr.com/photos/psd/44683395594/in/dateposted-ff/" title="content-plan"><img src="https://farm2.staticflickr.com/1902/44683395594_6057937641_z.jpg" alt="content-plan"></a>
 
 ### Show and Tell
 **Time:** 13 September 2018  
@@ -42,7 +42,7 @@ A joint show and tell with the <a href="https://mhclgdigital.blog.gov.uk/categor
 
 A show and tell hosted by the planning directorate. Paul <a href="https://twitter.com/psd/status/1040230532372684800">Tweeted the agenda</a>.
 
-<a href="https://twitter.com/psd/status/1040230532372684800"><img src="https://pbs.twimg.com/media/Dm-j79ZW4AUNwdI.jpg" width="640" alt="agenda"></a>
+<a href="https://twitter.com/psd/status/1040230532372684800"><img src="https://pbs.twimg.com/media/Dm-j79ZW4AUNwdI.jpg" alt="agenda"></a>
 
 
 ### Show and Tell
@@ -51,7 +51,7 @@ A show and tell hosted by the planning directorate. Paul <a href="https://twitte
 
 We showed early work on a brownfield site register validator [brownfield site validation tool](https://digital-land.github.io/project/brownfield-sites/). Paul introduced a concept model for information and data.
 
-<a href="https://www.flickr.com/photos/psd/43579359315/in/dateposted-ff/" title="Information model"><img src="https://farm2.staticflickr.com/1862/43579359315_de55e2bbc6_z.jpg" width="480" height="640" alt="Information model"></a>
+<a href="https://www.flickr.com/photos/psd/43579359315/in/dateposted-ff/" title="Information model"><img src="https://farm2.staticflickr.com/1862/43579359315_de55e2bbc6_z.jpg" alt="Information model"></a>
 
 ### Show and Tell
 **Time:** 30 August 2018  
