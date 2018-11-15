@@ -3,10 +3,16 @@ title: Events
 ---
 
 ### Show and Tell
+**Time:** 15 November 2018  
+**Location:** First Floor SW, Fry Building
+
+We plan to show how we're progressing with the data standard for developer contributions, the updated guidance we've been writing for brownfield site registers, and some enhancements to the validator tool.
+
+### Show and Tell
 **Time:** 1 November 2018  
 **Location:** First Floor SW, Fry Building
 
-We plan to show more work on collecting concerns, progress on developer contributions, and testing the brownfield sites registers with policy and local authority users.
+We showed more work on collecting concerns, progress on developer contributions, and testing the brownfield sites registers with policy and local authority users.
 
 ### Show and Tell
 **Time:** 18 October 2018  

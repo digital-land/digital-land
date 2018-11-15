@@ -2,6 +2,12 @@
 title: Blog posts
 ---
 
+### [It can be difficult to make data from information](https://mhclgdigital.blog.gov.uk/2018/10/25/data-and-information/)
+**By:** Paul Downey
+**Posted on:** 25 October 2018
+
+Based on our learnings from discovery, this is the first in a series of blog posts that explains the points of friction that our users face when trying to use housing data. 
+
 ### [Making developer contributions open and transparent](https://mhclgdigital.blog.gov.uk/2018/10/16/making-developer-contributions-open-and-transparent/)
 **By:** Matt Lucht  
 **Posted on:**  16 October 2018 
