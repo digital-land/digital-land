@@ -6,9 +6,25 @@ title: Events
 **Time:** 15 November 2018  
 **Location:** First Floor SW, Fry Building
 
-Matt showed his approach for wrangling the needs for [developer contributions](/project/developer-contributions) data using a shared-document. Paul walked through the data model which is now much simpler as a result. Matt has also been prototyping a developer contributions dashboard using Google Data Studio and a GOV.UK-ish stylesheet. Michael showed new guidance he has been drafting to help planning authorities publish their brownfield site registers, and some enhancements to the validator tool.
+Matt showed his approach for wrangling people's needs of [developer contributions](/project/developer-contributions) data using a shared-document. Paul thinks this approach is worthy of a blog post.
+
+<a href="https://www.flickr.com/photos/psd/45180076944/" title="Needs wrangling"><img src="https://farm5.staticflickr.com/4869/45180076944_6cb0492714_c.jpg" alt="Needs wrangling"></a>
+
+Paul walked through the data model which is now much simpler as a result of Matt's work.
 
 <a href="https://www.flickr.com/photos/psd/45138775504/" title="Data model"><img src="https://farm5.staticflickr.com/4903/45138775504_c9aebaba6b_c.jpg" alt="Data model"></a>
+
+Matt has also been prototyping a developer contributions dashboard using Google Data Studio and a GOV.UK-ish stylesheet. Michael showed new guidance he has been drafting to help planning authorities publish their brownfield site registers, and some enhancements to the validator tool. Paul showed a flyer he'd made for an internal event.
+
+<a href="https://www.flickr.com/photos/psd/44088045760/" title="Digital Land Services flyer"><img src="https://farm5.staticflickr.com/4895/44088045760_a158158759_c.jpg" alt="Digital Land Services flyer"></a>
+
+### Digital Leaders Roundtable
+**Time:** 15 November 2018  
+**Location:** Geovation, Sutton Yard
+
+Paul presented the team's work at an event convened by the [housing minister](https://www.gov.uk/government/ministers/minister-of-state-minister-for-housing) and leaders from across the housing, planning and PropTech industry. He learnt a lot from the discussion [[slides](https://docs.google.com/presentation/d/1RdT7Z8wvPGyfTTD8_7fXIRJ6OatA9GnBl2zbmi0OfTY/edit?usp=sharing)].
+
+<a href="https://www.flickr.com/photos/psd/44991609315/" title="Digital Leaders Roundtable"><img src="https://farm5.staticflickr.com/4847/44991609315_be138a1284_c.jpg" alt="Digital Leaders Roundtable"></a>
 
 ### Show and Tell
 **Time:** 1 November 2018  
@@ -46,7 +62,6 @@ A show and tell hosted by the planning directorate. Paul <a href="https://twitte
 
 <a href="https://twitter.com/psd/status/1040230532372684800"><img src="https://pbs.twimg.com/media/Dm-j79ZW4AUNwdI.jpg" alt="agenda"></a>
 
-
 ### Show and Tell
 **Time:** 6 September 2018  
 **Location:** Ground Floor SE, Fry Building
@@ -60,6 +75,8 @@ We showed early work on a brownfield site register validator [brownfield site va
 **Location:** Ground Floor SE, Fry Building
 
 Playback of user research visits to Waltham Forest, Southwalk, Lambeth and Islington councils.
+
+<a href="https://www.flickr.com/photos/psd/45180284194/" title="Users"><img src="https://farm5.staticflickr.com/4849/45180284194_cbc2f44d1f_c.jpg" alt="Users"></a>
 
 ### Show and Tell
 **Time:** 23 August 2018  
