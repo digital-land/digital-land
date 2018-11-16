@@ -13,54 +13,14 @@
 
     <div class="govuk-width-container index-section">
 
-      <div class="index-section">
-        <h3 class="govuk-heading-l">Our mission</h3>
-        {{ with .Site.GetPage "/mission/_index.md" }}
-          <div class="govuk-body">{{ .Content }}</div>
-        {{ end }}
-      </div>
-
-      <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible" />
-
-      <h3 class="govuk-heading-l">Users of land and housing data</h3>
-      <div class="govuk-grid-row">
-        <div class="govuk-grid-column-full">
-          <p class="govuk-body">Digital Land is developing data resources for 4 main groups of users:</p>
-          <ul class="govuk-list govuk-list--bullet">
-            <li><a href="/users/proptech">Proptech developers</a>
-              {{ with .Site.GetPage "/users/proptech.md" }}
-              <div class="govuk-body">{{ .Content }}</div></li>
-            {{ end }}
-            </li>
-            <li><a href="/users/data-maintainer">Data maintainers</a>
-              {{ with .Site.GetPage "/users/data-maintainer.md" }}
-              <div class="govuk-body">{{ .Content }}</div></li>
-            {{ end }}
-            </li>
-            <li><a href="/users/data-modeller">Data modellers</a>
-              {{ with .Site.GetPage "/users/data-modeller.md" }}
-              <div class="govuk-body">{{ .Content }}</div></li>
-            {{ end }}
-            </li>
-            <li><a href="/users/policy-maker">Policy makers</a>
-              {{ with .Site.GetPage "/users/policy-maker.md" }}
-              <div class="govuk-body">{{ .Content }}</div></li>
-            {{ end }}
-            </li>
-               </span>
-            </li>
-          </ul>
-        </div>
-      </div>  
-
-      <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible" />
-
       <h3 class="govuk-heading-l">Resources</h3>
       <div class="govuk-grid-row">
         <div class="govuk-grid-column-two-thirds">
           <ul class="govuk-list govuk-list--bullet">
             <li><a href="/overview">Overview</a>
               <span class="govuk-caption-m">A brief summary of the challenges of improving land and housing data quality and our hypotheses.</span></li>
+            <li><a href="/users">Users</a>
+              <span class="govuk-caption-m">The groups of users the team has identified for digital land services.</span></li>
             <li><a href="/project">Projects</a>
               <span class="govuk-caption-m">These are the current areas the Digital Land team is focusing on in an effort to improve land and housing data.</span></li>
             <li><a href="/prototype">Prototypes</a>
