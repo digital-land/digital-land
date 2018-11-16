@@ -6,7 +6,9 @@ title: Events
 **Time:** 15 November 2018  
 **Location:** First Floor SW, Fry Building
 
-We plan to show how we're progressing with the data standard for developer contributions, the updated guidance we've been writing for brownfield site registers, and some enhancements to the validator tool.
+Matt showed his approach for wrangling the needs for [developer contributions](/project/developer-contributions) data using a shared-document. Paul walked through the data model which is now much simpler as a result. Matt has also been prototyping a developer contributions dashboard using Google Data Studio and a GOV.UK-ish stylesheet. Michael showed new guidance he has been drafting to help planning authorities publish their brownfield site registers, and some enhancements to the validator tool.
+
+<a href="https://www.flickr.com/photos/psd/45138775504/" title="Data model"><img src="https://farm5.staticflickr.com/4903/45138775504_c9aebaba6b_c.jpg" alt="Data model"></a>
 
 ### Show and Tell
 **Time:** 1 November 2018  
