@@ -61,7 +61,9 @@ We haven’t yet tested the index with users.
 
 ## Data fields
 
-The specification has not yet been defined.
+We want to start with the most minimal data model that addresses the user needs we've identified. We're working on a proposed data specification at the moment, but here's an early view of what we're thinking about.
+
+<a href="https://www.flickr.com/photos/psd/45138775504/" title="Data model"><img src="https://farm5.staticflickr.com/4903/45138775504_c9aebaba6b_c.jpg" alt="Data model"></a>
 
 {{< govuk-section-break "xl" >}}
 
