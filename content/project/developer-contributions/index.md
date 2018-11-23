@@ -79,6 +79,13 @@ We plan to explore the following by prototyping tools and by testing with and co
 
 ## Help us improve developer contributions
 
+Your input is invaluable to our efforts to create a data standard for developer contributions that:
+
+* makes the data more findable and useable for planning authorities
+* doesn’t disrupt your current processes 
+
+Please share your thoughts on the proposed data standard and the tools and guidance we’re prototyping here by completing [this feedback form](https://goo.gl/forms/aVckvO6woUxUIEjF2).
+
 {{< govuk-section-break "xl" >}}
 
 ## Data fields
