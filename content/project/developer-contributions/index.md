@@ -7,7 +7,7 @@ The [National Planning Policy Framework] (https://www.gov.uk/government/publicat
 
 The way planning authorities currently publish these varies, and the inconsistent formats means the data is difficult to compare and hard to consume in bulk. The process of compiling and publishing these is also time-consuming for planning authorities.
 
-The Digital Land team and the Developer Contribution policy team at MHCLG are working to address these problems. We’re working with planning authorities to design and test a new data standard for [Section 106 agreements](/glossary/section-106/) and [viability assessments](/glossary/viability-assessment). We’re also developing tools and guidance to help the people involved in collecting and making the data available. We’re consulting those users and will be testing our prototypes with them.
+The Digital Land team and the Developer Contribution policy team at MHCLG are trying to fix this. We’re working with planning authorities to design and test a new data standard for [Section 106 agreements](/glossary/section-106/) and [viability assessments](/glossary/viability-assessment). We’re also developing tools and guidance to help the people involved in collecting and making the data available.
 
 We have published [a blog post](https://mhclgdigital.blog.gov.uk/2018/10/16/making-developer-contributions-open-and-transparent/) with more information about this project.
 
@@ -28,7 +28,7 @@ Section 106 contributions are published as documents. Would offering planning au
 
 #### What we've learned
 
-Through speaking with planning authorities we learned that many were already using third party tools to help them manage their developer contributions. Asking to double-key much of the same data into an additional form would become burdensome and likely lead to a poor quality of data.
+Many planning authorities are already using third party tools to help manage their developer contributions. Asking to double-key much of the same data into an additional form would become burdensome and likely lead to a poor quality of data.
 
 {{< prototype-heading "An index of viability assessments" >}}
   {{< progress-tag "in-progress" >}}In progress{{< /progress-tag >}}
@@ -36,7 +36,7 @@ Through speaking with planning authorities we learned that many were already usi
 
 #### Questions we're asking
 
-Finding published viability assessments is extremely difficult. Would providing an index of viability assessments, along with key information be of value to local authorities and interested members of the community?
+Finding published viability assessments is extremely difficult. Would providing an index of viability assessments, along with important information, be of value to local authorities and interested members of the community?
 
 #### What we tested
 
@@ -46,16 +46,38 @@ Finding published viability assessments is extremely difficult. Would providing 
 
 We haven’t yet tested the index with users.
 
+{{< prototype-heading "Infrastructure funding dashboard" >}}
+  {{< progress-tag "in-progress" >}}In progress{{< /progress-tag >}}
+{{< /prototype-heading >}}
+
+#### Questions we're asking
+
+Will presenting what contribution agreements have been made, where funds have been allocated, and whether money has been spent help answer questions from the community, local authorities and government? 
+
+#### What we tested
+
+* [a visualisation of developer contribution data](https://section-106-prototype.cloudapps.digital/developer-contributions/section106-wide)
+
+#### What we learned
+
+We haven’t yet tested the dashboard with users.
+
+
 {{< govuk-section-break "xl" >}}
 
 ## Upcoming areas of investigation
 
-* explore the feasibility of getting Section 106 data out of third party tools
-* design and test an aggregated view of the developer contribution data
-* work with planning authorities to populate and test the index of viability assessments
+We plan to explore the following by prototyping tools and by testing with and consulting people involved with developer contributions:
+
+* Extracting Section 106 data from third party tools
+* An index of viability assessments (we will work with planning authorities to populate and test this)
 * determine whether tracking projects is useful
 * determine if ‘developer contributions’ is the correct terminology to use
 
+
+{{< govuk-section-break "xl" >}}
+
+## Help us improve developer contributions
 
 {{< govuk-section-break "xl" >}}
 
