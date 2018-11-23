@@ -69,9 +69,9 @@ We haven’t yet tested the dashboard with users.
 
 We plan to explore the following by prototyping tools and by testing with and consulting people involved with developer contributions:
 
-* Extracting Section 106 data from third party tools
-* An index of viability assessments (we will work with planning authorities to populate and test this)
-* Determine whether tracking projects is useful
+* Is it possible to extract Section 106 data from third party tools?
+* What do planning authorities need from an index of viability assessments?
+* Would it be useful to track contributions at a project level?
 * Determine if ‘developer contributions’ is the correct terminology to use
 * Is it possible to have a standardised set of contribution purposes?
 * What dates are important and do we need to capture them?
