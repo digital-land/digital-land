@@ -71,8 +71,12 @@ We plan to explore the following by prototyping tools and by testing with and co
 
 * Extracting Section 106 data from third party tools
 * An index of viability assessments (we will work with planning authorities to populate and test this)
-* determine whether tracking projects is useful
-* determine if ‘developer contributions’ is the correct terminology to use
+* Determine whether tracking projects is useful
+* Determine if ‘developer contributions’ is the correct terminology to use
+* Is it possible to have a standardised set of contribution purposes?
+* What dates are important and do we need to capture them?
+* How do we capture non-financial obligations as data?
+
 
 
 {{< govuk-section-break "xl" >}}
