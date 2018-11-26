@@ -77,19 +77,6 @@ We plan to explore the following by prototyping tools and by testing with and co
 * What dates are important and do we need to capture them?
 * How do we capture non-financial obligations as data?
 
-
-
-{{< govuk-section-break "xl" >}}
-
-## Help us improve developer contributions
-
-Your input is invaluable to our efforts to create a data standard for developer contributions that:
-
-* makes the data more findable and useable for planning authorities
-* doesn’t disrupt your current processes 
-
-Please share your thoughts on the proposed data standard and the tools and guidance we’re prototyping here by completing [this feedback form](https://goo.gl/forms/aVckvO6woUxUIEjF2).
-
 {{< govuk-section-break "xl" >}}
 
 ## Data fields
@@ -103,3 +90,14 @@ We want to start with the most minimal data model that addresses the user needs 
 ## Publications
 
 There are no publications for this specification.
+
+{{< govuk-section-break "xl" >}}
+
+## Help us improve developer contributions
+
+Your input is invaluable to our efforts to create a data standard for developer contributions that:
+
+* makes the data more findable and useable for planning authorities
+* doesn’t disrupt your current processes 
+
+Please share your thoughts on the proposed data standard and the tools and guidance we’re prototyping here by completing [this feedback form](https://goo.gl/forms/aVckvO6woUxUIEjF2).
