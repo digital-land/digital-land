@@ -3,6 +3,12 @@ title: Events
 ---
 
 ### Show and Tell
+**Time:** 22 November 2018  
+**Location:** City Hall, London
+
+We held a discovery workshop hosted by the GLA with friends from TFL and Southwark to walk through our joint approach for [developer contributions](/project/developer-contributions).
+
+### Show and Tell
 **Time:** 15 November 2018  
 **Location:** First Floor SW, Fry Building
 
