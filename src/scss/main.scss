@@ -30,6 +30,10 @@ $govuk-images-path: '/govuk-frontend/assets/images/';
 	font-family: "HelveticaNeue", "Helvetica Neue", "Arial", "Helvetica", sans-serif !important;
 }
 
+#global-header #logo {
+  background: transparent;
+}
+
 // =====================
 // Hacks: or things I can't find in GOVUK design system
 // =====================
