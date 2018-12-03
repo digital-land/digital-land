@@ -29,9 +29,9 @@ Publishing your organisation’s developer contributions is a 4-step process:
 
 You must create 3 .csv files:
 
-* developer agreements 
-* developer agreement contributions 
-* developer agreement transactions 
+* [developer agreements](#agreement) 
+* [developer agreement contributions ](#contribution)
+* [developer agreement transactions ](#transaction)
 
 Each of these files must:
 
@@ -42,7 +42,7 @@ Each of these files must:
 
 For general information on creating a .csv file see the W3C’s [CSVs on the web: a primer](http://w3c.github.io/csvw/primer/). 
 
-### Developer agreements
+### Developer agreements<a name="agreement"></a>
 
 Developer agreements must be listed in a .csv file named using the following convention:
 
@@ -88,7 +88,7 @@ This is either ‘CIL’ (community investment levy) or ‘S106’ (Section 106)
 
 ***
 
-### Developer agreement contributions
+### Developer agreement contributions<a name="contribution"></a>
 
 Developer agreement contributions must be listed in a .csv file named using the following convention:
 
@@ -130,7 +130,7 @@ Enter the last day the agreement is in effect, in the same format as the entry-d
 
 ***
 
-### Developer agreement transactions
+### Developer agreement transactions<a name="transaction"></a>
 
 Developer agreement transactions must be listed in a .csv file named using the following convention:
 
