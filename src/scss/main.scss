@@ -24,6 +24,16 @@ $govuk-images-path: '/govuk-frontend/assets/images/';
 
 @import "project-components/markdown";
 
+@import "core/helvetica-fixes";
+
+* {
+	font-family: "HelveticaNeue", "Helvetica Neue", "Arial", "Helvetica", sans-serif !important;
+}
+
+#global-header #logo {
+  background: transparent;
+}
+
 // =====================
 // Hacks: or things I can't find in GOVUK design system
 // =====================
@@ -118,5 +128,14 @@ $govuk-images-path: '/govuk-frontend/assets/images/';
   .prototype-progress-flag {
     margin-bottom: 5px;
     display: inline-block;
+  }
+}
+
+// Guidance specific scss
+.column-guidance-container {
+  @include govuk-responsive-margin(6, "bottom");
+  .column-heading {
+    @include govuk-font($size: 19);
+    margin-bottom: 5px;
   }
 }
