@@ -52,39 +52,41 @@ Here YYYMMDD represents the year, month and day you have created the file.
 
 #### Columns
 
-**developer-agreement**
-
+{{% col-guidance name="developer-agreement" %}}
 Enter a unique reference number to identify the agreement. By ‘unique’ this means it should not be used for anything else in your organisation.
+{{% /col-guidance %}}
 
-**organisation**
-
+{{% col-guidance name="organisation" %}}
 The text entered here must be in a specific format as expressed in this list. All text must be in lower case, with no spaces. Norfolk’s local planning authority, for example, would be:
 
 local-authority:nfk
+{{% /col-guidance %}}
 
-**entry-date**
-
+{{% col-guidance name="entry-date" %}}
 Enter the date the record was created, in the format yyyy-mm-dd. For 1 February 2019, for example, you should enter 2019-02-01
+{{% /col-guidance %}}
 
-**start-date**
-
+{{% col-guidance name="start-date" %}}
 Enter the date on which the agreement comes into effect, in the same format as the entry-date column.
+{{% /col-guidance %}}
 
-**end-date**
-
+{{% col-guidance name="end-date" %}}
 Enter the last day the agreement is in effect, in the same format as the entry-date column.
+{{% /col-guidance %}}
 
-**planning-application**
-
+{{% col-guidance name="planning-application" %}}
 Enter the unique reference number for the planning application as it appears on the Planning Portal.
+{{% /col-guidance %}}
 
-**document-url**
+{{% col-guidance name="document-url" %}}
+
 
 Enter the web address that links directly to the actual agreement document.
+{{% /col-guidance %}}
 
-**developer-agreement-type**
-
+{{% col-guidance name="developer-agreement-type" %}}
 This is either ‘CIL’ (community investment levy) or ‘S106’ (Section 106). More developer agreement types will gradually be added to the developer-agreement-type.csv file here.
+{{% /col-guidance %}}
 
 ***
 
@@ -98,35 +100,35 @@ Here YYYMMDD represents the year, month and day you have created the file.
 
 #### Columns
 
-**developer-contribution**
-
+{{% col-guidance name="developer-contribution" %}}
 Enter a unique reference number to identify the contribution. By ‘unique’ this means it should not be used for anything else in
 your organisation.
+{{% /col-guidance %}}
 
-**developer-agreement**
-
+{{% col-guidance name="developer-agreement" %}}
 Enter the unique reference number you’ve used to identify the agreement.
+{{% /col-guidance %}}
 
-**contribution-purpose**
-
+{{% col-guidance name="contribution-purpose" %}}
 Enter the ID for the intended purpose of the developer contribution. This is found in the first column of the
 developer-contribution-purpose.csv file, held by MHCLG here.
+{{% /col-guidance %}}
 
-**amount**
-
+{{% col-guidance name="amount" %}}
 Enter the agreed contribution amount, in pounds and pence but without a currency symbol or commas (for example ‘100000.00’).
+{{% /col-guidance %}}
 
-**entry-date**
-
+{{% col-guidance name="entry-date" %}}
 Enter the date the record was created, in the format yyyy-mm-dd. For 1 February 2019, for example, you should enter 2019-02-01.
+{{% /col-guidance %}}
 
-**start-date**
-
+{{% col-guidance name="start-date" %}}
 Enter the date on which the agreement comes into effect, in the same format as the entry-date column.
+{{% /col-guidance %}}
 
-**end-date**
-
+{{% col-guidance name="end-date" %}}
 Enter the last day the agreement is in effect, in the same format as the entry-date column.
+{{% /col-guidance %}}
 
 ***
 
@@ -140,29 +142,29 @@ Here YYYMMDD represents the year, month and day you have created the file.
 
 #### Columns
 
-**developer-agreement-transaction**
-
+{{% col-guidance name="developer-agreement-transaction" %}}
 Enter a unique reference number to identify the transaction. By ‘unique’ this means it should not be used for anything else in your organisation.
+{{% /col-guidance %}}
 
-**developer-contribution**
-
+{{% col-guidance name="developer-contribution" %}}
 Enter the unique reference number you’ve used to identify the contribution. By ‘unique’ this means it should not be used for anything else in your organisation.
+{{% /col-guidance %}}
 
-**amount**
-
+{{% col-guidance name="amount" %}}
 Enter the amount received from a developer for part or full payment of a contribution (inserting ‘+ve’ before the amount) or the amount spent by a planning authority (inserting ‘-ve’ before the amount), as applicable.
+{{% /col-guidance %}}
 
-**entry-date**
-
+{{% col-guidance name="entry-date" %}}
 Enter the date the record was created, in the format yyyy-mm-dd. For 1 February 2019, for example, you should enter 2019-02-01.
+{{% /col-guidance %}}
 
-**start-date**
-
+{{% col-guidance name="start-date" %}}
 Enter the date on which the entry comes into effect, in the same format as the entry-date column.
+{{% /col-guidance %}}
 
-**end-date**
-
+{{% col-guidance name="end-date" %}}
 Enter the last day the entry is in effect, in the same format as column the entry-date column.
+{{% /col-guidance %}}
 
 ### Step 2: Upload the files to a persistent URL
 
