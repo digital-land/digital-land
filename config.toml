@@ -7,8 +7,9 @@ googleAnalytics = "UA-127566551-1"
 staticDir = ["static", "src/govuk_template/assets", "src/govuk_elements/assets"]
 
 [params]
+  global_header_text = "GOV.UK"
   servicename = "Digital Land"
-    users = ["Data Maintainer", "Data Modeller", "Policy Maker", "PropTech"]
+  users = ["Data Maintainer", "Data Modeller", "Policy Maker", "PropTech"]
 
   # Nav links in the side bar
   [[params.propositionlinks]]
