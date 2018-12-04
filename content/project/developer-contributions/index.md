@@ -3,34 +3,31 @@ title: "Developer contributions"
 status: alpha
 ---
 
-The [National Planning Policy Framework] (https://www.gov.uk/government/publications/national-planning-policy-framework--2) introduces the need for a [planning authority](/glossary/planning-authority/) to publish their [developer contributions](/glossary/developer-contributions/)
+The [Ministry of Housing, Communities & Local Government](https://www.gov.uk/government/organisations/ministry-of-housing-communities-and-local-government) have been working with local planning authorities to design a data format for publishing Section 106 agreements, viability assessments, and other developer contributions.
 
-The way planning authorities currently publish these varies, and the inconsistent formats means the data is difficult to compare and hard to consume in bulk. The process of compiling and publishing these is also time-consuming for planning authorities.
+{{< govuk-section-break "xl" >}}
 
-The Digital Land team and the Developer Contribution policy team at MHCLG are trying to fix this. We’re working with planning authorities to design and test a new data standard for [Section 106 agreements](/glossary/section-106/) and [viability assessments](/glossary/viability-assessment). We’re also developing tools and guidance to help the people involved in collecting and making the data available.
+## Help us improve the developer contributions
 
-We have published [a blog post](https://mhclgdigital.blog.gov.uk/2018/10/16/making-developer-contributions-open-and-transparent/) with more information about this project.
+Your input is invaluable to our efforts to create a consistent format for publishing developer contributions data.
+
+Please share your thoughts on the proposed data format and the tools and guidance we’re prototyping here by completing [this feedback form](https://goo.gl/forms/aVckvO6woUxUIEjF2).
+
+_We will continue to develop the format and prototypes based on your feedback during the course of the consultation._
+
+{{< govuk-section-break "xl" >}}
+
+## Data format
+
+We want to start with the most minimal data model that addresses the user needs we've identified whilst minimising the work needed from local planning authorities to make the data available. 
+
+* [Proposed guidance for publishing developer contributions](https://digital-land.github.io/guidance/developer-contributions/)
 
 {{< govuk-section-break "xl" >}}
 
 ## Current areas of investigation
 
-{{< prototype-heading "Collecting data for a Section 106 executive summary" >}}
-  {{< progress-tag "in-progress" >}}In progress{{< /progress-tag >}}
-{{< /prototype-heading >}}
-
-#### Questions we're asking
-
-Section 106 contributions are published as documents. Would offering planning authorities a simple form enable them to identify pertinent information from within the document and publish it as summary data?
-
-#### What we tested
-* [a tool to collect Section 106 data](https://section-106-prototype.cloudapps.digital/create-section106)
-
-#### What we've learned
-
-Many planning authorities are already using third party tools to help manage their developer contributions. Asking to double-key much of the same data into an additional form would become burdensome and likely lead to a poor quality of data.
-
-{{< prototype-heading "An index of viability assessments" >}}
+{{< prototype-heading "A collection of viability assessments" >}}
   {{< progress-tag "in-progress" >}}In progress{{< /progress-tag >}}
 {{< /prototype-heading >}}
 
@@ -46,7 +43,7 @@ Finding published viability assessments is extremely difficult. Would providing 
 
 We haven’t yet tested the index with users.
 
-{{< prototype-heading "Infrastructure funding dashboard" >}}
+{{< prototype-heading "Developer contributions dashboard" >}}
   {{< progress-tag "in-progress" >}}In progress{{< /progress-tag >}}
 {{< /prototype-heading >}}
 
@@ -63,6 +60,22 @@ Will presenting what contribution agreements have been made, where funds have be
 We haven’t yet tested the dashboard with users.
 
 
+{{< prototype-heading "Collecting data for a Section 106 executive summary" >}}
+  {{< progress-tag "in-progress" >}}In progress{{< /progress-tag >}}
+{{< /prototype-heading >}}
+
+#### Questions we're asking
+
+Section 106 contributions are published as documents. Would offering planning authorities a simple form enable them to identify pertinent information from within the document and publish it as summary data?
+
+#### What we tested
+
+* [a tool to collect Section 106 data](https://section-106-prototype.cloudapps.digital/create-section106)
+
+#### What we've learned
+
+Many planning authorities are already using third party tools to help manage their developer contributions. Asking to double-key much of the same data into an additional form would become burdensome and likely lead to a poor quality of data.
+
 {{< govuk-section-break "xl" >}}
 
 ## Upcoming areas of investigation
@@ -72,32 +85,16 @@ We plan to explore the following by prototyping tools and by testing with and co
 * Is it possible to extract Section 106 data from third party tools?
 * What do planning authorities need from an index of viability assessments?
 * Would it be useful to track contributions at a project level?
-* Determine if ‘developer contributions’ is the correct terminology to use
+* Are ‘developer contributions’ the correct name for this work?
 * Is it possible to have a standardised set of contribution purposes?
 * What dates are important and do we need to capture them?
 * How do we capture non-financial obligations as data?
 
 {{< govuk-section-break "xl" >}}
 
-## Data fields
+## Timeline
 
-We want to start with the most minimal data model that addresses the user needs we've identified. We're working on a proposed data specification at the moment, but here's an early view of what we're thinking about.
+**16 October 2018**
 
-<a href="https://www.flickr.com/photos/psd/45138775504/" title="Data model"><img src="https://farm5.staticflickr.com/4903/45138775504_c9aebaba6b_c.jpg" alt="Data model"></a>
+We published [a blog post](https://mhclgdigital.blog.gov.uk/2018/10/16/making-developer-contributions-open-and-transparent/) with more information about this project.
 
-{{< govuk-section-break "xl" >}}
-
-## Publications
-
-There are no publications for this specification.
-
-{{< govuk-section-break "xl" >}}
-
-## Help us improve developer contributions
-
-Your input is invaluable to our efforts to create a data standard for developer contributions that:
-
-* makes the data more findable and useable for planning authorities
-* doesn’t disrupt your current processes 
-
-Please share your thoughts on the proposed data standard and the tools and guidance we’re prototyping here by completing [this feedback form](https://goo.gl/forms/aVckvO6woUxUIEjF2).
