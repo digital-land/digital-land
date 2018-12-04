@@ -80,7 +80,7 @@ Many planning authorities are already using third party tools to help manage the
 
 ## Upcoming areas of investigation
 
-We plan to explore the following by prototyping tools and by testing with and consulting people involved with developer contributions:
+We plan to explore the following by prototyping tools and by testing with, consulting people involved with developer contributions, and responding to your feedback:
 
 * Is it possible to extract Section 106 data from third party tools?
 * What do planning authorities need from an index of viability assessments?
