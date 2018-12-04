@@ -31,8 +31,8 @@ gulp.task("scss", function compileSass () {
 })
 
 // Watch src folder for changes
-gulp.task("watch", gulp.series("clean-css", "scss"), function watchAssets () {
-  gulp.watch("src/scss/**/*", ["scss"])
+gulp.task("watch", function watchAssets () {
+  gulp.watch("src/scss/**/*", gulp.series("scss"));
 });
 
 gulp.task("copy-assets", function copyAssets () {
