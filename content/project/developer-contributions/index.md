@@ -3,23 +3,25 @@ title: "Developer contributions"
 status: alpha
 ---
 
-The [Ministry of Housing, Communities & Local Government](https://www.gov.uk/government/organisations/ministry-of-housing-communities-and-local-government) have been working with local planning authorities to design a data format for publishing Section 106 agreements, viability assessments, and other developer contributions.
+The [Ministry of Housing, Communities & Local Government](https://www.gov.uk/government/organisations/ministry-of-housing-communities-and-local-government) has been working with local planning authorities to design a data format for publishing Section 106 agreements, viability assessments, and other developer contributions.
 
 {{< govuk-section-break "xl" >}}
 
-## Help us improve the developer contributions
+## We need your input to create a common data format 
 
-Your input is invaluable to our efforts to create a consistent format for publishing developer contributions data.
+As part of an [alpha project](https://www.gov.uk/service-manual/agile-delivery/how-the-alpha-phase-works), we’re investigating the issues we’ve identified around developer contributions. This involves building prototype tools that allow us to test how robust and flexible the data format is and to make adjustments to it accordingly. We regularly iterate these based on insights from research and user feedback.
 
-Please share your thoughts on the proposed data format and the tools and guidance we’re prototyping here by completing [this feedback form](https://goo.gl/forms/aVckvO6woUxUIEjF2).
+Help us improve our understanding by participating in the discussion on one of our [GitHub issues](https://github.com/digital-land/digital-land/issues?q=is%3Aissue+is%3Aopen+label%3Adeveloper-contributions).
 
-_We will continue to develop the format and prototypes based on your feedback during the course of the consultation._
+Alternatively, complete our [feedback form](https://docs.google.com/forms/d/1pvblp8l4ODFmv91yyktArGaiskVnJgFcWDCYBBRgc2A/edit).
 
 {{< govuk-section-break "xl" >}}
 
-## Data format
+## Data format overview
 
-We want to start with the most minimal data model that addresses the user needs we've identified whilst minimising the work needed from local planning authorities to make the data available.
+We are proposing a simple data format for developer contributions that:
+* meets the user needs we’ve identified 
+* requires minimal effort from local planning authorities to create and make the data available
 
 We propose 3 lists to be kept and maintained centrally by MHCLG:
 
@@ -39,13 +41,15 @@ We also propose each local planning authority publishes 3 registers on their own
 * [developer-agreement-transaction](https://github.com/communitiesuk/digital-land-collector/blob/master/etc/developer-contributions/developer-agreement-transaction.csv)
 – payments received from a developer or spent on a project
 
-## Guidance
+By consistently following the format, organisations with a duty to produce this data ensure that the data is easy to find and use, as well as easy for any digital service to consume.
 
-* [Proposed guidance for publishing developer contributions](https://digital-land.github.io/guidance/developer-contributions/)
+Read our [proposed guidance for publishing developer contributions](https://digital-land.github.io/guidance/developer-contributions/) for publishing developer contributions for an overview of the format. 
 
 {{< govuk-section-break "xl" >}}
 
 ## Current areas of investigation
+
+The following areas of investigation demonstrate possible ways the data might be applied and made easier to work with. 
 
 {{< prototype-heading "A collection of viability assessments" "https://github.com/digital-land/digital-land/issues/21">}}
   {{< progress-tag "in-progress" >}}In progress{{< /progress-tag >}}
