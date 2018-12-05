@@ -47,7 +47,7 @@ We also propose each local planning authority publishes 3 registers on their own
 
 ## Current areas of investigation
 
-{{< prototype-heading "A collection of viability assessments" "https://section-106-prototype.cloudapps.digital/viability/">}}
+{{< prototype-heading "A collection of viability assessments" "https://github.com/digital-land/digital-land/issues/21">}}
   {{< progress-tag "in-progress" >}}In progress{{< /progress-tag >}}
 {{< /prototype-heading >}}
 
@@ -63,7 +63,7 @@ Finding published viability assessments is extremely difficult. Would providing 
 
 We haven’t yet tested the index with users.
 
-{{< prototype-heading "Developer contributions dashboard" "https://section-106-prototype.cloudapps.digital/developer-contributions/section106-wide">}}
+{{< prototype-heading "Developer contributions dashboard" "https://github.com/digital-land/digital-land/issues/20">}}
   {{< progress-tag "in-progress" >}}In progress{{< /progress-tag >}}
 {{< /prototype-heading >}}
 
@@ -80,7 +80,7 @@ Will presenting what contribution agreements have been made, where funds have be
 We haven’t yet tested the dashboard with users.
 
 
-{{< prototype-heading "Collecting data for a Section 106 executive summary" "https://section-106-prototype.cloudapps.digital/create-section106" >}}
+{{< prototype-heading "Collecting data for a Section 106 executive summary" "https://github.com/digital-land/digital-land/issues/22" >}}
   {{< progress-tag "in-progress" >}}In progress{{< /progress-tag >}}
 {{< /prototype-heading >}}
 
@@ -102,13 +102,13 @@ Many planning authorities are already using third party tools to help manage the
 
 We plan to explore the following by prototyping tools and by testing with, consulting people involved with developer contributions, and responding to your feedback:
 
-* Is it possible to extract Section 106 data from third party tools?
-* What do planning authorities need from an index of viability assessments?
-* Would it be useful to track contributions at a project level?
-* Are ‘developer contributions’ the correct name for this work?
-* Is it possible to have a standardised set of contribution purposes?
-* What dates are important and do we need to capture them?
-* How do we capture non-financial obligations as data?
+* [Is it possible to extract Section 106 data from third party tools?](https://github.com/digital-land/digital-land/issues/23)
+* [What do planning authorities need from an index of viability assessments?](https://github.com/digital-land/digital-land/issues/24)
+* [Would it be useful to track contributions at a project level?](https://github.com/digital-land/digital-land/issues/25)
+* [Are ‘developer contributions’ the correct name for this work?](https://github.com/digital-land/digital-land/issues/28)
+* [Is it possible to have a standardised set of contribution purposes?](https://github.com/digital-land/digital-land/issues/26)
+* [What dates are important and do we need to capture them?](https://github.com/digital-land/digital-land/issues/27)
+* [How do we capture non-financial obligations as data?](https://github.com/digital-land/digital-land/issues/29)
 
 {{< govuk-section-break "xl" >}}
 
