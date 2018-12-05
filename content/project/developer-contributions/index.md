@@ -80,7 +80,7 @@ Will presenting what contribution agreements have been made, where funds have be
 We haven’t yet tested the dashboard with users.
 
 
-{{< prototype-heading "Collecting data for a Section 106 executive summary" "https://github.com/digital-land/digital-land/issues/22" >}}
+{{< prototype-heading "Entering data for a Section 106 executive summary" "https://github.com/digital-land/digital-land/issues/22" >}}
   {{< progress-tag "in-progress" >}}In progress{{< /progress-tag >}}
 {{< /prototype-heading >}}
 
