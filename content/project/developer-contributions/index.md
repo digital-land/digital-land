@@ -19,7 +19,7 @@ _We will continue to develop the format and prototypes based on your feedback du
 
 ## Data format
 
-We want to start with the most minimal data model that addresses the user needs we've identified whilst minimising the work needed from local planning authorities to make the data available. 
+We want to start with the most minimal data model that addresses the user needs we've identified whilst minimising the work needed from local planning authorities to make the data available.
 
 We propose 3 lists to be kept and maintained centrally by MHCLG:
 
@@ -33,7 +33,7 @@ We propose 3 lists to be kept and maintained centrally by MHCLG:
 We also propose each local planning authority publishes 3 registers on their own website:
 
 * [developer-agreement](https://github.com/communitiesuk/digital-land-collector/blob/master/etc/developer-contributions/developer-agreement.csv)
-– developer agreements, with a link to the original document 
+– developer agreements, with a link to the original document
 * [developer-agreement-contribution](https://github.com/communitiesuk/digital-land-collector/blob/master/etc/developer-contributions/developer-agreement-contribution.csv)
 – agreed developer contributions found in each document
 * [developer-agreement-transaction](https://github.com/communitiesuk/digital-land-collector/blob/master/etc/developer-contributions/developer-agreement-transaction.csv)
@@ -47,7 +47,7 @@ We also propose each local planning authority publishes 3 registers on their own
 
 ## Current areas of investigation
 
-{{< prototype-heading "A collection of viability assessments" >}}
+{{< prototype-heading "A collection of viability assessments" "https://section-106-prototype.cloudapps.digital/viability/">}}
   {{< progress-tag "in-progress" >}}In progress{{< /progress-tag >}}
 {{< /prototype-heading >}}
 
@@ -63,13 +63,13 @@ Finding published viability assessments is extremely difficult. Would providing 
 
 We haven’t yet tested the index with users.
 
-{{< prototype-heading "Developer contributions dashboard" >}}
+{{< prototype-heading "Developer contributions dashboard" "https://section-106-prototype.cloudapps.digital/developer-contributions/section106-wide">}}
   {{< progress-tag "in-progress" >}}In progress{{< /progress-tag >}}
 {{< /prototype-heading >}}
 
 #### Questions we're asking
 
-Will presenting what contribution agreements have been made, where funds have been allocated, and whether money has been spent help answer questions from the community, local authorities and government? 
+Will presenting what contribution agreements have been made, where funds have been allocated, and whether money has been spent help answer questions from the community, local authorities and government?
 
 #### What we tested
 
@@ -80,7 +80,7 @@ Will presenting what contribution agreements have been made, where funds have be
 We haven’t yet tested the dashboard with users.
 
 
-{{< prototype-heading "Collecting data for a Section 106 executive summary" >}}
+{{< prototype-heading "Collecting data for a Section 106 executive summary" "https://section-106-prototype.cloudapps.digital/create-section106" >}}
   {{< progress-tag "in-progress" >}}In progress{{< /progress-tag >}}
 {{< /prototype-heading >}}
 
