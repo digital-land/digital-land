@@ -7,7 +7,7 @@ The [Ministry of Housing, Communities & Local Government](https://www.gov.uk/gov
 
 {{< govuk-section-break "xl" >}}
 
-## We need your input to create a common data format 
+## We need your input to create a common data format
 
 As part of an [alpha project](https://www.gov.uk/service-manual/agile-delivery/how-the-alpha-phase-works), we’re investigating the issues we’ve identified around developer contributions. This involves building prototype tools that allow us to test how robust and flexible the data format is and to make adjustments to it accordingly. We regularly iterate these based on insights from research and user feedback.
 
@@ -20,12 +20,12 @@ Alternatively, complete our [feedback form](https://docs.google.com/forms/d/1pvb
 ## Data format overview
 
 We are proposing a simple data format for developer contributions that:
-* meets the user needs we’ve identified 
+* meets the user needs we’ve identified
 * requires minimal effort from local planning authorities to create and make the data available
 
 We propose 3 lists to be kept and maintained centrally by MHCLG:
 
-* [developer-contribution-type](https://github.com/communitiesuk/digital-land-collector/blob/master/etc/developer-contributions/developer-contribution-type.csv)
+* [developer-agreement-type](https://github.com/communitiesuk/digital-land-collector/blob/master/etc/developer-contributions/developer-agreement-type.csv)
 – a code for each type of developer contribution recorded
 * [developer-contribution-purpose](https://github.com/communitiesuk/digital-land-collector/blob/master/etc/developer-contributions/developer-contribution-purpose.csv)
 – purpose codes for categorising developer contributions
@@ -43,13 +43,13 @@ We also propose each local planning authority publishes 3 registers on their own
 
 By consistently following the format, organisations with a duty to produce this data ensure that the data is easy to find and use, as well as easy for any digital service to consume.
 
-Read our [proposed guidance for publishing developer contributions](https://digital-land.github.io/guidance/developer-contributions/) for publishing developer contributions for an overview of the format. 
+Read our [proposed guidance for publishing developer contributions](https://digital-land.github.io/guidance/developer-contributions/) for publishing developer contributions for an overview of the format.
 
 {{< govuk-section-break "xl" >}}
 
 ## Current areas of investigation
 
-The following areas of investigation demonstrate possible ways the data might be applied and made easier to work with. 
+The following areas of investigation demonstrate possible ways the data might be applied and made easier to work with.
 
 {{< prototype-heading "A collection of viability assessments" "https://github.com/digital-land/digital-land/issues/21">}}
   {{< progress-tag "in-progress" >}}In progress{{< /progress-tag >}}
