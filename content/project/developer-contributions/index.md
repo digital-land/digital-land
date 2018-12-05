@@ -26,7 +26,7 @@ We are proposing a simple data format for developer contributions that:
 We propose 3 lists to be kept and maintained centrally by MHCLG:
 
 * [developer-agreement-type](https://github.com/communitiesuk/digital-land-collector/blob/master/etc/developer-contributions/developer-agreement-type.csv)
-– a code for each type of developer contribution recorded
+– a code for each type of developer agreement recorded
 * [developer-contribution-purpose](https://github.com/communitiesuk/digital-land-collector/blob/master/etc/developer-contributions/developer-contribution-purpose.csv)
 – purpose codes for categorising developer contributions
 * [developer-contribution-register](https://github.com/communitiesuk/digital-land-collector/blob/master/etc/developer-contributions/developer-contribution-register.csv)
