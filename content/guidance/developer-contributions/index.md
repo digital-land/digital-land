@@ -25,7 +25,7 @@ Publishing your organisation’s developer contributions is a 4-step process:
 3. Create or update a register page on your organisation’s website
 4. Update the national register of developer contributions
 
-## Step 1: Create your .csv files
+### Step 1: Create your .csv files
 
 You must create 3 .csv files:
 
