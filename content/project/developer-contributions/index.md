@@ -94,6 +94,18 @@ We plan to explore the following by prototyping tools and by testing with, consu
 
 ## Timeline
 
+**TBD**
+
+Public consultation ends.
+
+**TBD**
+
+Public consultation begins.
+
+**22 November 2018**
+
+We held a discovery workshop hosted by the GLA along with TFL and Southwark to walk through our joint approach for developer contributions.
+
 **16 October 2018**
 
 We published [a blog post](https://mhclgdigital.blog.gov.uk/2018/10/16/making-developer-contributions-open-and-transparent/) with more information about this project.
