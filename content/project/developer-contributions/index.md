@@ -21,6 +21,26 @@ _We will continue to develop the format and prototypes based on your feedback du
 
 We want to start with the most minimal data model that addresses the user needs we've identified whilst minimising the work needed from local planning authorities to make the data available. 
 
+We propose 3 lists to be kept and maintained centrally by MHCLG:
+
+* [developer-contribution-type](https://github.com/communitiesuk/digital-land-collector/blob/master/etc/developer-contributions/developer-contribution-type.csv)
+– a code for each type of developer contribution recorded
+* [developer-contribution-purpose](https://github.com/communitiesuk/digital-land-collector/blob/master/etc/developer-contributions/developer-contribution-purpose.csv)
+– purpose codes for categorising developer contributions
+* [developer-contribution-register](https://github.com/communitiesuk/digital-land-collector/blob/master/etc/developer-contributions/developer-contribution-register.csv)
+– a link to where each local planning authority has published their developer contribution registers.
+
+We also propose each local planning authority publishes 3 registers on their own website:
+
+* [developer-agreement](https://github.com/communitiesuk/digital-land-collector/blob/master/etc/developer-contributions/developer-agreement.csv)
+– developer agreements, with a link to the original document 
+* [developer-agreement-contribution](https://github.com/communitiesuk/digital-land-collector/blob/master/etc/developer-contributions/developer-agreement-contribution.csv)
+– agreed developer contributions found in each document
+* [developer-agreement-transaction](https://github.com/communitiesuk/digital-land-collector/blob/master/etc/developer-contributions/developer-agreement-transaction.csv)
+– payments received from a developer or spent on a project
+
+## Guidance
+
 * [Proposed guidance for publishing developer contributions](https://digital-land.github.io/guidance/developer-contributions/)
 
 {{< govuk-section-break "xl" >}}
@@ -33,7 +53,7 @@ We want to start with the most minimal data model that addresses the user needs 
 
 #### Questions we're asking
 
-Finding published viability assessments is extremely difficult. Would providing an index of viability assessments, along with important information, be of value to local authorities and interested members of the community?
+Finding published viability assessments is extremely difficult. Would providing an index of viability assessments, along with important information, be of value to local planning authorities and interested members of the community?
 
 #### What we tested
 
