@@ -45,4 +45,10 @@
   td {
     @extend .govuk-table__cell;
   }
+  p code {
+    line-height: govuk-em(25, 19);
+    padding: 2px 5px;
+    background-color: #f8f8f8;
+    color: darken(govuk-colour("blue"), 25);
+  }
 }

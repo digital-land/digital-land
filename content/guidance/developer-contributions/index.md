@@ -63,7 +63,7 @@ The text entered here must be in a specific format as expressed in this list. Al
 {{% /col-guidance %}}
 
 {{% col-guidance name="entry-date" %}}
-Enter the date the record was created, in the format yyyy-mm-dd. For 1 February 2019, for example, you should enter 2019-02-01
+Enter the date the record was created, in the format `yyyy-mm-dd`. For 1 February 2019, for example, you should enter `2019-02-01`
 {{% /col-guidance %}}
 
 {{% col-guidance name="start-date" %}}
@@ -115,11 +115,11 @@ developer-contribution-purpose.csv file, held by MHCLG here.
 {{% /col-guidance %}}
 
 {{% col-guidance name="amount" %}}
-Enter the agreed contribution amount, in pounds and pence but without a currency symbol or commas (for example ‘100000.00’).
+Enter the agreed contribution amount, in pounds and pence but without a currency symbol or commas (for example `100000.00`).
 {{% /col-guidance %}}
 
 {{% col-guidance name="entry-date" %}}
-Enter the date the record was created, in the format yyyy-mm-dd. For 1 February 2019, for example, you should enter 2019-02-01.
+Enter the date the record was created, in the format `yyyy-mm-dd`. For 1 February 2019, for example, you should enter `2019-02-01`.
 {{% /col-guidance %}}
 
 {{% col-guidance name="start-date" %}}
@@ -155,7 +155,7 @@ Enter the amount received from a developer for part or full payment of a contrib
 {{% /col-guidance %}}
 
 {{% col-guidance name="entry-date" %}}
-Enter the date the record was created, in the format yyyy-mm-dd. For 1 February 2019, for example, you should enter 2019-02-01.
+Enter the date the record was created, in the format `yyyy-mm-dd`. For 1 February 2019, for example, you should enter `2019-02-01`.
 {{% /col-guidance %}}
 
 {{% col-guidance name="start-date" %}}
@@ -193,7 +193,7 @@ Enter the web address of the web page created in step 3.
 
 **entry-date**
 
-Enter the date you last updated the registry, in the format yyyy-mm-dd. For 1 February 2019, for example, you should enter 2019-02-01.
+Enter the date you last updated the registry, in the format `yyyy-mm-dd`. For 1 February 2019, for example, you should enter `2019-02-01`.
 
 **start-date**
 
