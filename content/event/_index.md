@@ -3,6 +3,12 @@ title: Events
 ---
 
 ### Show and Tell
+**Time:** 6 December 2018 at 4pm
+**Location:** F329, Fry Building, London
+
+We'll be showing our progress on [developer contributions](/project/developer-contributions). This includes the updated guidance, a tool to validate local planning authority data against the specification, and how we'll be managing feedback during alpha. 
+
+### Discovery workshop
 **Time:** 22 November 2018  
 **Location:** City Hall, London
 
