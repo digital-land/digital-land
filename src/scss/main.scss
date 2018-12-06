@@ -64,6 +64,10 @@ $govuk-images-path: '/govuk-frontend/assets/images/';
   @include govuk-font($size: 19);
 }
 
+.no-op {
+  margin: auto;
+}
+
 .project-display {
 	.project-display__title {
 		text-align: center;
