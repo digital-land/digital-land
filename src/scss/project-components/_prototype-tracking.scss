@@ -28,6 +28,9 @@
     background: govuk-colour("turquoise");
     color: #fff;
     padding: 3px 5px 0;
+    @if $using-helvetica == true {
+      padding: 3px 5px 2px;
+    }
   }
 }
 

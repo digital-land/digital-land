@@ -14,6 +14,10 @@ $govuk-images-path: '/govuk-frontend/assets/images/';
 @import "utilities/all";
 @import "overrides/all";
 
+// common fixes when using helvetica
+// needs to come before components
+@import "core/helvetica-fixes";
+
 // Import all project components
 @import "project-components/blockquote";
 @import "project-components/hero";
@@ -24,7 +28,7 @@ $govuk-images-path: '/govuk-frontend/assets/images/';
 
 @import "project-components/markdown";
 
-@import "core/helvetica-fixes";
+
 
 * {
 	font-family: "HelveticaNeue", "Helvetica Neue", "Arial", "Helvetica", sans-serif !important;
