@@ -11,7 +11,7 @@ The [Ministry of Housing, Communities & Local Government](https://www.gov.uk/gov
 
 This page documents the [alpha phase](https://www.gov.uk/service-manual/agile-delivery/how-the-alpha-phase-works) for developing a format for representing developer contributions as data.
 
-You can us improve the format by:
+You can help us improve the format by:
 
 * participating in the discussion on our [GitHub issues](https://github.com/digital-land/digital-land/issues?q=is%3Aissue+is%3Aopen+label%3Adeveloper-contributions)
 * making comments using our [feedback form](https://docs.google.com/forms/d/1pvblp8l4ODFmv91yyktArGaiskVnJgFcWDCYBBRgc2A/edit)
@@ -49,7 +49,7 @@ We also propose each local planning authority publishes 3 registers on their own
 
 By consistently following the format, organisations with a duty to produce this data ensure that the data is easy to find and use, as well as easy for any digital service to consume.
 
-Read our [proposed guidance for publishing developer contributions](https://digital-land.github.io/guidance/developer-contributions/) for publishing developer contributions for an overview of the format.
+Read our [proposed guidance for publishing developer contributions](https://digital-land.github.io/guidance/developer-contributions/) for an overview of the format.
 
 {{< govuk-section-break "xl" >}}
 
