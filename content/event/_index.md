@@ -8,6 +8,8 @@ title: Events
 
 We'll be showing our progress on [developer contributions](/project/developer-contributions). This includes the updated guidance, a tool to validate local planning authority data against the specification, and how we'll be managing feedback during alpha. 
 
+<a href="https://www.flickr.com/photos/psd/46152140552/in/datetaken/" title="Today&#x27;s Digital Land show and tell agenda"><img src="https://farm5.staticflickr.com/4855/46152140552_f885f0fc64_k.jpg" alt="Today&#x27;s Digital Land show and tell agenda"></a>
+
 ### Discovery workshop
 **Time:** 22 November 2018  
 **Location:** City Hall, London
