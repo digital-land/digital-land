@@ -1,6 +1,8 @@
 {{ define "content_inner" }}
 
-  <span class="govuk-caption-xl">{{ if isset .Params "cat_name" }}{{ .Params.cat_name | humanize }}{{ end }}</span>
+  {{ if isset .Params "cat_name" }}
+  <span class="govuk-caption-xl">{{ .Params.cat_name | humanize }}</span>
+  {{ end }}
 	<h1 class="govuk-heading-xl">
 	  {{ .Title }}
 	</h1>
