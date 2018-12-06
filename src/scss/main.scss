@@ -120,6 +120,9 @@ $govuk-images-path: '/govuk-frontend/assets/images/';
   @include govuk-responsive-padding(6, "top");
   .prototype-summary--heading {
     margin-top: 0;
+    a {
+      color: $govuk-text-colour;
+    }
   }
   .prototype-progress-flag {
     margin-bottom: 5px;
