@@ -33,7 +33,9 @@ Google Analytics stores information about:
 
 We do not collect or store your personal information (for example your name or address) so this information can’t be used to identify who you are.
 
-> We do not allow Google to use or share our analytics data.
+{{% inset-text %}}
+We do not allow Google to use or share our analytics data.
+{{% /inset-text %}}
 
 Google Analytics sets the following cookies.
 
@@ -44,5 +46,6 @@ Google Analytics sets the following cookies.
 | _gat | Used to manage the rate at which page view requests are made | 10 minutes |
 
 
-> You can [opt out of Google Analytics cookies](https://tools.google.com/dlpage/gaoptout).
-
+{{% inset-text %}}
+You can [opt out of Google Analytics cookies](https://tools.google.com/dlpage/gaoptout).
+{{% /inset-text %}}
