@@ -2,11 +2,11 @@
 title: "Developer contribution data format and publishing"
 ---
 
-The National Planning Policy Framework requires all local planning authorities and certain other organisations to publish their developer contributions data on a regular basis and in an agreed format.
+The National Planning Policy Framework requires all local planning authorities and certain other organisations to publish their developer contributions data on a regular basis and in an agreed format. That format hasn’t yet been agreed, but the following guidance is a working approach that we plan to refine with your input.
 
-We want to develop a data format and publishing guidance that results in better insights into how developer contributions are supporting community infrastructure. But we also want a standard that causes as little disruption as possible to your existing processes, which we would like your [feedback on.](https://docs.google.com/forms/d/1pvblp8l4ODFmv91yyktArGaiskVnJgFcWDCYBBRgc2A)
+Our aim is to develop a data format and publishing guidance that results in better insights into how developer contributions are supporting community infrastructure. But we also want a standard that causes as little disruption as possible to your existing processes. Please, [share your feedback on](https://docs.google.com/forms/d/1pvblp8l4ODFmv91yyktArGaiskVnJgFcWDCYBBRgc2A) this guidance to help us succeed.
 
-## Making your register findable and useable
+## Make your register findable and useable
 
 To meet the needs of planners, members of the community and others, your developer contributions data must be easy:
 
@@ -35,8 +35,8 @@ You must create 3 .csv files:
 
 Each of these files must:
 
-* be named using a specific convention 
-* contain certain column headers  (written exactly as shown, in lowercase, without the speech marks) 
+* be named using the convention specified in each section below 
+* contain certain column headers  (written exactly as shown, in lowercase) 
 * include 1 row of data for each agreement, contribution or transaction (as relevant)
 * only entries that conform to the constraints described below
 
@@ -85,7 +85,7 @@ Enter the web address that links directly to the actual agreement document.
 {{% /col-guidance %}}
 
 {{% col-guidance name="developer-agreement-type" %}}
-This is either ‘CIL’ (community investment levy) or ‘S106’ (Section 106). More developer agreement types will gradually be added to the developer-agreement-type.csv file here.
+This is either ‘CIL’ (community investment levy) or ‘S106’ (Section 106). More developer agreement types will gradually be added to the developer-agreement-type.csv file, which MHCLG will maintain for your reference.
 {{% /col-guidance %}}
 
 ***
@@ -100,7 +100,7 @@ Here YYYMMDD represents the year, month and day you have created the file.
 
 #### Columns
 
-{{% col-guidance name="developer-contribution" %}}
+{{% col-guidance name="developer-agreement-contribution" %}}
 Enter a unique reference number to identify the contribution. By ‘unique’ this means it should not be used for anything else in
 your organisation.
 {{% /col-guidance %}}
@@ -110,8 +110,7 @@ Enter the unique reference number you’ve used to identify the agreement.
 {{% /col-guidance %}}
 
 {{% col-guidance name="contribution-purpose" %}}
-Enter the ID for the intended purpose of the developer contribution. This is found in the first column of the
-developer-contribution-purpose.csv file, held by MHCLG here.
+Enter the ID for the intended purpose of the developer contribution. This is found in the first column of the developer-contribution-purpose.csv file, which will be held by MHCLG for your reference.
 {{% /col-guidance %}}
 
 {{% col-guidance name="amount" %}}
@@ -146,7 +145,7 @@ Here YYYMMDD represents the year, month and day you have created the file.
 Enter a unique reference number to identify the transaction. By ‘unique’ this means it should not be used for anything else in your organisation.
 {{% /col-guidance %}}
 
-{{% col-guidance name="developer-contribution" %}}
+{{% col-guidance name="developer-agreement-contribution" %}}
 Enter the unique reference number you’ve used to identify the contribution. By ‘unique’ this means it should not be used for anything else in your organisation.
 {{% /col-guidance %}}
 
@@ -168,7 +167,12 @@ Enter the last day the entry is in effect, in the same format as column the entr
 
 ### Step 2: Upload the files to a persistent URL
 
-Next you need to upload each .csv file to your organisation’s website using a [persistent URL](https://en.wikipedia.org/wiki/Persistent_uniform_resource_locator) – a web address that will not change over time. When you upload the files you should:
+Next you need to upload each .csv file to your organisation’s website using a [persistent URL](https://en.wikipedia.org/wiki/Persistent_uniform_resource_locator) – a web address that will not change over time. As an example, Norfolk’s local planning authority might use the following persistent addresses (note that these are examples, not live data): 
+
+https://www.norfolk.gov.uk/developer-agreement/developer-agreement_20190101.csv
+https://www.norfolk.gov.uk/developer-agreement-contribution/developer-agreement-contribution_20190101.csv
+https://www.norfolk.gov.uk/developer-agreement-transaction/developer-agreement-transaction_20190101.csv
+https://www.norfolk.gov.uk/developer-agreement-transaction/latest
 
 * keep your older files online – it’s important to retain a history of all developer contribution files
 * make a copy of the new files, rename the copies exactly the same except with ‘latest’ in place of the date, then upload both sets of files
@@ -181,7 +185,7 @@ The page should be publicly accessible and indexed or searchable. It must list t
 
 The Ministry of Housing, Communities and Local Government (MHCLG) will [subject to this consultation] maintain a national register of developer contributions in a file called developer-contribution-register.csv.
 
-All organisations with a statutory duty to publish their own registers of contributions should ensure this file is kept accurate and up to date. To update the register you must …
+All organisations with a statutory duty to publish their own registers of contributions should ensure that the following columns in this file are kept accurate and up to date:
 
 **name**
 
