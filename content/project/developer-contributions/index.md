@@ -106,6 +106,22 @@ Section 106 contributions are published as documents. Would offering planning au
 
 Many planning authorities are already using third party tools to help manage their developer contributions. Asking to double-key much of the same data into an additional form would become burdensome and likely lead to a poor quality of data.
 
+{{< prototype-heading "Checking developer contribution data is valid" "https://github.com/digital-land/digital-land/issues/32" >}}
+  {{< progress-tag "in-progress" >}}In progress{{< /progress-tag >}}
+{{< /prototype-heading >}}
+
+#### Questions we're asking
+
+Developer contributions data will need to be published in line with the data format. Would offering planning authorities a simple validator help them ensure their publication follows that format?
+
+#### What we tested
+
+* [a tool to check your developer contribution data](https://section-106-prototype.cloudapps.digital/validate-start)
+
+#### What we've learned
+
+We haven’t yet tested the validator with users.
+
 {{< govuk-section-break "xl" >}}
 
 ## Upcoming areas of investigation
