@@ -46,7 +46,7 @@ For general information on creating a .csv file see the W3C’s [CSVs on the web
 
 Developer agreements must be listed in a .csv file named using the following convention:
 
-developer-agreement_YYYYMMDD.csv
+{{< tech-block >}}developer-agreement_YYYYMMDD.csv{{< /tech-block >}}
 
 Here YYYMMDD represents the year, month and day you have created the file.
 
@@ -59,7 +59,7 @@ Enter a unique reference number to identify the agreement. By ‘unique’ this 
 {{% col-guidance name="organisation" %}}
 The text entered here must be in a specific format as expressed in this list. All text must be in lower case, with no spaces. Norfolk’s local planning authority, for example, would be:
 
-local-authority:nfk
+{{< tech-block >}}local-authority:nfk{{< /tech-block >}}
 {{% /col-guidance %}}
 
 {{% col-guidance name="entry-date" %}}
@@ -94,7 +94,7 @@ This is either ‘CIL’ (community investment levy) or ‘S106’ (Section 106)
 
 Developer agreement contributions must be listed in a .csv file named using the following convention:
 
-developer-agreement-contribution_YYYYMMDD.csv
+{{< tech-block >}}developer-agreement-contribution_YYYYMMDD.csv{{< /tech-block >}}
 
 Here YYYMMDD represents the year, month and day you have created the file.
 
@@ -136,7 +136,7 @@ Enter the last day the agreement is in effect, in the same format as the entry-d
 
 Developer agreement transactions must be listed in a .csv file named using the following convention:
 
-developer-agreement-transaction_YYYYMMDD.csv
+{{< tech-block >}}developer-agreement-transaction_YYYYMMDD.csv{{< /tech-block >}}
 
 Here YYYMMDD represents the year, month and day you have created the file.
 

@@ -141,4 +141,24 @@ $govuk-images-path: '/govuk-frontend/assets/images/';
     @include govuk-font($size: 19);
     margin-bottom: 5px;
   }
+  p {
+    margin-top: 5px;
+  }
+}
+
+.tech-block {
+  background: #fcfcfc;
+  padding: 15px;
+  overflow: auto;
+  border: 1px solid #bfc1c3;
+  border-radius: 1px;
+  code {
+    font-family: monaco, Consolas, "Lucida Console", monospace;
+    font-size: 16px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word;
+  }
 }
