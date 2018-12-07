@@ -6,7 +6,7 @@ title: Events
 **Time:** 6 December 2018 at 4pm
 **Location:** F329, Fry Building, London
 
-We'll be showing our progress on [developer contributions](/project/developer-contributions). This includes the updated guidance, a tool to validate local planning authority data against the specification, and how we'll be managing feedback during alpha. 
+We showed our progress on [developer contributions](/project/developer-contributions). This included the updated guidance, a tool to validate local planning authority data against the specification, and how we'll be managing feedback during alpha. 
 
 <a href="https://www.flickr.com/photos/psd/46152140552/in/datetaken/" title="Today&#x27;s Digital Land show and tell agenda"><img src="https://farm5.staticflickr.com/4855/46152140552_f885f0fc64_k.jpg" alt="Today&#x27;s Digital Land show and tell agenda"></a>
 
