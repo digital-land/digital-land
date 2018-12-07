@@ -137,6 +137,7 @@ We plan to explore the following by prototyping tools and by testing with, consu
 * [Is it possible to have a standardised set of contribution purposes?](https://github.com/digital-land/digital-land/issues/26)
 * [What dates are important and do we need to capture them?](https://github.com/digital-land/digital-land/issues/27)
 * [How do we capture non-financial obligations as data?](https://github.com/digital-land/digital-land/issues/29)
+* [How do we avoid introducing additional work to local planning authorities who use 3rd party tool to manage their agreements?](https://github.com/digital-land/digital-land/issues/33)
 
 {{< govuk-section-break "xl" >}}
 
