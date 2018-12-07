@@ -1,5 +1,5 @@
 ---
-title: "Developer contribution data format and publishing"
+title: "Publish your developer contributions data"
 ---
 
 The National Planning Policy Framework requires all local planning authorities and certain other organisations to publish their developer contributions data on a regular basis and in an agreed format. That format hasn’t yet been agreed, but the following guidance is a working approach that we plan to refine with your input.

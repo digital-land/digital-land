@@ -7,7 +7,7 @@ The [Ministry of Housing, Communities & Local Government](https://www.gov.uk/gov
 
 {{< govuk-section-break "xl" >}}
 
-## How you can help us develop a common data format
+## Help us develop a common data format
 
 This page documents the [alpha phase](https://www.gov.uk/service-manual/agile-delivery/how-the-alpha-phase-works) for developing a format for representing developer contributions as data.
 
@@ -22,12 +22,14 @@ We would particularly like to hear from local planning authorities who are able 
 
 {{< govuk-section-break "xl" >}}
 
-## Data format overview
+## Publish using our proposed data format
 
 We are proposing a simple data format for developer contributions that:
 
 * meets the user needs we’ve identified 
 * requires minimal effort from local planning authorities to create and make the data available
+
+By using this format next time you publish your contributions, you’ll be giving us data and insights that will help us improve it.
 
 We propose 3 lists to be kept and maintained centrally by MHCLG:
 
