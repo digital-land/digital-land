@@ -5868,7 +5868,3 @@ blockquote p:last-child:after {
   word-break: break-all;
   word-break: break-word;
 }
-
-.no-op {
-  display: none;
-}
