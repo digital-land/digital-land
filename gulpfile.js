@@ -1,7 +1,6 @@
 const gulp          = require("gulp");
 const sass          = require("gulp-sass");
 const clean         = require('gulp-clean');
-const rev           = require('gulp-rev');
 
 // set paths ...
 const config = {
@@ -24,11 +23,8 @@ gulp.task("scss", function compileSass () {
       'src/govuk_template/assets/stylesheets',
       'src/govuk_elements/assets/sass',
       'src/govuk-frontend']})).on('error', sass.logError)
-    .pipe(rev())
-  .pipe(gulp.dest(config.destPath))
-    .pipe(rev.manifest('manifest.json'))
-    .pipe(gulp.dest('./data'));
-})
+  .pipe(gulp.dest(config.destPath));
+});
 
 // Watch src folder for changes
 gulp.task("watch", function watchAssets () {
