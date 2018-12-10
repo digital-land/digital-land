@@ -37,6 +37,10 @@ staticDir = ["static", "src/govuk_template/assets", "src/govuk_elements/assets"]
   name = "Events"
   url = "/event/"
 
+  [[params.footer_meta_links]]
+  name = "Cookies"
+  url = "/cookies"
+
 
 [taxonomies]
   tag = "tags"
