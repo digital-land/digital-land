@@ -1,0 +1,5 @@
+{{ $file := .Get 0 }}
+{{ $class := .Get 1 }}
+<div class="{{ $class }}">
+{{ with .Site.GetPage $file }}{{ .Content | markdownify }}{{ end }}
+</div>
