@@ -1,7 +1,3 @@
----
-title: "Help us develop a common data format"
----
-
 This page documents the [alpha phase](https://www.gov.uk/service-manual/agile-delivery/how-the-alpha-phase-works) for developing a format for representing developer contributions as data.
 
 You can help us improve the format by:
