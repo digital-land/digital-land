@@ -1,0 +1,36 @@
+{{ define "content_inner" }}
+
+	<div class="govuk-grid-row">
+		<div class="govuk-grid-column-two-thirds">
+      <span class="govuk-caption-xl">{{ .Section | humanize }}</span>
+    	<h1 class="govuk-heading-xl">
+    	  {{ .Title }}
+    	</h1>
+		</div>
+	</div>
+
+	<div class="govuk-grid-row">
+		<div class="govuk-grid-column-two-thirds markdown-output">
+			{{ .Content }}
+		</div>
+	</div>
+
+{{ end }}
+
+{{ define "body_end" }}
+<script src="/js/octokit-rest.js"></script>
+<script>
+  const octokit = new Octokit();
+  octokit.issues.listForRepo({
+    owner: "digital-land",
+    repo: "digital-land",
+    labels: "project:developer-contributions",
+    per_page: 100 // max allowed
+  }).then(({data, headers, status}) => {
+  // handle data
+    data.forEach((issue) => {
+      console.log(issue.title);
+    });
+});
+</script>
+{{ end }}
