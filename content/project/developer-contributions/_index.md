@@ -9,7 +9,7 @@ The [Ministry of Housing, Communities & Local Government](https://www.gov.uk/gov
 
 ## Help us develop a common data format
 
-{{% include-content "develop-a-common-data-format.md" "common-format-section" %}}
+{{% include-content "/project/developer-contributions/develop-a-common-data-format.md" "common-format-section" %}}
 
 {{< govuk-section-break "xl" >}}
 
