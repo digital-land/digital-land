@@ -9,12 +9,6 @@ The [Ministry of Housing, Communities & Local Government](https://www.gov.uk/gov
 
 {{< govuk-section-break "xl" >}}
 
-## Prototypes
-
-We've not yet started prototype for this project.
-
-{{< govuk-section-break "xl" >}}
-
 ## Current areas of investigation
 
 {{< govuk-section-break "xl" >}}
