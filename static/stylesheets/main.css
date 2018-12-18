@@ -5419,6 +5419,10 @@ blockquote p:last-child:after {
   display: none;
 }
 
+.with-hero .govuk-phase-banner {
+  border-bottom: none;
+}
+
 .hero {
   background: #005ea5;
   color: #ffffff;
