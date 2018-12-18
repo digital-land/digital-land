@@ -150,3 +150,6 @@ We held a discovery workshop hosted by the GLA along with TFL and Southwark to w
 
 We published [a blog post](https://mhclgdigital.blog.gov.uk/2018/10/16/making-developer-contributions-open-and-transparent/) with more information about this project.
 
+{{< govuk-section-break "xl" >}}
+
+{{% include-content "/project/developer-contributions/issues.md" "issues-section" %}}

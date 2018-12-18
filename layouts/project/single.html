@@ -20,17 +20,51 @@
 {{ define "body_end" }}
 <script src="/js/octokit-rest.js"></script>
 <script>
+  // makes a DOM node from string
+  const getNodes = str => new DOMParser().parseFromString(str, 'text/html').body.childNodes;
+  const issueTemplate = (issue) => `
+  <div class="project-issue">
+    <h3 class="govuk-heading-m"><a href="${issue.url}">${issue.title}</a></h3>
+    <h4 class="govuk-heading-s">First commment</h4>
+    <p class="govuk-body">${issue.body}</p>
+    <h4 class="govuk-heading-s">Last commment</h4>
+    <p class="govuk-body">${issue.last_comment}</p>
+  </div>`;
+
+  const issueShortTemplate = (issue) => `
+  <li class="project-issue"><a href="${issue.url}">${issue.title}</a></li>`;
+
+  const issuesSection = document.querySelector(".issues-section");
   const octokit = new Octokit();
+  const owner = "digital-land";
+  const repo = "digital-land";
   octokit.issues.listForRepo({
-    owner: "digital-land",
-    repo: "digital-land",
+    owner: owner,
+    repo: repo,
     labels: "project:developer-contributions",
     per_page: 100 // max allowed
   }).then(({data, headers, status}) => {
   // handle data
     data.forEach((issue) => {
-      console.log(issue.title);
+      if ( issue.comments > 0 ) {
+        getIssueComments(issue);
+      } else {
+        issuesSection.appendChild( getNodes(issueShortTemplate(issue))[0] );
+      }
+      
     });
-});
+  });
+
+  function getIssueComments(issue) {
+    octokit.issues.listComments({
+      owner: owner,
+      repo: repo,
+      number: issue.number
+    }).then(({data, headers, status}) => {
+      console.log(data[data.length-1]);
+      issue["last_comment"] = data[data.length-1].body;
+      issuesSection.appendChild( getNodes(issueTemplate(issue))[0] );
+    });
+  }
 </script>
 {{ end }}
