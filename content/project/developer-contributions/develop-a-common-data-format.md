@@ -2,7 +2,7 @@ This page documents the [alpha phase](https://www.gov.uk/service-manual/agile-de
 
 You can help us improve the format by:
 
-* participating in the discussion on our [GitHub issues](https://github.com/digital-land/digital-land/issues?q=is%3Aissue+is%3Aopen+label%3Adeveloper-contributions)
+* participating in the discussion on our [GitHub issues](https://github.com/digital-land/digital-land/issues)
 * making comments using our [feedback form](https://docs.google.com/forms/d/1pvblp8l4ODFmv91yyktArGaiskVnJgFcWDCYBBRgc2A/edit)
 
 We will continue to develop the format as we learn from testing the format with data and the prototypes with users.
