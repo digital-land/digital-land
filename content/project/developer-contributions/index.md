@@ -134,13 +134,13 @@ We plan to explore the following by prototyping tools and by testing with, consu
 
 ## Timeline
 
-**TBD**
+**31 January 2019**
 
 Public consultation ends.
 
-**TBD**
+**20 December 2010**
 
-Public consultation begins.
+The [public consultation](https://www.gov.uk/government/consultations/developer-contributions-reform-technical-consultation) begins.
 
 **22 November 2018**
 

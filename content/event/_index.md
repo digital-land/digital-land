@@ -2,6 +2,14 @@
 title: Events
 ---
 
+### Team visit
+**Time:** 20 December 2018
+**Location:** New London Architecture
+
+The team visited [New London Architecture](https://www.newlondonarchitecture.org/) where we held our weekly design crit. We also took the opportunity to see the [New London Model exhibition](https://www.newlondonarchitecture.org/whats-on/exhibitions/2018/the-new-london-model). If you get the chance it's definitely worth stopping by and seeing it for yourself.
+
+<a href="https://www.flickr.com/photos/psd/46392013441/in/datetaken/" title="Team visit to The New London Model. It&#x27;s epic."><img src="https://farm5.staticflickr.com/4913/46392013441_affe75e943_k.jpg" alt="Team visit to The New London Model. It&#x27;s epic."></a>
+
 ### Show and Tell
 **Time:** 6 December 2018 at 4pm
 **Location:** F329, Fry Building, London
