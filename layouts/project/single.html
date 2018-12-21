@@ -1,0 +1,67 @@
+{{ define "content_inner" }}
+
+	<div class="govuk-grid-row">
+		<div class="govuk-grid-column-two-thirds">
+      <span class="govuk-caption-xl">{{ .Section | humanize }}</span>
+    	<h1 class="govuk-heading-xl">
+    	  {{ .Title }}
+    	</h1>
+		</div>
+	</div>
+
+	<div class="govuk-grid-row">
+		<div class="govuk-grid-column-two-thirds markdown-output">
+			{{ .Content }}
+		</div>
+	</div>
+
+{{ end }}
+
+{{ define "body_end" }}
+<script src="/js/pretty.js"></script>
+<script src="/js/octokit-rest.js"></script>
+<script>
+
+  const issueShortTemplate = (issue) => `
+  <li class="project-issue"><a href="${issue.html_url}">${issue.title}</a></li>`;
+
+  const octokit = new Octokit();
+  const owner = "digital-land";
+  const repo = "digital-land";
+  const projectLabel = "{{ .Params.label }}";
+
+  const futureIssuesContainer = document.querySelector(".upcoming-areas-section");
+  if( futureIssuesContainer ) {
+    const issuesListEl = addGovukListEl(futureIssuesContainer);
+
+    octokit.issues.listForRepo({
+      owner: owner,
+      repo: repo,
+      labels: projectLabel,
+      per_page: 100 // max allowed
+    }).then(({data, headers, status}) => {
+      const futureIssues = data.filter((issue) => {
+        // get all labels for issue
+        const labels = issue.labels.map((labelObj) => labelObj.name);
+        // do not return issues with "current-area-of-investigation" label
+        return !labels.includes("current-area-of-investigation");
+      });
+      // turn into HTML
+      let issuesHTML = futureIssues.map(issue => `
+        <li class="project-issue"><a href="${issue.html_url}">${issue.title}</a></li>
+      `).join("");
+
+      issuesListEl.innerHTML = issuesHTML;
+    });
+  }
+
+  function addGovukListEl(container) {
+    const newListElement = document.createElement("ul");
+    newListElement.classList.add("govuk-list");
+    newListElement.classList.add("govuk-list--bullet");
+    container.appendChild(newListElement);
+    return newListElement;
+  }
+  
+</script>
+{{ end }}
