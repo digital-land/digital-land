@@ -1,6 +1,7 @@
 ---
 title: "Brownfield sites"
 status: alpha
+label: "project:brownfield-sites"
 ---
 
 All local authorities must [publish a register of brownfield sites](https://www.gov.uk/guidance/brownfield-land-registers).
@@ -45,9 +46,9 @@ Some words about what we've learned
 
 {{< govuk-section-break "xl" >}}
 
-## Next steps
+## Upcoming areas of investigation
 
-* next we'll be doing these things...
+{{% include-content "/project/developer-contributions/_upcoming-areas-of-investigation.md" "upcoming-areas-section" %}}
 
 {{< govuk-section-break "xl" >}}
 

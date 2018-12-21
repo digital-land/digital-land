@@ -1,6 +1,8 @@
 ---
 title: "Developer contributions"
 status: alpha
+type: project
+label: "project:developer-contributions"
 ---
 
 The [Ministry of Housing, Communities & Local Government](https://www.gov.uk/government/organisations/ministry-of-housing-communities-and-local-government) has been working with local planning authorities to design a data format for publishing Section 106 agreements, viability assessments, and other developer contributions.
@@ -119,16 +121,7 @@ We haven’t yet tested the validator with users.
 
 ## Upcoming areas of investigation
 
-We plan to explore the following by prototyping tools and by testing with, consulting people involved with developer contributions, and responding to your feedback:
-
-* [Is it possible to extract Section 106 data from third party tools?](https://github.com/digital-land/digital-land/issues/23)
-* [What do planning authorities need from an index of viability assessments?](https://github.com/digital-land/digital-land/issues/24)
-* [Would it be useful to track contributions at a project level?](https://github.com/digital-land/digital-land/issues/25)
-* [Are ‘developer contributions’ the correct name for this work?](https://github.com/digital-land/digital-land/issues/28)
-* [Is it possible to have a standardised set of contribution purposes?](https://github.com/digital-land/digital-land/issues/26)
-* [What dates are important and do we need to capture them?](https://github.com/digital-land/digital-land/issues/27)
-* [How do we capture non-financial obligations as data?](https://github.com/digital-land/digital-land/issues/29)
-* [How do we avoid introducing additional work to local planning authorities who use 3rd party tool to manage their agreements?](https://github.com/digital-land/digital-land/issues/33)
+{{% include-content "/project/developer-contributions/_upcoming-areas-of-investigation.md" "upcoming-areas-section" %}}
 
 {{< govuk-section-break "xl" >}}
 
