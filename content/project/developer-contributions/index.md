@@ -133,13 +133,38 @@ Public consultation ends.
 
 **20 December 2010**
 
-The [public consultation](https://www.gov.uk/government/consultations/developer-contributions-reform-technical-consultation) begins.
+The [public consultation](https://www.gov.uk/government/consultations/developer-contributions-reform-technical-consultation) started.
+
+**19 December 2018**
+
+We met with [Babergh & Mid Suffolk Councils](https://www.midsuffolk.gov.uk/), and [Exacom](http://exacom.co.uk/) to test the proposed data format against how they currently manage their developer contributions.
 
 **22 November 2018**
 
-We held a discovery workshop hosted by the GLA along with TFL and Southwark to walk through our joint approach for developer contributions.
+We held a discovery workshop hosted by the [GLA](https://www.london.gov.uk/) along with [TFL](https://tfl.gov.uk/) and [Southwark Council](https://www.southwark.gov.uk/) to walk through our joint approach for developer contributions.
 
 **16 October 2018**
 
 We published [a blog post](https://mhclgdigital.blog.gov.uk/2018/10/16/making-developer-contributions-open-and-transparent/) with more information about this project.
 
+**September 2018**
+
+We conducted user research to understand more about how developer contributions are managed, and what user needs we could address through making the data available. This included sessions with [Southwark Council](https://www.southwark.gov.uk/), [Dacorum Borough Council](http://www.dacorum.gov.uk/), [Lambeth Council](https://www.lambeth.gov.uk), [Islington Council](https://www.islington.gov.uk/) and [Waltham Forest Council](https://walthamforest.gov.uk/).  
+
+**June 2018**
+
+An initial draft of a data standard was produced by iStandUK, this provided us with a baseline to test and refine based on user needs.
+
+**Spring 2018**
+
+MHCLG commissioned a local authority consortium [iStandUK](https://istanduk.org/) to produce a data standard for developer contributions.
+
+iStandUK met with local authorities to examine how contributions could be captured.
+
+**Autumn 2017**
+
+Feedback from the white paper welcomed the intention to improve transparency, but highlighted the lack of data on developer contributions as a major barrier.
+
+**February 2017**
+
+MHCLG [published a white paper](https://www.gov.uk/government/collections/housing-white-paper) setting out plans to make the planning system more transparent.
