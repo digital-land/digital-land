@@ -147,6 +147,10 @@ We held a discovery workshop hosted by the [GLA](https://www.london.gov.uk/) alo
 
 We published [a blog post](https://mhclgdigital.blog.gov.uk/2018/10/16/making-developer-contributions-open-and-transparent/) with more information about this project.
 
+**10 October 2018**
+
+We met with Exacom to learn how developer contributions are managed within their product, and to explore opportunities for re-purposing existing data.
+
 **September 2018**
 
 We conducted user research to understand more about how developer contributions are managed, and what user needs we could address through making the data available. This included sessions with [Southwark Council](https://www.southwark.gov.uk/), [Dacorum Borough Council](http://www.dacorum.gov.uk/), [Lambeth Council](https://www.lambeth.gov.uk), [Islington Council](https://www.islington.gov.uk/) and [Waltham Forest Council](https://walthamforest.gov.uk/).  
