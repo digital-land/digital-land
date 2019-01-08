@@ -7,7 +7,9 @@ label: "project:developer-contributions"
 
 The [Ministry of Housing, Communities & Local Government](https://www.gov.uk/government/organisations/ministry-of-housing-communities-and-local-government) has been working with local planning authorities to design a data format for publishing Section 106 agreements, viability assessments, and other developer contributions.
 
-{{< govuk-section-break "xl" >}}
+{{< govuk-section-break "l" >}}
+
+{{% include-content "/project/developer-contributions/_contents.md" "contents-section" %}}
 
 ## Help us develop a common data format
 

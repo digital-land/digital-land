@@ -1,0 +1,26 @@
+$list-indent: 25px;
+
+.contents-section {
+  ul {
+    margin-top: 5px !important;
+    padding-left: $list-indent;
+  }
+  li {
+    @include govuk-font($size: 16);
+    line-height: 1.3;
+    list-style: none;
+
+    &:before {
+      content: "— ";
+      margin-left: -($list-indent);
+      padding-right: 5px;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+  p {
+    margin: 0;
+  }
+}
