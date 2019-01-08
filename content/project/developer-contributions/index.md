@@ -52,10 +52,7 @@ Read our [proposed guidance for publishing developer contributions](https://digi
 
 The following areas of investigation demonstrate possible ways the data might be applied and made easier to work with.
 
-{{< prototype-heading "A collection of viability assessments" "https://github.com/digital-land/digital-land/issues/21">}}
-  {{< progress-tag "in-progress" >}}In progress{{< /progress-tag >}}
-{{< /prototype-heading >}}
-
+{{< in-progress-issue title="A collection of viability assessments" number="21" >}}
 #### Questions we're asking
 
 Finding published viability assessments is extremely difficult. Would providing an index of viability assessments, along with important information, be of value to local planning authorities and interested members of the community?
@@ -67,11 +64,10 @@ Finding published viability assessments is extremely difficult. Would providing 
 #### What we learned
 
 We haven’t yet tested the index with users.
+{{< /in-progress-issue >}}
 
-{{< prototype-heading "Developer contributions dashboard" "https://github.com/digital-land/digital-land/issues/20">}}
-  {{< progress-tag "in-progress" >}}In progress{{< /progress-tag >}}
-{{< /prototype-heading >}}
 
+{{< in-progress-issue title="Developer contributions dashboard" number="20">}}
 #### Questions we're asking
 
 Will presenting what contribution agreements have been made, where funds have been allocated, and whether money has been spent help answer questions from the community, local authorities and government?
@@ -83,12 +79,10 @@ Will presenting what contribution agreements have been made, where funds have be
 #### What we learned
 
 We haven’t yet tested the dashboard with users.
+{{< /in-progress-issue >}}
 
 
-{{< prototype-heading "Entering data for a Section 106 executive summary" "https://github.com/digital-land/digital-land/issues/22" >}}
-  {{< progress-tag "in-progress" >}}In progress{{< /progress-tag >}}
-{{< /prototype-heading >}}
-
+{{< in-progress-issue title="Entering data for a Section 106 executive summary" number="22" >}}
 #### Questions we're asking
 
 Section 106 contributions are published as documents. Would offering planning authorities a simple form enable them to identify pertinent information from within the document and publish it as summary data?
@@ -100,11 +94,10 @@ Section 106 contributions are published as documents. Would offering planning au
 #### What we've learned
 
 Many planning authorities are already using third party tools to help manage their developer contributions. Asking to double-key much of the same data into an additional form would become burdensome and likely lead to a poor quality of data.
+{{< /in-progress-issue >}}
 
-{{< prototype-heading "Checking developer contribution data is valid" "https://github.com/digital-land/digital-land/issues/32" >}}
-  {{< progress-tag "in-progress" >}}In progress{{< /progress-tag >}}
-{{< /prototype-heading >}}
 
+{{< in-progress-issue title="Checking developer contribution data is valid" number="32" >}}
 #### Questions we're asking
 
 Developer contributions data will need to be published in line with the data format. Would offering planning authorities a simple validator help them ensure their publication follows that format?
@@ -116,6 +109,7 @@ Developer contributions data will need to be published in line with the data for
 #### What we've learned
 
 We haven’t yet tested the validator with users.
+{{< /in-progress-issue >}}
 
 {{< govuk-section-break "xl" >}}
 
