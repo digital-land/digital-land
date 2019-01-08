@@ -5,9 +5,11 @@ We have created a number of shortcodes that can be used when writing markdown. T
 Replicates [govuk inset text component](https://design-system.service.gov.uk/components/inset-text/).
 
 Usage:
+```
 {{% inset-text %}}
 We do not allow Google to use or share our analytics data.
 {{% /inset-text %}}
+```
 
 ### in-progress-issue block
 
