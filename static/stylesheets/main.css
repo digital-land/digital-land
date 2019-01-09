@@ -5543,6 +5543,30 @@ blockquote p:last-child:after {
   color: #2b8cc4;
 }
 
+.contents-section {
+  padding-bottom: 15px;
+  position: relative;
+}
+
+.contents-section:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+  width: calc(100% - 30px);
+  height: 1px;
+  background: #bfc1c3;
+}
+
+@media (min-width: 40.0625em) {
+  .contents-section {
+    padding-bottom: 0;
+  }
+  .contents-section:before {
+    display: none;
+  }
+}
+
 .contents-section ul {
   margin-top: 5px !important;
   padding-left: 25px;

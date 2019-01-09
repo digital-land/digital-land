@@ -1,6 +1,27 @@
 $list-indent: 25px;
 
 .contents-section {
+  padding-bottom: $govuk-gutter-half;
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    width: calc(100% - #{$govuk-gutter});
+    height: 1px;
+    background: $govuk-border-colour;
+  }
+
+  @include govuk-media-query($from: tablet) {
+    padding-bottom: 0;
+
+    &:before {
+      display: none;
+    }
+  }
+
   ul {
     margin-top: 5px !important;
     padding-left: $list-indent;
