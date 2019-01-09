@@ -1,0 +1,7 @@
+<div class="prototype-summary" data-issue-number='{{ .Get "number" }}'>
+  <span class="prototype-progress-flag in-progress-flag--inverse">In progress</span>
+  <h3 class="govuk-heading-m prototype-summary--heading">
+    {{ if .Get "number" }}<a href='https://github.com/digital-land/digital-land/issues/{{ .Get "number" }}'>{{ end }}{{ .Get "title" }}{{ if .Get "number" }}</a>{{ end }}
+  </h3>
+  {{ .Inner | markdownify }}
+</div>

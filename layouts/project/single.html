@@ -1,7 +1,7 @@
 {{ define "content_inner" }}
 
-	<div class="govuk-grid-row">
-		<div class="govuk-grid-column-two-thirds">
+  <div class="govuk-grid-row">
+		<div class="govuk-grid-column-full">
       <span class="govuk-caption-xl">{{ .Section | humanize }}</span>
     	<h1 class="govuk-heading-xl">
     	  {{ .Title }}
@@ -9,11 +9,30 @@
 		</div>
 	</div>
 
+  {{ if eq .Params.hasContent true }}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full markdown-output">
+    {{ with .Resources.GetMatch "_introduction.md" -}}
+      {{ .Content }}
+    {{ end }}
+    <hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
+    </div>
+  </div>
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-one-third markdown-output contents-section">
+      {{ (.Resources.GetMatch "_contents.md").Content }}
+    </div>
+	  <div class="govuk-grid-column-two-thirds markdown-output has-side-contents">
+			{{ .Content }}
+		</div>
+	</div>
+  {{ else }}
 	<div class="govuk-grid-row">
 		<div class="govuk-grid-column-two-thirds markdown-output">
 			{{ .Content }}
 		</div>
 	</div>
+  {{ end }}
 
 {{ end }}
 
@@ -62,6 +81,33 @@
     container.appendChild(newListElement);
     return newListElement;
   }
+
+  // add a last updated note to in-progress-issues
+  function getIssue(number, cb) {
+    octokit.issues.get({
+      owner: owner,
+      repo: repo,
+      number: number
+    }).then(({data, headers, status}) => {
+      cb(data);
+    });
+  }
   
+  const inProgressIssues = document.querySelectorAll('[data-issue-number]');
+  inProgressIssues.forEach((issueEl) => {
+    getIssue(issueEl.dataset.issueNumber, function(issueData) {
+      const heading = issueEl.querySelector(".prototype-summary--heading");
+      const statusEl = document.createElement("span");
+      const textContent = document.createTextNode(`Lasted updated: ${prettyDate(issueData.updated_at)}. `);
+      const linkEl = document.createElement('a');
+      linkEl.appendChild(document.createTextNode("See full discussion"));
+      linkEl.href = issueData.html_url;
+      linkEl.classList.add("govuk-link");
+      statusEl.appendChild(textContent);
+      statusEl.appendChild(linkEl);
+      
+      heading.parentNode.insertBefore(statusEl, heading.nextSibling);
+    });
+  });
 </script>
 {{ end }}
