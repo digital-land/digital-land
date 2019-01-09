@@ -5591,6 +5591,36 @@ blockquote p:last-child:after {
 
 .contents-section p {
   margin: 0;
+  font-family: "nta", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14286;
+}
+
+@media print {
+  .contents-section p {
+    font-family: sans-serif;
+  }
+}
+
+@media (min-width: 40.0625em) {
+  .contents-section p {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}
+
+@media print {
+  .contents-section p {
+    font-size: 14pt;
+    line-height: 1.2;
+  }
+}
+
+.has-side-contents h1:first-child, .has-side-contents h2:first-child, .has-side-contents h3:first-child, .has-side-contents h4:first-child, .has-side-contents p:first-child {
+  margin-top: 0;
 }
 
 .markdown-output {

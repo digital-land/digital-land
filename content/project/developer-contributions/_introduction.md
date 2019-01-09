@@ -1,0 +1,1 @@
+The [Ministry of Housing, Communities & Local Government](https://www.gov.uk/government/organisations/ministry-of-housing-communities-and-local-government) has been working with local planning authorities to design a data format for publishing Section 106 agreements, viability assessments, and other developer contributions.
