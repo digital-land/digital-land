@@ -1,5 +1,9 @@
 We have created a number of shortcodes that can be used when writing markdown. These shortcodes will create styled components.
 
+We have also written so brief guides on how to create the different content types. The guides we have are:
+
+* [Project pages](CREATING_PROJECT_PAGES.md)
+
 ### Inset text
 
 Replicates [govuk inset text component](https://design-system.service.gov.uk/components/inset-text/).
