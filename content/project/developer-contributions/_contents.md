@@ -4,4 +4,4 @@ Contents
 - [Publishing using our proposed data format](#publish-using-our-proposed-data-format)
 - [Current areas of investigation](#current-areas-of-investigation")
 - [Upcoming areas of investigation](#upcoming-areas-of-investigation)
-- [Timeline](developer-contributions#timeline)
+- [Timeline](#timeline)
