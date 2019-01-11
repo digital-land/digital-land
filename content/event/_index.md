@@ -1,6 +1,14 @@
 ---
 title: Events
 ---
+### Show and Tell
+**Time:** 10 January 2019
+**Location:** Digital Land, Ground Floor, Fry Building, London
+
+We ran our first show and tell of 2019 where the team talked through the early view of the service archiecture, our approach for learning about a design process for policy making, and what we've learnt through the early stages of the [developer contributions](/project/developer-contributions) public consultation.
+
+<a href="https://www.flickr.com/photos/mattlucht/39734701243/in/datetaken-public/" title="Digital Land Show and Tell -- 20191101"><img src="https://farm8.staticflickr.com/7860/39734701243_695ba27ec0_k.jpg" alt="Digital Land Show and Tell -- 20191101"></a>
+
 
 ### Team visit
 **Time:** 20 December 2018
