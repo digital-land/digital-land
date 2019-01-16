@@ -1,8 +1,8 @@
 $list-indent: 25px;
 
 .contents-section {
-  padding-bottom: $govuk-gutter-half;
   position: relative;
+  padding-bottom: $govuk-gutter-half;
 
   &:before {
     content: "";
@@ -29,8 +29,8 @@ $list-indent: 25px;
 
   li {
     @include govuk-font($size: 16);
-    line-height: 1.3;
     list-style: none;
+    line-height: 1.3;
 
     &:before {
       content: "— ";
@@ -45,12 +45,16 @@ $list-indent: 25px;
 
   p {
     margin: 0;
-    @include govuk-font($size: 16); 
+    @include govuk-font($size: 16);
   }
 }
 
 .has-side-contents {
-  h1, h2, h3, h4, p {
+  h1,
+  h2,
+  h3,
+  h4,
+  p {
     &:first-child {
       margin-top: 0;
     }
