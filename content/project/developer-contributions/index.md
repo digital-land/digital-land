@@ -118,9 +118,21 @@ We haven’t yet tested the validator with users.
 
 ## Timeline
 
+**01 February 2019**
+
+The [Planning Advisory Service](https://www.local.gov.uk/pas) are hosting a workshop in Birmingham to provide an opportunity for local planning authorities to learn more about the proposed changes, and provide an opportunity to ask questions and provide feedback. You can find out more and register [here](https://www.eventbrite.co.uk/e/monitoring-data-workshop-with-mhclg-viability-cil-and-section-106-birmingham-tickets-54968274589).
+
 **31 January 2019**
 
 Public consultation ends.
+
+**29 January 2019**
+
+The [Planning Advisory Service](https://www.local.gov.uk/pas) are hosting a workshop in Leeds to provide an opportunity for local planning authorities to learn more about the proposed changes, and provide an opportunity to ask questions and provide feedback. You can find out more and register [here](https://www.eventbrite.co.uk/e/monitoring-data-workshop-with-mhclg-viability-cil-and-section-106-leeds-tickets-54919539822).
+
+**28 January 2019**
+
+The [Planning Advisory Service](https://www.local.gov.uk/pas) are hosting a workshop in London to provide an opportunity for local planning authorities to learn more about the proposed changes, and provide an opportunity to ask questions and provide feedback. You can find out more and register [here](https://www.eventbrite.co.uk/e/monitoring-data-workshop-with-mhclg-viability-cil-and-section-106-london-tickets-54919493684).
 
 **20 December 2010**
 
