@@ -36,6 +36,13 @@ Local plans contain data mapped to geographical areas. While useful, they can be
 
 {{% include-content "/project/local-plans/_upcoming-areas-of-investigation.md" "upcoming-areas-section" %}}
 
+{{< later-issue title="What do people want from local plans" number="57" >}}
+
+{{< later-issue title="What needs are we trying to address through opening up local plan data" number="52" >}}
+
+{{< later-issue title="Who are local plans for" number="51" >}}
+
+{{< later-issue title="How are local plans created" number="50" >}}
 
 {{< govuk-section-break "xl" >}}
 
@@ -43,4 +50,4 @@ Local plans contain data mapped to geographical areas. While useful, they can be
 
 **10 January 2019**
 
-We attended the ‘Answering the Housing Land Question - Building a Knowledge Base’ conference in Reading and participated in a panel on ‘Land: The State of Data and Information Availability’
+We attended the ‘Answering the Housing Land Question - Building a Knowledge Base’ conference in Reading and participated in a panel on ‘Land: The State of Data and Information Availability’s

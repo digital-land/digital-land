@@ -5542,8 +5542,20 @@ blockquote p:last-child:after {
   padding: 3px 5px 2px;
 }
 
+.prototype-later-flag {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 .later-flag {
   color: #2b8cc4;
+}
+
+.later-flag--inverse {
+  padding: 3px 5px 0;
+  color: #ffffff;
+  background: #2b8cc4;
+  padding: 3px 5px 2px;
 }
 
 .contents-section {

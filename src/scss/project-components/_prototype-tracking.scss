@@ -38,6 +38,20 @@
   }
 }
 
+.prototype-later-flag {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 .later-flag {
   color: govuk-colour("light-blue");
+
+    &--inverse {
+    padding: 3px 5px 0;
+    color: govuk-colour("white");
+    background: govuk-colour("light-blue");
+    @if $using-helvetica == true {
+      padding: 3px 5px 2px;
+    }
+  }
 }
