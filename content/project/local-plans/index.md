@@ -12,10 +12,8 @@ The Ministry of Housing, Communities and Local Government is working with local 
 
 ## Upcoming areas of investigation
 
-We plan to explore the following by prototyping tools and by testing and consulting with people involved with developer contributions, and responding to your feedback.
-We will regularly add updates to the following [issues on github](https://github.com/digital-land/digital-land/issues):
-
 {{% include-content "/project/developer-contributions/_upcoming-areas-of-investigation.md" "upcoming-areas-section" %}}
+
 
 {{< govuk-section-break "xl" >}}
 
@@ -23,4 +21,4 @@ We will regularly add updates to the following [issues on github](https://github
 
 **10 January 2019**
 
-We attended the ‘Answering the Housing Land Question - Building a Knowledge Base’ conference in Reading and participated in a panel on ‘Land: The State of Data and Information Availability’	
+We attended the ‘Answering the Housing Land Question - Building a Knowledge Base’ conference in Reading and participated in a panel on ‘Land: The State of Data and Information Availability’
