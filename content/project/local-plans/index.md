@@ -36,13 +36,6 @@ Local plans contain data mapped to geographical areas. While useful, they can be
 
 {{% include-content "/project/local-plans/_upcoming-areas-of-investigation.md" "upcoming-areas-section" %}}
 
-{{< later-issue title="What do people want from local plans" number="57" >}}
-
-{{< later-issue title="What needs are we trying to address through opening up local plan data" number="52" >}}
-
-{{< later-issue title="Who are local plans for" number="51" >}}
-
-{{< later-issue title="How are local plans created" number="50" >}}
 
 {{< govuk-section-break "xl" >}}
 
