@@ -1,11 +1,11 @@
 blockquote {
   @include govuk-font($size: 19);
-  padding: 10px $govuk-gutter-half 10px 0;
-  //@include govuk-responsive-padding(4, "left");
-  margin: 0;
-  border: 0;
   max-width: 29em;
-  background: govuk-colour(grey-3);
+  margin: 0;
+  padding: 10px $govuk-gutter-half 10px 2px;
+  //@include govuk-responsive-padding(4, "left");
+  border: 0;
+  background: govuk-colour("grey-3");
 
   p {
     @include govuk-responsive-padding(3, "left");
@@ -14,22 +14,25 @@ blockquote {
       @include govuk-responsive-padding(4, "left");
     }
   }
+
   & p:before {
     content: "\201C";
+    margin-left: -$govuk-gutter-half;
     float: left;
     clear: both;
-    margin-left: -$govuk-gutter-half;
     @include govuk-font($size: 27);
   }
+
   p:last-child {
     margin-bottom: 0;
   }
+
   & p:last-child:after {
     content: "\201D";
   }
 
   @include govuk-media-query($from: desktop) {
-    margin: 0 0 0 (-$govuk-gutter);
     margin: 0;
+    padding-left: 5px;
   }
 }

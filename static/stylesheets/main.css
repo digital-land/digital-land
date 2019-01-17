@@ -5318,10 +5318,10 @@ blockquote {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
-  padding: 10px 15px 10px 0;
-  margin: 0;
-  border: 0;
   max-width: 29em;
+  margin: 0;
+  padding: 10px 15px 10px 2px;
+  border: 0;
   background: #dee0e2;
 }
 
@@ -5369,9 +5369,9 @@ blockquote p {
 
 blockquote p:before {
   content: "\201C";
+  margin-left: -15px;
   float: left;
   clear: both;
-  margin-left: -15px;
   font-family: "nta", Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -5410,8 +5410,8 @@ blockquote p:last-child:after {
 
 @media (min-width: 48.0625em) {
   blockquote {
-    margin: 0 0 0 -30px;
     margin: 0;
+    padding-left: 5px;
   }
 }
 
