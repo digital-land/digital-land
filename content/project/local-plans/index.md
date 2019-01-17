@@ -9,6 +9,10 @@ label: "project:local-plans"
 
 The Ministry of Housing, Communities and Local Government is working with local planning authorities to design a data format for publishing local plan data so that it’s easy to find, use and trust.
 
+{{< govuk-section-break "xl" >}}
+
+## Current areas of investigation
+
 The following areas of investigation demonstrate possible ways the data might be applied and made easier to work with:
 
 ### A timetable for local plan production
