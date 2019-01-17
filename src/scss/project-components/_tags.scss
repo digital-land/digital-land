@@ -1,10 +1,17 @@
-// Tags
-//
-// Linked tag item
-//
-// ===================
+// Tag variations
+// --------------
 
-.tag {
+.govuk-tag--error {
+  background-color: govuk-colour("red");
+}
+
+.govuk-tag--warning {
+  background-color: govuk-colour("yellow");
+}
+
+// dl Tag
+// --------------
+.dl-tag {
   display: inline-block;
   margin-right: 8px;
   margin-bottom: 5px;
