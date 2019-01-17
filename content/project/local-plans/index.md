@@ -15,20 +15,20 @@ The Ministry of Housing, Communities and Local Government is working with local 
 
 The following areas of investigation demonstrate possible ways the data might be applied and made easier to work with:
 
-### A timetable for local plan production
+{{< in-progress-issue title="A timetable for local plan production" number="61" >}}
 
 #### Questions we’re asking
 
 There is no central record of where local planning authorities are in the process of producing their local plans. Would creating one be useful to users of local plans?  What would a useful one record of local plan production look like?
 
-
-### A resource showing local authorities’ targets for housing units
+{{< in-progress-issue title="A resource showing local authorities’ targets for housing units" number="62" >}}
 
 #### Questions we’re asking
 
 There is no central resource indicating the number of housing units each local planning authority has promised. Would it be possible to aggregate this data accurately and what form would be most useful to potential users of this data?
 
-### A record of geographies in local plans
+
+{{< in-progress-issue title="A record of geographies in local plans" number="63" >}}
 
 #### Questions we're asking
 
@@ -40,13 +40,6 @@ Local plans contain data mapped to geographical areas. While useful, they can be
 
 {{% include-content "/project/local-plans/_upcoming-areas-of-investigation.md" "upcoming-areas-section" %}}
 
-{{< later-issue title="What do people want from local plans" number="57" >}}
-
-{{< later-issue title="What needs are we trying to address through opening up local plan data" number="52" >}}
-
-{{< later-issue title="Who are local plans for" number="51" >}}
-
-{{< later-issue title="How are local plans created" number="50" >}}
 
 {{< govuk-section-break "xl" >}}
 
