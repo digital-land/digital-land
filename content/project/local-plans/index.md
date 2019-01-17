@@ -12,7 +12,7 @@ The Ministry of Housing, Communities and Local Government is working with local 
 
 ## Upcoming areas of investigation
 
-{{% include-content "/project/developer-contributions/_upcoming-areas-of-investigation.md" "upcoming-areas-section" %}}
+{{% include-content "/project/local-plans/_upcoming-areas-of-investigation.md" "upcoming-areas-section" %}}
 
 
 {{< govuk-section-break "xl" >}}
