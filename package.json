@@ -22,6 +22,7 @@
   "devDependencies": {
     "gulp": "^4.0.0",
     "gulp-clean": "^0.4.0",
-    "gulp-sass": "^4.0.1"
+    "gulp-sass": "^4.0.1",
+    "gulp-sass-lint": "^1.4.0"
   }
 }

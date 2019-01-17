@@ -5318,10 +5318,10 @@ blockquote {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
-  padding: 10px 15px 10px 0;
-  margin: 0;
-  border: 0;
   max-width: 29em;
+  margin: 0;
+  padding: 10px 15px 10px 2px;
+  border: 0;
   background: #dee0e2;
 }
 
@@ -5369,9 +5369,9 @@ blockquote p {
 
 blockquote p:before {
   content: "\201C";
+  margin-left: -15px;
   float: left;
   clear: both;
-  margin-left: -15px;
   font-family: "nta", Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -5410,8 +5410,8 @@ blockquote p:last-child:after {
 
 @media (min-width: 48.0625em) {
   blockquote {
-    margin: 0 0 0 -30px;
     margin: 0;
+    padding-left: 5px;
   }
 }
 
@@ -5420,50 +5420,45 @@ blockquote p:last-child:after {
 }
 
 .with-hero .govuk-phase-banner {
-  border-bottom: none;
+  border-bottom: 0;
 }
 
 .hero {
-  background: #005ea5;
   color: #ffffff;
+  background: #005ea5;
 }
 
 @media (min-width: 40.0625em) {
   .hero {
-    margin-bottom: 20px;
-  }
-}
-
-@media (min-width: 40.0625em) and (min-width: 40.0625em) {
-  .hero {
+    margin: 0 -15px;
     margin-bottom: 30px;
   }
 }
 
-.hero .hero-heading, .hero p {
-  color: #ffffff;
-}
-
-.hero a {
-  color: #ffffff;
-}
-
-.hero a:hover {
-  color: #bfc1c3;
-}
-
-.hero_content {
-  width: 960px;
-  padding: 25px 0 15px;
+.hero__content {
+  max-width: 960px;
+  padding: 25px 15px 15px;
 }
 
 @media (min-width: 40.0625em) {
-  .hero_content {
-    padding: 40px 0 30px;
+  .hero__content {
+    padding: 40px 15px 30px;
   }
 }
 
-/* dl */
+.hero__content .govuk-heading-xl, .hero__content .markdown-output h1, .markdown-output .hero__content h1,
+.hero__content .govuk-heading-l,
+.hero__content .markdown-output h2,
+.markdown-output .hero__content h2,
+.hero__content .govuk-body-l,
+.hero__content a {
+  color: #ffffff;
+}
+
+.hero__content a:hover {
+  color: #dee0e2;
+}
+
 .definition-inline:after {
   content: "";
   display: block;
@@ -5471,12 +5466,12 @@ blockquote p:last-child:after {
 }
 
 .definition-inline dt {
-  float: left;
   margin-right: 5px;
+  float: left;
 }
 
 .definition-inline dt:after {
-  content: ':';
+  content: ":";
 }
 
 .definition-inline dd {
@@ -5490,21 +5485,29 @@ blockquote p:last-child:after {
   }
 }
 
-.tag {
+.govuk-tag--error {
+  background-color: #b10e1e;
+}
+
+.govuk-tag--warning {
+  background-color: #ffbf47;
+}
+
+.dl-tag {
   display: inline-block;
-  background: #DEE0E2;
+  margin-right: 8px;
+  margin-bottom: 5px;
   padding: 5px 10px;
   border-radius: 3px;
+  background: #dee0e2;
   font-weight: 600;
-  margin-bottom: 5px;
-  margin-right: 8px;
   white-space: nowrap;
 }
 
 .prototype-summary-item {
-  border-top: 1px solid #dee0e2;
-  padding-top: 10px;
   margin-bottom: 15px;
+  padding-top: 10px;
+  border-top: 1px solid #dee0e2;
 }
 
 .prototype-summary-item--inprogress {
@@ -5524,8 +5527,8 @@ blockquote p:last-child:after {
 }
 
 .prototype-progress-flag {
-  text-transform: uppercase;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .in-progress-flag {
@@ -5533,9 +5536,9 @@ blockquote p:last-child:after {
 }
 
 .in-progress-flag--inverse {
-  background: #28a197;
-  color: #fff;
   padding: 3px 5px 0;
+  color: #ffffff;
+  background: #28a197;
   padding: 3px 5px 2px;
 }
 
@@ -5544,8 +5547,8 @@ blockquote p:last-child:after {
 }
 
 .contents-section {
-  padding-bottom: 15px;
   position: relative;
+  padding-bottom: 15px;
 }
 
 .contents-section:before {
@@ -5579,8 +5582,8 @@ blockquote p:last-child:after {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.14286;
-  line-height: 1.3;
   list-style: none;
+  line-height: 1.3;
 }
 
 @media print {
@@ -5643,7 +5646,11 @@ blockquote p:last-child:after {
   }
 }
 
-.has-side-contents h1:first-child, .has-side-contents h2:first-child, .has-side-contents h3:first-child, .has-side-contents h4:first-child, .has-side-contents p:first-child {
+.has-side-contents h1:first-child,
+.has-side-contents h2:first-child,
+.has-side-contents h3:first-child,
+.has-side-contents h4:first-child,
+.has-side-contents p:first-child {
   margin-top: 0;
 }
 
@@ -5661,12 +5668,14 @@ blockquote p:last-child:after {
   margin-top: 0;
 }
 
-.markdown-output p, .markdown-output ul {
+.markdown-output p,
+.markdown-output ul {
   margin-top: 15px;
 }
 
 @media (min-width: 40.0625em) {
-  .markdown-output p, .markdown-output ul {
+  .markdown-output p,
+  .markdown-output ul {
     margin-top: 20px;
   }
 }
@@ -5738,10 +5747,10 @@ blockquote p:last-child:after {
 }
 
 .markdown-output p code {
-  line-height: 1.31579em;
   padding: 2px 5px;
-  background-color: #f8f8f8;
   color: #001526;
+  background-color: #f8f8f8;
+  line-height: 1.31579em;
 }
 
 * {
@@ -5758,9 +5767,9 @@ blockquote p:last-child:after {
 }
 
 .heading-flush {
-  border-top: 5px solid #005ea5;
   margin-top: 0;
   padding-top: 0.3125em;
+  border-top: 5px solid #005ea5;
 }
 
 @media (min-width: 40.0625em) {
@@ -5800,8 +5809,8 @@ blockquote p:last-child:after {
 }
 
 .project-display .project-display__title {
-  text-align: center;
   margin-top: 5px;
+  text-align: center;
 }
 
 .project-meta-data {
@@ -5826,14 +5835,14 @@ blockquote p:last-child:after {
 
 .pattern-display-single {
   max-width: 150px;
-  background: #dee0e2;
   border-radius: 5%;
+  background: #dee0e2;
 }
 
 .pattern-icon {
   max-width: 200px;
-  background: #dee0e2;
   border-radius: 5%;
+  background: #dee0e2;
 }
 
 .pattern-page-header {
@@ -5889,7 +5898,7 @@ blockquote p:last-child:after {
 }
 
 .prototype-update-container:last-child {
-  border-bottom: none;
+  border-bottom: 0;
 }
 
 .prototype-summary {
@@ -5911,8 +5920,8 @@ blockquote p:last-child:after {
 }
 
 .prototype-summary .prototype-progress-flag {
-  margin-bottom: 5px;
   display: inline-block;
+  margin-bottom: 5px;
 }
 
 .column-guidance-container {
@@ -5960,19 +5969,19 @@ blockquote p:last-child:after {
 }
 
 .tech-block {
-  background: #fcfcfc;
   padding: 15px;
   overflow: auto;
   border: 1px solid #bfc1c3;
   border-radius: 1px;
+  background: "grey-4";
 }
 
 .tech-block code {
   font-family: monaco, Consolas, "Lucida Console", monospace;
   font-size: 16px;
-  overflow-wrap: break-word;
   word-wrap: break-word;
-  -ms-word-break: break-all;
   word-break: break-all;
   word-break: break-word;
+  -ms-word-break: break-all;
+  overflow-wrap: break-word;
 }

@@ -1,5 +1,6 @@
 const gulp          = require("gulp");
 const sass          = require("gulp-sass");
+const sassLint      = require('gulp-sass-lint');
 const clean         = require('gulp-clean');
 
 // set paths ...
@@ -26,6 +27,17 @@ gulp.task("scss", function compileSass () {
   .pipe(gulp.dest(config.destPath));
 });
 
+// check .scss files against .sass-lint.yml config
+const lintSCSS = () => 
+  gulp
+    .src('src/scss/**/*.s+(a|c)ss')
+    .pipe(sassLint({
+      files: {},
+      configFile: '.sass-lint.yml'
+    }))
+    .pipe(sassLint.format())
+    .pipe(sassLint.failOnError());
+
 // Watch src folder for changes
 gulp.task("watch", function watchAssets () {
   gulp.watch("src/scss/**/*", gulp.series("scss"));
@@ -36,8 +48,9 @@ gulp.task("copy-assets", function copyAssets () {
     .pipe(gulp.dest(config.assetPath));
 });
 
-gulp.task("generate", gulp.series("copy-assets", "scss"));
+gulp.task("generate", gulp.series(lintSCSS, "clean-css", "copy-assets", "scss"));
 
 // Set watch as default task
 gulp.task("default", gulp.series("watch"));
 
+exports.lintSCSS = lintSCSS;

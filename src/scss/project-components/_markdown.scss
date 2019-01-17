@@ -4,33 +4,45 @@
 // styles
 //
 // ===================
+
 .markdown-output {
   @include govuk-responsive-margin(6, "bottom");
+
+  // sass-lint:disable-block placeholder-in-extend
+
   p:first-child {
     margin-top: 0;
   }
+
   p {
     @extend .govuk-body;
   }
+
   ul {
     @extend .govuk-list;
     @extend .govuk-list--bullet;
   }
-  p, ul {
+
+  p,
+  ul {
     @include govuk-responsive-margin(4, "top");
   }
+
   h1 {
     @extend .govuk-heading-xl;
     @include govuk-responsive-margin(8, "top");
   }
+
   h2 {
     @extend .govuk-heading-l;
     @include govuk-responsive-margin(6, "top");
   }
+
   h3 {
     @include govuk-font($size: 27, $weight: bold);
     @include govuk-responsive-margin(9, "top");
   }
+
   h4 {
     @extend .govuk-heading-s;
     @include govuk-responsive-margin(7, "top");
@@ -39,16 +51,19 @@
   table {
     @extend .govuk-table;
   }
+
   thead th {
     @extend .govuk-table__header;
   }
+
   td {
     @extend .govuk-table__cell;
   }
+
   p code {
-    line-height: govuk-em(25, 19);
     padding: 2px 5px;
-    background-color: #f8f8f8;
     color: darken(govuk-colour("blue"), 25);
+    background-color: govuk-colour("grey-4");
+    line-height: govuk-em(25, 19);
   }
 }

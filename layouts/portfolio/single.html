@@ -30,7 +30,7 @@
 		{{ with .Params.patterns }}
 		<ul class="govuk-list">
 			{{ range . }}
-			<li class="tag"><a href="{{ "portfolio/pattern" | absURL }}/{{ . | urlize }}">{{ . }}</a></li>
+			<li class="dl-tag"><a href="{{ "portfolio/pattern" | absURL }}/{{ . | urlize }}">{{ . }}</a></li>
 			{{ end }}
 		</ul>
 		{{ end }}
