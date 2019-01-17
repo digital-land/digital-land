@@ -48,7 +48,7 @@ gulp.task("copy-assets", function copyAssets () {
     .pipe(gulp.dest(config.assetPath));
 });
 
-gulp.task("generate", gulp.series("copy-assets", "scss"));
+gulp.task("generate", gulp.series(lintSCSS, "clean-css", "copy-assets", "scss"));
 
 // Set watch as default task
 gulp.task("default", gulp.series("watch"));

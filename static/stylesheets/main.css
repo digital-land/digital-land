@@ -5459,7 +5459,6 @@ blockquote p:last-child:after {
   color: #dee0e2;
 }
 
-/* dl */
 .definition-inline:after {
   content: "";
   display: block;
@@ -5467,12 +5466,12 @@ blockquote p:last-child:after {
 }
 
 .definition-inline dt {
-  float: left;
   margin-right: 5px;
+  float: left;
 }
 
 .definition-inline dt:after {
-  content: ':';
+  content: ":";
 }
 
 .definition-inline dd {
@@ -5506,9 +5505,9 @@ blockquote p:last-child:after {
 }
 
 .prototype-summary-item {
-  border-top: 1px solid #dee0e2;
-  padding-top: 10px;
   margin-bottom: 15px;
+  padding-top: 10px;
+  border-top: 1px solid #dee0e2;
 }
 
 .prototype-summary-item--inprogress {
@@ -5528,8 +5527,8 @@ blockquote p:last-child:after {
 }
 
 .prototype-progress-flag {
-  text-transform: uppercase;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .in-progress-flag {
@@ -5537,9 +5536,9 @@ blockquote p:last-child:after {
 }
 
 .in-progress-flag--inverse {
-  background: #28a197;
-  color: #fff;
   padding: 3px 5px 0;
+  color: #ffffff;
+  background: #28a197;
   padding: 3px 5px 2px;
 }
 
@@ -5768,9 +5767,9 @@ blockquote p:last-child:after {
 }
 
 .heading-flush {
-  border-top: 5px solid #005ea5;
   margin-top: 0;
   padding-top: 0.3125em;
+  border-top: 5px solid #005ea5;
 }
 
 @media (min-width: 40.0625em) {
@@ -5810,8 +5809,8 @@ blockquote p:last-child:after {
 }
 
 .project-display .project-display__title {
-  text-align: center;
   margin-top: 5px;
+  text-align: center;
 }
 
 .project-meta-data {
@@ -5836,14 +5835,14 @@ blockquote p:last-child:after {
 
 .pattern-display-single {
   max-width: 150px;
-  background: #dee0e2;
   border-radius: 5%;
+  background: #dee0e2;
 }
 
 .pattern-icon {
   max-width: 200px;
-  background: #dee0e2;
   border-radius: 5%;
+  background: #dee0e2;
 }
 
 .pattern-page-header {
@@ -5899,7 +5898,7 @@ blockquote p:last-child:after {
 }
 
 .prototype-update-container:last-child {
-  border-bottom: none;
+  border-bottom: 0;
 }
 
 .prototype-summary {
@@ -5921,8 +5920,8 @@ blockquote p:last-child:after {
 }
 
 .prototype-summary .prototype-progress-flag {
-  margin-bottom: 5px;
   display: inline-block;
+  margin-bottom: 5px;
 }
 
 .column-guidance-container {
@@ -5970,19 +5969,19 @@ blockquote p:last-child:after {
 }
 
 .tech-block {
-  background: #fcfcfc;
   padding: 15px;
   overflow: auto;
   border: 1px solid #bfc1c3;
   border-radius: 1px;
+  background: "grey-4";
 }
 
 .tech-block code {
   font-family: monaco, Consolas, "Lucida Console", monospace;
   font-size: 16px;
-  overflow-wrap: break-word;
   word-wrap: break-word;
-  -ms-word-break: break-all;
   word-break: break-all;
   word-break: break-word;
+  -ms-word-break: break-all;
+  overflow-wrap: break-word;
 }
