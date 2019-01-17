@@ -5420,47 +5420,43 @@ blockquote p:last-child:after {
 }
 
 .with-hero .govuk-phase-banner {
-  border-bottom: none;
+  border-bottom: 0;
 }
 
 .hero {
-  background: #005ea5;
   color: #ffffff;
+  background: #005ea5;
 }
 
 @media (min-width: 40.0625em) {
   .hero {
-    margin-bottom: 20px;
-  }
-}
-
-@media (min-width: 40.0625em) and (min-width: 40.0625em) {
-  .hero {
+    margin: 0 -15px;
     margin-bottom: 30px;
   }
 }
 
-.hero .hero-heading, .hero p {
-  color: #ffffff;
-}
-
-.hero a {
-  color: #ffffff;
-}
-
-.hero a:hover {
-  color: #bfc1c3;
-}
-
-.hero_content {
-  width: 960px;
-  padding: 25px 0 15px;
+.hero__content {
+  max-width: 960px;
+  padding: 25px 15px 15px;
 }
 
 @media (min-width: 40.0625em) {
-  .hero_content {
-    padding: 40px 0 30px;
+  .hero__content {
+    padding: 40px 15px 30px;
   }
+}
+
+.hero__content .govuk-heading-xl, .hero__content .markdown-output h1, .markdown-output .hero__content h1,
+.hero__content .govuk-heading-l,
+.hero__content .markdown-output h2,
+.markdown-output .hero__content h2,
+.hero__content .govuk-body-l,
+.hero__content a {
+  color: #ffffff;
+}
+
+.hero__content a:hover {
+  color: #dee0e2;
 }
 
 /* dl */
@@ -5673,12 +5669,14 @@ blockquote p:last-child:after {
   margin-top: 0;
 }
 
-.markdown-output p, .markdown-output ul {
+.markdown-output p,
+.markdown-output ul {
   margin-top: 15px;
 }
 
 @media (min-width: 40.0625em) {
-  .markdown-output p, .markdown-output ul {
+  .markdown-output p,
+  .markdown-output ul {
     margin-top: 20px;
   }
 }
@@ -5750,10 +5748,10 @@ blockquote p:last-child:after {
 }
 
 .markdown-output p code {
-  line-height: 1.31579em;
   padding: 2px 5px;
-  background-color: #f8f8f8;
   color: #001526;
+  background-color: #f8f8f8;
+  line-height: 1.31579em;
 }
 
 * {
