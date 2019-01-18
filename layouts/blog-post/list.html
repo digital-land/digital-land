@@ -21,7 +21,7 @@
       </div>
 
       {{ range .Data.Pages }}
-        <article class="blog-post">
+        <article class="blog-post blog-post-preview">
           <header>
             <h2 class="govuk-heading-l">
               <a href="{{ if isset .Params "external_url" }}{{ .Params.external_url }}{{ else }}{{ .URL }}{{ end }}">{{ .Title }}</a>

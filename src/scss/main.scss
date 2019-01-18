@@ -172,14 +172,20 @@ $govuk-images-path: "/govuk-frontend/assets/images/";
 }
 
 .blog-post {
+  .byline {
+    color: govuk-colour("grey-1");
+  }
+
+  footer a {
+    font-weight: bold;
+  }
+}
+
+.blog-post-preview {
   border-top: 1px solid govuk-colour("grey-2");
   padding: 30px 0;
 
   h2 {
     margin-bottom: 0;
-  }
-
-  footer a {
-    font-weight: bold;
   }
 }
