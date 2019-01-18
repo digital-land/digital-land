@@ -1,0 +1,47 @@
+{{ define "content_inner" }}
+
+  {{ if isset .Params "cat_name" }}
+  <span class="govuk-caption-xl">{{ .Params.cat_name | humanize }}</span>
+  {{ end }}
+  <h1 class="govuk-heading-xl">
+    {{ .Title }}
+  </h1>
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <p class="govuk-body-l">{{ .Params.lede }}</p>
+      <div class="markdown-output">
+        {{ .Content }}
+      </div>
+
+      {{ range .Data.Pages }}
+        <article class="blog-post">
+          <header>
+            <h2 class="govuk-heading-l">
+              <a href="{{ if isset .Params "external_url" }}{{ .Params.external_url }}{{ else }}{{ .URL }}{{ end }}">{{ .Title }}</a>
+            </h2>
+            <p class="byline author vcard">
+              <span class="visuallyhidden">Posted by:</span>
+              <span class="author url fn" rel="author">{{ .Params.author }}</span>,
+              <span class="visuallyhidden">Posted on:</span>
+              <time class="updated" datetime="{{ .Date }}" pubdate="">{{ .Date.Format "2 January 2006" }}</time>
+            </p>
+          </header>
+          <div class="markdown-output entry-summary">
+            <p>{{ default .Description .Summary }}</p>
+          </div>
+          <footer class="entry-footer">
+            <ul class="govuk-list">
+              <li>
+                <a class="read-more" href="{{ if isset .Params "external_url" }}{{ .Params.external_url }}{{ else }}{{ .URL }}{{ end }}">Read more <span class="visuallyhidden">about this topic</span></a>
+              </li>
+            </ul>
+          </footer>
+        </article>
+      {{ end }}
+
+    </div>
+  </div>
+
+{{ end }}
