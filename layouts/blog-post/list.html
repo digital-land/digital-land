@@ -1,3 +1,8 @@
+{{ define "head" }}
+    <link rel="stylesheet" media="all" href="/stylesheets/main.css" />
+    <link rel="alternate" type="application/rss+xml" href="{{ .RSSLink }}" title="{{ .Title | safeHTML }} - {{ $.Site.Title | safeHTML }}" />
+{{ end }}
+
 {{ define "content_inner" }}
 
   {{ if isset .Params "cat_name" }}
