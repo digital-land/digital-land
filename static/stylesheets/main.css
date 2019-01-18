@@ -5997,3 +5997,20 @@ blockquote p:last-child:after {
   -ms-word-break: break-all;
   overflow-wrap: break-word;
 }
+
+.blog-post .byline {
+  color: #6f777b;
+}
+
+.blog-post footer a {
+  font-weight: bold;
+}
+
+.blog-post-preview {
+  border-top: 1px solid #bfc1c3;
+  padding: 30px 0;
+}
+
+.blog-post-preview h2 {
+  margin-bottom: 0;
+}
