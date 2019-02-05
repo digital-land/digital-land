@@ -11,7 +11,7 @@ hasContent: true
 
 ## Goals
 
-Our goals for this project are to:
+Our goals for [this project](https://www.digitalmarketplace.service.gov.uk/digital-outcomes-and-specialists/opportunities/8075) are to:
 
 * **Prototype:** Prototype how to make planning applications available as a collection of data in order to show how a beta system with more complete data could work.
 * **Inspire:** Create, or support the creation of, experimental prototypes of what can be done with this data, in order to demonstrate the potential value of making an open index of this data.
@@ -50,6 +50,12 @@ We will also be identifying gaps in our knowledge and looking to schedule more c
 
 * we want to speak to LPAs using a variety of office systems (Northgate and Ocella in particular) to find out how much of what we've discovered so far about how data is modelled and managed is consistent across different systems
 * we want to start talking to system providers about what their systems can do and options for data extraction or integration
+
+{{< govuk-section-break "xl" >}}
+
+## Blog posts
+
+You can read blog posts about this project [here](https://digital-land.github.io/blog-post/).
 
 {{< govuk-section-break "xl" >}}
 
