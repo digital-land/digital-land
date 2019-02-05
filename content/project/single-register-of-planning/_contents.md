@@ -1,6 +1,6 @@
 Contents
 
 - [Goals](#goals)
-- [Discovery](#discovery-goals)
+- [Discovery](#discovery)
 - [Prototypes](#prototypes)
 - [Publications](#publications)
