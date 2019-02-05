@@ -1,0 +1,9 @@
+{{ if (isset .Params "related") }}
+  -
+  <span class="visuallyhidden">Related to:</span>
+  {{ range .Param "related" }}
+    {{ with ( $.Site.GetPage ( strings.TrimSuffix "/" . ) ) }}
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    {{ end }}
+  {{ end }}
+{{ end }}

@@ -5,6 +5,8 @@ author: "Emily Robertson-Knowlton"
 status: alpha
 description: >
   How we are kicking off a new Discovery phase with the Digital Land (MHCLG) and mySociety teams. The Planning Permissions project, “Single register of planning”, will explore how to make data around planning applications more open, accessible, sustainable, and trustworthy.
+related:
+- /project/single-register-of-planning/
 ---
 
 The Digital Land team at the Ministry of Housing, Communities and Local Government (MHCLG) is working to make it easier for people to find, access and trust the data underlying England’s housing market.
