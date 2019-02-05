@@ -16,7 +16,7 @@ A [compulsory purchase order](https://www.gov.uk/government/publications/compuls
 
 ## Upcoming areas of investigation
 
-{{% include-content "/project/developer-contributions/_upcoming-areas-of-investigation.md" "upcoming-areas-section" %}}
+{{% include-content "/project/compulsory-purchase-orders/_upcoming-areas-of-investigation.md" "upcoming-areas-section" %}}
 
 {{< govuk-section-break "xl" >}}
 
