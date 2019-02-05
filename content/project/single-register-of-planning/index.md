@@ -28,7 +28,7 @@ During discovery, we’re trying to understand more about planning application d
 
 ### What we've done
 
-We’ve so far spoken to 18 different people: 6 in local government planning or IT, 6 in proptech businesses, 3 individuals who know planning data (Andrew Speakman, Adrian Short and Richard Pope), 2 MHCLG experts and 1 system provider (the planning portal).
+We’ve so far spoken to 18 different people: 6 in local government planning or IT, 6 in proptech businesses, 3 individuals who know planning data, 2 MHCLG experts and 1 system provider (the planning portal).
 
 We’ve been making progress in understanding the needs of users for a data source, the domain of planning data, and how this data flows through different systems and organisations.
 
