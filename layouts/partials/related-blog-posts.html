@@ -1,0 +1,20 @@
+{{ $currentPageUrl := ( strings.TrimSuffix "/" .URL ) }}
+{{ $allBlogPosts := (where .Site.Pages "Section" "blog-post") }}
+{{ $relatedBlogPosts := slice }}
+
+{{ range $allBlogPosts }}
+  {{ $p := . }}
+  {{ range $p.Params.related }}
+    {{ if eq (strings.TrimSuffix "/" .) $currentPageUrl }}
+      {{ $relatedBlogPosts = $relatedBlogPosts | append $p }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ if len $relatedBlogPosts }}
+  <hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
+  <h2>Related blog posts</h2>
+  {{ range $relatedBlogPosts }}
+    {{ partial "blog-post-preview.html" . }}
+  {{ end }}
+{{ end }}

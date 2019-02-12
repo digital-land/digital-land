@@ -189,3 +189,26 @@ $govuk-images-path: "/govuk-frontend/assets/images/";
     margin-bottom: 0;
   }
 }
+
+// Smaller previews when inside a "content" area.
+.markdown-output > .blog-post-preview {
+  border-top: none;
+  padding: 0;
+  margin-top: 3em;
+
+  h2 {
+    // Sizing rules nabbed from %govuk-heading-m
+    @include govuk-font($size: 24, $weight: bold);
+    @include govuk-responsive-margin(4, "bottom");
+  }
+
+  .byline {
+    @include govuk-font($size: 16); // go back down from larger `.markdown-output p` font-size
+    max-width: none;
+  }
+
+  .byline__relations,
+  footer {
+    display: none;
+  }
+}

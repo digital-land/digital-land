@@ -8,6 +8,8 @@ description: >
   creating a roadmap, and holding our first batch of user research interviews.
   Coming up next: more interviews, and an adjusted model of the planning
   submissions process.
+related:
+- /project/single-register-of-planning/
 ---
 
 ## Headlines
