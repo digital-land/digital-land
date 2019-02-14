@@ -53,18 +53,8 @@ We will also be identifying gaps in our knowledge and looking to schedule more c
 
 {{< govuk-section-break "xl" >}}
 
-## Blog posts
-
-You can read blog posts about this project [here](https://digital-land.github.io/blog-post/).
-
-{{< govuk-section-break "xl" >}}
-
 ## Prototypes
 
 We’ve not yet started any prototypes for this project.
 
 {{< govuk-section-break "xl" >}}
-
-## Publications
-
-There are no publications for this project.
