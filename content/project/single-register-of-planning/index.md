@@ -5,10 +5,6 @@ type: project
 hasContent: true
 ---
 
-[mySociety](https://www.mysociety.org) and the [Ministry of Housing, Communities & Local Government](https://www.gov.uk/government/organisations/ministry-of-housing-communities-and-local-government) are exploring how to make trustworthy, up-to-date planning application data easier to find, use, and build into services.
-
-{{< govuk-section-break "xl" >}}
-
 ## Goals
 
 Our goals for [this project](https://www.digitalmarketplace.service.gov.uk/digital-outcomes-and-specialists/opportunities/8075) are to:
