@@ -29,4 +29,4 @@ See [creating content](CREATE-CONTENT.md) documentation.
 
 On commit to master there is a travis build that generates deploys the static pages using the deploy.sh script in this repo.
 
-If you absolutely must deploy manually, delete any public directory you have first, then clone the digital-land.github.io repo (see above), make your changes and then run `./deploy.sh` Otherwise let travis take care of it
+If you absolutely must deploy manually, delete any public directory you have first, then clone the digital-land.github.io repo (see above), make your changes and then run `./deploy.sh` Otherwise let travis take care of it.
