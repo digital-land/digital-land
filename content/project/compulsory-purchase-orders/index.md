@@ -1,7 +1,7 @@
 ---
 title: "Compulsory Purchase Orders"
 status: alpha
-label: "project:compulsory-purchase-orders"
+label: "project:compulsory-purchase-order"
 ---
 
 A [compulsory purchase order](https://www.gov.uk/government/publications/compulsory-purchase-process-and-the-crichel-down-rules-guidance) (CPO) is a tool that can be used by certain bodies to authorise the acquisition of land and property. Its use can help make possible a wide range of development, regeneration and infrastructure projects, where there is a compelling case in the public interest.
@@ -19,7 +19,6 @@ Once we have conducted user research on CPOs we will identify areas of investiga
 ## Upcoming areas of investigation
 
 {{% include-content "/project/compulsory-purchase-orders/_upcoming-areas-of-investigation.md" "upcoming-areas-section" %}}
-
 
 {{< govuk-section-break "xl" >}}
 
