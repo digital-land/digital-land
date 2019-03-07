@@ -52,5 +52,3 @@ We will also be identifying gaps in our knowledge and looking to schedule more c
 ## Prototypes
 
 We’ve not yet started any prototypes for this project.
-
-{{< govuk-section-break "xl" >}}
