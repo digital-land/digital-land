@@ -12,6 +12,7 @@ related:
 _mySociety is working with MHCLG on a Discovery and Alpha project to research, prototype, and test ways to make data around planning applications more open, accessible, sustainable, and trustworthy._
 
 We’ve spent the first six weeks of this project getting to grips with the domain of planning applications. We started by looking at [what other people and organisations have done](https://digital-land.github.io/blog-post/a-short-history-of-planning-application-data-projects/) in this area already and then moved on to talking to as many people as we could, with an aim of exploring a number of different topics:
+
 * user needs for planning application data, with a particular focus on the PropTech sector
 the high-level concepts that are being modelled in the data
 * planning application data flows and systems
@@ -20,6 +21,7 @@ the high-level concepts that are being modelled in the data
 We’ve so far talked to about 28 different people: 6 planning experts across MHCLG, GLA, LGA and Future Cities Catapult, 8 planning and technology staff at local authorities, 8 PropTech companies, 3 citizen experts (and corresponded with a couple more) and 3 system providers.
 
 From these conversations, we’ve identified six main findings that relate to our work and will inform what we do next. In brief they are:
+
 1. A planning application relates to a specific development, but there’s a **dearth of data on the development itself**. We think this can be addressed to an extent by making sure more data is collected in a structured format from the applicant which can then flow into the back office planning systems.
 2. It’s **essential that UPRNs and site boundary data are released openly** with planning application data in order to tie together planning submissions for the same site and to allow data to be connected up with other geographic datasets.
 3. Scraping data isn’t a sustainable solution for this project and doesn’t fix the underlying issues with the data. **We need local planning authorities to publish a feed** or an extract of structured data.
@@ -28,6 +30,7 @@ Local planning authorities often lack the time and technology needed to set up a
 6. Understanding progress of a development towards completion is a tricky challenge at the moment, with no one data source good enough to rely on. Building control completion records seem as if they ought to be the answer here, but aren’t comprehensive enough. **Getting accurate data on completion will continue to require manual work** unless building control data can be made more reliable, such as through statutory intervention.
 
 Having finished our discovery, our focus is now on a few different areas:
+
 * Creating a draft data model and getting feedback on this from local planning authorities and re-users of the data to evaluate its feasibility and understand how well it meets people’s needs.
 * Working with technical providers of planning systems to understand different options for making it easy for LPAs to provide this data.
 * And based on these, exploring different options for how to make data available: whether data feeds are surfaced locally where the data is being held and managed, or automatically aggregated into a central collection.
@@ -104,6 +107,6 @@ This is also another example of where if the systems modelled the development it
 
 ## What’s next?
 
-As mentioned above, we’re now creating a draft data model, based very closely on the research we’ve performed, and will be getting feedback on this from local planning authorities and re-users of the data to evaluate its feasibility and understand how well it meets people’s needs. We’ll go into more detail about this model—and why it’s a *model* rather than another *standard*—in a future blog post.
+As mentioned above, we’re now creating a draft data model, based very closely on the research we’ve performed, and will be getting feedback on this from local planning authorities and re-users of the data to evaluate its feasibility and understand how well it meets people’s needs. We’ll go into more detail about this model, and why it’s a *model* rather than another *standard*, in a future blog post.
 
 We’re also working with technical providers of planning systems to understand different options for making it easy for LPAs to provide this data. We know that any solution which places extra burden on local authorities simply isn’t going to work. So we’re keen to investigate what data is already being collected across a range of different authorities and software providers, and how that data could be exposed to re-users.
