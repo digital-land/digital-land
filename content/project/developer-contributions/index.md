@@ -27,7 +27,7 @@ We propose 3 lists to be kept and maintained centrally by MHCLG:
 – a code for each type of developer agreement recorded
 * [developer-contribution-purpose](https://github.com/communitiesuk/digital-land-collector/blob/master/etc/developer-contributions/developer-contribution-purpose.csv)
 – purpose codes for categorising developer contributions
-* [developer-contribution-register](https://github.com/communitiesuk/digital-land-collector/blob/master/etc/developer-contributions/developer-contribution-register.csv)
+* [developer-contribution-register](https://github.com/digital-land/alpha-data/blob/master/mhclg-registers/developer-contribution-purpose.csv)
 – a link to where each local planning authority has published their developer contribution registers.
 
 We also propose each local planning authority publishes 3 registers on their own website:
@@ -41,7 +41,7 @@ We also propose each local planning authority publishes 3 registers on their own
 
 By consistently following the format, organisations with a duty to produce this data ensure that the data is easy to find and use, as well as easy for any digital service to consume.
 
-Read our [proposed guidance for publishing developer contributions](https://digital-land.github.io/guidance/developer-contributions/) for an overview of the format.
+Read our [proposed guidance for publishing developer contributions](/guidance/developer-contributions/) for an overview of the formats.
 
 {{< govuk-section-break "xl" >}}
 
