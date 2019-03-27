@@ -10,7 +10,7 @@ Our aim is to develop a data format and publishing guidance that results in bett
 
 Developer contributions data has a wide range of current and potential uses, including:
 
-* planning land and housing developing
+* planning land and housing development
 * creating new digital services
 * giving community members insight into local development and how they can influence it
 
@@ -35,10 +35,24 @@ You must create 3 .csv files:
 * [developer agreement contributions ](#contribution)
 * [developer agreement transactions ](#transaction)
 
-Storing your data in 3 separate files rather than one file makes it possible to use the data more robustly and in more ways. A .csv file is a comma separated value file, which comprises numbers and/or text separated by commas, as in the following example:
+Storing your data in 3 separate files rather than one file makes it possible to use the data more robustly and in more ways. 
 
-{{< tech-block >}}“apple”, “orange”, “banana”
-“grape”, “strawberry”, “lemon”{{< tech-block >}}
+A .csv file (or comma separated value file) is a universally recognised file format for storing tabular data in plain text. The following table of data comprises headers describing columns and data arranged in rows:
+
+| fruit        | quantity           | price  |
+| ------------- |:-------------:| -----:|
+| orange     | 100| 1.00 |
+| banana     | 3      |   2.00 |
+| papaya | 0      |    30000 |
+
+This is represented in a .csv file in the following format:
+
+```
+fruit,quantity,price
+orange,100,1.00
+banana,3,2.00
+papaya,0,30000
+```
 
 One commonplace way to create a .csv file is to enter the values in an Excel spreadsheet and “save as .csv”.
 
