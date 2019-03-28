@@ -25,9 +25,9 @@ We propose 4 lists to be kept and maintained centrally by MHCLG:
 
 * [developer-agreement-type](https://github.com/communitiesuk/digital-land-collector/blob/master/etc/developer-contributions/developer-agreement-type.csv)
 – a code for each type of developer agreement recorded
-* [developer-contribution-purpose](https://github.com/digital-land/alpha-data/blob/master/mhclg-registers/developer-agreement-type.csv)
+* [developer-contribution-purpose](https://github.com/digital-land/alpha-data/blob/master/mhclg-registers/developer-contribution-purpose.csv)
 – purpose codes for categorising developer contributions
-* [developer-contribution-register](https://github.com/digital-land/alpha-data/blob/master/mhclg-registers/developer-contribution-purpose.csv)
+* [developer-contribution-register](https://github.com/digital-land/alpha-data/blob/master/mhclg-registers/developer-contribution-register.csv)
 – a link to where each local planning authority has published their developer contribution registers
 - [developer-agreement-funding-stage](https://github.com/digital-land/alpha-data/blob/master/mhclg-registers/developer-agreement-funding-stage.csv) – the funding status of each contribution 
 
