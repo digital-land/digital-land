@@ -107,6 +107,6 @@ This is also another example of where if the systems modelled the development it
 
 ## What’s next?
 
-As mentioned above, we’re now creating a draft data model, based very closely on the research we’ve performed, and will be getting feedback on this from local planning authorities and re-users of the data to evaluate its feasibility and understand how well it meets people’s needs. We’ll go into more detail about this model, and why it’s a *model* rather than another *standard*, in a future blog post.
+As mentioned above, we’re now creating a draft data model, based very closely on the research we’ve performed, and will be getting feedback on this from local planning authorities and re-users of the data to evaluate its feasibility and understand how well it meets people’s needs. We’ll go into more detail about this model in [our next blog post](/blog-post/design-pattern-for-planning-permission-data/).
 
 We’re also working with technical providers of planning systems to understand different options for making it easy for LPAs to provide this data. We know that any solution which places extra burden on local authorities simply isn’t going to work. So we’re keen to investigate what data is already being collected across a range of different authorities and software providers, and how that data could be exposed to re-users.
