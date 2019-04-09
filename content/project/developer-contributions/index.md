@@ -21,27 +21,28 @@ We are proposing a simple data format for developer contributions that:
 
 By using this format next time you publish your contributions, you’ll be giving us data and insights that will help us improve it.
 
-We propose 3 lists to be kept and maintained centrally by MHCLG:
+We propose 4 lists to be kept and maintained centrally by MHCLG:
 
 * [developer-agreement-type](https://github.com/communitiesuk/digital-land-collector/blob/master/etc/developer-contributions/developer-agreement-type.csv)
 – a code for each type of developer agreement recorded
-* [developer-contribution-purpose](https://github.com/communitiesuk/digital-land-collector/blob/master/etc/developer-contributions/developer-contribution-purpose.csv)
+* [developer-contribution-purpose](https://github.com/digital-land/alpha-data/blob/master/mhclg-registers/developer-contribution-purpose.csv)
 – purpose codes for categorising developer contributions
-* [developer-contribution-register](https://github.com/communitiesuk/digital-land-collector/blob/master/etc/developer-contributions/developer-contribution-register.csv)
-– a link to where each local planning authority has published their developer contribution registers.
+* [developer-contribution-register](https://github.com/digital-land/alpha-data/blob/master/mhclg-registers/developer-contribution-register.csv)
+– a link to where each local planning authority has published their developer contribution registers
+- [developer-agreement-funding-stage](https://github.com/digital-land/alpha-data/blob/master/mhclg-registers/developer-agreement-funding-stage.csv) – the funding status of each contribution 
 
-We also propose each local planning authority publishes 3 registers on their own website:
+We also propose each local planning authority publishes 3 developer contributions data files on their own website:
 
-* [developer-agreement](https://github.com/communitiesuk/digital-land-collector/blob/master/etc/developer-contributions/developer-agreement.csv)
+* [developer-agreements](https://github.com/communitiesuk/digital-land-collector/blob/master/etc/developer-contributions/developer-agreement.csv)
 – developer agreements, with a link to the original document
-* [developer-agreement-contribution](https://github.com/communitiesuk/digital-land-collector/blob/master/etc/developer-contributions/developer-agreement-contribution.csv)
+* [developer-agreement-contributions](https://github.com/communitiesuk/digital-land-collector/blob/master/etc/developer-contributions/developer-agreement-contribution.csv)
 – agreed developer contributions found in each document
-* [developer-agreement-transaction](https://github.com/communitiesuk/digital-land-collector/blob/master/etc/developer-contributions/developer-agreement-transaction.csv)
+* [developer-agreement-transactions](https://github.com/communitiesuk/digital-land-collector/blob/master/etc/developer-contributions/developer-agreement-transaction.csv)
 – payments received from a developer or spent on a project
 
-By consistently following the format, organisations with a duty to produce this data ensure that the data is easy to find and use, as well as easy for any digital service to consume.
+Storing your data in 3 separate files rather than one file makes it possible to use the data more robustly and in more ways.
 
-Read our [proposed guidance for publishing developer contributions](https://digital-land.github.io/guidance/developer-contributions/) for an overview of the format.
+Read our [proposed guidance for publishing developer contributions](/guidance/developer-contributions/) for more detail on the format.
 
 {{< govuk-section-break "xl" >}}
 
@@ -118,21 +119,25 @@ We haven’t yet tested the validator with users.
 
 ## Timeline
 
+**19 February 2019**
+
+We attended the London Planning Officers Society meeting to present the broader work that the Digital Land Services team are doing, and to provide an overview of the proposed developer contributions data format.
+
 **01 February 2019**
 
-The [Planning Advisory Service](https://www.local.gov.uk/pas) are hosting a workshop in Birmingham to provide an opportunity for local planning authorities to learn more about the proposed changes, and provide an opportunity to ask questions and provide feedback. You can find out more and register [here](https://www.eventbrite.co.uk/e/monitoring-data-workshop-with-mhclg-viability-cil-and-section-106-birmingham-tickets-54968274589).
+The [Planning Advisory Service](https://www.local.gov.uk/pas) hosted a workshop in Birmingham to provide an opportunity for local planning authorities to learn more about the proposed changes, and provide an opportunity to ask questions and provide feedback. You can find out more and register [here](https://www.eventbrite.co.uk/e/monitoring-data-workshop-with-mhclg-viability-cil-and-section-106-birmingham-tickets-54968274589).
 
 **31 January 2019**
 
-Public consultation ends.
+Public consultation ended.
 
 **29 January 2019**
 
-The [Planning Advisory Service](https://www.local.gov.uk/pas) are hosting a workshop in Leeds to provide an opportunity for local planning authorities to learn more about the proposed changes, and provide an opportunity to ask questions and provide feedback. You can find out more and register [here](https://www.eventbrite.co.uk/e/monitoring-data-workshop-with-mhclg-viability-cil-and-section-106-leeds-tickets-54919539822).
+The [Planning Advisory Service](https://www.local.gov.uk/pas) hosted a workshop in Leeds to provide an opportunity for local planning authorities to learn more about the proposed changes, and provide an opportunity to ask questions and provide feedback. You can find out more and register [here](https://www.eventbrite.co.uk/e/monitoring-data-workshop-with-mhclg-viability-cil-and-section-106-leeds-tickets-54919539822).
 
 **28 January 2019**
 
-The [Planning Advisory Service](https://www.local.gov.uk/pas) are hosting a workshop in London to provide an opportunity for local planning authorities to learn more about the proposed changes, and provide an opportunity to ask questions and provide feedback. You can find out more and register [here](https://www.eventbrite.co.uk/e/monitoring-data-workshop-with-mhclg-viability-cil-and-section-106-london-tickets-54919493684).
+The [Planning Advisory Service](https://www.local.gov.uk/pas) hosted a workshop in London to provide an opportunity for local planning authorities to learn more about the proposed changes, and provide an opportunity to ask questions and provide feedback. You can find out more and register [here](https://www.eventbrite.co.uk/e/monitoring-data-workshop-with-mhclg-viability-cil-and-section-106-london-tickets-54919493684).
 
 **20 December 2010**
 
