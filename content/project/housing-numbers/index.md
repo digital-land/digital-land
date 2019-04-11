@@ -10,3 +10,4 @@ To help us develop the best process for finding and using data from local plans,
 
 ## Current areas of investigation
 
+{{< in-progress-issue title="Collecting housing numbers">}}
