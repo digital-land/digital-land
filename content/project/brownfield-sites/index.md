@@ -4,45 +4,45 @@ status: alpha
 label: "project:brownfield-sites"
 ---
 
-All local authorities must [publish a register of brownfield sites](https://www.gov.uk/guidance/brownfield-land-registers).
+Brownfield sites are plots of land that have previously been developed but are not currently in use. They are often ready to build housing upon as soon as planning permission is given. [Recent analysis](https://www.cpre.org.uk/resources/housing-and-planning/planning/item/5086-state-of-brownfield-2019) suggests more than 1 million brownfield sites could be built on brownfield sites across England.
 
-We were interested in learning about how this policy was implemented, the process that local authorities follow to publish the data, and whether there were any tools that we could build to help people collect and maintain the data.
+Local authorities must [keep records of their brownfield sites](https://www.gov.uk/guidance/brownfield-land-registers) updated, publicly available and published in an agreed data format. This helps housing developers find the right places to build and planners make informed decisions on local housing.
+
+The Digital Land team and policy specialists at the Ministry of Housing, Communities and Local Government are working with local planning authorities to improve this brownfield site data format so that the data is easier to find, use and trust.
 
 {{< govuk-section-break "xl" >}}
 
-## Prototypes
+## Current areas of investigation
 
 {{< prototype-heading "A way of validating the collected data" >}}
   {{< progress-tag "in-progress" >}}In progress{{< /progress-tag >}}
 {{< /prototype-heading >}}
 
-#### Our hypothesis
+#### Questions we're asking
 
-Through speaking with local authorities we understood that often times the person responsible for collecting the brownfield site data
+Often the person in the local authority updating the brownfield site data has little or no spare time, has varied responsibilities and is not familiar with the brownfield data format. As a result errors are common in brownfield data. Would offering a simple tool for validating the data improve this?
 
 #### What we tested
-* [validation tool for brownfield sites](https://brownfield-sites-validator.cloudapps.digital/)
+* a [validation tool](https://brownfield-sites-validator.cloudapps.digital/) for brownfield site data
 
 #### What we've learned
 
-Some words about what we've learned
+We tested the tool with some local planning authorities whose brownfield site data contained errors. They were able to use the tool to identify the error, correct and republish it.
 
 {{< prototype-heading "A way of fixing errors" >}}
   {{< progress-tag "in-progress" >}}In progress{{< /progress-tag >}}
 {{< /prototype-heading >}}
 
-A lot of the errors we identified were common mistakes such as switching the GeoX and GeoY co-ordinates, or removing empty rows. There are a number of things that we can fix automatically and provide an improved .csv file.
+#### Questions we're asking
 
-#### Our hypothesis
-
-We believe that by providing the maintainers of brownfield site data a way of automatically fixing common problems that this will result to an improved quality of data.
+Many of the errors we identified in published brownfield data were common mistakes, such as switching GeoX and GeoY coordinates, or omitting empty rows in the data. Would offering to automatically fix common errors after validating the data be useful to LAs and improve the state of data?
 
 #### What we tested
-* [validation tool for brownfield sites](https://brownfield-sites-validator.cloudapps.digital/)
+* a[validation tool](https://brownfield-sites-validator.cloudapps.digital/) for brownfield sites
 
 #### What we've learned
 
-Some words about what we've learned
+We spoke with many of those in local authorities who are responsible for publishing the data. Often they were not technically trained or experienced with working with data. We tested the validator with some of these users, many of whom were able to spot and correct the data errors.
 
 {{< govuk-section-break "xl" >}}
 
@@ -52,12 +52,4 @@ Some words about what we've learned
 
 {{< govuk-section-break "xl" >}}
 
-## Data fields
-
-Specification not yet defined.
-
-{{< govuk-section-break "xl" >}}
-
-## Publications
-
-There are no publication for this specification.
+## Timeline
