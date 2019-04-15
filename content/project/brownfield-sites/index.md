@@ -4,45 +4,83 @@ status: alpha
 label: "project:brownfield-sites"
 ---
 
-All local authorities must [publish a register of brownfield sites](https://www.gov.uk/guidance/brownfield-land-registers).
+Brownfield sites are plots of land that have previously been developed but are not currently in use. [Recent analysis](https://www.cpre.org.uk/resources/housing-and-planning/planning/item/5086-state-of-brownfield-2019) suggests more than 1 million houses could be built on brownfield sites across England.
 
-We were interested in learning about how this policy was implemented, the process that local authorities follow to publish the data, and whether there were any tools that we could build to help people collect and maintain the data.
+The Digital Land team is working with local planning authorities to improve the quality and availability of data on brownfield sites across England. We've created resources to help local planning authorities publish and update their brownfield site data. See the project's current areas of investigation to learn more about our ongoing efforts to improve the data and how to get involved in the discussion about brownfield sites.
 
 {{< govuk-section-break "xl" >}}
 
-## Prototypes
+## Resources for planning authorities
+
+
+### Update your brownfield site data: guidance
+
+Follow these simple instructions when adding new brownfield sites to their registers.
+
+
+### Check your brownfield site data for errors
+
+Our validator will [check your brownfield site data](https://brownfield-sites-validator.cloudapps.digital/start) for common errors and omissions and fix them. A comparison of data quality for [brownfield registers that have been checked](https://digital-land.github.io/brownfield-sites/) is also available.
+
+
+### View brownfield site registers
+
+[View brownfield site data](https://github.com/communitiesuk/digital-land-collector/tree/master/data/publication/brownfield-sites) by local authority.
+
+
+{{< govuk-section-break "xl" >}}
+
+## Current areas of investigation
+
+{{< prototype-heading "An index of brownfield site registers" >}}
+  {{< progress-tag "in-progress" >}}In progress{{< /progress-tag >}}
+{{< /prototype-heading >}}
+
+#### Questions we're asking
+
+Brownfield site data for local authorities can be difficult to locate and there’s no public register where all LA’s data can be viewed in one place. Would creating a national index of all brownfield data be of value to local authorities and interested members of the community?
+
+#### What we tested
+* a simple [index of brownfield site registers](https://github.com/communitiesuk/digital-land-collector/blob/master/etc/brownfield-site-publication.tsv)
+
+#### What we've learned
+
+We made a number of useful observations while compiling the simple index, including that:
+
+* planning authorities often failed to provide a direct link to the data (ie to a policy page instead)
+* when some registers were updated their URLs changed (ie they're not static)
+* registers were often published in formats other than .csv (eg Excel files)
+* registers often contained gaps or errors
 
 {{< prototype-heading "A way of validating the collected data" >}}
   {{< progress-tag "in-progress" >}}In progress{{< /progress-tag >}}
 {{< /prototype-heading >}}
 
-#### Our hypothesis
+#### Questions we're asking
 
-Through speaking with local authorities we understood that often times the person responsible for collecting the brownfield site data
+Often the person in the local authority updating the brownfield site data has little or no spare time, has varied responsibilities and is not familiar with the brownfield data format. As a result errors are common in brownfield data. Would offering a simple tool for validating the data improve this?
 
 #### What we tested
-* [validation tool for brownfield sites](https://brownfield-sites-validator.cloudapps.digital/)
+* a [validation tool](https://brownfield-sites-validator.cloudapps.digital/) for brownfield site data
 
 #### What we've learned
 
-Some words about what we've learned
+We tested the tool with some local planning authorities whose brownfield site data contained errors. They were able to use the tool to identify the error, correct and republish it.
 
 {{< prototype-heading "A way of fixing errors" >}}
   {{< progress-tag "in-progress" >}}In progress{{< /progress-tag >}}
 {{< /prototype-heading >}}
 
-A lot of the errors we identified were common mistakes such as switching the GeoX and GeoY co-ordinates, or removing empty rows. There are a number of things that we can fix automatically and provide an improved .csv file.
+#### Questions we're asking
 
-#### Our hypothesis
-
-We believe that by providing the maintainers of brownfield site data a way of automatically fixing common problems that this will result to an improved quality of data.
+Many of the errors we identified in published brownfield data were common mistakes, such as switching GeoX and GeoY coordinates, or omitting empty rows in the data. Would offering to automatically fix common errors after validating the data be useful to LAs and improve the state of data?
 
 #### What we tested
-* [validation tool for brownfield sites](https://brownfield-sites-validator.cloudapps.digital/)
+* a [validation tool](https://brownfield-sites-validator.cloudapps.digital/) for brownfield sites
 
 #### What we've learned
 
-Some words about what we've learned
+We spoke with many of those in local authorities who are responsible for publishing the data. Often they were not technically trained or experienced with working with data. We tested the validator with some of these users, many of whom were able to spot and correct the data errors.
 
 {{< govuk-section-break "xl" >}}
 
@@ -52,12 +90,4 @@ Some words about what we've learned
 
 {{< govuk-section-break "xl" >}}
 
-## Data fields
-
-Specification not yet defined.
-
-{{< govuk-section-break "xl" >}}
-
-## Publications
-
-There are no publication for this specification.
+## Timeline

@@ -1,30 +1,20 @@
 ---
 title: "Golden thread of building information"
-status: alpha
+status: discovery
 ---
 
-In the 2018 [Independent Review of Building Regulations and Fire Safety](https://www.gov.uk/government/publications/independent-review-of-building-regulations-and-fire-safety-final-report) there is a recommendation that there is a 'digital record' for buildings. We are working with the Building Safety Programme to understand what a 'digital record' might look like, and how the data could be collected and made available.
+In the 2018 [Independent Review of Building Regulations and Fire Safety](https://www.gov.uk/government/publications/independent-review-of-building-regulations-and-fire-safety-final-report) there is a recommendation to keep a 'digital record' of information on residential buildings that have 10 or more storeys. Its purpose is to make accurate building information available to those responsible for assessing and demonstrating the safety of buildings.
+
+The Digital Land team and policy teams at the Ministry of Housing, Communities are working with the Building Safety Programme to understand what a 'digital record' might look like, and how the data could be collected and made available.
 
 {{< govuk-section-break "xl" >}}
 
-## Prototypes
+## Upcoming areas of investigation
 
-We've not yet started to prototype for this project.
-
-{{< govuk-section-break "xl" >}}
-
-## Next steps
-
-* we're meeting with the team from the Building Safety Programme to demo the work we've done so far around [Developer Contributions](/project/developer-contributions/) and [Brownfield Sites](/project/brownfield-sites/)
+We will be meeting with representatives of the [Building Safety Programme](https://www.gov.uk/guidance/building-safety-programme) to discuss relevant areas of investigation.
 
 {{< govuk-section-break "xl" >}}
 
-## Data fields
+## Timeline
 
-The specification has not yet defined.
-
-{{< govuk-section-break "xl" >}}
-
-## Publications
-
-There are no publication for this specification.
+* we're meeting with the team from the Building Safety Programme to demonstrate the work we've done so far around [developer contributions](/project/developer-contributions/) and [brownfield sites](/project/brownfield-sites/)
