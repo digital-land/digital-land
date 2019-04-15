@@ -34,6 +34,26 @@ Our validator will [check your brownfield site data](https://brownfield-sites-va
 
 ## Current areas of investigation
 
+{{< prototype-heading "An index of brownfield site registers" >}}
+  {{< progress-tag "in-progress" >}}In progress{{< /progress-tag >}}
+{{< /prototype-heading >}}
+
+#### Questions we're asking
+
+Brownfield site data for local authorities can be difficult to locate and there’s no public register where all LA’s data can be viewed in one place. Would creating a national index of all brownfield data be of value to local authorities and interested members of the community?
+
+#### What we tested
+* a simple [index of brownfield site registers](https://github.com/communitiesuk/digital-land-collector/blob/master/etc/brownfield-site-publication.tsv)
+
+#### What we've learned
+
+We made a number of useful observations while compiling the simple index, including that:
+
+* planning authorities often failed to provide a direct link to the data (ie to a policy page instead)
+* when some registers were updated their URLs changed (ie they're not static)
+* registers were often published in formats other than .csv (eg Excel files)
+* registers often contained gaps or errors
+
 {{< prototype-heading "A way of validating the collected data" >}}
   {{< progress-tag "in-progress" >}}In progress{{< /progress-tag >}}
 {{< /prototype-heading >}}
