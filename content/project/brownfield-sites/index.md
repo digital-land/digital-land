@@ -78,7 +78,7 @@ We tested the tool with some local planning authorities whose brownfield site da
 Many of the errors we identified in published brownfield data were common mistakes, such as switching GeoX and GeoY coordinates, or omitting empty rows in the data. Would offering to automatically fix common errors after validating the data be useful to LAs and improve the state of data?
 
 #### What we tested
-* a[validation tool](https://brownfield-sites-validator.cloudapps.digital/) for brownfield sites
+* a [validation tool](https://brownfield-sites-validator.cloudapps.digital/) for brownfield sites
 
 #### What we've learned
 
