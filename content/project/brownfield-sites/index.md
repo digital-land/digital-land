@@ -12,25 +12,25 @@ The Digital Land team and policy specialists at the Ministry of Housing, Communi
 
 {{< govuk-section-break "xl" >}}
 
-## Update your brownfield site data: step-by-step guidance
+## Resources for planning authorities
+
+
+### Update your brownfield site data: step-by-step guidance
 
 Local planning authorities should follow these simple instructions when adding new brownfield sites to their registers.
 
----
 
-## Check your brownfield site data for errors
+### Check your brownfield site data for errors
 
 Our validator will [check local authorities’ brownfield site data](https://brownfield-sites-validator.cloudapps.digital/start) for common errors and omissions and fix them. A comparison of data quality for [brownfield registers that have been checked](https://digital-land.github.io/brownfield-sites/) is also available.
 
----
 
-## View brownfield site registers
+### View brownfield site registers
 
 [View brownfield site data](https://github.com/communitiesuk/digital-land-collector/tree/master/data/publication/brownfield-sites) by local authority.
 
----
 
-## Get involved in the conversation
+### Get involved in the conversation
 
 If you’re a planner or developer interested in or working with brownfield sites, help us improve the data by joining the discussion on our [GitHub issues](https://github.com/digital-land/digital-land/labels/project%3Abrownfield-sites) page.
 
