@@ -4,35 +4,31 @@ status: alpha
 label: "project:brownfield-sites"
 ---
 
-Brownfield sites are plots of land that have previously been developed but are not currently in use. They are often ready to build housing upon as soon as planning permission is given. [Recent analysis](https://www.cpre.org.uk/resources/housing-and-planning/planning/item/5086-state-of-brownfield-2019) suggests more than 1 million brownfield sites could be built on brownfield sites across England.
+Brownfield sites are plots of land that have previously been developed but are not currently in use. [Recent analysis](https://www.cpre.org.uk/resources/housing-and-planning/planning/item/5086-state-of-brownfield-2019) suggests more than 1 million houses could be built on brownfield sites across England.
 
 Local authorities must [keep records of their brownfield sites](https://www.gov.uk/guidance/brownfield-land-registers) updated, publicly available and published in an agreed data format. This helps housing developers find the right places to build and planners make informed decisions on local housing.
 
-The Digital Land team and policy specialists at the Ministry of Housing, Communities and Local Government are working with local planning authorities to improve this brownfield site data format so that the data is easier to find, use and trust.
+The Digital Land team is working with local planning authorities to improve this data format so that the data is easier to find, use and trust. See our current areas of investigation below to learn more and get involved in the discussion about brownfield sites.
 
 {{< govuk-section-break "xl" >}}
 
 ## Resources for planning authorities
 
 
-### Update your brownfield site data: step-by-step guidance
+### Update your brownfield site data: guidance
 
-Local planning authorities should follow these simple instructions when adding new brownfield sites to their registers.
+Follow these simple instructions when adding new brownfield sites to their registers.
 
 
 ### Check your brownfield site data for errors
 
-Our validator will [check local authorities’ brownfield site data](https://brownfield-sites-validator.cloudapps.digital/start) for common errors and omissions and fix them. A comparison of data quality for [brownfield registers that have been checked](https://digital-land.github.io/brownfield-sites/) is also available.
+Our validator will [check your brownfield site data](https://brownfield-sites-validator.cloudapps.digital/start) for common errors and omissions and fix them. A comparison of data quality for [brownfield registers that have been checked](https://digital-land.github.io/brownfield-sites/) is also available.
 
 
 ### View brownfield site registers
 
 [View brownfield site data](https://github.com/communitiesuk/digital-land-collector/tree/master/data/publication/brownfield-sites) by local authority.
 
-
-### Get involved in the conversation
-
-If you’re a planner or developer interested in or working with brownfield sites, help us improve the data by joining the discussion on our [GitHub issues](https://github.com/digital-land/digital-land/labels/project%3Abrownfield-sites) page.
 
 {{< govuk-section-break "xl" >}}
 
