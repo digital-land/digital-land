@@ -1,5 +1,5 @@
 ---
-title: "Local Plans"
+title: "Local plans"
 status: alpha
 label: "project:local-plans"
 ---
