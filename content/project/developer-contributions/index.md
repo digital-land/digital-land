@@ -12,40 +12,6 @@ hasContent: true
 
 {{< govuk-section-break "xl" >}}
 
-## Publish using our proposed data format
-
-We are proposing a simple data format for developer contributions that:
-
-* meets the user needs we’ve identified 
-* requires minimal effort from local planning authorities to create and make the data available
-
-By using this format next time you publish your contributions, you’ll be giving us data and insights that will help us improve it.
-
-We propose 4 lists to be kept and maintained centrally by MHCLG:
-
-* [developer-agreement-type](https://github.com/communitiesuk/digital-land-collector/blob/master/etc/developer-contributions/developer-agreement-type.csv)
-– a code for each type of developer agreement recorded
-* [developer-contribution-purpose](https://github.com/digital-land/alpha-data/blob/master/mhclg-registers/developer-contribution-purpose.csv)
-– purpose codes for categorising developer contributions
-* [developer-contribution-register](https://github.com/digital-land/alpha-data/blob/master/mhclg-registers/developer-contribution-register.csv)
-– a link to where each local planning authority has published their developer contribution registers
-- [developer-agreement-funding-stage](https://github.com/digital-land/alpha-data/blob/master/mhclg-registers/developer-agreement-funding-stage.csv) – the funding status of each contribution 
-
-We also propose each local planning authority publishes 3 developer contributions data files on their own website:
-
-* [developer-agreements](https://github.com/communitiesuk/digital-land-collector/blob/master/etc/developer-contributions/developer-agreement.csv)
-– developer agreements, with a link to the original document
-* [developer-agreement-contributions](https://github.com/communitiesuk/digital-land-collector/blob/master/etc/developer-contributions/developer-agreement-contribution.csv)
-– agreed developer contributions found in each document
-* [developer-agreement-transactions](https://github.com/communitiesuk/digital-land-collector/blob/master/etc/developer-contributions/developer-agreement-transaction.csv)
-– payments received from a developer or spent on a project
-
-Storing your data in 3 separate files rather than one file makes it possible to use the data more robustly and in more ways.
-
-Read our [proposed guidance for publishing developer contributions](/guidance/developer-contributions/) for more detail on the format.
-
-{{< govuk-section-break "xl" >}}
-
 ## Current areas of investigation
 
 The following areas of investigation demonstrate possible ways the data might be applied and made easier to work with.
