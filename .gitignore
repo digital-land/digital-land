@@ -110,3 +110,4 @@ ENV/
 .DS_Store
 content/Alphas/.DS_Store
 .travis.yml
+README.md
