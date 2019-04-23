@@ -7,7 +7,7 @@ before_install:
 - sudo dpkg -i hugo*.deb
 before_script:
 - npm install
-- git clone https://${GH_TOKEN}@github.com/digital-land/digital-land.github.io.git
+- git clone https://${GH_TOKEN}@github.com/EmilyHill94/emilyhill94.github.io
   public
 cache:
   directories:
