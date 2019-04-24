@@ -1,5 +1,5 @@
 ---
-title: "Compulsory Purchase Orders"
+title: "Compulsory purchase orders"
 status: alpha
 label: "project:compulsory-purchase-order"
 ---
@@ -25,4 +25,5 @@ Once we have conducted user research on CPOs we will identify areas of investiga
 ## Timeline
 
 **Spring 2019**
+
 We are planning a discovery workshop with the policy team, Planning Inspectorate and the Planning Caseworker Unit to identify user needs and agree next steps.
