@@ -4,7 +4,7 @@ title: "Update your brownfield site register"
 
 Local planning authorities must maintain a register of their brownfield sites that is publicly available and in an agreed format. 
 
-This guidance, alongside the [Check your brownfield site register service](https://brownfield-sites-validator.cloudapps.digital/start) will help local authorities ensure brownfield site registers are:
+This guidance, alongside the [Check your brownfield site register service](https://brownfield-sites-validator.cloudapps.digital/start), will help local authorities ensure brownfield site registers are:
 
 * in the agreed format and contain the required data
 * kept up-to-date
