@@ -10,12 +10,6 @@ The Secretary of State is responsible for taking decisions on the approval of CP
 
 {{< govuk-section-break "xl" >}}
 
-## Current areas of investigation
-
-Once we have conducted user research on CPOs we will identify areas of investigation.
-
-{{< govuk-section-break "xl" >}}
-
 ## Upcoming areas of investigation
 
 {{% include-content "/project/compulsory-purchase-orders/_upcoming-areas-of-investigation.md" "upcoming-areas-section" %}}
