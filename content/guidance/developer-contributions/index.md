@@ -23,7 +23,7 @@ You can ensure that your developer contributions data is all of these by followi
 Planning authorities must publish their developer contributions once a year but are encouraged to do so as frequently as they can so that datasets are up to date. Publishing is a 4-step process:
 
 1. Create 3 developer contribution .csv files to store the data
-2. Upload each of these files to your organisation’s website 
+2. Upload each of these files to your organisation’s website
 3. Create or update a page on your organisation’s website that clearly links to these files
 4. Update the national register of developer contributions on the MHCLG website
 
@@ -31,9 +31,9 @@ Planning authorities must publish their developer contributions once a year but 
 
 You must create 3 .csv files:
 
-* [developer agreements](#agreement) 
-* [developer agreement contributions ](#contribution)
-* [developer agreement transactions ](#transaction)
+* [developer agreements](#agreement)
+* [developer agreement contributions](#contribution)
+* [developer agreement transactions](#transaction)
 
 Storing your data in 3 separate files rather than one file makes it possible to use the data more robustly and in more ways. 
 
@@ -58,12 +58,12 @@ One commonplace way to create a .csv file is to enter the values in an Excel spr
 
 Each of the .csv files must:
 
-* be named using the convention specified in each section below 
-* contain certain column headers  (written exactly as shown, in lowercase) 
+* be named using the convention specified in each section below
+* contain certain column headers (written exactly as shown, in lowercase)
 * include 1 row of data for each agreement, contribution or transaction (as relevant)
 * only entries that conform to the constraints described below
 
-For general information on creating a .csv file see the W3C’s [CSVs on the web: a primer](http://w3c.github.io/csvw/primer/). 
+For general information on creating a .csv file see the W3C’s [CSVs on the web: a primer](http://w3c.github.io/csvw/primer/).
 
 ### Developer agreements<a name="agreement"></a>
 
