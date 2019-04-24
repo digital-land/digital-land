@@ -14,20 +14,18 @@ hasContent: true
 
 ## Current areas of investigation
 
-The following areas of investigation demonstrate possible ways the data might be applied and made easier to work with.
+The following areas of investigation explore how the data could be used and made easier to work with:
 
 {{< in-progress-issue title="A collection of viability assessments" number="21" >}}
+
 #### Questions we're asking
 
 Finding published viability assessments is extremely difficult. Would providing an index of viability assessments, along with important information, be of value to local planning authorities and interested members of the community?
 
-#### What we tested
+#### What we will test
 
 * [an index of viability assessments](https://section-106-prototype.cloudapps.digital/viability/)
 
-#### What we learned
-
-We haven’t yet tested the index with users.
 {{< /in-progress-issue >}}
 
 
@@ -36,13 +34,10 @@ We haven’t yet tested the index with users.
 
 Will presenting what contribution agreements have been made, where funds have been allocated, and whether money has been spent help answer questions from the community, local authorities and government?
 
-#### What we tested
+#### What we will test
 
 * [a visualisation of developer contribution data](https://section-106-prototype.cloudapps.digital/developer-contributions/section106-wide)
 
-#### What we learned
-
-We haven’t yet tested the dashboard with users.
 {{< /in-progress-issue >}}
 
 
@@ -66,13 +61,10 @@ Many planning authorities are already using third party tools to help manage the
 
 Developer contributions data will need to be published in line with the data format. Would offering planning authorities a simple validator help them ensure their publication follows that format?
 
-#### What we tested
+#### What we will test
 
 * [a tool to check your developer contribution data](https://section-106-prototype.cloudapps.digital/validate-start)
 
-#### What we've learned
-
-We haven’t yet tested the validator with users.
 {{< /in-progress-issue >}}
 
 {{< govuk-section-break "xl" >}}
@@ -87,7 +79,7 @@ We haven’t yet tested the validator with users.
 
 **19 February 2019**
 
-We attended the London Planning Officers Society meeting to present the broader work that the Digital Land Services team are doing, and to provide an overview of the proposed developer contributions data format.
+We attended the [Planning Officers Society](http://www.planningofficers.org.uk/) meeting in London to present the broader work that the Digital Land Services team are doing, and to provide an overview of the proposed developer contributions data format.
 
 **01 February 2019**
 
@@ -95,7 +87,7 @@ The [Planning Advisory Service](https://www.local.gov.uk/pas) hosted a workshop 
 
 **31 January 2019**
 
-Public consultation ended.
+The [public consultation](https://www.gov.uk/government/consultations/developer-contributions-reform-technical-consultation) ended.
 
 **29 January 2019**
 
