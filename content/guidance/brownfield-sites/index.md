@@ -22,7 +22,7 @@ Brownfield type registers must be saved in a comma separated value (.csv) file.
 
 A .csv file (or comma separated value file) is a universally recognised file format for storing tabular data in plain text. The following table of data comprises headers describing columns and data arranged in rows:
 
-| OrganisationURI        | OrganisationLabel           | SiteReference  |
+| OrganisationURI        | OrganisationLabel    | SiteReference |
 | ------------- |:-------------:| -----:|
 | http://opendatacommunities.org/id/district-council/dacorum
      | Dacorum Borough Council
