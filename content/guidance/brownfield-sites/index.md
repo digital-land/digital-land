@@ -18,7 +18,28 @@ Your register should be uploaded to your website as a .csv file that contains sp
 
 ### File type and name
 
-Brownfield type registers must be saved in a comma separated value (.csv) file. The file name must be in the format brownfield-sites.[organisation code].csv, where [organisation code] can be found…
+Brownfield type registers must be saved in a comma separated value (.csv) file. 
+
+A .csv file (or comma separated value file) is a universally recognised file format for storing tabular data in plain text. The following table of data comprises headers describing columns and data arranged in rows:
+
+| fruit        | quantity           | price  |
+| ------------- |:-------------:| -----:|
+| orange     | 100| 1.00 |
+| banana     | 3      |   2.00 |
+| papaya | 0      |    30000 |
+
+This is represented in a .csv file in the following format:
+
+```
+fruit,quantity,price
+orange,100,1.00
+banana,3,2.00
+papaya,0,30000
+```
+
+One commonplace way to create a .csv file is to enter the values in an Excel spreadsheet and “save as .csv”.
+
+The .csv file name must be in the format brownfield-sites.[organisation code].csv, where [organisation code] can be found…
 
 So, for example, Dacorum local authority’s brownfield site register file would be named: 
 
