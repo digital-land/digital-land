@@ -219,17 +219,17 @@ Column 28
 
 Enter the date that the register was last updated, in the format yyyy-mm-dd. If it hasn’t been updated since it was first added to the register, repeat that date.
 
-##Check the file using our validator
+## Check the file using our validator
 
 After you’ve updated your .csv file, use our validation tool to [check your brownfield site register}(https://brownfield-sites-validator.herokuapp.com/start) service for common errors and omissions. It will also fix many of these for you.
 
-##Keep your register up to date
+## Keep your register up to date
 
 Try to update your register as soon as a new brownfield site is identified or an existing one changes status.
 
 While local planning authorities are required to review their brownfield site registers at least once a year, updating them more frequently will give better value to planners and developers.
 
-##Make sure users can find your register
+## Make sure users can find your register
 
 Brownfield site data isn’t useful if it can’t be found. Ensure people can find it by:
  
@@ -237,7 +237,7 @@ Brownfield site data isn’t useful if it can’t be found. Ensure people can fi
 * notifying MHCLG if for some reason the URL does change                                                                                                                                                                                         
 * using the agreed convention when naming the file 
 
-##Common problems with brownfield site registers
+## Common problems with brownfield site registers
 
 A number of problems frequently occur in brownfield site registers. Look out for:
 
