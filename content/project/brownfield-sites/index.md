@@ -32,6 +32,8 @@ Our validator will [check your brownfield site data](https://brownfield-sites-va
 
 ## Current areas of investigation
 
+The following areas of investigation explore how the data could be used and made easier to work with:
+
 {{< prototype-heading "An index of brownfield site registers" >}}
   {{< progress-tag "in-progress" >}}In progress{{< /progress-tag >}}
 {{< /prototype-heading >}}
