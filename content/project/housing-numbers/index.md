@@ -11,6 +11,8 @@ We hope that by publishing these numbers in one place, local authorities can eas
 
 ## Current areas of investigation
 
+The following areas of investigation explore how the data could be used and made easier to work with:
+
 {{< in-progress-issue title="Collecting and publishing housing numbers">}}
 
 #### Questions we're asking
