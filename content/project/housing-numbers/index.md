@@ -40,3 +40,12 @@ We’re currently building a tool which displays the number of houses each local
 We will send each local authority their housing numbers to confirm the data is correct, or to update the numbers and show where the correct data could have been found. This will help us understand how each authority is publishing their data, and will inform our wider local plans project.
 
 Take a look at what [we’ve built so far](https://local-plans-prototype.herokuapp.com) and join our local plans [discussion on GitHub](https://github.com/digital-land/digital-land/labels/project%3Alocal-plans).
+
+## Timeline
+
+**April 2019**
+
+We collected the [latest housing numbers](https://local-plans-prototype.herokuapp.com/planning-authority) from emerging and adopted local plans. We plan to validate these numbers with local planning authorities.
+
+**19 March 2019**
+We met with the [Planning Advisory Service](https://www.local.gov.uk/planning-advisory-service), [Greater London Authority](https://www.london.gov.uk/), and [Aecom](https://www.aecom.com/) to discuss the housing delivery test and housing trajectories.
