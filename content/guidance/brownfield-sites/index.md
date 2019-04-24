@@ -68,13 +68,11 @@ Column 6
 Enter the address (URL) of the webpage hosting the site plan, beginning with either http:// or https://.
 
 Column 7
-
 **CoordinateReferenceSystem**
 
 Enter the coordinate reference system that’s used for the location mapping fields ‘GeoX’ and ‘GeoY’. Local authorities should be using [ETRS89](https://en.wikipedia.org/wiki/European_Terrestrial_Reference_System_1989) – the adopted standard where precision mapping is needed – but WGS48 and OSGB36 are also valid entries.
 
 Column 8
-
 **GeoX**
 
 Enter the longitude or east grid reference for the centre of the site. Longitude will typically be stated to 6 decimal places of a degree. Easting will typically be a whole number, or stated up to 2 decimal places.
