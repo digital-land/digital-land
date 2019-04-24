@@ -77,7 +77,7 @@ Developer contributions data will need to be published in line with the data for
 
 ## Timeline
 
-**28 April 2019**
+**28 March 2019**
 
 We user tested the developer contributions guidance with 4 Monitoring Officers from local authorities, observing how they understood and used the guidance and whether they were able to meet the data format. We’ll improve the guidance based on the user needs identified.
 
@@ -101,7 +101,7 @@ The [Planning Advisory Service](https://www.local.gov.uk/pas) hosted a workshop 
 
 The [Planning Advisory Service](https://www.local.gov.uk/pas) hosted a workshop in London to provide an opportunity for local planning authorities to learn more about the proposed changes, and provide an opportunity to ask questions and provide feedback. You can find out more and register [here](https://www.eventbrite.co.uk/e/monitoring-data-workshop-with-mhclg-viability-cil-and-section-106-london-tickets-54919493684).
 
-**20 December 2010**
+**20 December 2018**
 
 The [public consultation](https://www.gov.uk/government/consultations/developer-contributions-reform-technical-consultation) started.
 
