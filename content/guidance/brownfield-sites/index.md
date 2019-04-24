@@ -242,14 +242,14 @@ Brownfield site data isn’t useful if it can’t be found. Ensure people can fi
 A number of problems frequently occur in brownfield site registers. Look out for:
 
 * using the wrong coordinate system 
-  * in other words, rather than ‘GeoX’ and ‘GeoY’ (the ETRS89 system) registers sometimes use latitude and longitude (OSGB35) or northing and easting (WGS84)
+  - in other words, rather than ‘GeoX’ and ‘GeoY’ (the ETRS89 system) registers sometimes use latitude and longitude (OSGB35) or northing and easting (WGS84)
 * accidentally transposed longitude and latitude 
-  * any location in the UK will have a latitude in the range of ~49 to 57 and a longitude in the range of ~-7 to 2
+  - any location in the UK will have a latitude in the range of ~49 to 57 and a longitude in the range of ~-7 to 2
 * incorrect column headings
-  * column headings are case sensitive (eg SiteNameAddress is correct, but sitenameaddress is not)
+  - column headings are case sensitive (eg SiteNameAddress is correct, but sitenameaddress is not)
 * mandatory fields that are empty
 * incorrect date formats
-  * eg 2015-05-02 is correct, but 2nd May 2015 is not)
+  - eg 2015-05-02 is correct, but 2nd May 2015 is not)
 * fields containing invalid values
-  * eg text appears where a number is required
-  * an invalid value appears where a specific type or range of value is required
+  - eg text appears where a number is required
+  - an invalid value appears where a specific type or range of value is required
