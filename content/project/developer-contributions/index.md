@@ -77,6 +77,10 @@ Developer contributions data will need to be published in line with the data for
 
 ## Timeline
 
+**28 April 2019**
+
+We user tested the developer contributions guidance with 4 Monitoring Officers from local authorities, observing how they understood and used the guidance and whether they were able to meet the data format. We’ll improve the guidance based on the user needs identified.
+
 **19 February 2019**
 
 We attended the [Planning Officers Society](http://www.planningofficers.org.uk/) meeting in London to present the broader work that the Digital Land Services team are doing, and to provide an overview of the proposed developer contributions data format.
