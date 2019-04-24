@@ -1,5 +1,10 @@
 This page documents the [alpha phase](https://www.gov.uk/service-manual/agile-delivery/how-the-alpha-phase-works) for developing a format for representing developer contributions as data.
 
+We are proposing a simple data format for developer contributions that:
+
+* meets the user needs we’ve identified 
+* requires minimal effort from local planning authorities to create and make the data available
+
 You can help us improve the format by:
 
 * participating in the discussion on our [GitHub issues](https://github.com/digital-land/digital-land/issues)
