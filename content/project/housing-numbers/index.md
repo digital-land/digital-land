@@ -43,6 +43,8 @@ We will send each local authority their housing numbers to confirm the data is c
 
 Take a look at what [we’ve built so far](https://local-plans-prototype.herokuapp.com) and join our local plans [discussion on GitHub](https://github.com/digital-land/digital-land/labels/project%3Alocal-plans).
 
+{{< govuk-section-break "xl" >}}
+
 ## Timeline
 
 **April 2019**
@@ -50,4 +52,5 @@ Take a look at what [we’ve built so far](https://local-plans-prototype.herokua
 We collected the [latest housing numbers](https://local-plans-prototype.herokuapp.com/planning-authority) from emerging and adopted local plans. We plan to validate these numbers with local planning authorities.
 
 **19 March 2019**
+
 We met with the [Planning Advisory Service](https://www.local.gov.uk/planning-advisory-service), [Greater London Authority](https://www.london.gov.uk/), and [Aecom](https://www.aecom.com/) to discuss the housing delivery test and housing trajectories.
