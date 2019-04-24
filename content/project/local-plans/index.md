@@ -13,7 +13,7 @@ The Digital Land team and policy specialists at the Ministry of Housing, Communi
 
 ## Current areas of investigation
 
-The following areas of investigation demonstrate possible ways the data might be applied and made easier to work with:
+The following areas of investigation explore how the data could be used and made easier to work with:
 
 {{< in-progress-issue title="A timetable for local plan production" number="61" >}}
 
