@@ -62,6 +62,26 @@ We are continuing to test the prototype and analyse our findings for this area o
 
 ## Timeline
 
+**24 April 2019**
+
+We met with the [Planning Inspectorate](https://www.gov.uk/government/organisations/planning-inspectorate) to learn about their involvement in monitoring emerging plans.
+
+**23 April 2019**
+
+We met with [Dorset Council](https://www.dorsetcouncil.gov.uk) to learn about their plan-making process.
+
+**10 April 2019**
+
+We met with [Camden Council](https://www.camden.gov.uk/) to learn about their plan-making process.
+
+**28 February 2019**
+
+We ran a workshop with the planning policy team to learn about their needs around creating, monitoring and reviewing local plans.
+
+**February 2019**
+
+We started the discovery phase.
+
 **10 January 2019**
 
 We attended the ‘Answering the Housing Land Question - Building a Knowledge Base’ conference in Reading and participated in a panel on ‘Land: The State of Data and Information Availability’.
