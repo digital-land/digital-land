@@ -15,7 +15,7 @@ The Digital Land team is working with local planning authorities to improve the 
 
 ### Update your brownfield site data: guidance
 
-Follow these simple instructions when adding new brownfield sites to their registers.
+Follow [these simple instructions](https://digital-land.github.io/guidance/brownfield-sites/) when adding new brownfield sites to their registers.
 
 
 ### Check your brownfield site data for errors
