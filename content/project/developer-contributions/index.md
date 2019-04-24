@@ -119,7 +119,7 @@ We published [a blog post](https://mhclgdigital.blog.gov.uk/2018/10/16/making-de
 
 **10 October 2018**
 
-We met with Exacom to learn how developer contributions are managed within their product, and to explore opportunities for re-purposing existing data.
+We met with [Exacom](http://exacom.co.uk/) to learn how developer contributions are managed within their product, and to explore opportunities for re-purposing existing data.
 
 **September 2018**
 
@@ -127,7 +127,7 @@ We conducted user research to understand more about how developer contributions 
 
 **June 2018**
 
-An initial draft of a data standard was produced by iStandUK, this provided us with a baseline to test and refine based on user needs.
+An initial draft of a data standard was produced by [iStandUK](https://istanduk.org/), this provided us with a baseline to test and refine based on user needs.
 
 **Spring 2018**
 
