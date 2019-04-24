@@ -10,7 +10,7 @@ before_script:
 - git clone https://${GH_TOKEN}@github.com/digital-land/digital-land.github.io.git
   public
 cache:
-  directories:	
+  directories:
     - node_modules
 script:
 - npm run scss
