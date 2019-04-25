@@ -96,7 +96,7 @@ We spoke with many of those in local authorities who are responsible for publish
 
 **4 April 2019**
 
-We met with [CPRE](https://cpre.org.uk/) to understand more about how they collected the brownfield data, the challenges they faced, and how they used the data.
+We met with the [Campaign to Protect Rural England (CPRE)](https://cpre.org.uk/) to understand more about how they collected the brownfield data, the challenges they faced, and how they used the data.
 
 **March 2019**
 
