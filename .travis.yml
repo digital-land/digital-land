@@ -1,0 +1,24 @@
+language: node_js
+node_js:
+- "10"
+sudo: required
+before_install:
+- wget https://github.com/gohugoio/hugo/releases/download/v0.54.0/hugo_0.54.0_Linux-64bit.deb
+- sudo dpkg -i hugo*.deb
+before_script:
+- npm install
+- git clone https://${GH_TOKEN}@github.com/digital-land/digital-land.github.io.git
+  public
+cache:
+  directories:
+  - node_modules
+script:
+- npm run scss
+deploy:
+  provider: script
+  script: bash ./deploy.sh
+  on:
+    branch: master
+env:
+  global:
+    secure: XcQLygWe2ZXQtLa/4QU85cOKmYFmBWf8AStudSkh0+Gj42By2Zw4icxkjlSVoGI5WEPukhd35eesSnmJrL0Pwr/8XAzs3koHsUvrRL4NSwSrKRItSV37Q2Hu9RRW711zdBGlIooIIb4dO83SvHpw8FjMvd3XqejCV9m+J8A6Nzq/SUcGHmPpmZnFLc0k6KoqH0+dGx8AS09xuulExP0LjGm+TT4evUabkuQvclw2qh8srPcm3zDdxjFDp9Aa60/xA3g6TGuowZfnEGLJZmCJxmtk2RA0nzqgz/UvaRluoe+t3d4qTogMUTcOd+P50wL1xKs8AXfYdojE8GATo45gCG2P69OVxZk3E2eenjuwgSSXvnbNWTMC/tCcHaX20859jYVO3UmemkKr6f5qoE5OtA16w4g9KKVe6XmWyYlt7VCgmAIvHeMi7z2HK0ea8EHK7LSkIShdXiTBO/iko6z0ua6WfG2TfcNbn4m6bpgmIGagQuaKLiBBhFcMQB2/nMsAa9FFNy6MeIlRsrTdldH7pmeca37geUT8xcd+g2b5OKyfABLTe0TDHlvvDGLt82XHb20rLPZP5CwbhDnCLna2ExU91LQiN37XQ36CTE5a1AxPPNMx7w2GHxrvcmc/jskqbnFrmbw+wQ9rmNhlkPPL/UdIQLI5gGZADanqYaEm+8g=
