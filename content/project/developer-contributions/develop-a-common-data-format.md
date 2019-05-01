@@ -1,4 +1,4 @@
-This page documents the [alpha phase](https://www.gov.uk/service-manual/agile-delivery/how-the-alpha-phase-works) for developing a format for representing developer contributions as data.
+In the [alpha phase](https://www.gov.uk/service-manual/agile-delivery/how-the-alpha-phase-works) of this project, we developed a new common  standard for publishing data on developer contributions.
 
 We are proposing a simple data format for developer contributions that:
 
@@ -7,7 +7,7 @@ We are proposing a simple data format for developer contributions that:
 
 You can help us improve the format by:
 
-* participating in the discussion on our [GitHub issues](https://github.com/digital-land/digital-land/issues)
+* joining the discussion on our [GitHub issues](https://github.com/digital-land/digital-land/issues)
 * making comments using our [feedback form](https://docs.google.com/forms/d/1pvblp8l4ODFmv91yyktArGaiskVnJgFcWDCYBBRgc2A/edit)
 * following the [proposed guidance](https://digital-land.github.io/guidance/developer-contributions/) next time you publish your developer contributions
 

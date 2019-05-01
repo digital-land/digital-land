@@ -32,6 +32,8 @@ Our validator will [check your brownfield site data](https://brownfield-sites-va
 
 ## Current areas of investigation
 
+The following areas of investigation explore how the data could be used and made easier to work with:
+
 {{< prototype-heading "An index of brownfield site registers" >}}
   {{< progress-tag "in-progress" >}}In progress{{< /progress-tag >}}
 {{< /prototype-heading >}}
@@ -91,3 +93,15 @@ We spoke with many of those in local authorities who are responsible for publish
 {{< govuk-section-break "xl" >}}
 
 ## Timeline
+
+**4 April 2019**
+
+We met with [CPRE](https://cpre.org.uk/) to understand more about how they collected the brownfield data, the challenges they faced, and how they used the data.
+
+**March 2019**
+
+The [Campaign to Protect Rural England (CPRE)](https://cpre.org.uk/) published the [2019 State of Brownfield annual report](https://www.cpre.org.uk/resources/housing-and-planning/planning/item/5086-state-of-brownfield-2019). In the report they highlighted some of the challenges they faced whilst collecting brownfield data.
+
+**Summer 2018**
+
+We built a [register of all the brownfield registers](https://github.com/communitiesuk/digital-land-collector/blob/master/etc/brownfield-site-publication.tsv) and prototyped a tool to [validate the data](https://brownfield-sites-validator.cloudapps.digital/).

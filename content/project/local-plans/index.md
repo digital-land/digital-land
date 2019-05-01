@@ -13,7 +13,7 @@ The Digital Land team and policy specialists at the Ministry of Housing, Communi
 
 ## Current areas of investigation
 
-The following areas of investigation demonstrate possible ways the data might be applied and made easier to work with:
+The following areas of investigation explore how the data could be used and made easier to work with:
 
 {{< in-progress-issue title="A timetable for local plan production" number="61" >}}
 
@@ -61,6 +61,30 @@ We are continuing to test the prototype and analyse our findings for this area o
 {{< govuk-section-break "xl" >}}
 
 ## Timeline
+
+**March - May 2019**
+
+We are meeting with local authorities across the country to understand the different Local Plan making processes, the challenges faced by those involved, and the data used throughout the process. This is a key part of our research into how digital tools could support the process of collecting and publishing data, and making local plans.
+
+**24 April 2019**
+
+We met with the [Planning Inspectorate](https://www.gov.uk/government/organisations/planning-inspectorate) to learn about their involvement in monitoring emerging plans.
+
+**23 April 2019**
+
+We met with [Dorset Council](https://www.dorsetcouncil.gov.uk) to learn about their plan-making process.
+
+**10 April 2019**
+
+We met with [Camden Council](https://www.camden.gov.uk/) to learn about their plan-making process.
+
+**28 February 2019**
+
+We ran a workshop with the planning policy team to learn about their needs around creating, monitoring and reviewing local plans.
+
+**February 2019**
+
+We started the discovery phase.
 
 **10 January 2019**
 
