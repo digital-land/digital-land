@@ -2,15 +2,8 @@
 title: "Brownfield sites"
 status: alpha
 label: "project:brownfield-sites"
+hasContent: true
 ---
-
-Brownfield sites are plots of land that have previously been developed but are not currently in use. They are often ready to build housing upon as soon as planning permission is given. [Recent analysis](https://www.cpre.org.uk/resources/housing-and-planning/planning/item/5086-state-of-brownfield-2019) suggests more than 1 million houses could be built on brownfield sites across England.
-
-Local authorities must keep records of their brownfield sites updated, publicly available and published in an agreed data format. This helps housing developers find the right places to build and planners make informed decisions on local housing.
-
-The Digital Land team and policy specialists at the Ministry of Housing, Communities and Local Government are working with local planning authorities to improve this brownfield site data format so that the data is easier to find, use and trust.
-
-{{< govuk-section-break "xl" >}}
 
 ## Resources for planning authorities
 
