@@ -16,7 +16,7 @@ Developer contributions data has a wide range of current and potential uses, inc
 
 But for data to be useful it must be easy to find, use, understand and trust.
 
-You can ensure that your developer contributions data is all of these by following an agreed specification for how you format, label and publish it. The following guidance gives a high-level overview of our draft specification and the publication process. We welcome your feedback on.
+You can ensure that your developer contributions data is all of these by following an agreed specification for how you format, label and publish it. The following guidance gives a high-level overview of our draft specification and the publication process. We welcome your feedback through our [GitHub issues pages](https://github.com/digital-land/digital-land/labels/project%3Adeveloper-contributions).
 
 ## Publish your developer contributions in 4 steps
 
@@ -39,19 +39,19 @@ Storing your data in 3 separate files rather than one file makes it possible to 
 
 A .csv file (or comma separated value file) is a universally recognised file format for storing tabular data in plain text. The following table of data comprises headers describing columns and data arranged in rows:
 
-| fruit        | quantity           | price  |
+| developer-agreement        | organisation           | developer-agreement-classification  |
 | ------------- |:-------------:| -----:|
-| orange     | 100| 1.00 |
-| banana     | 3      |   2.00 |
-| papaya | 0      |    30000 |
+| CMD-S106-101     | local-authority:CMD| S106 |
+| CMD-S106-102     | local-authority:CMD| S106 |
+| CMD-S106-103     | local-authority:CMD| S106 |
 
 This is represented in a .csv file in the following format:
 
 ```
-fruit,quantity,price
-orange,100,1.00
-banana,3,2.00
-papaya,0,30000
+developer-agreement,organisation,developer-agreement-classification
+CMD-S106-101,local-authority:CMD,S106
+CMD-S106-101,local-authority:CMD,S106
+CMD-S106-101,local-authority:CMD,S106
 ```
 
 One commonplace way to create a .csv file is to enter the values in an Excel spreadsheet and “save as .csv”.
@@ -96,7 +96,7 @@ Leave this blank if this version of the agreement hasn’t been superseded by a 
 {{% /col-guidance %}}
 
 {{% col-guidance name="planning-application" %}}
-Enter the unique reference number for the planning application as it appears on the Planning Portal.
+Enter the unique reference number for the planning application as it appears on the [Planning Portal](https://www.planningportal.co.uk/).
 {{% /col-guidance %}}
 
 {{% col-guidance name="document-url" %}}
