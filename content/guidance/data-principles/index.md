@@ -8,13 +8,23 @@ To ensure consistency of data that has been  provided from multiple sources we h
 
 {{< govuk-section-break "xl" >}}
 
-## Multiple files
+## Structuring data
+
+Our data models follows principles of a [relational database](https://en.wikipedia.org/wiki/Relational_database). This helps to reduce duplication and makes it easier to maintain, which in turn increases the trust and usefulness of the data.
+
+When modeling the data standard for [developer contributions](/guidance/developer-contributions/) we created three files all of which could be linked together through the use of unique identifiers. The first .csv contained a list of the all agreements. In the second .csv we listed all the contributions, linking those back to the agreement they came from. Finally in the third .csv we listed all the transactions which are linked by to a contribution.
+
+This style of data model means that each .csv only has to contain the minimal amount of information that is relevant to its specific purpose but we can link to related datasets to provide context and additional information.
+
+<a href="https://www.flickr.com/photos/mattlucht/47744658642/in/datetaken-public/" title="IMG_20190507_160434"><img src="https://live.staticflickr.com/65535/47744658642_11ef5853bb_k.jpg"alt="Linked Data"></a>
 
 {{< govuk-section-break "xl" >}}
 
 ## Not deleting entries in a register
 
-Each register contains not only the latest updates, but also a record of what has happened. Through being able to see what has changed we believe this provides reassurance and trust in the data. So when a [end date](#entry-start-and-end-dates)
+One something changes, is superseded, or becomes redundant then a new record should be added to the register the old one can be marked as expired through the use of an [end date](#entry-start-and-end-dates).
+
+Through being able to see what has changed we believe this provides reassurance and trust in the data. It also allows Service Provides to build historic views of the data to help demonstrate what has changed over time.
 
 {{< govuk-section-break "xl" >}}
 
