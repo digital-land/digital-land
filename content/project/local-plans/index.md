@@ -70,13 +70,9 @@ We are meeting with local authorities across the country to understand the diffe
 
 We met with the [Planning Inspectorate](https://www.gov.uk/government/organisations/planning-inspectorate) to learn about their involvement in monitoring emerging plans.
 
-**23 April 2019**
+**April 2019**
 
-We met with [Dorset Council](https://www.dorsetcouncil.gov.uk) to learn about their plan-making process.
-
-**10 April 2019**
-
-We met with [Camden Council](https://www.camden.gov.uk/) to learn about their plan-making process.
+We met with 2 councils in April to learn about their plan-making process.
 
 **28 February 2019**
 
