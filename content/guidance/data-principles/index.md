@@ -74,7 +74,6 @@ When creating a unique identifier there are some thing that you should consider:
 * IDs should never be re-used
 * IDs should be assigned to all entities
 
-
 {{< govuk-section-break "xl" >}}
 
 ## Persistent URLs
@@ -93,9 +92,9 @@ Where possible data should be published under an [Open Government License](https
 
 {{< govuk-section-break "xl" >}}
 
-## Available in a non-propitiatory format
+## Available in a non-proprietary format
 
-Data should be published in a format that is available without the use of propitiatory software. For example, data published as .csv, .tsv or .json can be used freely regardless of the users choice of development tools. Whereas data published in .xls or .pdf is locked to a particular vendor.
+Data should be published in a format that is available without the use of proprietary software. For example, data published as .csv, .tsv or .json can be used freely regardless of the users choice of development tools. Whereas data published in .xls or .pdf is locked to a particular vendor.
 
 {{< govuk-section-break "xl" >}}
 
