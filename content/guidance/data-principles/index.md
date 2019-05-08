@@ -109,3 +109,13 @@ All data should be accessible without any intervention such as providing an emai
 
 To help ensure the integrity of the data the data set shouldn't contain any values that can be derived or calculated from other values.
 
+{{< govuk-section-break "xl" >}}
+
+## A way to feedback
+
+When people are using the data it is important that they're able to feedback if they have questions about the data, or notice any inaccuracies. This can be made easier by providing;
+
+* details of who owns the data
+* details of who published the data
+* a mechanism for someone to feedback
+
