@@ -42,8 +42,8 @@ Developer contributions data must be entered in 3 separate .csv files. A .csv fi
 
 We’ve created a .csv template for each of the 3 files:
 
-* [developer agreements](#agreement)
-* [developer agreement contributions](#contribution)
+* [developer agreements](/developer-agreement_YYYYMMDD.csv)
+* [developer agreement contributions](/developer-agreement-contribution_YYYYMMDD.csv)
 * [developer agreement transactions](#transaction)
 
 Enter your developer contributions data in each of these using spreadsheet software such as Microsoft Excel, Google Sheets or Apple’s Numbers. You must follow the guidelines below, then ‘save as .csv file’ within Excel. You’re free to use other tools to create the .csv files, as long as they meet the requirements of this guidance.
