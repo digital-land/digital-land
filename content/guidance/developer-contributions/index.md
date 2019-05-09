@@ -169,7 +169,8 @@ Enter the unique identifier you created for the contribution.
 {{% /col-guidance %}}
 
 {{% col-guidance name="contribution-funding-status" %}}
-Enter one of the following to indicate what stage the funding for the contribution is currently in: *‘secured’: the trigger clauses associated with the contribution have been met, meaning the developer is now required to pay all or part of the contribution
+Enter one of the following to indicate what stage the funding for the contribution is currently in: 
+* ‘secured’: the trigger clauses associated with the contribution have been met, meaning the developer is now required to pay all or part of the contribution
 * ‘received’: the developer has paid the planning authority the money due
 * ‘allocated’: the received money has been allocated to a team within the planning authority, who will spend the money
 * ‘transferred’: the received money has been transferred to an organisation outside the planning authority (eg Transport for London), who will spend the money
