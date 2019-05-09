@@ -30,11 +30,15 @@ Publishing is a 3-step process:
 2. Each of these files must be uploaded to your organisation’s website and clearly linked to using a persistent URL
 3. The national register of developer contributions on the Ministry of Housing, Communities and Local Government (MHCLG) website must be kept up to date
 
-! You may not be able or authorised to complete all of these steps. Each step identifies what skills and authority are required to complete it.
+{{% inset-text %}}
+You may not be able or authorised to complete all of these steps. Each step identifies what skills and authority are required to complete it.
+{{% /inset-text %}}
 
 ### Step 1: Create your .csv files
 
+{{% inset-text %}}
 To complete step 1 you must be able to create or amend .csv files, for example by using spreadsheet software.
+{{% /inset-text %}}
 
 If you are a planning authority using third-party software to manage your developer contributions, ask your vendor if the software can export the data to .csv files as defined in this guidance. Otherwise, use the following instructions.
 
@@ -42,9 +46,9 @@ Developer contributions data must be entered in 3 separate .csv files. A .csv fi
 
 We’ve created a .csv template for each of the 3 files:
 
-* [developer agreements](/developer-contributions/developer-agreement_YYYYMMDD.csv)
-* [developer agreement contributions](/developer-contributions/developer-agreement-contribution_YYYYMMDD.csv)
-* [developer agreement transactions](/developer-contributions/developer-agreement-transaction_YYYYMMDD.csv)
+* [developer agreements](/guidance/developer-contributions/developer-agreement_YYYYMMDD.csv)
+* [developer agreement contributions](/guidance/developer-contributions/developer-agreement-contribution_YYYYMMDD.csv)
+* [developer agreement transactions](/guidance/developer-contributions/developer-agreement-transaction_YYYYMMDD.csv)
 
 If it helps, you can use the above example files and enter your developer contributions data. You must follow the guidelines below, then 'save as .csv file'. You can use software such as Excel, Google Sheets or Apple Numbers, as long as they meet the requirements of this guidance.
 
@@ -63,7 +67,9 @@ Developer agreements must be listed in a .csv file named exactly as follows, but
 
 {{< tech-block >}}developer-agreement_YYYYMMDD.csv{{< /tech-block >}}
 
+{{% inset-text %}}
 Do not delete or overwrite old or superseded agreements.
+{{% /inset-text %}}
 
 #### Column headers:
 
@@ -77,7 +83,9 @@ Find your organisation in this list (in most cases this will be a local planning
 {{< tech-block >}}local-authority:nfk{{< /tech-block >}}
 {{% /col-guidance %}}
 
-! Date fields refer to the recording of the data rather than when agreements come into effect or end – read our data principles on dates for more information.
+{{% inset-text %}}
+Date fields refer to the recording of the data rather than when agreements come into effect or end – read our data principles on dates for more information.
+{{% /inset-text %}}
 
 {{% col-guidance name="entry-date" %}}
 Enter the date the agreement was signed and sealed, in the format `yyyy-mm-dd`. For 1 February 2019, for example, you should enter `2019-02-01`
@@ -134,7 +142,9 @@ Enter the agreed, secured contribution amount, in pounds and pence but without a
 {{% col-guidance name="units" %}}
 If the developer has agreed a non-financial contribution you should quantify that here (eg enter 100 if that many affordable housing units have been promised, 2 for 2 public playgrounds etc).
 
-! Date fields refer to the recording of the data rather than when agreements come into effect or end – read our data principles on dates for more information.
+{{% inset-text %}}
+Date fields refer to the recording of the data rather than when agreements come into effect or end – read our data principles on dates for more information.
+{{% /inset-text %}}
 
 {{% /col-guidance %}}
 
@@ -169,7 +179,8 @@ Enter the unique identifier you created for the contribution.
 {{% /col-guidance %}}
 
 {{% col-guidance name="contribution-funding-status" %}}
-Enter one of the following to indicate what stage the funding for the contribution is currently in: 
+
+Enter one of the following to indicate what stage the funding for the contribution is currently in:
 
 * ‘secured’: the trigger clauses associated with the contribution have been met, meaning the developer is now required to pay all or part of the contribution
 * ‘received’: the developer has paid the planning authority the money due
@@ -178,17 +189,24 @@ Enter one of the following to indicate what stage the funding for the contributi
 * ‘spent’: the received money has been spent on the agreed contribution purpose (for Section 106) or for Community Infrastructure Levies (CIL) just spent
 * ‘returned’: the received money (or a portion of it) has been returned to the developer, for whatever reason
 
-If more than one status applies (eg if some money was spent and some returned), please create a separate row for each, along with entries for all other relevant fields.
+If more than one status applies (eg if some money was spent and some returned), please create a separate row for each status. Fill in each row with all other fields.
 
 {{% /col-guidance %}}
 
 {{% col-guidance name="amount" %}}
-Enter the amount received from a developer for part or full payment of a contribution (inserting ‘+ve’ before the amount) or the amount spent by a planning authority (inserting ‘-ve’ before the amount), as applicable.
+Enter the amount of money for each funding status.
+
+Enter the amount as a numberic value eg £10,000 would be entered as `10000.00`
+
 {{% /col-guidance %}}
 
 {{% col-guidance name="units" %}}
 If the developer has agreed a non-financial contribution you should quantify how much of that commitment has been met for this transaction (eg enter 50 if 100 affordable housing units were committed and 50 have been delivered).
 {{% /col-guidance %}}
+
+{{% inset-text %}}
+Date fields refer to the recording of the data rather than when agreements come into effect or end – read our data principles on dates for more information
+{{% /inset-text %}}
 
 {{% col-guidance name="entry-date" %}}
 Enter the date the record was created, in the format `yyyy-mm-dd`. For 1 February 2019, for example, you should enter `2019-02-01`.
@@ -236,7 +254,9 @@ Find your organisation in the alphabetised list.
 
 Enter the web address of the web page created in step 2.
 
+{{% inset-text %}}
 Date fields refer to the recording of the data rather than when agreements come into effect or end – read our data principles on dates for more information
+{{% /inset-text %}}
 
 **entry-date**
 
