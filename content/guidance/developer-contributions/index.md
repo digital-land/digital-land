@@ -124,7 +124,7 @@ Developer agreement contributions must be listed exactly as follows, but with th
 #### Column headers:
 
 {{% col-guidance name="developer-agreement-contribution" %}}
-Create a unique identifier for the contribution. If the identifier contains the developer-agreement number it will be easier to quickly identify the contribution as related to the agreement. For example, if the developer-agreement number is ROC100, the developer-contribution could be ROC100-1A, for example.
+Create a unique identifier for the contribution. If the identifier contains the developer-agreement number it will be easier to quickly identify the contribution as related to the agreement. If the developer-agreement number is ROC100, for example, the developer-contribution could be ROC100-1A.
 {{% /col-guidance %}}
 
 {{% col-guidance name="developer-agreement" %}}
@@ -179,6 +179,7 @@ Enter the unique identifier you created for the contribution.
 {{% /col-guidance %}}
 
 {{% col-guidance name="contribution-funding-status" %}}
+
 Enter one of the following to indicate what stage the funding for the contribution is currently in:
 
 * ‘secured’: the trigger clauses associated with the contribution have been met, meaning the developer is now required to pay all or part of the contribution
