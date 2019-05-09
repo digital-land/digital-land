@@ -205,7 +205,7 @@ If the developer has agreed a non-financial contribution you should quantify how
 {{% /col-guidance %}}
 
 {{% inset-text %}}
-Date fields refer to the recording of the data rather than when agreements come into effect or end – read our data principles on dates for more information
+Date fields refer to the recording of the data rather than when agreements come into effect or end – read our data principles on dates for more information.
 {{% /inset-text %}}
 
 {{% col-guidance name="entry-date" %}}
@@ -242,7 +242,7 @@ You should then update your local authority’s developer contributions web page
 
 To complete step 3 you must be able to download, amend and upload a .csv file. 
 
-MHCLG will [subject to this consultation] maintain a national register of developer contributions in a file called developer-contribution-register.csv.
+MHCLG will [subject to this consultation] maintain a national register of developer contributions in a file called developer-contribution-register.csv
 
 All organisations with a statutory duty to publish their own registers of contributions should ensure that the following columns in this file are kept accurate and up to date:
 
@@ -255,7 +255,7 @@ Find your organisation in the alphabetised list.
 Enter the web address of the web page created in step 2.
 
 {{% inset-text %}}
-Date fields refer to the recording of the data rather than when agreements come into effect or end – read our data principles on dates for more information
+Date fields refer to the recording of the data rather than when agreements come into effect or end – read our data principles on dates for more information.
 {{% /inset-text %}}
 
 **entry-date**
