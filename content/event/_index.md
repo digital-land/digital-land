@@ -1,11 +1,31 @@
 ---
 title: Events
 ---
+### This week at Digital Land Services
+**Date:** 06 May 2019
+
+#### Local plans
+
+This week, Paul and Helena have been busy working on the tail end of the [Local Plans discovery](/project/local-plans). Their primary focus has been to analyse the insights that they've gathered so far ahead of an internal steering group next week.
+
+On another aspect of Local Plans, the [housing numbers](/project/housing-numbers), our colleagues on the policy team have collected housing numbers from local plans. The vast majority of Local Planning Authorities have now been accounted for, and Colm and Adam are helping to make some changes to how we capture data for joint plans.
+
+To help position our work on local plans, Paul has written an [introductory blog post](/ss/).
+
+#### Developer contributions
+
+Following the developer contributions workshops and lab testing the team have been analysing the feedback to identify areas where we can make improvements. Emily and Michael have made a number of [changes to the guidance](/guidance/developer-contributions) which we hope will address some of the problem areas that we identified. 
+
+#### Our service
+
+Paul has been working on some story mapping which forms a road map for the service. From this, Jake has been revisiting the work on a validator tool, and Christine has started prototyping a tool for building registers.
+
+
 ### Show and Tell
 **Time:** 10 January 2019
 **Location:** Digital Land, Ground Floor, Fry Building, London
 
-We ran our first show and tell of 2019 where the team talked through the early view of the service archiecture, our approach for learning about a design process for policy making, and what we've learnt through the early stages of the [developer contributions](/project/developer-contributions) public consultation.
+We ran our first show and tell of 2019 where the team talked through the early view of the service architecture, our approach for learning about a design process for policy making, and what we've learnt through the early stages of the [developer contributions](/project/developer-contributions) public consultation.
 
 <a href="https://www.flickr.com/photos/mattlucht/39734701243/in/datetaken-public/" title="Digital Land Show and Tell -- 20191101"><img src="https://farm8.staticflickr.com/7860/39734701243_695ba27ec0_k.jpg" alt="Digital Land Show and Tell -- 20191101"></a>
 
