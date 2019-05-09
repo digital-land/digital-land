@@ -233,7 +233,9 @@ Find your organisation in the alphabetised list.
 
 **register-url**
 
-Enter the web address of the web page created in step 3.
+Enter the web address of the web page created in step 2.
+
+Date fields refer to the recording of the data rather than when agreements come into effect or end – read our data principles on dates for more information
 
 **entry-date**
 
