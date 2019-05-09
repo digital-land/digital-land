@@ -196,7 +196,7 @@ If more than one status applies (eg if some money was spent and some returned), 
 {{% col-guidance name="amount" %}}
 Enter the amount of money for each funding status.
 
-Enter the amount as a numberic value eg £10,000 would be entered as `10000.00`
+Enter the amount as a numeric value eg £10,000 would be entered as `10000.00`
 
 {{% /col-guidance %}}
 
