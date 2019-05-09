@@ -46,7 +46,7 @@ We’ve created a .csv template for each of the 3 files:
 * [developer agreement contributions](/developer-contributions/developer-agreement-contribution_YYYYMMDD.csv)
 * [developer agreement transactions](/developer-contributions/developer-agreement-transaction_YYYYMMDD.csv)
 
-Enter your developer contributions data in each of these using spreadsheet software such as Microsoft Excel, Google Sheets or Apple’s Numbers. You must follow the guidelines below, then ‘save as .csv file’ within Excel. You’re free to use other tools to create the .csv files, as long as they meet the requirements of this guidance.
+If it helps, you can use the above example files and enter your developer contributions data. You must follow the guidelines below, then 'save as .csv file'. You can use software such as Excel, Google Sheets or Apple Numbers, as long as they meet the requirements of this guidance.
 
 Each of the .csv files must:
 
@@ -201,25 +201,29 @@ Enter the date on which the entry comes into effect, in the same format as the e
 Enter the last day the entry is in effect, in the same format as column the entry-date column.
 {{% /col-guidance %}}
 
-### Step 2: Upload the files to a persistent URL
+### Step 2: Create or update a developer contributions page on your organisation’s website
 
-Next you need to upload each .csv file to your organisation’s website using a [persistent URL](https://en.wikipedia.org/wiki/Persistent_uniform_resource_locator) – a web address that will not change over time. As an example, Norfolk’s local planning authority might use the following persistent addresses (note that these are examples, not live data): 
+To complete step 2 you must be able to upload the files created in step 1 to your local authority’s website and edit (or create) your developer contributions web page. If you aren’t able or authorised to do this speak to someone who is (this might be the person who updates your local authority’s brownfield site register).
+
+Next you need to upload each .csv file to your planning authority's website using a [persistent URL](https://en.wikipedia.org/wiki/Persistent_uniform_resource_locator) – a web address that will not change over time. As an example, Norfolk’s local planning authority might use the following persistent addresses (note that these are examples, not live data): 
 
 https://www.norfolk.gov.uk/developer-agreement/developer-agreement_20190101.csv
 https://www.norfolk.gov.uk/developer-agreement-contribution/developer-agreement-contribution_20190101.csv
 https://www.norfolk.gov.uk/developer-agreement-transaction/developer-agreement-transaction_20190101.csv
 https://www.norfolk.gov.uk/developer-agreement-transaction/latest
 
+When you upload the files you should: 
+
 * keep your older files online – it’s important to retain a history of all developer contribution files
 * make a copy of the new files, rename the copies exactly the same except with ‘latest’ in place of the date, then upload both sets of files
 
-### Step 3: Create/update a developer contributions page on your organisation’s website
+You should then update your local authority’s developer contributions web page to make the .csv files publicly available. If your website does not have a page on developer contributions, you or someone in the web team will need to create one. The page must list the persistent URLs as defined above. The URLs must be written out in full.
 
-The page must list the URLs in step 2 and must be publicly accessible and indexed or searchable. The URLs must be visible rather than embedded in text.
+### Step 3: Update the national register of developer contributions
 
-### Step 4: Update the national register of developer contributions
+To complete step 3 you must be able to download, amend and upload a .csv file. 
 
-The Ministry of Housing, Communities and Local Government (MHCLG) will [subject to this consultation] maintain a national register of developer contributions in a file called developer-contribution-register.csv.
+MHCLG will [subject to this consultation] maintain a national register of developer contributions in a file called developer-contribution-register.csv.
 
 All organisations with a statutory duty to publish their own registers of contributions should ensure that the following columns in this file are kept accurate and up to date:
 
