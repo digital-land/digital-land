@@ -4,7 +4,11 @@ title: "Publish your developer contributions data"
 
 The National Planning Policy Framework requires all local planning authorities and certain other organisations to [publish their developer contributions data](https://www.gov.uk/guidance/planning-obligations#are-planning-obligation-contributions-required-by-local-planning-authorities-publically-available) on a regular basis and in an agreed format. That format hasn’t yet been agreed, but the following guidance is a working approach that we plan to refine with your input.
 
-Our aim is to develop a data format and publishing guidance that results in better insights into how developer contributions are supporting community infrastructure. But we also want a standard that causes as little disruption as possible to your existing processes. Please [share your feedback](https://docs.google.com/forms/d/1pvblp8l4ODFmv91yyktArGaiskVnJgFcWDCYBBRgc2A) on this guidance to help us succeed.
+Our aim is to develop a data format and publishing guidance that results in better insights into how developer contributions are supporting community infrastructure. But we also want a standard that causes as little disruption as possible to your existing processes. 
+
+{{% inset-text %}}
+Please share your feedback on this guidance by filling out our [feedback form](https://docs.google.com/forms/d/1pvblp8l4ODFmv91yyktArGaiskVnJgFcWDCYBBRgc2A) or by commenting on our [GitHub issues discussion board](https://github.com/digital-land/digital-land/labels/project%3Adeveloper-contributions).
+{{% /inset-text %}}
 
 ## Make your data findable, useable and trustworthy
 
@@ -16,7 +20,7 @@ Developer contributions include Section 106, community infrastructure levies (CI
 
 But for data to be useful it must be easy to find, use, understand and trust.
 
-Local planning authorities can ensure that their developer contributions data is all of these by following an agreed specification for how to format, label and publish it. The following guidance gives a high-level overview of our draft specification and the publication process. [We welcome your feedback](https://github.com/digital-land/digital-land/labels/project%3Adeveloper-contributions).
+Local planning authorities can ensure that their developer contributions data is all of these by following an agreed specification for how to format, label and publish it. The following guidance gives a high-level overview of our draft specification and the publication process.
 
 ## Publishing developer contributions: 3 steps
 
@@ -24,7 +28,7 @@ Planning authorities must publish their developer contributions once a year but 
 
 This guidance applies to the publication of developer contributions data going forward – you are not required to republish historical data so that it complies with this guidance. 
 
-Publishing is a 3-step process:
+Publishing is a 3 step process:
 
 1. 3 developer contribution .csv files must be created to store the data
 2. Each of these files must be uploaded to your organisation’s website and clearly linked to using a persistent URL
@@ -78,7 +82,7 @@ Create a unique identifier for the agreement. By ‘unique’ this means it shou
 {{% /col-guidance %}}
 
 {{% col-guidance name="organisation" %}}
-Find your organisation in this list (in most cases this will be a local planning authority). All text must be in lower case, with no spaces. Norfolk’s local planning authority, for example, would be:
+[Find your organisation in this list](https://github.com/communitiesuk/digital-land-data/blob/master/data/organisation.tsv) (in most cases this will be a local planning authority). All text must be in lower case, with no spaces. Norfolk’s local planning authority, for example, would be:
 
 {{< tech-block >}}local-authority:nfk{{< /tech-block >}}
 {{% /col-guidance %}}
