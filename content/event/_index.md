@@ -6,7 +6,7 @@ title: Events
 
 #### Local plans
 
-This week, Paul and Helena have been busy working on the tail end of the [Local Plans discovery](/project/local-plans). Their primary focus has been to analyse the insights that they've gathered so far ahead of an internal steering group next week.
+This week, Paul (Bermudez)and Helena have been busy working on the tail end of the [Local Plans discovery](/project/local-plans). Their primary focus has been to analyse the insights that they've gathered so far ahead of an internal steering group next week.
 
 On another aspect of Local Plans, the [housing numbers](/project/housing-numbers), our colleagues on the policy team have collected housing numbers from local plans. The vast majority of Local Planning Authorities have now been accounted for, and Colm and Adam are helping to make some changes to how we capture data for joint plans.
 
@@ -16,7 +16,7 @@ Following the developer contributions workshops and lab testing the team have be
 
 #### Our service
 
-Paul has been working on some story mapping which forms a road map for the service. From this, Jake has been revisiting the work on a validator tool, and Christine has started prototyping a tool for building registers.
+Paul (Downey) has been working on some story mapping which forms a road map for the service. From this, Jake has been revisiting the work on a validator tool, and Christine has started prototyping a tool for building registers.
 
 <a href="https://www.flickr.com/photos/mattlucht/47028726254/in/datetaken-public/" title="Story Mapping"><img src="https://live.staticflickr.com/65535/47028726254_543b5e80bb_k.jpg" alt="Story Mapping"></a>
 
