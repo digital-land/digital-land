@@ -30,12 +30,12 @@ This guidance applies to the publication of developer contributions data going f
 
 Publishing is a 3 step process:
 
-1. 3 developer contribution .csv files must be created to store the data
+1. Three developer contribution .csv files must be created to store the data
 2. Each of these files must be uploaded to your organisation’s website and clearly linked to using a persistent URL
 3. The national register of developer contributions on the Ministry of Housing, Communities and Local Government (MHCLG) website must be kept up to date
 
 {{% inset-text %}}
-You may not be able or authorised to complete all of these steps. Each step identifies what skills and authority are required to complete it.
+You may not be able or authorised to complete all steps. Each step identifies the skills and authority required to complete it.
 {{% /inset-text %}}
 
 ### Step 1: Create your .csv files
@@ -54,7 +54,7 @@ We’ve created a .csv template for each of the 3 files:
 * [developer agreement contributions](/guidance/developer-contributions/developer-agreement-contribution_YYYYMMDD.csv)
 * [developer agreement transactions](/guidance/developer-contributions/developer-agreement-transaction_YYYYMMDD.csv)
 
-If it helps, you can use the above example files and enter your developer contributions data. You must follow the guidelines below, then 'save as .csv file'. You can use software such as Excel, Google Sheets or Apple Numbers, as long as they meet the requirements of this guidance.
+If it helps, you can use the above example files and enter your developer contributions data. You must follow the guidelines below, then 'save as .csv file'. You can use software such as Microsoft Excel, Google Sheets or Apple Numbers, as long as they meet the requirements of this guidance.
 
 Each of the .csv files must:
 
@@ -226,13 +226,18 @@ Enter the last day the entry is in effect, in the same format as column the entr
 
 ### Step 2: Create or update a developer contributions page on your organisation’s website
 
+{{% inset-text %}}
 To complete step 2 you must be able to upload the files created in step 1 to your local authority’s website and edit (or create) your developer contributions web page. If you aren’t able or authorised to do this speak to someone who is (this might be the person who updates your local authority’s brownfield site register).
+{{% /inset-text %}}
 
 Next you need to upload each .csv file to your planning authority's website using a [persistent URL](https://en.wikipedia.org/wiki/Persistent_uniform_resource_locator) – a web address that will not change over time. As an example, Norfolk’s local planning authority might use the following persistent addresses (note that these are examples, not live data): 
 
 https://www.norfolk.gov.uk/developer-agreement/developer-agreement_20190101.csv
+
 https://www.norfolk.gov.uk/developer-agreement-contribution/developer-agreement-contribution_20190101.csv
+
 https://www.norfolk.gov.uk/developer-agreement-transaction/developer-agreement-transaction_20190101.csv
+
 https://www.norfolk.gov.uk/developer-agreement-transaction/latest
 
 When you upload the files you should: 
@@ -244,7 +249,9 @@ You should then update your local authority’s developer contributions web page
 
 ### Step 3: Update the national register of developer contributions
 
+{{% inset-text %}}
 To complete step 3 you must be able to download, amend and upload a .csv file. 
+{{% /inset-text %}}
 
 MHCLG will [subject to this consultation] maintain a national register of developer contributions in a file called developer-contribution-register.csv
 
