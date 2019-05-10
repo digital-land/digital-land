@@ -10,8 +10,6 @@ This week, Paul and Helena have been busy working on the tail end of the [Local 
 
 On another aspect of Local Plans, the [housing numbers](/project/housing-numbers), our colleagues on the policy team have collected housing numbers from local plans. The vast majority of Local Planning Authorities have now been accounted for, and Colm and Adam are helping to make some changes to how we capture data for joint plans.
 
-To help position our work on local plans, Paul has written an [introductory blog post](/ss/).
-
 #### Developer contributions
 
 Following the developer contributions workshops and lab testing the team have been analysing the feedback to identify areas where we can make improvements. Emily and Michael have made a number of [changes to the guidance](/guidance/developer-contributions) which we hope will address some of the problem areas that we identified. 
@@ -20,6 +18,7 @@ Following the developer contributions workshops and lab testing the team have be
 
 Paul has been working on some story mapping which forms a road map for the service. From this, Jake has been revisiting the work on a validator tool, and Christine has started prototyping a tool for building registers.
 
+<a href="https://www.flickr.com/photos/mattlucht/47028726254/in/datetaken-public/" title="Story Mapping"><img src="https://live.staticflickr.com/65535/47028726254_543b5e80bb_k.jpg" alt="Story Mapping"></a>
 
 ### Show and Tell
 **Time:** 10 January 2019
