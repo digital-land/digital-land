@@ -24,7 +24,7 @@ Local planning authorities can ensure that their developer contributions data is
 
 ## Publishing developer contributions: 3 steps
 
-Planning authorities must publish their developer contributions once a year but are encouraged to do so as frequently as they can so that datasets are up to date. (Those publishing with third-party software that can semi-automate the process might be able to publish in near real-time, while those publishing manually might choose to only publish quarterly.)
+Planning authorities must publish their developer contributions once a year but are encouraged to do so as frequently as they can so that datasets are up to date. (Those publishing with third-party software that can semi-automate the process might be able to publish in near real-time, for example, while those publishing manually might choose to only publish quarterly.)
 
 This guidance applies to the publication of developer contributions data going forward – you are not required to republish historical data so that it complies with this guidance. 
 
