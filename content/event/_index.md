@@ -6,7 +6,7 @@ title: Events
 
 #### Local plans
 
-This week, Paul (Bermudez)and Helena have been busy working on the tail end of the [Local Plans discovery](/project/local-plans). Their primary focus has been to analyse the insights that they've gathered so far ahead of an internal steering group next week.
+This week, Paul (Bermudez) and Helena have been busy working on the tail end of the [Local Plans discovery](/project/local-plans). Their primary focus has been to analyse the insights that they've gathered so far ahead of an internal steering group next week.
 
 On another aspect of Local Plans, the [housing numbers](/project/housing-numbers), our colleagues on the policy team have collected housing numbers from local plans. The vast majority of Local Planning Authorities have now been accounted for, and Colm and Adam are helping to make some changes to how we capture data for joint plans.
 
