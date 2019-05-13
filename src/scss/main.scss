@@ -29,6 +29,8 @@ $govuk-images-path: "/govuk-frontend/assets/images/";
 @import "project-components/contents";
 @import "project-components/markdown";
 
+@import "project-components/pagination";
+
 * {
   font-family: "HelveticaNeue", "Helvetica Neue", "Arial", "Helvetica", sans-serif !important;
 }
