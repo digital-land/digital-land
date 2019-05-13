@@ -3,10 +3,10 @@ title: "Publish your developer contributions data"
 ---
 
 {{% contents %}}
-- [Publish your developer contributions data](#)
-- [Step 1: Create your .csv files](#)
-- [Step 2: Update your developer contributions web page](#)
-- [Step 3: Update the national register of developer contributions](#)
+- Publish your developer contributions data
+- [Step 1: Create your .csv files]({{< ref "create-your-csv-files.md" >}})
+- [Step 2: Update your developer contributions web page]({{< ref "update-your-developer-contributions-web-page.md" >}})
+- [Step 3: Update the national register of developer contributions]({{< ref "update-the-national-register-of-developer-contributions.md" >}})
 {{% /contents %}}
 
 The National Planning Policy Framework requires all local planning authorities and certain other organisations to [publish their developer contributions data](https://www.gov.uk/guidance/planning-obligations#are-planning-obligation-contributions-required-by-local-planning-authorities-publically-available) on a regular basis and in an agreed format. That format hasn’t yet been agreed, but the following guidance is a working approach that we plan to refine with your input.
@@ -46,7 +46,7 @@ You may not be able or authorised to complete all steps. Each step identifies th
 {{% /inset-text %}}
 
 {{% pagination-component %}}
-{{% pagination-next href="url" text="Step 1: Create your .csv files" %}}
+{{% pagination-next href="create-your-csv-files.md" text="Step 1: Create your .csv files" %}}
 {{% /pagination-component %}}
 
 ### Step 1: Create your .csv files
