@@ -1,5 +1,6 @@
 ---
 title: "Publish your developer contributions data"
+layout: single
 ---
 
 {{% contents %}}
