@@ -5676,6 +5676,10 @@ blockquote p:last-child:after {
   margin-top: 0;
 }
 
+.contents-section--multi-page li a {
+  text-decoration: underline;
+}
+
 .markdown-output {
   margin-bottom: 20px;
 }

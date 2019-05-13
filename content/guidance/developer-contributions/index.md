@@ -2,6 +2,13 @@
 title: "Publish your developer contributions data"
 ---
 
+{{% contents %}}
+- [Publish your developer contributions data](#)
+- [Step 1: Create your .csv files](#)
+- [Step 2: Update your developer contributions web page](#)
+- [Step 3: Update the national register of developer contributions](#)
+{{% /contents %}}
+
 The National Planning Policy Framework requires all local planning authorities and certain other organisations to [publish their developer contributions data](https://www.gov.uk/guidance/planning-obligations#are-planning-obligation-contributions-required-by-local-planning-authorities-publically-available) on a regular basis and in an agreed format. That format hasn’t yet been agreed, but the following guidance is a working approach that we plan to refine with your input.
 
 Our aim is to develop a data format and publishing guidance that results in better insights into how developer contributions are supporting community infrastructure. But we also want a standard that causes as little disruption as possible to your existing processes. 
@@ -37,6 +44,10 @@ Publishing is a 3 step process:
 {{% inset-text %}}
 You may not be able or authorised to complete all steps. Each step identifies the skills and authority required to complete it.
 {{% /inset-text %}}
+
+{{% pagination-component %}}
+{{% pagination-next href="url" text="Step 1: Create your .csv files" %}}
+{{% /pagination-component %}}
 
 ### Step 1: Create your .csv files
 
@@ -280,3 +291,4 @@ Enter the date the registry was first created, in the format described in the en
 **end-date**
 
 Enter the date the registry will no longer be valid, in the format described in the entry-date column.
+
