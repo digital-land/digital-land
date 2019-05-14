@@ -5781,6 +5781,10 @@ blockquote p:last-child:after {
   line-height: 1.31579em;
 }
 
+.markdown-output .dlf-pagination__list a:hover, .markdown-output .dlf-pagination__list a:focus, .markdown-output .dlf-pagination__list a:active {
+  color: #005ea5;
+}
+
 .dlf-pagination {
   display: block;
   margin-top: 30px;
