@@ -72,4 +72,12 @@
     background-color: govuk-colour("grey-4");
     line-height: govuk-em(25, 19);
   }
+
+  .dlf-pagination__list a {
+    &:hover,
+    &:focus,
+    &:active {
+      color: govuk-colour("blue");
+    }
+  }
 }

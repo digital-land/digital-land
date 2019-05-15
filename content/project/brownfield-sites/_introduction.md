@@ -1,0 +1,3 @@
+Brownfield sites are plots of land that have previously been developed but are not currently in use. [Recent analysis](https://www.cpre.org.uk/resources/housing-and-planning/planning/item/5086-state-of-brownfield-2019) suggests more than 1 million houses could be built on brownfield sites across England.
+
+The Digital Land team is working with local planning authorities to improve the quality and availability of data on brownfield sites across England. We've created resources to help local planning authorities publish and update their brownfield site data. See the project's current areas of investigation to learn more about our ongoing efforts to improve the data and how to get involved in the discussion about brownfield sites.

@@ -29,6 +29,8 @@ $govuk-images-path: "/govuk-frontend/assets/images/";
 @import "project-components/contents";
 @import "project-components/markdown";
 
+@import "project-components/pagination";
+
 * {
   font-family: "HelveticaNeue", "Helvetica Neue", "Arial", "Helvetica", sans-serif !important;
 }
@@ -182,8 +184,8 @@ $govuk-images-path: "/govuk-frontend/assets/images/";
 }
 
 .blog-post-preview {
-  border-top: 1px solid govuk-colour("grey-2");
   padding: 30px 0;
+  border-top: 1px solid govuk-colour("grey-2");
 
   h2 {
     margin-bottom: 0;
@@ -192,9 +194,9 @@ $govuk-images-path: "/govuk-frontend/assets/images/";
 
 // Smaller previews when inside a "content" area.
 .markdown-output > .blog-post-preview {
-  border-top: none;
-  padding: 0;
   margin-top: 3em;
+  padding: 0;
+  border-top: 0;
 
   h2 {
     // Sizing rules nabbed from %govuk-heading-m

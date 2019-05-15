@@ -1,6 +1,8 @@
 {{ define "head" }}
     <link rel="stylesheet" media="all" href="/stylesheets/main.css" />
-    <link rel="alternate" type="application/rss+xml" href="{{ .RSSLink }}" title="{{ .Title | safeHTML }} - {{ $.Site.Title | safeHTML }}" />
+    {{ with .OutputFormats.Get "rss" -}}
+      <link rel="{{ .Rel }}" type="application/rss+xml" href="{{ .Permalink }}" title="{{ $.Title | safeHTML }} - {{ $.Site.Title | safeHTML }}" />
+    {{ end -}}
 {{ end }}
 
 {{ define "content_inner" }}
