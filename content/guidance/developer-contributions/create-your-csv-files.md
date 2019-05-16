@@ -61,7 +61,7 @@ Create a unique identifier for the agreement. By ‘unique’ this means it shou
 {{% /col-guidance %}}
 
 {{% inset-text %}}
-Read our [data principles](https://digital-land.github.io/guidance/developer-contributions/) for more information on dates.
+Read our [data principles](https://digital-land.github.io/guidance/data-principles/) for more information on dates.
 {{% /inset-text %}}
 
 {{% col-guidance name="entry-date" %}}
@@ -126,7 +126,7 @@ Enter the agreed, secured contribution amount, in pounds and pence but without a
 If the developer has agreed a non-financial contribution you should quantify that here (eg enter 100 if that many affordable housing units have been promised, 2 for 2 public playgrounds etc).
 
 {{% inset-text %}}
-Read our [data principles](https://digital-land.github.io/guidance/developer-contributions/) for more information on dates.
+Read our [data principles](https://digital-land.github.io/guidance/data-principles/) for more information on dates.
 {{% /inset-text %}}
 
 {{% /col-guidance %}}
@@ -193,7 +193,7 @@ If the developer has agreed a non-financial contribution you should quantify how
 {{% /col-guidance %}}
 
 {{% inset-text %}}
-Read our [data principles](https://digital-land.github.io/guidance/developer-contributions/) for more information on dates.
+Read our [data principles](https://digital-land.github.io/guidance/data-principles/) for more information on dates.
 {{% /inset-text %}}
 
 {{% col-guidance name="entry-date" %}}
