@@ -35,15 +35,15 @@ Local authorities should continue to publish section 106 agreements on the plann
 
 ## Publishing developer contributions: 3 steps
 
-Planning authorities must publish their developer contributions once a year but are encouraged to do so as frequently as they can so that datasets are up to date. (Those publishing with third-party software that can semi-automate the process might be able to publish in near real-time, for example, while those publishing manually might choose to only publish quarterly.)
+Planning authorities must publish their developer contributions once a year but are encouraged to do so as frequently as they can so that datasets are up to date. (Those publishing with third-party software that can semi-automate the process might be able to publish in near real-time, while those publishing manually might choose to only publish quarterly.)
 
 This guidance applies to the publication of developer contributions data going forward – you are not required to republish historical data so that it complies with this guidance.
 
 Publishing is a 3 step process:
 
-1. Three developer contribution .csv files must be created to store the data
-2. Each of these files must be uploaded to your organisation’s website and clearly linked to using a persistent URL
-3. The national register of developer contributions on the Ministry of Housing, Communities and Local Government (MHCLG) website must be kept up to date
+1. Create 3 developer contribution .csv files to store the data
+2. Upload each of these files to your organisation’s website and give them a persistent URL, then clearly link to them from your developer contributions webpage
+3. Update the national register of developer contributions on the Ministry of Housing, Communities and Local Government (MHCLG) website
 
 {{% inset-text %}}
 You may not be able or authorised to complete all steps. Each step identifies the skills and authority required to complete it.
@@ -74,9 +74,11 @@ Each of the .csv files must:
 * include 1 row of data for each agreement, contribution or transaction (as relevant)
 * only entries that conform to the constraints described below
 
-For general information on creating a .csv file see the W3C’s [CSVs on the web: a primer](http://w3c.github.io/csvw/primer/).
+[Find out more about creating a .csv file](http://w3c.github.io/csvw/primer/).
 
 ### Developer agreements<a name="agreement"></a>
+
+A developer agreement is any legal document that secures contributions from a development for infrastructure or affordable housing (including section 106 planning obligations and section 278 agreements), or any demand notice for CIL.
 
 Developer agreements must be listed in a .csv file named exactly as follows, but with the actual date you created the file instead of YYYYMMDD:
 
@@ -123,18 +125,20 @@ Enter the unique reference number for the planning application as it appears on 
 {{% /col-guidance %}}
 
 {{% col-guidance name="document-url" %}}
-
-
-Enter the web address that links directly to the actual agreement document.
+Enter the web address that links directly to the actual agreement document or CIL demand notice.
 {{% /col-guidance %}}
 
 {{% col-guidance name="developer-agreement-classification" %}}
-This is either ‘CIL’ (community investment levy) or ‘S106’ (Section 106). More developer agreement classifications will gradually be added to the developer-agreement-classification.csv file, which MHCLG will maintain for your reference.
+This is either ‘CIL’ (community investment levy), ‘S106’ (Section 106 planning obligations) or 'S278' (Section 278 agreements). More developer agreement classifications will gradually be added to the developer-agreement-classification.csv file, which MHCLG will maintain for your reference.
 {{% /col-guidance %}}
 
 ***
 
 ### Developer agreement contributions<a name="contribution"></a>
+
+Developer agreement contributions are the individual obligations or sums within an agreement, assigned to particular purposes such as affordable housing.
+
+For CIL, the total sum should be split into separate developer agreement contributions with the contribution-purpose as either CIL, CIL administration, Neighbourhood CIL or as Mayoral CIL. If the CIL is being paid by instalments, each instalment should be recorded separately.
 
 Developer agreement contributions must be listed exactly as follows, but with the actual date you created the file instead of YYYYMMDD:
 
@@ -151,7 +155,7 @@ Enter the unique identifier you’ve created for the agreement.
 {{% /col-guidance %}}
 
 {{% col-guidance name="contribution-purpose" %}}
-(Only use this column for Section 106 agreements). Enter the ID for the intended purpose of the developer contribution. This is found in the first column of the developer-contribution-purpose.csv file, which will be held by MHCLG for your reference.
+Enter the ID for the intended purpose of the developer contribution. This is found in the first column of the developer-contribution-purpose.csv file, which will be held by MHCLG for your reference.
 {{% /col-guidance %}}
 
 {{% col-guidance name="amount" %}}
@@ -206,14 +210,14 @@ Enter the unique identifier you created for the contribution.
 
 Enter one of the following to indicate what stage the funding for the contribution is currently in:
 
-* ‘secured’: the trigger clauses associated with the contribution have been met, meaning the developer is now required to pay all or part of the contribution
-* ‘received’: the developer has paid the planning authority the money due
-* ‘allocated’: the received money has been allocated to a team within the planning authority, who will spend the money
-* ‘transferred’: the received money has been transferred to an organisation outside the planning authority (eg Transport for London), who will spend the money
-* ‘spent’: the received money has been spent on the agreed contribution purpose (for Section 106) or for Community Infrastructure Levies (CIL) just spent
-* ‘returned’: the received money (or a portion of it) has been returned to the developer, for whatever reason
+* ‘secured’: for section 106 planning obligations, the trigger clauses associated with the contribution have been met, meaning the developer is now required to pay all or part of the contribution. For CIL, the demand notice has been issued and the developer is now required to pay all or part of their CIL liability.
+* ‘received’: the developer has paid all or part of the money due to the local planning authority
+* ‘allocated’: the received money has been allocated to a team within the local planning authority, who will spend the money
+* ‘transferred’: the received money has been transferred to an organisation outside the planning authority (for example another local authority or Transport for London), who will spend the money
+* ‘spent’: the received money has been spent on the purpose specified in the section 106 agreement or spent in accordance with the CIL infrastructure list
+* ‘returned’: the received money (or a portion of it) has been returned to the developer
 
-If more than one status applies (eg if some money was spent and some returned), please create a separate row for each status. Fill in each row with all other fields.
+If more than one status applies (for example if some money was spent and some returned), please create a separate row for each status. Fill in each row with all other fields.
 
 {{% /col-guidance %}}
 
@@ -225,7 +229,7 @@ Enter the amount as a numeric value eg £10,000 would be entered as `10000.00`
 {{% /col-guidance %}}
 
 {{% col-guidance name="units" %}}
-If the developer has agreed a non-financial contribution you should quantify how much of that commitment has been met for this transaction (eg enter 50 if 100 affordable housing units were committed and 50 have been delivered).
+If the developer has agreed a non-financial contribution you should quantify how much of that commitment has been met for this transaction if you can (for example enter 50 if 100 affordable housing units were committed and 50 have been delivered).
 {{% /col-guidance %}}
 
 {{% inset-text %}}
