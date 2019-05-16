@@ -57,19 +57,23 @@ Create a unique identifier for the agreement. By ‘unique’ this means it shou
 {{% /col-guidance %}}
 
 {{% inset-text %}}
-Date fields refer to the recording of the data rather than when agreements come into effect or end – read our data principles on dates for more information.
+Read our data principles for more information on dates
 {{% /inset-text %}}
 
 {{% col-guidance name="entry-date" %}}
-Enter the date the agreement was signed and sealed, in the format `yyyy-mm-dd`. For 1 February 2019, for example, you should enter `2019-02-01`
+Enter the date that you record this data (for example today's date), in the format yyyy-mm-dd. For 1 February 2019, for example, you should enter 2019-02-01.
 {{% /col-guidance %}}
 
 {{% col-guidance name="start-date" %}}
-This will be the same as the entry-date unless the original agreement is superseded by a new version (for example a deed of variation). If so, enter the date on which the new version was agreed, in the same format as the entry-date column.
+For section 106 obligations, enter the date the agreement was ‘signed and sealed’. For CIL, enter the date the demand notice was issued.
+
+If the original section 106 agreement or CIL demand notice is superseded by a new version (for example a deed of variation), enter the date on which the new version was agreed.
+
+Enter the date in the same format  as the entry-date column.
 {{% /col-guidance %}}
 
 {{% col-guidance name="end-date" %}}
-Leave this blank if this version of the agreement hasn’t been superseded by a new one. If it has, enter the last day this version was in effect, in the same format as the entry-date column.
+Leave this blank if this version of the section 106 agreement or CIL demand notice has not been superseded by a new one. If it has, enter the last day this version was in effect, in the same format as the entry-date column.
 {{% /col-guidance %}}
 
 {{% col-guidance name="planning-application" %}}
@@ -116,21 +120,26 @@ Enter the agreed, secured contribution amount, in pounds and pence but without a
 If the developer has agreed a non-financial contribution you should quantify that here (eg enter 100 if that many affordable housing units have been promised, 2 for 2 public playgrounds etc).
 
 {{% inset-text %}}
-Date fields refer to the recording of the data rather than when agreements come into effect or end – read our data principles on dates for more information.
+Read our data principles for more information on dates.
 {{% /inset-text %}}
 
 {{% /col-guidance %}}
 
 {{% col-guidance name="entry-date" %}}
-Enter the date the agreement was 'signed and sealed', in the format `yyyy-mm-dd`. For 1 February 2019, for example, you should enter `2019-02-01`.
+Enter the date that you record this data (for example today's date), in the format yyyy-mm-dd. For 1 February 2019, for example, you should enter 2019-02-01.
 {{% /col-guidance %}}
 
 {{% col-guidance name="start-date" %}}
-This will be the same as the entry-date unless the original agreement is superseded by a new version (for example a deed of variation). If so, enter the date the new version was agreed, in the same format as the entry-date column.
+For section 106 obligations, enter the date the agreement was ‘signed and sealed’. For CIL, enter the date the demand notice was issued.
+
+If the original section 106 agreement or CIL demand notice is superseded by a new version (for example a deed of variation), enter the date on which the new version was agreed.
+
+Enter the date in the same format  as the entry-date column.
+
 {{% /col-guidance %}}
 
 {{% col-guidance name="end-date" %}}
-Leave this blank if this version of the agreement hasn’t been superseded by a new one. If it has, enter the last day this version was in effect, in the same format as the entry-date column.
+Leave this blank if this version of the section 106 agreement or CIL demand notice has not been superseded by a new one. If it has, enter the last day this version was in effect, in the same format as the entry-date column.
 {{% /col-guidance %}}
 
 ***
@@ -148,7 +157,7 @@ Create a unique identifier for the transaction. If the identifier contains the d
 {{% /col-guidance %}}
 
 {{% col-guidance name="developer-agreement-contribution" %}}
-Enter the unique identifier you created for the contribution. 
+Enter the unique identifier you created for the contribution.
 {{% /col-guidance %}}
 
 {{% col-guidance name="contribution-funding-status" %}}
@@ -178,19 +187,19 @@ If the developer has agreed a non-financial contribution you should quantify how
 {{% /col-guidance %}}
 
 {{% inset-text %}}
-Date fields refer to the recording of the data rather than when agreements come into effect or end – read our data principles on dates for more information.
+Read our data principles for more information on dates.
 {{% /inset-text %}}
 
 {{% col-guidance name="entry-date" %}}
-Enter the date the record was created, in the format `yyyy-mm-dd`. For 1 February 2019, for example, you should enter `2019-02-01`.
+Enter the date that you record this data (for example today's date), in the format yyyy-mm-dd. For 1 February 2019, for example, you should enter 2019-02-01.
 {{% /col-guidance %}}
 
 {{% col-guidance name="start-date" %}}
-Enter the date on which the entry comes into effect, in the same format as the entry-date column.
+Enter the date on which this contribution status came into effect (for example the date that money was transferred or allocated), in the same format as the entry-date column.
 {{% /col-guidance %}}
 
 {{% col-guidance name="end-date" %}}
-Enter the last day the entry is in effect, in the same format as column the entry-date column.
+Leave this blank if this version of the section 106 agreement or CIL demand notice hasn’t been superseded by a new one. If it has, enter the last day this version was in effect, in the same format as the entry-date column.
 {{% /col-guidance %}}
 
 {{% pagination-component %}}
