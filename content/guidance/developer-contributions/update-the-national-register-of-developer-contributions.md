@@ -26,7 +26,7 @@ Find your organisation in the alphabetised list.
 Enter the web address of the web page created in step 2.
 
 {{% inset-text %}}
-Read our [data principles](https://digital-land.github.io/guidance/developer-contributions/) for more information on dates.
+Read our [data principles](https://digital-land.github.io/guidance/data-principles/) for more information on dates.
 {{% /inset-text %}}
 
 **entry-date**
