@@ -123,7 +123,7 @@ Enter the agreed, secured contribution amount, in pounds and pence but without a
 {{% /col-guidance %}}
 
 {{% col-guidance name="units" %}}
-If the developer has agreed a non-financial contribution you should quantify that here (eg enter 100 if that many affordable housing units have been promised, 2 for 2 public playgrounds etc).
+If the developer has agreed a non-financial contribution you should quantify that here (for example enter 100 if that many affordable housing units have been promised, enter 2 for 2 public playgrounds etc).
 
 {{% inset-text %}}
 Read our [data principles](https://digital-land.github.io/guidance/data-principles/) for more information on dates.
@@ -184,7 +184,7 @@ If more than one status applies (for example if some money was spent and some re
 {{% col-guidance name="amount" %}}
 Enter the amount of money for each funding status.
 
-Enter the amount as a numeric value eg £10,000 would be entered as `10000.00`
+Enter the amount as a numeric value for example £10,000 would be entered as `10000.00`
 
 {{% /col-guidance %}}
 
