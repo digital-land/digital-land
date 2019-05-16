@@ -13,9 +13,9 @@ title: "Step 3: Update the national register of developer contributions"
 To complete step 3 you must be able to download, amend and upload a .csv file. 
 {{% /inset-text %}}
 
-MHCLG will [subject to this consultation] maintain a national register of developer contributions in a file called developer-contribution-register.csv
+MHCLG will maintain a national register of developer contributions in a file called developer-contribution-register.csv
 
-All organisations with a statutory duty to publish their own registers of contributions should ensure that the following columns in this file are kept accurate and up to date:
+All organisations with a statutory duty to publish their own developer contributions data should ensure that the following columns in this file are kept accurate and up to date:
 
 **name**
 
@@ -26,7 +26,7 @@ Find your organisation in the alphabetised list.
 Enter the web address of the web page created in step 2.
 
 {{% inset-text %}}
-Date fields refer to the recording of the data rather than when agreements come into effect or end – read our data principles on dates for more information.
+Read our [data principles](https://digital-land.github.io/guidance/developer-contributions/) for more information on dates.
 {{% /inset-text %}}
 
 **entry-date**
