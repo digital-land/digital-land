@@ -170,7 +170,7 @@ Enter the unique identifier you created for the contribution.
 
 Enter one of the following to indicate what stage the funding for the contribution is currently in:
 
-* ‘secured’: for section 106 planning obligations, the trigger clauses associated with the contribution have been met, meaning the developer is now required to pay all or part of the contribution. For CIL, the demand notice has been issued and the developer is now required to pay all or part of their CIL liability.
+* ‘secured’: for section 106 planning obligations, the trigger clauses associated with the contribution have been met, meaning the developer is now required to pay all or part of the contribution. For CIL, the demand notice has been issued and the developer is now required to pay all or part of their CIL liability
 * ‘received’: the developer has paid all or part of the money due to the local planning authority
 * ‘allocated’: the received money has been allocated to a team within the local planning authority, who will spend the money
 * ‘transferred’: the received money has been transferred to an organisation outside the planning authority (for example another local authority or Transport for London), who will spend the money
