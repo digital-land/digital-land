@@ -21,7 +21,7 @@ Please share your feedback on this guidance by filling out our [feedback form](h
 
 ## Make your data findable, useable and trustworthy
 
-Developer contributions include Section 106 planning obligations, CIL, Section 278 agreements and any agreements that either secure funding towards new development, or provide infrastructure as part of any new development. The data on these has a wide range of current and potential uses, including:
+Developer contributions include section 106 planning obligations, CIL, section 278 agreements and any agreements that either secure funding towards new development, or provide infrastructure as part of any new development. The data on these has a wide range of current and potential uses, including:
 
 * planning land and housing development
 * creating new digital services
@@ -129,7 +129,7 @@ Enter the web address that links directly to the actual agreement document or CI
 {{% /col-guidance %}}
 
 {{% col-guidance name="developer-agreement-classification" %}}
-This is either ‘CIL’ (community investment levy), ‘S106’ (Section 106 planning obligations) or 'S278' (Section 278 agreements). More developer agreement classifications will gradually be added to the developer-agreement-classification.csv file, which MHCLG will maintain for your reference.
+This is either ‘CIL’ (community investment levy), ‘S106’ (section 106 planning obligations) or 'S278' (section 278 agreements). More developer agreement classifications will gradually be added to the developer-agreement-classification.csv file, which MHCLG will maintain for your reference.
 {{% /col-guidance %}}
 
 ***
