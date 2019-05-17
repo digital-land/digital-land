@@ -85,7 +85,7 @@ Enter the unique reference number for the planning application as it appears on 
 {{% /col-guidance %}}
 
 {{% col-guidance name="document-url" %}}
-Enter the web address that links directly to the actual agreement document or CIL demand notice.
+Enter the web address that links directly to the actual agreement document or CIL demand notice. If your CIL demand notices are not published, leave this blank.  
 {{% /col-guidance %}}
 
 {{% col-guidance name="developer-agreement-classification" %}}
@@ -123,7 +123,7 @@ Enter the agreed, secured contribution amount, in pounds and pence but without a
 {{% /col-guidance %}}
 
 {{% col-guidance name="units" %}}
-If the developer has agreed a non-financial contribution you should quantify that here (eg enter 100 if that many affordable housing units have been promised, 2 for 2 public playgrounds etc).
+If the developer has agreed a non-financial contribution you should quantify that here (for example enter 100 if that many affordable housing units have been promised, enter 2 for 2 public playgrounds etc).
 
 {{% inset-text %}}
 Read our [data principles](https://digital-land.github.io/guidance/data-principles/) for more information on dates.
@@ -170,7 +170,7 @@ Enter the unique identifier you created for the contribution.
 
 Enter one of the following to indicate what stage the funding for the contribution is currently in:
 
-* ‘secured’: for section 106 planning obligations, the trigger clauses associated with the contribution have been met, meaning the developer is now required to pay all or part of the contribution. For CIL, the demand notice has been issued and the developer is now required to pay all or part of their CIL liability.
+* ‘secured’: for section 106 planning obligations, the trigger clauses associated with the contribution have been met, meaning the developer is now required to pay all or part of the contribution. For CIL, the demand notice has been issued and the developer is now required to pay all or part of their CIL liability
 * ‘received’: the developer has paid all or part of the money due to the local planning authority
 * ‘allocated’: the received money has been allocated to a team within the local planning authority, who will spend the money
 * ‘transferred’: the received money has been transferred to an organisation outside the planning authority (for example another local authority or Transport for London), who will spend the money
@@ -184,7 +184,7 @@ If more than one status applies (for example if some money was spent and some re
 {{% col-guidance name="amount" %}}
 Enter the amount of money for each funding status.
 
-Enter the amount as a numeric value eg £10,000 would be entered as `10000.00`
+Enter the amount as a numeric value for example £10,000 would be entered as `10000.00`
 
 {{% /col-guidance %}}
 
