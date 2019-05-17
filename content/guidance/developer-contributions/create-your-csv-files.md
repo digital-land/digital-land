@@ -115,7 +115,7 @@ Enter the unique identifier you’ve created for the agreement.
 {{% /col-guidance %}}
 
 {{% col-guidance name="contribution-purpose" %}}
-Enter the ID for the intended purpose of the developer contribution. This is found in the first column of the developer-contribution-purpose.csv file, which will be held by MHCLG for your reference.
+Enter the ID for the intended purpose of the developer contribution. This is found in the first column of the [developer-contribution-purpose.csv file](https://github.com/digital-land/alpha-data/blob/master/mhclg-registers/developer-contribution-purpose.csv) (for example the ID for transport and travel is transport-and-travel). This file will be held by MHCLG for your reference.
 {{% /col-guidance %}}
 
 {{% col-guidance name="amount" %}}
