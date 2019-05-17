@@ -85,7 +85,7 @@ Enter the unique reference number for the planning application as it appears on 
 {{% /col-guidance %}}
 
 {{% col-guidance name="document-url" %}}
-Enter the web address that links directly to the actual agreement document or CIL demand notice.
+Enter the web address that links directly to the actual agreement document or CIL demand notice. If your CIL demand notices are not published, leave this blank.  
 {{% /col-guidance %}}
 
 {{% col-guidance name="developer-agreement-classification" %}}
