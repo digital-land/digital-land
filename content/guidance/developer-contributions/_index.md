@@ -30,6 +30,8 @@ Developer contributions include section 106 planning obligations, CIL, section 2
 
 But for data to be useful it must be easy to find, use, understand and trust. Local planning authorities should ensure that their developer contributions data is all of these by following this specification for how to format, label and publish it. The following guidance gives a high-level overview of the data format and the publication process.
 
+We built a test version of a [developer contributions dashboard](https://section-106-prototype.herokuapp.com/developer-contributions/section106-wide). This is not a live service, but simply a prototype we developed to explore ways the data could be used.
+
 {{% inset-text %}}
 Local authorities should continue to publish section 106 agreements on the planning register. Publishing your developer contributions data in this format will help you fill out your Infrastructure Funding Statement, but does not replace that requirement.
 {{% /inset-text %}}
