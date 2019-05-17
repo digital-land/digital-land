@@ -10,7 +10,7 @@ title: "Step 2: Update your developer contributions web page"
 {{% /contents %}}
 
 {{% inset-text %}}
-To complete step 2 you must be able to upload the files created in step 1 to your local authority’s website and edit (or create) your developer contributions web page. If you aren’t able or authorised to do this speak to someone who is (this might be the person who updates your local authority’s brownfield site register or planning application web pages).
+To complete step 2 you must be able to upload the files created in step 1 to your local authority’s website and edit (or create) your developer contributions web page. If you aren’t able or authorised to do this, speak to someone who is (this might be the person who updates your local authority’s brownfield site register or planning application web pages).
 {{% /inset-text %}}
 
 Upload each .csv file to your planning authority's website using a [persistent URL](https://en.wikipedia.org/wiki/Persistent_uniform_resource_locator) – a web address that will not change over time. As an example, Norfolk’s local planning authority might use the following persistent addresses (note that these are examples, not live data): 

@@ -39,7 +39,7 @@ Enter the date the registry was first created, in the format described in the en
 
 **end-date**
 
-Leave this blank unless there you know a date when the registry will no longer be valid. Enter this date in the format described in the entry-date column.
+Leave this blank unless you know a date when the registry will no longer be valid. Enter this date in the format described in the entry-date column.
 
 
 {{% pagination-component %}}

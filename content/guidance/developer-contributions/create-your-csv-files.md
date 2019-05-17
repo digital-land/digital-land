@@ -32,7 +32,7 @@ Each of the .csv files must:
 * be named using the convention specified in each section below
 * contain certain column headers (written exactly as shown, in lowercase)
 * include 1 row of data for each agreement, contribution or transaction (as relevant)
-* only entries that conform to the constraints described below
+* only contain entries that conform to the constraints described below
 
 [Find out more about creating a .csv file](http://w3c.github.io/csvw/primer/).
 
