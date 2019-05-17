@@ -43,7 +43,7 @@ This guidance applies to the publication of developer contributions data going f
 Publishing is a 3 step process:
 
 1. Create 3 developer contribution .csv files to store the data
-2. Upload each of these files to your organisation’s website and give them a persistent URL, then clearly link to them from your developer contributions webpage
+2. Upload each of these files to your organisation’s website and give them a persistent URL, then clearly link to them from your developer contributions web page
 3. Update the national register of developer contributions on the Ministry of Housing, Communities and Local Government (MHCLG) website
 
 {{% inset-text %}}
