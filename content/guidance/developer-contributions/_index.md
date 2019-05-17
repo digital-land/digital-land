@@ -50,3 +50,6 @@ Publishing is a 3 step process:
 You may not be able or authorised to complete all steps. Each step identifies the skills and authority required to complete it.
 {{% /inset-text %}}
 
+{{% pagination-component %}}
+{{% pagination-next href="create-your-csv-files.md" text="Step 1: Create your .csv files" %}}
+{{% /pagination-component %}}
