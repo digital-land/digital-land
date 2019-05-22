@@ -19,6 +19,7 @@ $govuk-images-path: "/govuk-frontend/assets/images/";
 @import "core/helvetica-fixes";
 
 // Import all project components
+@import "project-components/page-feedback";
 @import "project-components/blockquote";
 @import "project-components/hero";
 @import "project-components/definition-list";
