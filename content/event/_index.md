@@ -15,6 +15,8 @@ Paul D presented our vision at the Future City Catapult event, meeting new peopl
 
 Paul B (user researcher) spoke with a council who are collaborating with other neighbouring councils on a Joint Strategic Plan. Paul B and Helena (service designer) also ran a workshop with teams from MHCLG’s housing directorate to understand their needs from local plans. The meeting confirmed some of the initial findings and also shed new light on how the status of local plans is important to different parts of the organisation.
 
+<hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
+
 **Date:** 06 May 2019
 
 #### Local plans
