@@ -56,6 +56,10 @@ We are continuing to test the prototype and analyse our findings for this area o
 
 ## Timeline
 
+**24 May 2019**
+
+We ran a workshop with the housing policy team to learn about how they use local plans. 
+
 **March - May 2019**
 
 We are meeting with local authorities across the country to understand the different Local Plan making processes, the challenges faced by those involved, and the data used throughout the process. This is a key part of our research into how digital tools could support the process of collecting and publishing data, and making local plans.
