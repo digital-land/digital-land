@@ -107,7 +107,7 @@
   {{ if isset .Params "pagefeedback" }}
   <div class="dlf-pg-feedback">
     <div class="dlf-pg-feedback__prompt">
-      Help us improve Digital Land by <a href="mailto:DigitalLand@communities.gov.uk?subject=Digital land feedback" class="dlf-pg-feedback__link">sharing your feedback</a> with us.
+      Help us improve Digital Land by <a href="mailto:DigitalLand@communities.gov.uk?subject=Digital land feedback (Page: {{ if .Parent }}{{ .Parent.Title }}, {{ end}}{{ .Title }})" class="dlf-pg-feedback__link">sharing your feedback</a> with us.
     </div>
   </div>
   {{end}}
