@@ -3,6 +3,7 @@ title: "Brownfield sites"
 status: alpha
 label: "project:brownfield-sites"
 hasContent: true
+pageFeedback: true
 ---
 
 ## Resources for planning authorities

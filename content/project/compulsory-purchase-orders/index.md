@@ -3,6 +3,7 @@ title: "Compulsory purchase orders"
 status: alpha
 label: "project:compulsory-purchase-order"
 hasContent: true
+pageFeedback: true
 ---
 
 ## Upcoming areas of investigation

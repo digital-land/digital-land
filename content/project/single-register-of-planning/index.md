@@ -3,6 +3,7 @@ title: "Single register of planning"
 status: alpha
 type: project
 hasContent: true
+pageFeedback: true
 ---
 
 ## Goals
