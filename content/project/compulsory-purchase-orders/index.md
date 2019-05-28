@@ -4,6 +4,7 @@ status: alpha
 label: "project:compulsory-purchase-order"
 hasContent: true
 pageFeedback: true
+summary: We want to investigate ways to make data from these Secretary of State-level decisions available.
 ---
 
 ## Upcoming areas of investigation

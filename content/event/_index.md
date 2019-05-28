@@ -6,15 +6,15 @@ title: Events
 
 **Date:** 21 June 2019
 
-This week in the Digital Land team, Adam, Colm and Jake have been working on the brownfield sites validator. Paul D has also been looking at the data published in brownfield registers to help design a [simpler format](https://github.com/digital-land/brownfield-sites-report). He also held a fireside chat with Emma Williamson of Haringey at the [digileaders event](https://nd19.co.uk/agenda-2019). 
+This week in the Digital Land team, Adam, Colm and Jake have been working on the brownfield sites validator. Paul D has also been looking at the data published in brownfield registers to help design a [simpler format](https://github.com/digital-land/brownfield-sites-report). He also held a fireside chat with Emma Williamson of Haringey at the [digileaders event](https://nd19.co.uk/agenda-2019).
 
 <a href="https://www.flickr.com/photos/psd/48098128567/in/datetaken-ff/" title="Paul chatting with Emma"><img src="https://live.staticflickr.com/65535/48098128567_391ff0d4ae_z_d.jpg" width="540" height="370" alt="Paul chatting with Emma"></a>
 
-Colm has also been working on Digital Land Front-end, creating component macros and converting templates into Jinja templating language, so they can be used with Flask applications. 
+Colm has also been working on Digital Land Front-end, creating component macros and converting templates into Jinja templating language, so they can be used with Flask applications.
 
-Christine has been part of a week long hackathon with members of other digital teams. They have been joined by consultants from Microsoft to look into using topic modeling technologies to investigate which topics MHCLG are discussing the most with Local Authorities. 
+Christine has been part of a week long hackathon with members of other digital teams. They have been joined by consultants from Microsoft to look into using topic modeling technologies to investigate which topics MHCLG are discussing the most with Local Authorities.
 
-Matt met with the Planning Caseworker team in Birmingham to understand more about the systems that they use to manage CPOs (Compulsory Purchase Orders). There are 2 systems: Planet and Horizon. It was useful to see the data they collect and gain some ideas about how we can extract the data which we’ll be testing over the next few days. He also attended the Greater London Authority show and tell for their alpha funded LDCU project. In addition, along with Rebecca and Colm, he worked on creating a draft of the OKRs for the team which will soon be available on the website. 
+Matt met with the Planning Caseworker team in Birmingham to understand more about the systems that they use to manage CPOs (Compulsory Purchase Orders). There are 2 systems: Planet and Horizon. It was useful to see the data they collect and gain some ideas about how we can extract the data which we’ll be testing over the next few days. He also attended the Greater London Authority show and tell for their alpha funded LDCU project. In addition, along with Rebecca and Colm, he worked on creating a draft of the OKRs for the team which will soon be available on the website.
 
 Rebecca also facilitated a retro for the local digital collaboration unit, as well as helping to arrange the joint internal showcase with the local digital collaboration unit. Michael has been reviewing comments on the first draft of the Local Plans project page. He has also completed a draft text on the team vision and mission statement, which is now ready for review.
 
@@ -153,7 +153,7 @@ This week the Digital Land Service and the Planning Infrastructure policy team r
 
 Held in London, Leeds and Birmingham, the workshops helped the Digital Land team better understand how planning authorities manage developer contributions, what challenges they face and what opportunities they can see in opening up developer contribution data. We were also able to test the proposed data standard for developer contributions as well as our prototyped tools and guidance.
 
-We gained a lot of insights from the workshops that will help us iterate the data standard, tools and guidance so that they ultimately improve the quality of data while adding as little as possible to authorities’ workload. 
+We gained a lot of insights from the workshops that will help us iterate the data standard, tools and guidance so that they ultimately improve the quality of data while adding as little as possible to authorities’ workload.
 
 <hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
 
@@ -196,7 +196,7 @@ We progressed the architecture of our work, which feeds into our roadmapping, wh
 
 Paul Downey spoke on a panel at Reading University about planning data. Excitingly, the Digital Land team were being talked about by other speakers before Paul had even introduced our work!
 
-Our [developer contributions consultation](https://digital-land.github.io/project/developer-contributions) is ongoing until the end of January and we’ve had nearly 400 individual views so far. 
+Our [developer contributions consultation](https://digital-land.github.io/project/developer-contributions) is ongoing until the end of January and we’ve had nearly 400 individual views so far.
 
 <hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
 

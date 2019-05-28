@@ -1,5 +1,4 @@
 {{ define "content_inner" }}
-
 	<div class="govuk-grid-row">
 		<div class="govuk-grid-column-two-thirds">
       <span class="govuk-caption-xl">{{ .Section | humanize }}</span>
@@ -14,23 +13,4 @@
 			{{ .Content }}
 		</div>
 	</div>
-
-	<div class="govuk-grid-row">
-		<div class="govuk-grid-column-two-thirds markdown-output">
-
-      {{ $needs := (where .Site.Pages "Section" "needs")  }}
-      {{ $userType := .Params.abbr }}
-
-     <h3 class="govuk-heading-m">Their needs:</h3>
-     <ul class="govuk-list govuk-list--bullet">
-     {{ range $needs }}
-       {{ if in .Params.user $userType }}
-         <li><a href="{{ .URL }}">{{ .Title }}</a></li>
-       {{ end }}
-     {{ end }}
-     </ul>
-
-		</div>
-	</div>
-
 {{ end }}

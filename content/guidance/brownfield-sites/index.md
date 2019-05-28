@@ -1,5 +1,6 @@
 ---
 title: "Update your brownfield site register"
+summary: Use this guidance to ensure your brownfield site register meets the agreed format, is up to date, and is easy to find and use.
 ---
 
 Local planning authorities must maintain a register of their brownfield sites that is publicly available and in an agreed format.

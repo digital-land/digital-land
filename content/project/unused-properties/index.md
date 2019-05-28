@@ -4,6 +4,7 @@ status: discovery
 type: project
 hasContent: false
 pageFeedback: true
+summary: We’re working with the Cities and Local Growth unit to investigate the best way to collect and publish data on unused properties.
 ---
 
 We’re working with the Cities and Local Growth unit at MHCLG to investigate the best way to collect and publish data on unused properties. This project is part of [Our plan for the high street: Budget 2018 brief](https://www.gov.uk/government/publications/our-plan-for-the-high-street-budget-2018-brief), which states that “the government will trial a register of empty commercial properties to help prospective retailers to find empty properties and help local stakeholders tackle fragmented ownership on their high street.”

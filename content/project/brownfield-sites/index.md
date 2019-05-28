@@ -1,9 +1,10 @@
 ---
 title: "Brownfield sites"
-status: alpha
+status: beta
 label: "project:brownfield-sites"
 hasContent: true
 pageFeedback: true
+summary: We’re exploring digital tools that could help local planning authorities collect and maintain brownfield site data.
 ---
 
 ## Resources for planning authorities
@@ -92,7 +93,7 @@ We spoke with many of those in local authorities who are responsible for publish
 
 **15 June 2019**
 
-We met again with [Campign to Protect Rural England (CPRE)](https://cpre.org.uk/) to further understand how they're using brownfield data and how this might connect to other data sets. We also spoke about our ideas to make it easier for local authorities to collect and publish their data. 
+We met again with [Campign to Protect Rural England (CPRE)](https://cpre.org.uk/) to further understand how they're using brownfield data and how this might connect to other data sets. We also spoke about our ideas to make it easier for local authorities to collect and publish their data.
 
 **June 2019**
 
