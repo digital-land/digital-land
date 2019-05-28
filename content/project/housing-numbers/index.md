@@ -18,11 +18,11 @@ What is the best way to collect and publish data from local plans?
 
 #### What we're testing
 
-We’re focussing on one piece of data from local plans. We’ve now collected the housing numbers from most local plans, and are testing a tool to help us publish this data. 
+We’re focussing on one piece of data from local plans. We’ve now collected the housing numbers from most local plans, and are testing a tool to help us publish this data.
 
 #### What we’ve learned
 
-We now know that each local plan varies hugely in structure, format and how the data is presented. This means that finding one piece of information in each local plan can be challenging. 
+We now know that each local plan varies hugely in structure, format and how the data is presented. This means that finding one piece of information in each local plan can be challenging.
 
 By focussing on finding housing numbers, we have developed efficient ways to find the right data in local plans. This will inform the discovery phase of our wider local plans project.
 

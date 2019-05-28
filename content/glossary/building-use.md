@@ -5,5 +5,5 @@ wikidata: Q7830034
 alternative-name: "Planning use classes"
 ---
 
-Planning use cases determine what an individual property may be used for. 
+Planning use cases determine what an individual property may be used for.
 

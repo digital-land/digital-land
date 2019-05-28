@@ -59,7 +59,7 @@ We are continuing to test the prototype and analyse our findings for this area o
 
 **24 May 2019**
 
-We ran a workshop with the housing policy team to learn about how they use local plans. 
+We ran a workshop with the housing policy team to learn about how they use local plans.
 
 **March - May 2019**
 

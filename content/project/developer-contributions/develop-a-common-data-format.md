@@ -2,7 +2,7 @@ In the [alpha phase](https://www.gov.uk/service-manual/agile-delivery/how-the-al
 
 We are proposing a simple data format for developer contributions that:
 
-* meets the user needs we’ve identified 
+* meets the user needs we’ve identified
 * requires minimal effort from local planning authorities to create and make the data available
 
 You can help us improve the format by:
