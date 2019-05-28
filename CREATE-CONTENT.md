@@ -25,3 +25,9 @@ When adding updates use the `{{< prototype-update >}}` shortcode. The first argu
 * added regex validators to text for correct planning application states
 {{< /prototype-update >}}
 ```
+
+### Adding a prompt for feedback
+
+You can add a prompt for the user to provide feedback about a page. This component is similar to the component found before the footer on [Gov.uk](https://www.gov.uk/benefit-cap) pages.
+
+Add it to a page by including `pageFeedback: true` in the frontmatter of the markdown file for the page.

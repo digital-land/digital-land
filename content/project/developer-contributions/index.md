@@ -4,6 +4,7 @@ status: alpha
 type: project
 label: "project:developer-contributions"
 hasContent: true
+pageFeedback: true
 ---
 
 ## Help us develop a common data format

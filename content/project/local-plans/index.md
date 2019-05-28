@@ -3,6 +3,7 @@ title: "Local plans"
 status: alpha
 label: "project:local-plans"
 hasContent: true
+pageFeedback: true
 ---
 
 ## Current areas of investigation

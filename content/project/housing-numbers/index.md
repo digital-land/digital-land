@@ -3,6 +3,7 @@ title: "Housing numbers"
 status: alpha
 label: "project:housing-numbers"
 hasContent: true
+pageFeedback: true
 ---
 
 ## Current areas of investigation
