@@ -30,7 +30,7 @@ When you upload the files you should:
 
 You should then update your local authority’s developer contributions web page to make the .csv files publicly available. If your website does not have a page on developer contributions, you or someone in the web team will need to create one. We recommend publishing your developer contributions on the same web page as your authority’s Infrastructure Funding Statement.
 
-The page must list the persistent URLs as defined above. The URLs must be written out in full.
+The page must list the persistent URLs as defined above. The URLs must be written out in full. (The URL should not change. However, if it ever does change, [you must tell us](https://digital-land.github.io/guidance/developer-contributions/update-the-national-register-of-developer-contributions/).)
 
 {{% pagination-component %}}
 {{% pagination-prev href="create-your-csv-files.md" text="Step 1: Create your csv files" %}}
