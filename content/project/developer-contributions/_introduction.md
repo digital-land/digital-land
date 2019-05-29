@@ -2,3 +2,6 @@ We've been working with local planning authorities to design a data format for p
 
 This work is part of a larger effort to improve the system of developer contributions by making it more transparent, accountable and effective. A [public consultation](https://www.gov.uk/government/consultations/developer-contributions-reform-technical-consultation) on the technical implementation of proposed reforms ran until 31 January.
 
+{{% cta-box %}}
+Read the latest [developer contribution guidance]({{< ref "guidance/developer-contributions" >}}).
+{{% /cta-box %}}

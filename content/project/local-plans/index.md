@@ -3,6 +3,7 @@ title: "Local plans"
 status: alpha
 label: "project:local-plans"
 hasContent: true
+pageFeedback: true
 ---
 
 ## Current areas of investigation
@@ -55,6 +56,10 @@ We are continuing to test the prototype and analyse our findings for this area o
 {{< govuk-section-break "xl" >}}
 
 ## Timeline
+
+**24 May 2019**
+
+We ran a workshop with the housing policy team to learn about how they use local plans. 
 
 **March - May 2019**
 

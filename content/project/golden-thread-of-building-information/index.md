@@ -2,6 +2,7 @@
 title: "Golden thread of building information"
 status: discovery
 hasContent: true
+pageFeedback: true
 ---
 
 ## Upcoming areas of investigation
