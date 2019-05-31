@@ -11,6 +11,8 @@ On Tuesday Paul D and Matt visited Bristol to learn more about compulsory purcha
 
 Emily and Michael have been working on some exciting new Digital Land website designs and content. Jake has been integrating a new content management system and building the designs in code – watch this space!
 
+<hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
+
 **Date:** 20 May 2019
 
 It’s been a big week for the team as digital services and policy have merged! Ed Culliney and new recruit Natalie Record have joined the team, marking the official joining of Digital Land services with policy – the ultimate multidisciplinary team.
