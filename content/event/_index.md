@@ -21,7 +21,7 @@ It’s been a big week for the team as digital services and policy have merged! 
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">It's official! No more separate Digital Land 'Services' and 'Policy' teams ... just one big happy Digital Land team with policy and services working together. Living the <a href="https://twitter.com/hashtag/OneTeamGov?src=hash&amp;ref_src=twsrc%5Etfw">#OneTeamGov</a> dream 🙌 <a href="https://t.co/tKyRCclJtC">pic.twitter.com/tKyRCclJtC</a></p>&mdash; Rebecca Pye (@becpye) <a href="https://twitter.com/becpye/status/1131241801933832194?ref_src=twsrc%5Etfw">May 22, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Ed, Natalie and Emily (content designer) also attended a GDS academy course on agile training for teams. The training was brilliant, involving kanban board games, lean races, and exercises in scrum ways of working. We’re looking forward to applying our learning in the coming weeks.
+Ed, Natalie, Christine and Emily also attended a GDS academy course on agile training for teams. The training was brilliant, involving kanban board games, lean races, and exercises in scrum ways of working. We’re looking forward to applying our learning in the coming weeks.
 
 Paul D presented our vision at the Future City Catapult event, meeting new people from across the industry. Back in the office, Jake and Adam (developers) have been working on some exciting website plans, researching a new CMS which allows everyone in the team to easily publish and maintain content. 
 
