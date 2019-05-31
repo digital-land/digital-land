@@ -14,9 +14,9 @@ pageFeedback: true
 
 ## Timeline
 
-**May 2019**
+**28 May 2019**
 
-Paul D and Matt visited Bristol to learn more about CPOs. Meeting with colleagues from policy, the planning caseworker unit and the Planning Inspectorate, they explored the process of raising and managing CPOs and looked at the decision making process. They then looked at the data and discussed how to make it publicly available.
+We met with colleagues from the compulsory purchase orders policy team, the planning inspectorate and planning casework unit to understand more about the process of raising a CPO, and to explore the opportunities of opening up their data.
 
 **Spring 2019**
 
