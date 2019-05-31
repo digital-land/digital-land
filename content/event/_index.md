@@ -3,6 +3,14 @@ title: Events
 ---
 ### This week at Digital Land Services
 
+**Date:** 27 May 2019
+
+This week Christine has been prototyping the registers editor and Paul D has been revisiting the [python open register library](https://pypi.org/project/openregister/0.8.8/). Adam and Colm have been tweaking the housing numbers prototype which is part of our bigger local plans project.
+
+On Tuesday Paul D and Matt visited Bristol to learn more about compulsory purchase orders (CPOs). They met with colleagues from policy, the planning caseworker unit and the Planning Inspectorate. During the workshop they explored the process of raising and managing CPOs and looked at the decision making process. They then looked at the data and discussed how to make it publicly available.
+
+Emily and Michael have been working on some exciting new Digital Land website designs and content. Jake has been integrating a new content management system and building the designs in code – watch this space!
+
 **Date:** 20 May 2019
 
 It’s been a big week for the team as digital services and policy have merged! Ed Culliney and new recruit Natalie Record have joined the team, marking the official joining of Digital Land services with policy – the ultimate multidisciplinary team.
