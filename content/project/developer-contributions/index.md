@@ -124,7 +124,7 @@ We met with [Exacom](http://exacom.co.uk/) to learn how developer contributions 
 
 **September 2018**
 
-We conducted user research to understand more about how developer contributions are managed, and what user needs we could address through making the data available. This included sessions with [Southwark Council](https://www.southwark.gov.uk/), [Dacorum Borough Council](http://www.dacorum.gov.uk/), [Lambeth Council](https://www.lambeth.gov.uk), [Islington Council](https://www.islington.gov.uk/) and [Waltham Forest Council](https://walthamforest.gov.uk/).  
+We conducted user research to understand more about how developer contributions are managed, and what user needs we could address through making the data available. This included sessions with [Southwark Council](https://www.southwark.gov.uk/), [Dacorum Borough Council](http://www.dacorum.gov.uk/), [Lambeth Council](https://www.lambeth.gov.uk), [Islington Council](https://www.islington.gov.uk/) and [Waltham Forest Council](https://walthamforest.gov.uk/).
 
 **June 2018**
 

@@ -1,6 +1,6 @@
 ---
 title: "Ancient Monuments and Archaeological Sites"
-wikidata: 
+wikidata:
 wikipedia:
 legislation: ukpga-1979-46
 ---

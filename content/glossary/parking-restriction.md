@@ -1,7 +1,7 @@
 ---
 title: "Parking restriction"
-wikipedia: 
-wikidata: 
+wikipedia:
+wikidata:
 ---
 
 
