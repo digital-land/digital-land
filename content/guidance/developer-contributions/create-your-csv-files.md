@@ -1,25 +1,25 @@
 ---
-title: "Step 1: Create your .csv files"
+title: "Step 1: Create your CSV files"
 ---
 
 {{% contents %}}
 - [Publish your developer contributions data]({{< ref "_index.md" >}})
-- Step 1: Create your .csv files
+- Step 1: Create your CSV files
 - [Step 2: Update your developer contributions web page]({{< ref "update-your-developer-contributions-web-page.md" >}})
 - [Step 3: Update the national register of developer contributions]({{< ref "update-the-national-register-of-developer-contributions.md" >}})
 {{% /contents %}}
 
-### Step 1: Create your .csv files
+### Step 1: Create your CSV files
 
 {{% inset-text %}}
-To complete step 1 you must be able to create or amend .csv files, for example by using spreadsheet software.
+To complete step 1 you must be able to create or amend CSV files, for example by using spreadsheet software.
 {{% /inset-text %}}
 
-If you are a planning authority using third-party software to manage your developer contributions, ask your vendor if the software can export the data to .csv files as defined in this guidance. Otherwise, use the following instructions.
+If you are a planning authority using third-party software to manage your developer contributions, ask your vendor if the software can export the data to CSV files as defined in this guidance. Otherwise, use the following instructions.
 
-Developer contributions data must be entered in 3 separate .csv files. A .csv file (or comma separated value file) is a universally recognised file format for storing tabular data in plain text. Storing the data in 3 separate files rather than one file reduces duplication and makes the data easier to use and maintain.
+Developer contributions data must be entered in 3 separate CSV files. A CSV file (or comma separated value file) is a universally recognised file format for storing tabular data in plain text. Storing the data in 3 separate files rather than one file reduces duplication and makes the data easier to use and maintain.
 
-We’ve created a .csv template for each of the 3 files:
+We’ve created a CSV template for each of the 3 files:
 
 * [developer agreements](/guidance/developer-contributions/developer-agreement_YYYYMMDD.csv)
 * [developer agreement contributions](/guidance/developer-contributions/developer-agreement-contribution_YYYYMMDD.csv)
@@ -27,20 +27,20 @@ We’ve created a .csv template for each of the 3 files:
 
 If it helps, you can use the above example files and enter your developer contributions data. You must follow the guidelines below, then 'save as .csv file'. You can use software such as Microsoft Excel, Google Sheets or Apple Numbers, as long as they meet the requirements of this guidance.
 
-Each of the .csv files must:
+Each of the CSV files must:
 
 * be named using the convention specified in each section below
 * contain certain column headers (written exactly as shown, in lowercase)
 * include 1 row of data for each agreement, contribution or transaction (as relevant)
 * only contain entries that conform to the constraints described below
 
-[Find out more about creating a .csv file](http://w3c.github.io/csvw/primer/).
+[Find out more about creating a CSV file](http://w3c.github.io/csvw/primer/).
 
 ### Developer agreements<a name="agreement"></a>
 
 A developer agreement is any legal document that secures contributions from a development for infrastructure or affordable housing (including section 106 planning obligations and section 278 agreements), or any demand notice for CIL.
 
-Developer agreements must be listed in a .csv file named exactly as follows, but with the actual date you created the file instead of YYYYMMDD:
+Developer agreements must be listed in a CSV file named exactly as follows, but with the actual date you created the file instead of YYYYMMDD:
 
 {{< tech-block >}}developer-agreement_YYYYMMDD.csv{{< /tech-block >}}
 
@@ -89,7 +89,7 @@ Enter the web address that links directly to the actual agreement document or CI
 {{% /col-guidance %}}
 
 {{% col-guidance name="developer-agreement-classification" %}}
-This is either ‘CIL’ (community investment levy), ‘S106’ (section 106 planning obligations) or 'S278' (section 278 agreements). More developer agreement classifications will gradually be added to the developer-agreement-classification.csv file, which MHCLG will maintain for your reference.
+This is either ‘CIL’ (community infrastructure levy), ‘S106’ (section 106 planning obligations) or 'S278' (section 278 agreements). More developer agreement classifications will gradually be added to the developer-agreement-classification.csv file, which MHCLG will maintain for your reference.
 {{% /col-guidance %}}
 
 ***
@@ -107,7 +107,7 @@ Developer agreement contributions must be listed exactly as follows, but with th
 #### Column headers:
 
 {{% col-guidance name="developer-agreement-contribution" %}}
-Create a unique identifier for the contribution. If the identifier contains the developer-agreement number it will be easier to quickly identify the contribution as related to the agreement. If the developer-agreement number is ROC100, for example, the developer-contribution could be ROC100-1A.
+Create a unique identifier for the contribution.
 {{% /col-guidance %}}
 
 {{% col-guidance name="developer-agreement" %}}
@@ -123,7 +123,7 @@ Enter the agreed, secured contribution amount, in pounds and pence but without a
 {{% /col-guidance %}}
 
 {{% col-guidance name="units" %}}
-If the developer has agreed a non-financial contribution you should quantify that here (for example enter 100 if that many affordable housing units have been promised, enter 2 for 2 public playgrounds etc).
+If the developer has agreed a non-financial contribution you should quantify that here (for example enter 100 if that many affordable housing units have been promised, or enter 2 for 2 public playgrounds).
 
 {{% inset-text %}}
 Read our [data principles](https://digital-land.github.io/guidance/data-principles/) for more information on dates.
@@ -152,14 +152,14 @@ Leave this blank if this version of the section 106 agreement or CIL demand noti
 
 ### Developer agreement transactions<a name="transaction"></a>
 
-Developer agreement transactions must be listed in a .csv file exactly as follows, but with the actual date you created the file instead of YYYYMMDD:
+Developer agreement transactions must be listed in a CSV file exactly as follows, but with the actual date you created the file instead of YYYYMMDD:
 
 {{< tech-block >}}developer-agreement-transaction_YYYYMMDD.csv{{< /tech-block >}}
 
 #### Column headers:
 
 {{% col-guidance name="developer-agreement-transaction" %}}
-Create a unique identifier for the transaction. If the identifier contains the developer-agreement number it will be easier to quickly identify the contribution as related to the agreement. If the developer-agreement number is ROC100, for example, the developer-agreement transaction could be ROC100-TR1.
+Create a unique identifier for the transaction.
 {{% /col-guidance %}}
 
 {{% col-guidance name="developer-agreement-contribution" %}}
@@ -170,11 +170,11 @@ Enter the unique identifier you created for the contribution.
 
 Enter one of the following to indicate what stage the funding for the contribution is currently in:
 
-* ‘secured’: for section 106 planning obligations, the trigger clauses associated with the contribution have been met, meaning the developer is now required to pay all or part of the contribution. For CIL, the demand notice has been issued and the developer is now required to pay all or part of their CIL liability
+* ‘secured’: for section 106 and 278 agreements, the trigger clauses associated with the contribution have been met, meaning the developer is now required to pay all or part of the contribution. For CIL, the demand notice has been issued and the developer is now required to pay all or part of their CIL liability
 * ‘received’: the developer has paid all or part of the money due to the local planning authority
 * ‘allocated’: the received money has been allocated to a team within the local planning authority, who will spend the money
 * ‘transferred’: the received money has been transferred to an organisation outside the planning authority (for example another local authority or Transport for London), who will spend the money
-* ‘spent’: the received money has been spent on the purpose specified in the section 106 agreement or spent in accordance with the CIL infrastructure list
+* ‘spent’: the received money has been spent on the purpose specified in the section 106 or 278 agreement
 * ‘returned’: the received money (or a portion of it) has been returned to the developer
 
 If more than one status applies (for example if some money was spent and some returned), please create a separate row for each status. Fill in each row with all other fields.
@@ -205,7 +205,7 @@ Enter the date on which this contribution status came into effect (for example t
 {{% /col-guidance %}}
 
 {{% col-guidance name="end-date" %}}
-Leave this blank if this version of the section 106 agreement or CIL demand notice hasn’t been superseded by a new one. If it has, enter the last day this version was in effect, in the same format as the entry-date column.
+Leave this blank if this version of the section 106 agreement or CIL demand notice has not been superseded by a new one. If it has, enter the last day this version was in effect, in the same format as the entry-date column.
 {{% /col-guidance %}}
 
 {{% pagination-component %}}
