@@ -5,7 +5,7 @@ title: Events
 
 **Date:** 7 June 2019
 
-The big news this week was new regulations for [The Community Infrastructure Levy (Amendment) (England) Regulations 2019](http://www.legislation.gov.uk/ukdsi/2019/9780111185582) which includes have been laid before Parliament, an important step for the [developer contributions](https://digital-land.github.io/project/developer-contributions/) policy.
+The big news this week was new regulations for [The Community Infrastructure Levy (Amendment) (England) Regulations 2019](http://www.legislation.gov.uk/ukdsi/2019/9780111185582) have been laid before Parliament, an important step for the [developer contributions](https://digital-land.github.io/project/developer-contributions/) policy.
 
 <a href="https://www.flickr.com/photos/psd/48008447912/" title="Data collection workshop"><img src="https://live.staticflickr.com/65535/48008447912_ebb133eaaf_c.jpg" alt="Data collection workshop"></a>
 
