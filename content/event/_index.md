@@ -4,6 +4,24 @@ title: Events
 
 ### This week at Digital Land
 
+**Date:** 21 June 2019
+
+This week in the Digital Land team, Adam, Colm and Jake have been working on the brownfield sites validator. Paul D has also been looking at the data published in brownfield registers to help design a [simpler format](https://github.com/digital-land/brownfield-sites-report). He also held a fireside chat with Emma Williamson of Haringey at the [digileaders event](https://nd19.co.uk/agenda-2019). 
+
+Colm has also been working on Digital Land Front-end, creating component macros and converting templates into Jinja templating language, so they can be used with Flask applications. 
+
+Christine has been part of a week long hackathon with members of other digital teams. They have been joined by consultants from Microsoft to look into using topic modeling technologies to investigate which topics MHCLG are discussing the most with Local Authorities. 
+
+Matt met with the Planning Caseworker team in Birmingham to understand more about the systems that they use to manage CPOs (Compulsory Purchase Orders). There are two systems, Planet and Horizon. It was useful to see the data they collect, and gain some ideas about how we can extract the data which we’ll be testing over the next few days. He also attended the Greater London Authority show and tell for their alpha funded LDCU project. In addition, along with Rebecca and Colm, he worked on creating a draft of the OKRs for the team which will soon be available on the website. 
+
+Rebecca also facilitated a retro for the local digital collaboration unit, as well as helping to arrange the joint internal showcase with the local digital collaboration unit. Micheal has been reviewing the comments on the first draft of the Local Plans project page. He has also completed a draft text on the team vision/mission, which is now ready for review.
+
+In the policy end of the team, Emily has been providing digital policy support to housing and planning colleagues across the department this week for a number of projects, as well as, looking at financial planning for future projects. Jess has been finalising the PropTech strategy report and setting out recommendations for future engagement. Finally, Ed’s blog post entitled [Lessons we learned at the Future PropTech exhibition](https://mhclgdigital.blog.gov.uk/2019/06/18/lessons-we-learned-at-the-future-proptech-exhibition/) went live on the MHCLG Digital blog page this week.
+
+<hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
+
+### This week at Digital Land
+
 **Date:** 14 June 2019
 
 <a href="https://www.flickr.com/photos/psd/48049794406/" title="Towards a team charter"><img src="https://live.staticflickr.com/65535/48049794406_0857341baa_z.jpg" width="640" height="320" alt="Towards a team charter"></a>
