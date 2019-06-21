@@ -6,9 +6,9 @@ title: Events
 
 **Date:** 21 June 2019
 
-<a href="https://www.flickr.com/photos/psd/48098128567/in/datetaken-ff/" title="Paul chatting with Emma"><img src="https://live.staticflickr.com/65535/48098128567_391ff0d4ae_z_d.jpg" width="540" height="320" alt="Paul chatting with Emma"></a>
-
 This week in the Digital Land team, Adam, Colm and Jake have been working on the brownfield sites validator. Paul D has also been looking at the data published in brownfield registers to help design a [simpler format](https://github.com/digital-land/brownfield-sites-report). He also held a fireside chat with Emma Williamson of Haringey at the [digileaders event](https://nd19.co.uk/agenda-2019). 
+
+<a href="https://www.flickr.com/photos/psd/48098128567/in/datetaken-ff/" title="Paul chatting with Emma"><img src="https://live.staticflickr.com/65535/48098128567_391ff0d4ae_z_d.jpg" width="540" height="370" alt="Paul chatting with Emma"></a>
 
 Colm has also been working on Digital Land Front-end, creating component macros and converting templates into Jinja templating language, so they can be used with Flask applications. 
 
