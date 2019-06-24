@@ -16,7 +16,7 @@ Follow [these simple instructions](https://digital-land.github.io/guidance/brown
 
 ### Check brownfield site data for errors
 
-Our validator will [check local planning authorities' brownfield site data](https://brownfield-sites-validator.cloudapps.digital/start) for common errors and omissions and fix them. A comparison of data quality for [brownfield registers that have been checked](https://digital-land.github.io/brownfield-sites/) is also available.
+Our validator will [check local planning authorities' brownfield site data](https://brownfield-sites-validator.herokuapp.com/start) for common errors and omissions and fix them. A comparison of data quality for [brownfield registers that have been checked](https://digital-land.github.io/brownfield-sites/) is also available.
 
 
 ### View brownfield site registers
@@ -59,7 +59,7 @@ We made a number of useful observations while compiling the simple index, includ
 Often the person in the local authority updating the brownfield site data has little or no spare time, has varied responsibilities and is not familiar with the brownfield data format. As a result errors are common in brownfield data. Would offering a simple tool for validating the data improve this?
 
 #### What we tested
-* a [validation tool](https://brownfield-sites-validator.cloudapps.digital/) for brownfield site data
+* a [validation tool](https://brownfield-sites-validator.herokuapp.com) for brownfield site data
 
 #### What we learned
 
@@ -74,7 +74,7 @@ We tested the tool with some local planning authorities whose brownfield site da
 Many of the errors we identified in published brownfield data were common mistakes, such as switching GeoX and GeoY coordinates, or omitting empty rows in the data. Would offering to automatically fix common errors after validating the data be useful to LAs and improve the state of data?
 
 #### What we tested
-* a [validation tool](https://brownfield-sites-validator.cloudapps.digital/) for brownfield sites
+* a [validation tool](https://brownfield-sites-validator.herokuapp.com) for brownfield sites
 
 #### What we've learned
 
@@ -100,4 +100,4 @@ The [CPRE](https://cpre.org.uk/) published the [2019 State of Brownfield annual 
 
 **Summer 2018**
 
-We built a [register of all the brownfield registers](https://github.com/communitiesuk/digital-land-collector/blob/master/etc/brownfield-site-publication.tsv) and prototyped a tool to [validate the data](https://brownfield-sites-validator.cloudapps.digital/).
+We built a [register of all the brownfield registers](https://github.com/communitiesuk/digital-land-collector/blob/master/etc/brownfield-site-publication.tsv) and prototyped a tool to [validate the data](https://brownfield-sites-validator.herokuapp.com).
