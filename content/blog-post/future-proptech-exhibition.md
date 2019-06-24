@@ -1,6 +1,6 @@
 ---
 title: "Lessons we learned at the Future PropTech exhibition"
-date: "2019-06-24"
+date: "2019-06-18"
 author: "Ed Culliney"
 external_url: "https://mhclgdigital.blog.gov.uk/2019/06/18/lessons-we-learned-at-the-future-proptech-exhibition/"
 status: alpha
