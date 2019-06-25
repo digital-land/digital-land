@@ -14,6 +14,10 @@ pageFeedback: true
 
 ## Timeline
 
+**19 May 2019**
+
+We met with the planning caseworker team in Birmingham to understand more about the exisiting and legacy systems used to manage CPOs. We explored what data is entered and how we can extract the data with a view of making it publicly available.
+
 **28 May 2019**
 
 We met with colleagues from the compulsory purchase orders policy team, the planning inspectorate and planning casework unit to understand more about the process of raising a CPO, and to explore the opportunities of opening up their data.
