@@ -78,6 +78,14 @@ Developer contributions data will need to be published in line with the data for
 
 ## Timeline
 
+**4 June 2019**
+
+Regulations officially laid and the government published their response to the consultation.
+
+**May 2019**
+
+We updated the guidance based on our learnings from the user testing sessions. Specifically we've tried to target the guidance to different audiences based on the tools they use to manage their contributions.
+
 **28 March 2019**
 
 We user tested the developer contributions guidance with 4 monitoring officers from local authorities, observing how they understood and used the guidance and whether they were able to meet the data format. We will improve the guidance based on the user needs identified.
