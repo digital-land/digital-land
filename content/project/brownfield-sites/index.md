@@ -90,6 +90,14 @@ We spoke with many of those in local authorities who are responsible for publish
 
 ## Timeline
 
+**15 June 2019**
+
+We met again with [Campign to Protect Rural England (CPRE)](https://cpre.org.uk/) to further understand how they're using brownfield data and how this might connect to other data sets. We also spoke about our ideas to make it easier for local authorities to collect and publish their data. 
+
+**June 2019**
+
+We've been analysing the exisiting brownfield data to explore whether we can propose a simplified data standard that'll be easier for local authorities to publish against. As a part of this work we've also been looking at what has changed since we last looked at the published registers.
+
 **4 April 2019**
 
 We met with [Campign to Protect Rural England (CPRE)](https://cpre.org.uk/) to understand more about how they collected the brownfield data, the challenges they faced, and how they used the data.
