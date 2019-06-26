@@ -1,6 +1,47 @@
 ---
 title: Events
 ---
+
+### This week at Digital Land
+
+**Date:** 21 June 2019
+
+This week in the Digital Land team, Adam, Colm and Jake have been working on the brownfield sites validator. Paul D has also been looking at the data published in brownfield registers to help design a [simpler format](https://github.com/digital-land/brownfield-sites-report). He also held a fireside chat with Emma Williamson of Haringey at the [digileaders event](https://nd19.co.uk/agenda-2019). 
+
+<a href="https://www.flickr.com/photos/psd/48098128567/in/datetaken-ff/" title="Paul chatting with Emma"><img src="https://live.staticflickr.com/65535/48098128567_391ff0d4ae_z_d.jpg" width="540" height="370" alt="Paul chatting with Emma"></a>
+
+Colm has also been working on Digital Land Front-end, creating component macros and converting templates into Jinja templating language, so they can be used with Flask applications. 
+
+Christine has been part of a week long hackathon with members of other digital teams. They have been joined by consultants from Microsoft to look into using topic modeling technologies to investigate which topics MHCLG are discussing the most with Local Authorities. 
+
+Matt met with the Planning Caseworker team in Birmingham to understand more about the systems that they use to manage CPOs (Compulsory Purchase Orders). There are two systems, Planet and Horizon. It was useful to see the data they collect, and gain some ideas about how we can extract the data which we’ll be testing over the next few days. He also attended the Greater London Authority show and tell for their alpha funded LDCU project. In addition, along with Rebecca and Colm, he worked on creating a draft of the OKRs for the team which will soon be available on the website. 
+
+Rebecca also facilitated a retro for the local digital collaboration unit, as well as helping to arrange the joint internal showcase with the local digital collaboration unit. Micheal has been reviewing the comments on the first draft of the Local Plans project page. He has also completed a draft text on the team vision/mission, which is now ready for review.
+
+In the policy end of the team, Emily has been providing digital policy support to housing and planning colleagues across the department this week for a number of projects, as well as, looking at financial planning for future projects. Jess has been finalising the PropTech strategy report and setting out recommendations for future engagement. Finally, Ed’s blog post entitled [Lessons we learned at the Future PropTech exhibition](https://mhclgdigital.blog.gov.uk/2019/06/18/lessons-we-learned-at-the-future-proptech-exhibition/) went live on the MHCLG Digital blog page this week.
+
+<hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
+
+### This week at Digital Land
+
+**Date:** 14 June 2019
+
+<a href="https://www.flickr.com/photos/psd/48049794406/" title="Towards a team charter"><img src="https://live.staticflickr.com/65535/48049794406_0857341baa_z.jpg" width="640" height="320" alt="Towards a team charter"></a>
+
+This week, we spent Tuesday and Wednesday together at our Team Away days. We kicked off with a team retrospective, which led to discussions around building further relationships with policy teams and how to improve the delivery of products we're working on. We also went to the [Imaginary Cities exhibition at the British Library](https://www.bl.uk/events/imaginary-cities) and were joined by Lorna, our new user researcher.
+
+Rebecca met with policy teams to talk about how we capture policy needs in our team planning, and met with Cities and Local Growth (CLOG) team to action things from last weeks [One Team Gov wellbeing camp](https://medium.com/oneteamgov/one-team-gov-wellbeing-camp-411c409946df).
+
+Jake and Emily spent the week preparing for and attended the Energy Performance of Buildings alpha assessment with the Digital Delivery team.
+
+Christine has been working out the next steps for the register tools with Adam, Matt and Colm.
+
+Matt wrote a draft offer document for empty buildings project, and met with Campaign to Protect Rural England to discuss their needs around brownfield land data.
+
+Rebecca and Ed also attended Christine's weekly code club, focusing on [Classes](https://en.wikipedia.org/wiki/Class_(computer_programming)) and [Methods](https://en.wikipedia.org/wiki/Method_(computer_programming)).
+
+<hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
+
 ### This week at Digital Land
 
 **Date:** 7 June 2019
@@ -235,7 +276,7 @@ The team visited the excellent <a href="https://wellcomecollection.org/exhibitio
 
 Along with colleagues in the developer contribution policy team we met with one of the 3rd party suppliers of Section 106 management software. It was a productive meeting where we were able to explore possibilites of getting Section 106 data directly from their software in a format that meets our data standard. We'll continue to work together and with other suppliers to test this further.
 
-We’ve continued to work on the [Digital Land website](http://digital-land.github.io). We’ve started to add [project pages](https://digital-land.github.io/project) to help us communicate the things we’re working on. There’s a bit more we need to do in order to get the information architecture right, but it’s getting there 
+We’ve continued to work on the [Digital Land website](http://digital-land.github.io). We’ve started to add [project pages](https://digital-land.github.io/project) to help us communicate the things we’re working on. There’s a bit more we need to do in order to get the information architecture right, but it’s getting there
 
 <hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
 
@@ -346,14 +387,14 @@ This week the Digital Land Services team ran their first show and tell where we 
 
 We continued development work on the [‘brownfield sites validator’](https://brownfield-sites-validator.cloudapps.digital/) which now feeds back whether a given set of data meets the specification, and if not where the problems are. Our next step is to provide a visual representation of the data on a map.
 
-The team also had a rare opportunity to be co-located for a few days, we used this time to run some design sessions, and conduct an end of discovery retrospective.  
+The team also had a rare opportunity to be co-located for a few days, we used this time to run some design sessions, and conduct an end of discovery retrospective.
 
 <hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
 
 ### This week at Digital Land Services
 **Date:** 15 June 2018
 
-We were joined this week by [Matt Lucht](https://twitter.com/mattlucht), our new delivery manager, Michael Nottingham, our new part-time content editor and by [Alex Blandford](https://twitter.com/blangry), a user researcher working for Rose. We’ve begun to write-up our discovery findings which we plan to present on the 28th and publish publicly on our new blog shortly afterwards. 
+We were joined this week by [Matt Lucht](https://twitter.com/mattlucht), our new delivery manager, Michael Nottingham, our new part-time content editor and by [Alex Blandford](https://twitter.com/blangry), a user researcher working for Rose. We’ve begun to write-up our discovery findings which we plan to present on the 28th and publish publicly on our new blog shortly afterwards.
 
 <hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
 
