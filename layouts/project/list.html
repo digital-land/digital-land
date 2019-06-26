@@ -1,0 +1,59 @@
+{{ define "content_inner" }}
+
+    {{ if isset .Params "cat_name" }}
+        <span class="govuk-caption-xl">{{ .Params.cat_name | humanize }}</span>
+    {{ end }}
+
+    <h1 class="govuk-heading-xl">{{ .Title }}</h1>
+
+    <div class="govuk-body-l">{{ .Content }}</div>
+
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds">
+
+        <ul class="govuk-list">
+
+          <li>
+            <a href="http://digital-land.github.io/project/brownfield-sites/" class="govuk-link govuk-body-l">Brownfield land registers</a> <strong class="govuk-tag">beta</strong>
+            <p class="govuk-body">We’re exploring digital tools that could help local planning authorities collect and maintain brownfield site data.</p>
+          </li>
+
+          <li>
+            <a href="http://digital-land.github.io/project/compulsory-purchase-orders/" class="govuk-link govuk-body-l">Compulsory purchase orders</a> <strong class="govuk-tag">alpha</strong>
+            <p class="govuk-body">We want to investigate ways to make data from these Secretary of State-level decisions available.</p>
+          </li>
+
+          <li>
+            <a href="http://digital-land.github.io/project/developer-contributions/" class="govuk-link govuk-body-l">Developer contributions</a> <strong class="govuk-tag">alpha</strong>
+            <p class="govuk-body">Help us develop a common data format that local planning authorities can use to publish their developer contributions data.</p>
+          </li>
+
+          <li>
+            <a href="http://digital-land.github.io/project/housing-numbers/" class="govuk-link govuk-body-l">Housing numbers</a> <strong class="govuk-tag">alpha</strong>
+            <p class="govuk-body">To explore ways of finding and using data from local plans, we’re collecting and publishing the number of houses each authority has committed to build.</p>
+          </li>
+
+          <li>
+            <a href="http://digital-land.github.io/project/single-register-of-planning/" class="govuk-link govuk-body-l">Single register of planning</a> <strong class="govuk-tag">alpha</strong>
+            <p class="govuk-body">We&#39;re working with mySociety to make planning application data more trustworthy and up-to-date, as well as easier to find, use and build into services.</p>
+          </li>
+
+          <li>
+            <a href="http://digital-land.github.io/project/local-plans/" class="govuk-link govuk-body-l">Local plans</a> <strong class="govuk-tag">discovery</strong>
+            <p class="govuk-body">We’re working with local planning authorities to design an improved format for publishing local plan data so that it’s easy to find, use and trust.</p>
+          </li>
+
+          <li>
+            <a href="http://digital-land.github.io/project/golden-thread-of-building-information/" class="govuk-link govuk-body-l">Golden thread of building information</a> <strong class="govuk-tag">discovery</strong>
+            <p class="govuk-body">We will work with the Building Safety Programme to understand what a ‘digital record’ for buildings might look like, and how the data could be collected and made available.</p>
+          </li>
+
+          <li>
+            <a href="http://digital-land.github.io/project/unused-properties/" class="govuk-link govuk-body-l">Unused properties</a> <strong class="govuk-tag">discovery</strong>
+            <p class="govuk-body">We’re working with the Cities and Local Growth unit at MHCLG to investigate the best way to collect and publish data on unused properties.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+{{ end }}
