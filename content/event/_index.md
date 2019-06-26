@@ -122,6 +122,84 @@ Paul (Downey) has been working on some story mapping which forms a road map for 
 
 <hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
 
+### This week at Digital Land Services
+**Date:** 15 February 2019
+
+This week Paul had his first MHCLG Digital Land birthday! It was a good moment to reflect on what we've done so far and where we're heading over the next year.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">One year at <a href="https://twitter.com/mhclg?ref_src=twsrc%5Etfw">@mhclg</a>, think we&#39;ve found a feasible approach to tackle a massive issue, everyone here is lovely, helped recruit some great people it&#39;s a pleasure to work with, and am still learning.</p>&mdash; Paul Downey (@psd) <a href="https://twitter.com/psd/status/1095969748876173312?ref_src=twsrc%5Etfw">February 14, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+The team have been working on a [tool to help collect housing numbers data](https://local-plans-prototype.herokuapp.com/) from within Local Plans. We're working with colleagues in the policy team to identify the correct housing numbers and store them in one place.
+
+Helena and Paul B attended the Future Cities Catapult’s (FCC) workshop about better data in planning, to see the work FCC have done so far and advise on the pros/cons of several options to improve data use in planning going forwards. Helena also presented the vision and work so far of our team at the London LDCU roadshow.
+
+Paul D attended the ‘Big data and the design of cities - Chicago and London’ event at New London Architecture, to talk about how the collection and dissemination of big data is changing how we plan and build cities, and about the future of open data collection and use.
+
+<hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
+
+### This week at Digital Land Services
+**Date:** 08 February 2019
+
+Following the three workshops we held last week for our project on [developer contributions](https://digital-land.github.io/project/developer-contributions/), this week the team were analysing the findings and putting together an approach to further iterate our design.
+
+Elsewhere, Paul attended the LDCU roadshow in Bristol and held a session on our data mission with local government colleagues.
+
+<hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
+
+### This week at Digital Land Services
+**Date:** 01 February 2019
+
+This week the Digital Land Service and the Planning Infrastructure policy team ran 3 workshops with local planning authority representatives focusing on [developer contributions](https://digital-land-github.io/project/developer-contributions). The public consultation on developer contributions has just closed, but we’ll be continuing to seek input from all stakeholders through forums like these as well as other channels.
+
+Held in London, Leeds and Birmingham, the workshops helped the Digital Land team better understand how planning authorities manage developer contributions, what challenges they face and what opportunities they can see in opening up developer contribution data. We were also able to test the proposed data standard for developer contributions as well as our prototyped tools and guidance.
+
+We gained a lot of insights from the workshops that will help us iterate the data standard, tools and guidance so that they ultimately improve the quality of data while adding as little as possible to authorities’ workload. 
+
+<hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
+
+### This week at Digital Land Services
+**Date:** 25 January 2019
+
+This week the team worked on preparing for the three workshops we are holding next week on [developer contributions](https://digital-land.github.io/project/developer-contributions/), to test the data standard with users and get feedback. We are also preparing for two user research workshops on [local plans](https://digital-land.github.io/project/local-plans/), one with internal MHCLG policy users and one with external users, to better understand the user needs and problems that need to be solved.
+
+Emily from [MySociety](https://mysociety.org) hotdesked with our team on Monday, and will be doing so one day a week from now on. She’s written a [blog post](https://digital-land.github.io/blog-post/kicking-off-the-planning-permissions-project/) about the project kickoff for the [central register of planning applications](https://www.mysociety.org/2019/01/14/an-examination-of-the-aggregation-of-planning-application-information/) project.
+
+We’re keen to have MySociety - and others we are working with - participate in our fortnightly show and tells, and will making this happen more regularly in the coming months. We are talking to a lot of external stakeholders at the moment about how we can work together. This week we met with [Arup](https://www.arup.com/) and with the CEO and Chairman of [New London Architecture](https://www.newlondonarchitecture.org/).
+
+<hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
+
+### This week at Digital Land Services
+**Date:** 18 January 2019
+
+This week the team had a project kickoff with [MySociety](https://www.mysociety.org) for the [central register of planning applications](https://digital-land.github.io/project/single-register-of-planning/) work.
+
+Rebecca and Paul attended a Royal Geographical Society lecture on “Creating a Mastermap”. Paul sketched some notes!
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/psd/46690220892/in/datetaken/" title="Notes from Creating a &#x27;master map&#x27; of the UK"><img src="https://live.staticflickr.com/4885/46690220892_da76b65d25_k.jpg" alt="Notes from Creating a &#x27;master map&#x27; of the UK"></a>
+
+The team’s work on [developer contributions](https://digital-land.github.io/project/developer-contributions) is progressing. Three workshops we have just announced over subscribed within 24 hours! We look forward to meeting with local authority planners at those workshops at the end of January.
+
+We had a great conversation with Max in the local plans team and have started building the [project page](https://digital-land.github.io/project/local-plans) which describes our work.
+
+We have been talking to colleagues in the [Department for Transport](https://www.gov.uk/government/organisations/department-for-transport) about how our work areas are linked and we attended a joint show and tell with them on Thursday.
+
+<hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
+
+### This week at Digital Land Services
+**Date:** 11 January 2019
+
+Our team is still growing! This week we welcomed our new User Research [Paul Bermudez](https://twitter.com/pebdesign). Welcome (yet another) Paul!
+
+We progressed the architecture of our work, which feeds into our roadmapping, which we talked through at our show and tell. Thanks to everyone who came!
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/psd/31797348007/in/datetaken/" title="Drawing the digital land services thing"><img src="https://live.staticflickr.com/7879/31797348007_4082eae01f_k.jpg" alt="Drawing the digital land services thing"></a>
+
+Paul Downey spoke on a panel at Reading University about planning data. Excitingly, the Digital Land team were being talked about by other speakers before Paul had even introduced our work!
+
+Our [developer contributions consultation](https://digital-land.github.io/project/developer-contributions) is ongoing until the end of January and we’ve had nearly 400 individual views so far. 
+
+<hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
+
 ### Show and Tell
 **Time:** 10 January 2019
 **Location:** Digital Land, Ground Floor, Fry Building, London
@@ -129,6 +207,23 @@ Paul (Downey) has been working on some story mapping which forms a road map for 
 We ran our first show and tell of 2019 where the team talked through the early view of the service architecture, our approach for learning about a design process for policy making, and what we've learnt through the early stages of the [developer contributions](/project/developer-contributions) public consultation.
 
 <a href="https://www.flickr.com/photos/mattlucht/39734701243/in/datetaken-public/" title="Digital Land Show and Tell -- 20191101"><img src="https://farm8.staticflickr.com/7860/39734701243_695ba27ec0_k.jpg" alt="Digital Land Show and Tell -- 20191101"></a>
+
+<hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
+
+### This week at Digital Land Services
+**Date:** 21 December 2018
+
+This week the developer contributions [public consultation](https://www.gov.uk/government/consultations/developer-contributions-reform-technical-consultation) went live. We don’t anticipate a huge flurry of activity over the holiday period, but we have already seen some comments and questions being added to the our [GitHub issues](https://github.com/digital-land/digital-land/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc) – we’ll be monitoring these closely and keeping the conversation going.
+
+Also related to developer contributions, we visited Mid Suffolk and Babergh to talk with them about the data format we are proposing. It was very useful to hear how they are currently managing their Section 106 and CIL agreements, and are committed to making everything as open and transparent as possible. Also in the meeting were Exacom, one of the 3rd parties who specialise in developer contributions, we’re working with them to test whether it’s possible to get an extract of data from Exacom that meets our data format. We hope to progress this over the Christmas period.
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/psd/45469388665/in/datetaken/" title="In Suffolk"><img src="https://live.staticflickr.com/4822/45469388665_f805116b45_k.jpg" alt="In Suffolk"></a>
+
+Earlier in the week Paul and Rebecca headed to [Brent Council](https://www.brent.gov.uk/) to start some user research into the needs of data from local plans. On the back of this visit we’re going to be looking at their FOIs for local plan information, this will help give us an indication of which data we may need to prioritise.
+
+On Thursday the team held our design crit at [New London Architecture](https://www.newlondonarchitecture.org/), here we also took the opportunity to see the [New London Model exhibition](https://www.newlondonarchitecture.org/about/new-london-model/new-london-model). It’s quite inspiring, and we highly recommend you try and take a look for yourself!
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/psd/46392013441/in/datetaken/" title="Team visit to The New London Model. It&#x27;s epic."><img src="https://live.staticflickr.com/4913/46392013441_affe75e943_k.jpg" alt="Team visit to The New London Model. It&#x27;s epic."></a>
 
 <hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
 
@@ -142,6 +237,17 @@ The team visited [New London Architecture](https://www.newlondonarchitecture.org
 
 <hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
 
+### This week at Digital Land Services
+**Date:** 14 December 2018
+
+In advance of the public consultation for developer contributions the team have been thinking about how we’ll manage questions and feedback in an open and transparent fashion. We’ve decided to try using [GitHub issues](https://github.com/digital-land/digital-land/issues) – it provides us with a place where we can document all our feedback, have conversations in the open, and record any design decisions that are made. We haven’t publicised this approach, but we’re already getting feedback from [members of the community](https://github.com/digital-land/digital-land/issues/21) about what we’re doing.
+
+Having worked through a couple of projects we’re getting a better understanding of what the architecture for the services we’ll be taking into beta will look like. We had a [whiteboard session to try and draw this out](https://github.com/digital-land/digital-land/issues/38) and will turn this into a more articulate vision on our website.
+
+This week we also had the whole team was in the same location at the same time! We used this as an opportunity to do a bit of a retrospective, a ways of working exercise, and talk about what we’re planning to do over the next few months.
+
+<hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
+
 ### Show and Tell
 **Time:** 6 December 2018 at 4pm
 **Location:** F329, Fry Building, London
@@ -149,6 +255,28 @@ The team visited [New London Architecture](https://www.newlondonarchitecture.org
 We showed our progress on [developer contributions](/project/developer-contributions). This included the updated guidance, a tool to validate local planning authority data against the specification, and how we'll be managing feedback during alpha.
 
 <a href="https://www.flickr.com/photos/psd/46152140552/in/datetaken/" title="Today&#x27;s Digital Land show and tell agenda"><img src="https://farm5.staticflickr.com/4855/46152140552_f885f0fc64_k.jpg" alt="Today&#x27;s Digital Land show and tell agenda"></a>
+
+<hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
+
+### This week at Digital Land Services
+**Date:** 30 November 2018
+
+We are delighted to welcome [Helena Trippe](https://twitter.com/hptrippe) to our team as our new service designer!
+
+The primary focus for the team this week was getting the [developer contribution project](https://digital-land.github.io/project/developer-contributions) ready for public consultation, the date has yet to be agreed.
+
+We’ve updated the [project page]((https://digital-land.github.io/project/developer-contributions)) to include a [feedback form](https://docs.google.com/forms/d/1pvblp8l4ODFmv91yyktArGaiskVnJgFcWDCYBBRgc2A/edit), and for areas where we have outstanding questions or concerns we’ve created a [GitHub issue](https://github.com/digital-land/digital-land/issues). We’ve aso written some [draft guidance](https://digital-land.github.io/guidance/developer-contributions/) to help people publish their data. We plan to test this guidance early in the new year.
+
+<hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
+
+### This week at Digital Land Services
+**Date:** 23 November 2018
+
+On Tuesday Paul joined a panel at the ODI summit to talk about how local governments can take advantage of the opportunities created by data to improve public services and better serve communities.
+
+On the [developer contributions](https://digital-land.github.io/propject/developer-contributions) project we met with the GLA, Southwark and TFL to discuss the user needs and data model. It was encouraging to hear that we’re all on the same page with regards to the data we’d like to publish. We also talked through some of the challenges that we’ve identified, and agreed some useful next steps to work on these collaboratively.
+
+We’ve started prototyping a [dashboard of the developer contribution data](https://section-106-prototype.cloudapps.digital/developer-contributions/section106-wide), at the moment it uses some test data, we’ll be feeding in some real data over the course of the next few weeks.
 
 <hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
 
