@@ -5,6 +5,7 @@ type: project
 label: "project:developer-contributions"
 hasContent: true
 pageFeedback: true
+summary: Help us develop a common data format that local planning authorities can use to publish their developer contributions data.
 ---
 
 ## Help us develop a common data format

@@ -1,9 +1,10 @@
 ---
 title: "Local plans"
-status: alpha
+status: discovery
 label: "project:local-plans"
 hasContent: true
 pageFeedback: true
+summary: We’re working with local planning authorities to design an improved format for publishing local plan data so that it’s easy to find, use and trust.
 ---
 
 ## Current areas of investigation
