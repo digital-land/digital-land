@@ -13,36 +13,43 @@
         {{ $beta := where .Data.Pages ".Params.status" "beta" }}
         {{ $alpha := where .Data.Pages ".Params.status" "alpha" }}
         {{ $discovery := where .Data.Pages ".Params.status" "discovery" }}
+        {{ $investigation := where .Data.Pages ".Params.status" "investigation" }}
 
         <ul class="govuk-list">
           {{ range $live }}
-              <li>
-                <a href="{{ .Permalink }}" class="govuk-link govuk-body-l">{{ .Title }}</a> <strong class="govuk-tag">{{ .Params.Status }}</strong>
-                <p class="govuk-body">{{ .Params.Summary }}</p>
-              </li>
+            <li>
+              <a href="{{ .Permalink }}" class="govuk-link govuk-body-l">{{ .Title }}</a> <strong class="govuk-tag">{{ .Params.Status }}</strong>
+              <p class="govuk-body">{{ .Params.Summary }}</p>
+            </li>
           {{ end }}
 
           {{ range $beta }}
-              <li>
-                <a href="{{ .Permalink }}" class="govuk-link govuk-body-l">{{ .Title }}</a> <strong class="govuk-tag">{{ .Params.Status }}</strong>
-                <p class="govuk-body">{{ .Params.Summary }}</p>
-              </li>
+            <li>
+              <a href="{{ .Permalink }}" class="govuk-link govuk-body-l">{{ .Title }}</a> <strong class="govuk-tag">{{ .Params.Status }}</strong>
+              <p class="govuk-body">{{ .Params.Summary }}</p>
+            </li>
           {{ end }}
 
           {{ range $alpha }}
-              <li>
-                <a href="{{ .Permalink }}" class="govuk-link govuk-body-l">{{ .Title }}</a> <strong class="govuk-tag">{{ .Params.Status }}</strong>
-                <p class="govuk-body">{{ .Params.Summary }}</p>
-              </li>
+            <li>
+              <a href="{{ .Permalink }}" class="govuk-link govuk-body-l">{{ .Title }}</a> <strong class="govuk-tag">{{ .Params.Status }}</strong>
+              <p class="govuk-body">{{ .Params.Summary }}</p>
+            </li>
           {{ end }}
 
           {{ range $discovery }}
-              <li>
-                <a href="{{ .Permalink }}" class="govuk-link govuk-body-l">{{ .Title }}</a> <strong class="govuk-tag">{{ .Params.Status }}</strong>
-                <p class="govuk-body">{{ .Params.Summary }}</p>
-              </li>
+            <li>
+              <a href="{{ .Permalink }}" class="govuk-link govuk-body-l">{{ .Title }}</a> <strong class="govuk-tag">{{ .Params.Status }}</strong>
+              <p class="govuk-body">{{ .Params.Summary }}</p>
+            </li>
           {{ end }}
 
+          {{ range $investigation }}
+            <li>
+              <a href="{{ .Permalink }}" class="govuk-link govuk-body-l">{{ .Title }}</a> <strong class="govuk-tag">{{ .Params.Status }}</strong>
+              <p class="govuk-body">{{ .Params.Summary }}</p>
+            </li>
+          {{ end }}
         </ul>
       </div>
     </div>
