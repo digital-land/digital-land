@@ -8,7 +8,9 @@ title: Events
 
 It’s been an exciting week! On Tuesday we found out that the Find an Energy Certificate or Assessor alpha, which Jake and Emily worked on, has passed the GDS assessment and can move onto beta. 
 
-Another exciting milestone is that the updates to our [Digital Land website](https://digital-land.github.io/) are live. Michael has been writing the new content for the website, working on our team vision, mission statement, about us and user pages. He’s also been working with Helena to update the local plans project page. Michael, Emily and Jake have been updating the website over the last few weeks and demoed the new site to the team on Thursday. Everyone decided the updates were ready to go live and we’re all really pleased with the results.
+Another exciting milestone is that the updates to our Digital Land website are live. Michael has been writing the new content for the website, working on our team vision, mission statement, about us and user pages. He’s also been working with Helena to update the local plans project page. Michael, Emily and Jake have been updating the website over the last few weeks and demoed the new site to the team on Thursday. Everyone decided the updates were ready to go live and we’re all really pleased with the results.
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/182343195@N08/48144605491/in/dateposted-public/" title="Untitled"><img src="https://live.staticflickr.com/65535/48144605491_39a88a0a8b_c.jpg" width="800" height="392" alt="Untitled"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 This week the [Local Digital Collaboration Unit (LDCU)](https://localdigital.gov.uk/) had a visit from Lincoln Council senior management team. Rebecca joined them to talk about her experiences of introducing agile ways of working into an organisation that hasn't worked in that way before. 
 
