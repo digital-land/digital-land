@@ -1,6 +1,6 @@
 ---
 title: "Unused properties"
-status: investigation
+status: discovery
 type: project
 hasContent: false
 pageFeedback: true

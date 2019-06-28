@@ -1,6 +1,6 @@
 ---
 title: "Golden thread of building information"
-status: investigation
+status: discovery
 hasContent: true
 pageFeedback: true
 summary: We will work with the Building Safety Programme to understand what a ‘digital record’ for buildings might look like, and how the data could be collected and made available.
