@@ -13,8 +13,8 @@ staticDir = ["static", "src/govuk_template/assets", "src/govuk_elements/assets"]
 
   # Nav links in the side bar
   [[params.propositionlinks]]
-  name = "Portfolio"
-  url = "/portfolio"
+  name = "About us"
+  url = "/about"
   currentpage = true
 
   [[params.propositionlinks]]
@@ -22,23 +22,23 @@ staticDir = ["static", "src/govuk_template/assets", "src/govuk_elements/assets"]
   url = "/project/"
 
   [[params.propositionlinks]]
-  name = "Prototypes"
-  url = "/prototype/"
-
-  [[params.propositionlinks]]
-  name = "Glossary"
-  url = "/glossary/"
+  name = "Guidance"
+  url = "/guidance/"
 
   [[params.propositionlinks]]
   name = "Users"
   url = "/users/"
 
   [[params.propositionlinks]]
-  name = "Events"
+  name = "Glossary"
+  url = "/glossary/"
+
+  [[params.propositionlinks]]
+  name = "Weeknotes"
   url = "/event/"
 
   [[params.propositionlinks]]
-  name = "Blog posts"
+  name = "Blog"
   url = "/blog-post/"
 
   [[params.footer_meta_links]]

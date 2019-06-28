@@ -57,4 +57,3 @@ From our conversations so far, it seems to us that the big questions for MHCLG a
 * And perhaps hardest of all, how do we help the ~360 or so local planning authorities across England, with a variety of systems in use, and pressures on time and budget, to all release it in the same format?
 
 These are hard problems, but wouldn’t it be great if we could finally meet the seemingly simple vision of 12 years ago?
-

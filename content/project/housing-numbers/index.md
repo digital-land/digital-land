@@ -1,9 +1,10 @@
 ---
 title: "Housing numbers"
-status: alpha
+status: investigation
 label: "project:housing-numbers"
 hasContent: true
 pageFeedback: true
+summary: We’re collecting and publishing the number of houses each authority has committed to build as a way to explore how we can find and use data from local plans.
 ---
 
 ## Current areas of investigation

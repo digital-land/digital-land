@@ -2,4 +2,6 @@
 title: "Digital Land"
 ---
 
-<p class="govuk-body-l">Digital Land is a team at the <a href="https://www.gov.uk/government/organisations/ministry-of-housing-communities-and-local-government">Ministry of Housing, Communities & Local Government</a> working to improve land and housing data for the emerging <a href="https://en.wikipedia.org/wiki/PropTech">proptech</a> sector.</p>
+<p class="govuk-body-l">We’re a team of digital and policy specialists working to make land and housing data easier to find, use and trust. Better data will lead to better decisions, fewer uncertainties and delays in the housing system, and more new property and planning services.</p>
+
+<p class="govuk-body">Read more about <a href="/about">our team</a> and <a href="/about/data/">what we're working on</a>.</p>

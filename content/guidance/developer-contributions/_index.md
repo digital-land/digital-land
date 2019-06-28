@@ -1,6 +1,7 @@
 ---
 title: "Publish your developer contributions data"
 layout: single
+summary: When publishing your developer contributions data, follow this guidance on how to format, label and publish the data.
 ---
 
 {{% contents %}}

@@ -5512,6 +5512,9 @@ blockquote p:last-child:after {
 .hero__content .markdown-output h2,
 .markdown-output .hero__content h2,
 .hero__content .govuk-body-l,
+.hero__content .govuk-body,
+.hero__content .markdown-output p,
+.markdown-output .hero__content p,
 .hero__content a {
   color: #ffffff;
 }
@@ -6416,4 +6419,36 @@ blockquote p:last-child:after {
 .markdown-output > .blog-post-preview .byline__relations,
 .markdown-output > .blog-post-preview footer {
   display: none;
+}
+
+.equal-panels {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 40.0625em) {
+  .equal-panels {
+    flex-direction: row;
+  }
+}
+
+.equal-panels .equal-panels-single {
+  margin: 7.5px 15px;
+  flex: 1 1 0;
+  padding: 15px;
+  background: #005ea5;
+}
+
+@media (min-width: 40.0625em) {
+  .equal-panels .equal-panels-single {
+    margin: 0 15px;
+  }
+}
+
+.equal-panels .equal-panels-single p, .equal-panels .equal-panels-single a {
+  color: #ffffff;
+}
+
+.equal-panels .equal-panels-single :last-child {
+  margin-bottom: 0;
 }

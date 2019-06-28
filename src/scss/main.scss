@@ -216,3 +216,28 @@ $govuk-images-path: "/govuk-frontend/assets/images/";
     display: none;
   }
 }
+
+// Equal panelling
+.equal-panels {
+  display: flex;
+  flex-direction: column;
+  @include govuk-media-query($from: tablet) {
+    flex-direction: row;
+  }
+
+  .equal-panels-single {
+    margin: 7.5px 15px;
+    flex: 1 1 0;
+    @include govuk-media-query($from: tablet) {
+      margin: 0 15px;
+    }
+    padding: 15px;
+    background: govuk-colour("blue");
+    p, a {
+      color: govuk-colour("white");
+    }
+    & :last-child {
+      margin-bottom: 0;
+    }
+  }
+}
