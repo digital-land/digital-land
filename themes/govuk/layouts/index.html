@@ -38,6 +38,7 @@
             {{ $beta := where $projectPages ".Params.status" "beta" }}
             {{ $alpha := where $projectPages ".Params.status" "alpha" }}
             {{ $discovery := where $projectPages ".Params.status" "discovery" }}
+            {{ $investigation := where $projectPages ".Params.status" "investigation" }}
 
             {{ range $live }}
             <li>
@@ -61,6 +62,13 @@
             {{ end }}
 
             {{ range $discovery }}
+            <li>
+              <a href="{{ .Permalink }}" class="govuk-link govuk-body-l">{{ .Title }}</a> <strong class="govuk-tag">{{ .Params.Status }}</strong>
+              <p class="govuk-body">{{ .Params.Summary }}</p>
+            </li>
+            {{ end }}
+
+            {{ range $investigation }}
             <li>
               <a href="{{ .Permalink }}" class="govuk-link govuk-body-l">{{ .Title }}</a> <strong class="govuk-tag">{{ .Params.Status }}</strong>
               <p class="govuk-body">{{ .Params.Summary }}</p>

@@ -1,6 +1,6 @@
 ---
 title: "Housing numbers"
-status: discovery
+status: investigation
 label: "project:housing-numbers"
 hasContent: true
 pageFeedback: true
