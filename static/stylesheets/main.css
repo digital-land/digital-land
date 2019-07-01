@@ -5491,7 +5491,6 @@ blockquote p:last-child:after {
 
 @media (min-width: 40.0625em) {
   .hero {
-    margin: 0 -15px;
     margin-bottom: 30px;
   }
 }
