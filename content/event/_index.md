@@ -10,7 +10,7 @@ It’s been an exciting week! On Tuesday we found out that the Find an Energy Ce
 
 Another exciting milestone is that the updates to our Digital Land website are live. Michael has been writing the new content for the website, working on our team vision, mission statement, about us and user pages. He’s also been working with Helena to update the local plans project page. Michael, Emily and Jake have been updating the website over the last few weeks and demoed the new site to the team on Thursday. Everyone decided the updates were ready to go live and we’re all really pleased with the results.
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/182343195@N08/48144605491/in/dateposted-public/" title="Untitled"><img src="https://live.staticflickr.com/65535/48144605491_39a88a0a8b_c.jpg" width="800" height="392" alt="Untitled"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a href="https://www.flickr.com/photos/182343195@N08/48144605491/in/dateposted-public/" title="Website screenshot"><img src="https://live.staticflickr.com/65535/48144605491_39a88a0a8b_c.jpg" alt="Website screenshot"></a>
 
 This week the [Local Digital Collaboration Unit (LDCU)](https://localdigital.gov.uk/) had a visit from Lincoln Council senior management team. Rebecca joined them to talk about her experiences of introducing agile ways of working into an organisation that hasn't worked in that way before. 
 
@@ -55,7 +55,7 @@ In the policy end of the team, Natalie has been providing digital policy support
 
 **Date:** 14 June 2019
 
-<a href="https://www.flickr.com/photos/psd/48049794406/" title="Towards a team charter"><img src="https://live.staticflickr.com/65535/48049794406_0857341baa_z.jpg" width="640" height="320" alt="Towards a team charter"></a>
+<a href="https://www.flickr.com/photos/psd/48049794406/" title="Towards a team charter"><img src="https://live.staticflickr.com/65535/48049794406_0857341baa_z.jpg" alt="Towards a team charter"></a>
 
 This week, we spent Tuesday and Wednesday together at our Team Away days. We kicked off with a team retrospective, which led to discussions around building further relationships with policy teams and how to improve the delivery of products we're working on. We also went to the [Imaginary Cities exhibition at the British Library](https://www.bl.uk/events/imaginary-cities) and were joined by Lorna, our new user researcher.
 
