@@ -1,5 +1,6 @@
 ---
-title: Events
+title: Weeknotes
+aliases: [/event]
 ---
 
 ### This week at Digital Land
