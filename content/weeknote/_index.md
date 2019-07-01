@@ -106,7 +106,7 @@ On Tuesday Paul D and Matt visited Bristol to learn more about compulsory purcha
 
 Emily and Michael have been working on some exciting new Digital Land website designs and content. Jake has been integrating a new content management system and building the designs in code – watch this space!
 
-<img src="https://docs.google.com/uc?id=1uxOoqvznL-VRunL904w-cy3LGh_6ujqs">
+<a href="https://www.flickr.com/photos/182343195@N08/48170353252/in/dateposted-public/" title="Emily and Jake working on new website design"><img src="https://live.staticflickr.com/65535/48170353252_ec1c52398b_c.jpg" alt="Emily and Jake working on new website design"></a>
 
 <hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
 
