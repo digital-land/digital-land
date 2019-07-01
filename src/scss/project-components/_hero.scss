@@ -18,6 +18,10 @@
 .hero {
   color: $govuk-body-background-colour;
   background: govuk-colour("blue");
+
+  @include govuk-media-query($from: tablet) {
+    margin-bottom: $govuk-gutter;
+  }
 }
 
 .hero__content {
