@@ -16,7 +16,7 @@
         {{ $userType := .Params.abbr }}
           <li>
             <a href="{{ .Permalink }}" class="govuk-link govuk-body-l">{{ $userType }}</a>
-            <p class="govuk-body">{{ .Summary }}</p>
+            <p class="govuk-body">{{ .Params.Summary }}</p>
           </li>
         {{ end }}
       </ul>
