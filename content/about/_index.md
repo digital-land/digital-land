@@ -1,5 +1,5 @@
 ---
-title: About
+title: About us
 ---
 
 ### Who we are
