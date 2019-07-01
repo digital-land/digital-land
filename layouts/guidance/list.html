@@ -17,13 +17,13 @@
   		      {{ range .Data.Pages }}
   		      <li>
   		        <a href="{{ .Permalink }}" class="govuk-link govuk-body-l">{{ .Title }}</a>
-  		        <p class="govuk-body">{{ .Summary }}</p>
+  		        <p class="govuk-body">{{ .Params.Summary | default .Summary }}</p>
   		      </li>
   		      {{ end }}
   		      {{ range .Sections }}
   		      <li>
   		        <a href="{{ .Permalink }}" class="govuk-link govuk-body-l">{{ .Title }}</a>
-  		        <p class="govuk-body">{{ .Summary }}</p>
+  		        <p class="govuk-body">{{ .Params.Summary | default .Summary }}</p>
   		      </li>
   		      {{ end }}
   		    </ul>
