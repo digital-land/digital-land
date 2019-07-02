@@ -1,0 +1,32 @@
+{{ define "head" }}
+    <link rel="stylesheet" media="all" href="/stylesheets/main.css" />
+    {{ with .OutputFormats.Get "rss" -}}
+      <link rel="{{ .Rel }}" type="application/rss+xml" href="{{ .Permalink }}" title="{{ $.Title | safeHTML }} - {{ $.Site.Title | safeHTML }}" />
+    {{ end -}}
+{{ end }}
+
+{{ define "content_inner" }}
+
+  {{ if isset .Params "cat_name" }}
+  <span class="govuk-caption-xl">{{ .Params.cat_name | humanize }}</span>
+  {{ end }}
+  <h1 class="govuk-heading-xl">
+    {{ .Title }}
+  </h1>
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <p class="govuk-body-l">{{ .Params.lede }}</p>
+      <div class="markdown-output">
+        {{ .Content }}
+      </div>
+
+      {{ range .Data.Pages }}
+        {{ partial "weeknote-preview.html" . }}
+      {{ end }}
+
+    </div>
+  </div>
+
+{{ end }}
