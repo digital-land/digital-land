@@ -1,0 +1,20 @@
+<article class="blog-post blog-post-preview">
+  <header>
+    <h2 class="govuk-heading-l">
+        <a href="{{ if isset .Params "external_url" }}{{ .Params.external_url }}{{ else }}{{ .URL }}{{ end }}">{{ .Date.Format "2 January 2006" }}</a>
+    </h2>
+    <p class="byline author vcard">
+        {{ partial "byline-related.html" . }}
+    </p>
+  </header>
+  <div class="markdown-output entry-summary">
+    <p>{{ default .Summary .Description | truncate 180 }}</p>
+  </div>
+  <footer class="entry-footer">
+    <ul class="govuk-list">
+        <li>
+        <a class="read-more" href="{{ if isset .Params "external_url" }}{{ .Params.external_url }}{{ else }}{{ .URL }}{{ end }}">Read more <span class="visuallyhidden">about this week</span></a>
+        </li>
+    </ul>
+  </footer>
+</article>
