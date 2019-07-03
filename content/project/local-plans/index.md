@@ -35,7 +35,11 @@ We're conducting user research with local planning authorities, specifically inv
 
 #### Questions we’re asking
 
-There is no central record of where local planning authorities are in the process of producing their local plans. Would creating a central record be useful to users of local plans? What would a useful record of local plan production look like? What are the obstacles to creating one?
+There is no central record of where local planning authorities are in the process of producing their local plans. Would creating a central record be useful to users of local plans? 
+
+What would a useful record of local plan production look like? 
+
+What are the obstacles to creating one?
 
 #### What we're testing
 
@@ -74,9 +78,13 @@ What are the pain points in generating the data?
 #### What we’re testing
 
 We are researching the barriers, opportunities and challenges to data / record-keeping at different stages of plan production:
+
 * assembling plans
+
 * consulting on plans
+
 * approving / examining plans
+
 * using plans for future planning decisions
 
 #### What we’ve learned
@@ -95,7 +103,7 @@ A lack of standardisation in the process of creating local plans mean that diffe
 
 **Late July**
 
-Present findings and next steps to the planning directorate steering group.
+We will present our findings and agree next steps with the planning directorate steering group.
 
 **Mid July**
 
