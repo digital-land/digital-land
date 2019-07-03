@@ -18,16 +18,16 @@ We work as a digital team, meaning we develop our services iteratively, using ag
 
 ### Our values 
 
-We are accountable and open
+We are accountable and open.
 
-We welcome critical debate
+We welcome critical debate.
 
-We own our expertise but share the work
+We own our expertise but share the work.
 
-We always assume everyone in the team is trying their best
+We always assume everyone in the team is trying their best.
 
-We succeed or fail as a team
+We succeed or fail as a team.
 
-We self-organise around clear objectives
+We self-organise around clear objectives.
 
-We are comfortable with uncertainty
+We are comfortable with uncertainty.
