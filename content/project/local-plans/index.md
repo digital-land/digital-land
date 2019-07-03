@@ -15,7 +15,7 @@ The following areas of investigation explore how the data could be used and made
 
 #### Questions we’re asking
 
-To identify what data we want to make usable in local plans, we need to first understand who local plans are for and what people need from them.   
+To identify what data we want to make usable in local plans, we need to first understand [who local plans are for](https://github.com/digital-land/digital-land/issues/51) and [what people need from them](https://github.com/digital-land/digital-land/issues/57).
 
 #### What we’re testing
 
