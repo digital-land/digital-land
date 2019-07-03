@@ -15,3 +15,19 @@ Our digital design service for policymakers will help them get the land and hous
 
 ### How we work
 We work as a digital team, meaning we develop our services iteratively, using agile methodology. This means we start with a minimum viable service and add features on according to validated user needs, based on user research. We test everything we make with users until we’re satisfied it meets those needs. We build in small increments, which reduces risk.
+
+### Our values 
+
+We are accountable and open
+
+We welcome critical debate
+
+We own our expertise but share the work
+
+We always assume everyone in the team is trying their best
+
+We succeed or fail as a team
+
+We self-organise around clear objectives
+
+We are comfortable with uncertainty
