@@ -24,8 +24,11 @@ We're conducting user research with local planning authorities, specifically inv
 #### What we’ve learned
 
 * few authorities have adequate record keeping systems that create reliable data, aside from a record of the plan being submitted (Regulation 19)
+
 * systems for tracking the progress of local plans are minimal or non-existent, as are standards for publishing local plans or related evidence or documentation
+
 * decisions that are normally communicated in a narrative often aren’t easy to record as binary data
+
 * the timing of the examination process isn’t clear, which creates uncertainty for local planning authorities and developers
 
 {{< in-progress-issue title="A timetable for local plan production" number="61" >}}
@@ -43,10 +46,15 @@ Our current [local plan explorer](https://local-plans-prototype.herokuapp.com/lo
 We are continuing to test the prototype and analyse our findings for this area of investigation.
 
 We’ve meanwhile arrived at a number of insights from our research around local plans:
+
 * creating a local plan is a very lengthy, involved process, and it’s often difficult to know the status of a local plan in the publication process, even by those involved in its creation
+
 * the length of the publication process means that accurate, up-to-date information isn’t always available
+
 * both of the above can result in uncertainty, which can slow or stop development and undermine a local planning authority’s ability to make decisions
+
 * there are tensions between the desire to produce a comprehensive local plan of the highest quality and the need to make the production process efficient and cost effective
+
 * a lack of standardisation in the process makes it difficult to create and maintain a central record
 
 {{< in-progress-issue title="How are local plans created?" number="50" >}}
