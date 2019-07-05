@@ -8,7 +8,7 @@ summary: The EPB team are building a service to help users easily find an energy
 
 The energy performance of buildings (EPB) team within the Ministry of Housing, Communities and Local Government (MHCLG) Digital Directorate have been building a new online service to help users find an energy certificate, or to find an energy assessor. Part of this journey is to find an [energy performance certificate (EPC)](https://www.gov.uk/buy-sell-your-home/energy-performance-certificates).
 
-The team recently passed their GDS alpha assessment and are moving into beta, testing and iterating the current prototype.
+The team recently passed their GOV.UK alpha assessment and are moving into beta, testing and iterating the current prototype.
 
 {{% cta-box %}}
 Test our [current EPB prototype](https://mhclg-epb-prototype-04.herokuapp.com).
