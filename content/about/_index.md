@@ -6,7 +6,17 @@ title: About us
 We’re a team of digital and policy specialists in the [Ministry of Housing, Communities and Local Government](https://www.gov.uk/government/organisations/ministry-of-housing-communities-and-local-government).
 
 ### Our mission
-By making land and housing data easier to find, use and trust, we aim to make it easier for everyone involved in land and housing development to make better informed decisions, for communities to better understand and know how to engage with decisions around development in their area, and for PropTech developers to create new digital services for the marketplace. We’re also working to make it easier for local authorities to record decisions and report data, freeing up their limited resources.
+By making land and housing data easier to find, use and trust, we aim to make it easier for:
+
+* everyone involved in land and housing development to make better informed decisions
+
+* communities to better understand and engage with development decisions in their area
+
+* PropTech companies to create new digital services for the marketplace
+
+* local authorities to record decisions and report data, freeing up their limited resources
+
+* policy teams in MHCLG to create policy based on high quality, relevant data
 
 ### Our vision
 We are developing a suite of free digital services that will help unlock land and housing data’s potential for everyone involved in land and housing development. Improving data will help open up the housing market to smaller businesses and help transform the relationship between planners, developers and communities.
