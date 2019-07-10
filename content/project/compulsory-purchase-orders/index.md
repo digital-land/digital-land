@@ -15,6 +15,14 @@ summary: We want to investigate ways to make data from these Secretary of State-
 
 ## Timeline
 
+**10 July 2019**
+
+Memembers of the team attended the [Compulsory Purchase Asssociation National Conference](https://www.compulsorypurchaseassociation.org/cpa-conference-2019.html).
+
+**07 July 2019**
+
+We've collected CPO data from the current case management system. Using a combination of historic and current data we're now defining a schema for the register that can be easily maintained.
+
 **02 July 2019**
 
 Paul [created a script](https://gist.github.com/psd/2361887a4c725adcd311ed7e7ec6d0fa) which extracted the key information from the formatted MS Excel report and translated into a .csv file. From this we've been able to start modeling how the register may work.
