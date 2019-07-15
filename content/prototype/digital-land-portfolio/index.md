@@ -2,12 +2,12 @@
 title: "Digital Land Portfolio"
 lastmod: "2018-09-19"
 user: service-builder
-source: https://digital-land-portfolio.cloudapps.digital
+source: https://digital-land.github.io/portfolio/
 priority: now
 hypothesis: "Understanding how people use land data will help MHCLG prioritise their open data efforts"
 ---
 
-We made a [portfolio of patterns and use-cases](https://digital-land-portfolio.cloudapps.digital/) for digital land data during discovery. We will review the need for this tool, or if it can be iterated to cover the needs for a handbook.
+We made a [portfolio of patterns and use-cases](https://digital-land.github.io/portfolio/) for digital land data during discovery. We will review the need for this tool, or if it can be iterated to cover the needs for a handbook.
 
 {{< prototype-update "Update 1" "Sept 2018">}}
 * added 2 projects; Bristol Maps and Propective.io
