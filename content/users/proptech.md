@@ -1,12 +1,12 @@
 ---
-title: PropTech developers
-abbr: PropTech developers
+title: PropTech
+abbr: PropTech
 summary: Do you use land and housing data to develop digital services or products? We can help you find the data you need.
 ---
 
 If you work in ‘PropTech’, ‘PlanTech’ or another emergent industry using land and housing data to develop innovative services and products for the marketplace, we’re working to help give you better access to quality data.
 
-## Our offer to PropTech developers
+## Our offer to PropTech companies
 Have a look at the data platform we’re building. It will include:
 
 - a [digital land explorer](https://digital-land-explorer.herokuapp.com/) that maps a wide range of land and housing data to geographical coordinates
