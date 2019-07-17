@@ -15,9 +15,13 @@ summary: We want to investigate ways to make data from these Secretary of State-
 
 ## Timeline
 
+**11 July 2019**
+
+We met with colleagues from the Knowledge and Information Management team to understand the steps we need to take to publish decision letters and inspector reports.
+
 **10 July 2019**
 
-Memembers of the team attended the [Compulsory Purchase Asssociation National Conference](https://www.compulsorypurchaseassociation.org/cpa-conference-2019.html).
+Members of the team attended the [Compulsory Purchase Association National Conference](https://www.compulsorypurchaseassociation.org/cpa-conference-2019.html).
 
 **07 July 2019**
 
