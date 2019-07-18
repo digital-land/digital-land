@@ -12,7 +12,7 @@ Finding an energy certificate or an energy assessor for a building is being made
 * by postcode or accreditation number for an energy assessor 
 * by postcode or certificate reference for 3 types of energy certificate, including the [energy performance certificate (EPC)](https://www.gov.uk/buy-sell-your-home/energy-performance-certificates)
 
-Previously, if someone wanted to find an EPC they had to use the [EPC register](https://www.epcregister.com/), a more complicated service that testing showed users find difficult.
+Previously if someone wanted to find an EPC they had to use the [EPC register](https://www.epcregister.com/). Testing showed, however, that users found this tool confusing.
 
 {{% cta-box %}}
 Try out our [current EPB prototype](https://mhclg-epb-prototype-04.herokuapp.com).
