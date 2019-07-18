@@ -3,6 +3,7 @@ languageCode = "en-uk"
 title = "Digital Land"
 theme = "govuk"
 googleAnalytics = "UA-127566551-1"
+enableRobotsTXT = true
 
 staticDir = ["static", "src/govuk_template/assets", "src/govuk_elements/assets"]
 
