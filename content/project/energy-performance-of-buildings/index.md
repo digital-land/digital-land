@@ -16,7 +16,7 @@ Test our [current EPB prototype](https://mhclg-epb-prototype-04.herokuapp.com).
 
 The [existing EPC register](https://www.epcregister.com/) has a complex user journey. Simplifying this journey and the online content will help users complete their tasks more easily.
 
-If you’re interested in this project, please contact the EPB Product Manager [Matt Anderson](mailto:Matthew.Anderson@communities.gov.uk).
+If you’re interested in this project, please [contact the EPB Product Manager Matt Anderson](mailto:Matthew.Anderson@communities.gov.uk).
 
 **Publishing EPC data**
 
