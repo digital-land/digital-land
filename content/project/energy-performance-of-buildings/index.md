@@ -20,8 +20,10 @@ If you’re interested in this project, please [contact the EPB Product Manager 
 
 **Publishing EPC data**
 
-Energy certificates are built on a rich source of housing data. For example, not only do EPCs tell people how to save energy and money, but they were the primary source of bulk open data on a property’s floor area in square metres.
+Energy certificates are built on a rich source of housing data. However, recent changes in data privacy regulations meant that MHCLG stopped updating and publishing the raw data from EPCs. 
 
-Recent changes in data privacy regulations meant that MHCLG stopped updating and publishing the raw data from EPCs. Our research showed that there is a need for this data, and that publishing the data is allowed under the legislation. Over the last year, the work of the Digital Land team’s policy specialists has resulted in the decision to publish EPC data once again. The data is now available on [Open Data Communities](https://epc.opendatacommunities.org/) and will be updated every 6 months.
+Our research showed that there is a need for this data. For example, not only do EPCs tell people how to save energy and money, but they were the primary source of bulk open data on a property’s floor area in square metres. Our research also showed that publishing the data is allowed under the privacy regulations.
 
-[Contact the Digital Land team](mailto:DigitalLand@communities.gov.uk) if you’re interested in EPC data.
+Over the last year, the work of the Digital Land team’s policy specialists has resulted in the decision to publish EPC data once again. The data is now available on [Open Data Communities](https://epc.opendatacommunities.org/) and will be updated every 6 months.
+
+[Read our blog](https://mhclgdigital.blog.gov.uk/2019/07/18/publishing-energy-performance-certificate-data/) to find out more about the user research and policy work involved in opening up EPC data again, or [contact the Digital Land team](mailto:DigitalLand@communities.gov.uk) if you’re interested in EPC data.
