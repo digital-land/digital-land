@@ -20,7 +20,7 @@ If you’re interested in this project, please [contact the EPB Product Manager 
 
 **Publishing EPC data**
 
-Energy certificates are built on a rich source of housing data. However recent changes in data privacy regulations meant that MHCLG stopped updating and publishing the raw data from EPCs. 
+Energy certificates are built on a rich source of housing data. However, recent changes in data privacy regulations meant that MHCLG stopped updating and publishing the raw data from EPCs. 
 
 Our research showed that there is a need for this data. For example, not only do EPCs tell people how to save energy and money, but they were the primary source of bulk open data on a property’s floor area in square metres. Our research also showed that publishing the data is allowed under the privacy regulations.
 
