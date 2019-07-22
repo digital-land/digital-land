@@ -92,7 +92,7 @@ We've been analysing the existing brownfield data to explore whether we can prop
 
 **4 April 2019**
 
-We met with [Campaign to Protect Rural England (CPRE)](https://cpre.org.uk/) to understand more about how they collected the brownfield data, the challenges they faced, and how they used the data.
+We met with [CPRE](https://cpre.org.uk/) to understand more about how they collected the brownfield data, the challenges they faced, and how they used the data.
 
 **March 2019**
 
