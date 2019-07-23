@@ -16,7 +16,7 @@ We're exploring the following areas to help us learn how we can make the data mo
 
 #### Questions we're asking
 
-Brownfield site data for local authorities can be difficult to locate and there’s no public register where all local authorities' data can be viewed in one place. Would creating a national index of all brownfield data be of value to local authorities and interested members of the community?
+Brownfield site data for local authorities can be difficult to locate and there’s no public register where all LA’s data can be viewed in one place. Would creating a national index of all brownfield data be of value to local authorities and interested members of the community?
 
 #### What we tested
 * a simple [index of brownfield site registers](https://github.com/communitiesuk/digital-land-collector/blob/master/etc/brownfield-site-publication.tsv)
@@ -52,7 +52,7 @@ Often the person in the local authority updating the brownfield site data has li
 
 #### What we will test
 
-We're building and testing a [validator tool](https://brownfield-sites-status.herokuapp.com/) which will check local planning authorities' brownfield site data and display the [results of all local authorities' data](https://brownfield-sites-status.herokuapp.com/breakdown). 
+We built and tested a validator and are now creating a new  [validator tool](https://brownfield-sites-status.herokuapp.com/) based on our learnings.  This validator will check local planning authorities' brownfield site data and display the [results of all local authorities' data](https://brownfield-sites-status.herokuapp.com/breakdown). 
 
 {{< prototype-heading "View brownfield site registers" >}}
   {{< progress-tag "in-progress" >}}In progress{{< /progress-tag >}}
@@ -73,6 +73,21 @@ We made a number of useful observations while compiling the simple index, includ
 * when some registers were updated their URLs changed (ie they're not static)
 * registers were often published in formats other than .csv (eg Excel files)
 * registers often contained gaps or errors
+
+{{< prototype-heading "A way of fixing errors" >}}
+  {{< progress-tag "in-progress" >}}In progress{{< /progress-tag >}}
+{{< /prototype-heading >}}
+
+#### Questions we're asking
+
+Many of the errors we identified in published brownfield data were common mistakes, such as switching GeoX and GeoY coordinates, or omitting empty rows in the data. Would offering to automatically fix common errors after validating the data be useful to LAs and improve the state of data?
+
+#### What we will test
+* a [validation tool](https://brownfield-sites-status.herokuapp.com/) for brownfield sites
+
+#### What we've learned
+
+We spoke with people from local authorities who are responsible for publishing the data. Often they were not technically trained or experienced with working with data. We tested an old version of the validator with some of these users, many of whom were able to spot and correct the data errors. We may work on building a way of automatically correcting errors into the new validator.
 
 ## Upcoming areas of investigation
 
