@@ -5,7 +5,7 @@ summary: Use this guidance to ensure your brownfield site register meets the agr
 
 Local planning authorities must maintain a register of their brownfield sites that is publicly available and in an agreed format.
 
-This guidance, alongside the [Check your brownfield site register service](https://brownfield-sites-validator.cloudapps.digital/start), will help local authorities ensure brownfield site registers are:
+This guidance, alongside the [Check your brownfield site register service](https://brownfield-sites-status.herokuapp.com/), will help local authorities ensure brownfield site registers are:
 
 * in the agreed format and contain the required data
 * kept up-to-date
@@ -57,7 +57,7 @@ The .csv file must include:
 * data that carefully follows the instructions for each column
 Each field must contain only one entry (with the exception of planning history, which can contain multiple entries).
 
-Use our [Check your brownfield site register](https://brownfield-sites-validator.cloudapps.digital/start) service to check the .csv file for errors or omissions. The tool can automatically correct some of these.
+Use our [Check your brownfield site register](https://brownfield-sites-status.herokuapp.com/) service to check the .csv file for errors or omissions. The tool can automatically correct some of these.
 
 Column 1
 **OrganisationURI**
