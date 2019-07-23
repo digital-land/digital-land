@@ -26,7 +26,7 @@ Finding published viability assessments is extremely difficult. Would providing 
 
 #### What we will test
 
-* [an index of viability assessments](https://section-106-prototype.cloudapps.digital/viability/)
+* [an index of viability assessments](https://section-106-prototype.herokuapp.com/viability/)
 
 {{< /in-progress-issue >}}
 
@@ -38,7 +38,7 @@ Will presenting what contribution agreements have been made, where funds have be
 
 #### What we will test
 
-* [a visualisation of developer contribution data](https://section-106-prototype.cloudapps.digital/developer-contributions/section106-wide)
+* [a visualisation of developer contribution data](https://section-106-prototype.herokuapp.com/developer-contributions/section106-wide)
 
 {{< /in-progress-issue >}}
 
@@ -50,7 +50,7 @@ Section 106 contributions are published as documents. Would offering planning au
 
 #### What we tested
 
-* [a tool to collect Section 106 data](https://section-106-prototype.cloudapps.digital/create-section106)
+* [a tool to collect Section 106 data](https://section-106-prototype.herokuapp.com/create-section106)
 
 #### What we've learned
 
@@ -65,7 +65,7 @@ Developer contributions data will need to be published in line with the data for
 
 #### What we will test
 
-* [a tool to check your developer contribution data](https://section-106-prototype.cloudapps.digital/validate-start)
+* [a tool to check your developer contribution data](https://section-106-prototype.herokuapp.com/validate-start)
 
 {{< /in-progress-issue >}}
 
