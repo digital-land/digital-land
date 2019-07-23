@@ -10,9 +10,7 @@ summary: We’re exploring digital tools that could help local planning authorit
 
 We're exploring the following areas to help us learn how we can make the data more open and easier to use:
 
-{{< prototype-heading "An index of brownfield site registers" >}}
-  {{< progress-tag "in-progress" >}}In progress{{< /progress-tag >}}
-{{< /prototype-heading >}}
+{{< in-progress-issue title="An index of brownfield site registers" number="40">}}
 
 #### Questions we're asking
 
@@ -30,9 +28,7 @@ We made a number of useful observations while compiling the simple index, includ
 * registers were often published in formats other than CSV (eg Excel files)
 * registers often contained gaps or errors
 
-{{< prototype-heading "Guidance on updating your brownfield site data" >}}
-  {{< progress-tag "in-progress" >}}In progress{{< /progress-tag >}}
-{{< /prototype-heading >}}
+{{< in-progress-issue title="Guidance on updating your brownfield site data" number="44">}}
 
 #### Questions we're asking
 
@@ -42,9 +38,7 @@ Would guidance help local authorities publish their brownfield data to a standar
 
 We're currently creating [guidance on publishing brownfield site data](https://digital-land.github.io/guidance/brownfield-sites/). We will test this guidance with users from local planning authorities and continue to improve it.
 
-{{< prototype-heading "Brownfield site data validator" >}}
-  {{< progress-tag "in-progress" >}}In progress{{< /progress-tag >}}
-{{< /prototype-heading >}}
+{{< in-progress-issue title="Brownfield site data validator" number="39">}}
 
 #### Questions we're asking
 
@@ -54,9 +48,7 @@ Often the person in the local authority updating the brownfield site data has li
 
 We built and tested a validator and are now creating a new  [validator tool](https://brownfield-sites-status.herokuapp.com/) based on our learnings.  This validator will check local planning authorities' brownfield site data and display the [results of all local authorities' data](https://brownfield-sites-status.herokuapp.com/breakdown). 
 
-{{< prototype-heading "A way of fixing errors" >}}
-  {{< progress-tag "in-progress" >}}In progress{{< /progress-tag >}}
-{{< /prototype-heading >}}
+{{< in-progress-issue title="A way of fixing errors" number="44">}}
 
 #### Questions we're asking
 
