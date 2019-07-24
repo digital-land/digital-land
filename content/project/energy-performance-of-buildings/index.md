@@ -5,8 +5,7 @@ hasContent: false
 pageFeedback: true
 summary: The EPB team are building a service to help users easily find an energy certificate or assessor, and we’ve also been working to open up the data held in EPCs.
 ---
-
-			
+	
 Finding an energy certificate or an energy assessor for a building is being made easier thanks to a new online service. A prototype being developed by the energy performance of buildings (EPB) team within the Ministry of Housing, Communities and Local Government (MHCLG) Digital Directorate lets users search:
 
 * by postcode or accreditation number for an energy assessor 
@@ -21,6 +20,8 @@ Try out our [current EPB prototype](https://mhclg-epb-prototype-04.herokuapp.com
 The new service recently passed its GOV.UK alpha assessment and is moving into the beta stage of development, which involves making improvements based on testing with users.
 
 If you’re interested in this project, please [contact the EPB Product Manager Matt Anderson](mailto:Matthew.Anderson@communities.gov.uk).
+
+The team is currently [looking for a supplier to deliver beta](https://www.digitalmarketplace.service.gov.uk/digital-outcomes-and-specialists/opportunities/10188).
 
 ## Publishing EPC data
 
