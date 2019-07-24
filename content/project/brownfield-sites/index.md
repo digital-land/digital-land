@@ -8,20 +8,20 @@ summary: We’re exploring digital tools that could help local planning authorit
 ---
 ## Current areas of investigation
 
-We're exploring the following areas to help us learn how we can make the data more open and easier to use:
+We're exploring the following areas to help us learn how we can open up brownfield site data and make it easier to use:
 
 {{< in-progress-issue title="An index of brownfield site registers" number="40">}}
 
 #### Questions we're asking
 
-Brownfield site data for local authorities can be difficult to locate and there’s no public register where all local authorities' data can be viewed in one place. Would creating a national index of all brownfield data be of value to local authorities and interested members of the community?
+Brownfield site data for local authorities can be difficult to locate and there’s no public register where all local authorities' data can be viewed in one place. Would creating a national index of all brownfield data be of value to local authorities and other interested members of the community?
 
 #### What we tested
 * a simple [index of brownfield site registers](https://github.com/communitiesuk/digital-land-collector/blob/master/etc/brownfield-site-publication.tsv)
 
 #### What we learned
 
-We made a number of useful observations while compiling the simple index, including that:
+We made a number of useful observations while building the index, including that:
 
 * planning authorities often failed to provide a direct link to the data (ie to a policy page instead)
 * when some registers were updated their URLs changed (ie they're not static)
