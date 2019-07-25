@@ -23,9 +23,9 @@ Brownfield site data for local authorities can be difficult to locate and thereâ
 
 We made a number of useful observations while building the index, including that:
 
-* planning authorities often failed to provide a direct link to the data (ie to a policy page instead)
-* when some registers were updated their URLs changed (ie they're not static)
-* registers were often published in formats other than CSV (eg Excel files)
+* planning authorities often failed to provide a direct link to the data (for example linking to a policy page instead)
+* when some registers were updated their URLs changed (URLs were not static)
+* registers were often published in formats other than CSV (such as Microsoft Excel files)
 * registers often contained gaps or errors
 
 {{< in-progress-issue title="Guidance on updating your brownfield site data" number="44">}}
