@@ -23,9 +23,9 @@ Brownfield site data for local authorities can be difficult to locate and thereâ
 
 We made a number of useful observations while building the index, including that:
 
-* planning authorities often failed to provide a direct link to the data (ie to a policy page instead)
-* when some registers were updated their URLs changed (ie they're not static)
-* registers were often published in formats other than CSV (eg Excel files)
+* planning authorities often failed to provide a direct link to the data (for example linking to a policy page instead)
+* when some registers were updated their URLs changed (URLs were not static)
+* registers were often published in formats other than CSV (such as Microsoft Excel files)
 * registers often contained gaps or errors
 
 {{< in-progress-issue title="Guidance on updating your brownfield site data" number="44">}}
@@ -52,7 +52,7 @@ We built and tested a validator and are now creating a new  [validator tool](htt
 
 #### Questions we're asking
 
-Many of the errors we identified in published brownfield data were common mistakes, such as switching GeoX and GeoY coordinates, or omitting empty rows in the data. Would offering to automatically fix common errors after validating the data be useful to local authorities and improve the state of data?
+Many of the errors we identified in published brownfield data were common mistakes, such as switching GeoX and GeoY coordinates, or omitting empty rows in the data. Would offering to automatically fix common errors after validating the data be useful to local authorities and improve the quality of the data?
 
 #### What we will test
 * a [validation tool](https://brownfield-sites-status.herokuapp.com/) for brownfield sites
