@@ -1,6 +1,6 @@
 ---
 title: "Local plans"
-status: discovery
+status: alpha
 label: "project:local-plans"
 hasContent: true
 pageFeedback: true
@@ -35,9 +35,9 @@ We're conducting user research with local planning authorities, specifically inv
 
 #### Questions we’re asking
 
-There is no central record of where local planning authorities are in the process of producing their local plans. Would creating a central record be useful to users of local plans? 
+There is no central record of where local planning authorities are in the process of producing their local plans. Would creating a central record be useful to users of local plans?
 
-What would a useful record of local plan production look like? 
+What would a useful record of local plan production look like?
 
 What are the obstacles to creating one?
 
@@ -69,9 +69,9 @@ What is the process for creating a local plan?
 
 What steps are required, what data is needed, who is involved and what are their roles?
 
-How does the process vary between local planning authorities and what are the implications of differences? 
+How does the process vary between local planning authorities and what are the implications of differences?
 
-How much are communities consulted on plans and is there a role for data to support that? 
+How much are communities consulted on plans and is there a role for data to support that?
 
 What are the pain points in generating the data?
 
