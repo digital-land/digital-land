@@ -1,6 +1,6 @@
 ---
 title: "Developer contributions"
-status: alpha
+status: beta
 type: project
 label: "project:developer-contributions"
 hasContent: true
