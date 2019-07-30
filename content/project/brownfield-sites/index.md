@@ -46,7 +46,7 @@ Often the person in the local authority updating the brownfield site data has li
 
 #### What we will test
 
-We built and tested a validator and are now creating a new  [validator tool](https://brownfield-sites-status.herokuapp.com/) based on our learnings.  This validator will check local planning authorities' brownfield site data and display the [results of all local authorities' data](https://brownfield-sites-status.herokuapp.com/breakdown). 
+We built and tested an [early version of a validator](https://digital-land.github.io/brownfield-sites/results/) and based on what we learnt we are now creating a new [validator tool](https://brownfield-sites-status.herokuapp.com/).  This validator will check local planning authorities' brownfield site data and display the [results of all local authorities' data](https://brownfield-sites-status.herokuapp.com/breakdown). 
 
 {{< in-progress-issue title="A way of fixing errors" number="44">}}
 
