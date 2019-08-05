@@ -21,8 +21,6 @@ The new service recently passed its GOV.UK alpha assessment and is moving into t
 
 If you’re interested in this project, please [contact the EPB Product Manager Matt Anderson](mailto:Matthew.Anderson@communities.gov.uk).
 
-The team is currently [looking for a supplier to deliver beta](https://www.digitalmarketplace.service.gov.uk/digital-outcomes-and-specialists/opportunities/10188).
-
 ## Publishing EPC data
 
 Energy certificates are built on a rich source of housing data. However, recent changes in data privacy regulations meant that MHCLG stopped updating and publishing the raw data from EPCs.
