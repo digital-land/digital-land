@@ -17,11 +17,9 @@ Previously if someone wanted to find an EPC they had to use the [EPC register](h
 Try out our [current EPB prototype](https://mhclg-epb-prototype-04.herokuapp.com).
 {{% /cta-box %}}
 
-The new service recently passed its GOV.UK alpha assessment and is moving into the beta stage of development, which involves making improvements based on testing with users.
+The new service recently passed its GOV.UK alpha assessment and is moving into the beta stage of development, which involves making improvements based on testing with users. We recently [advertised for a supplier to deliver beta](https://www.digitalmarketplace.service.gov.uk/digital-outcomes-and-specialists/opportunities/10188).
 
 If you’re interested in this project, please [contact the EPB Product Manager Matt Anderson](mailto:Matthew.Anderson@communities.gov.uk).
-
-The team is currently [looking for a supplier to deliver beta](https://www.digitalmarketplace.service.gov.uk/digital-outcomes-and-specialists/opportunities/10188).
 
 ## Publishing EPC data
 
