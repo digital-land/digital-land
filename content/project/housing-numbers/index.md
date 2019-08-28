@@ -47,7 +47,7 @@ Take a look at what [we’ve built so far](https://local-plans-prototype.herokua
 
 **April 2019**
 
-We collected the [latest housing numbers](https://local-plans-prototype.herokuapp.com/planning-authority) from emerging and adopted local plans. We plan to validate these numbers with local planning authorities.
+We collected the [latest housing numbers](https://local-plans-prototype.herokuapp.com/) from emerging and adopted local plans. We plan to validate these numbers with local planning authorities.
 
 **19 March 2019**
 
