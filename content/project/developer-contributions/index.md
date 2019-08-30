@@ -22,13 +22,13 @@ The following areas of investigation explore how the data could be used and made
 
 #### Questions we're asking
 
-Each year local planning authorities will have to publish an Infrastructure Funding Statement. This report will use data that has been published throughout the year to give an annual summary.
+Each year local planning authorities will have to publish an infrastructure funding statement. This report will use data that has been published throughout the year (using our [guidance](https://digital-land.github.io/guidance/developer-contributions/)) to give an annual summary.
 
-Working with local planning authorities we would like to test the content and design of the report, and a way of building and publishing the report.
+Working with local planning authorities we would like to test the content and design of the report, as well as testing a way of building and publishing the report.
 
 #### What we will test
 
-* There are some very early mock-ups linked to on our [GitHub issue](https://github.com/digital-land/digital-land/issues/222)
+* we have designed some very early mock-ups linked to from our [GitHub issue](https://github.com/digital-land/digital-land/issues/222)
 
 {{< /in-progress-issue >}}
 
