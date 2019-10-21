@@ -70,12 +70,15 @@ We spoke with people from local authorities who are responsible for publishing t
 ## Timeline
 
 **[7 October 2019](https://digital-land.github.io/weeknote/2019-10-07/#brownfield-sites-https-digital-land-github-io-project-brownfield-sites)**
+
 We expored ways of simplifying the format, based on the collection of 2018 register.
 
 **[4 October 2019](https://digital-land.github.io/weeknote/2019-10-04/#brownfield-sites-https-digital-land-github-io-project-brownfield-sites)**
+
 We made a [prototype map](https://digital-land.github.io/brownfield-sites-map/) of the data collected so far.
 
 **[27 September 2019](https://digital-land.github.io/weeknote/2019-09-27/#brownfield-sites-https-digital-land-github-io-project-brownfield-sites)**
+
 We began work on a nightly collection process, starting with the brownfield sites collector.
 
 **15 June 2019**
