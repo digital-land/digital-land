@@ -17,11 +17,11 @@ We're exploring the following areas to help us learn how we can open up brownfie
 Brownfield site data for local authorities can be difficult to locate and there’s no public register where all local authorities' data can be viewed in one place. Would creating a national index of all brownfield data be of value to local authorities and other interested members of the community?
 
 #### What we tested
-* a simple [index of brownfield site registers](https://github.com/communitiesuk/digital-land-collector/blob/master/etc/brownfield-site-publication.tsv)
+* a simple [collection of brownfield site registers](https://github.com/digital-land/brownfield-sites-collection)
 
 #### What we learned
 
-We made a number of useful observations while building the index, including that:
+We made a number of useful observations while building the collection, including that:
 
 * planning authorities often failed to provide a direct link to the data (for example linking to a policy page instead)
 * when some registers were updated their URLs changed (URLs were not static)
@@ -46,7 +46,7 @@ Often the person in the local authority updating the brownfield site data has li
 
 #### What we will test
 
-We built and tested an [early version of a validator](https://digital-land.github.io/brownfield-sites/results/) and based on what we learnt we are now creating a new [validator tool](https://brownfield-sites-status.herokuapp.com/).  This validator will check local planning authorities' brownfield site data and display the [results of all local authorities' data](https://brownfield-sites-status.herokuapp.com/breakdown). 
+We built and tested an [early version of a validator](https://digital-land.github.io/brownfield-sites/results/) and based on what we learnt we are now creating a new [collector tool](https://brownfield-sites-status.herokuapp.com/).  This will check local planning authorities' brownfield site data and display the [results of all local authorities' data](https://brownfield-sites-status.herokuapp.com/breakdown). 
 
 {{< in-progress-issue title="A way of fixing errors" number="44">}}
 
@@ -68,6 +68,18 @@ We spoke with people from local authorities who are responsible for publishing t
 {{< govuk-section-break "xl" >}}
 
 ## Timeline
+
+**[7 October 2019](https://digital-land.github.io/weeknote/2019-10-07/#brownfield-sites-https-digital-land-github-io-project-brownfield-sites)**
+
+We expored ways of simplifying the format, based on the collection of 2018 register.
+
+**[4 October 2019](https://digital-land.github.io/weeknote/2019-10-04/#brownfield-sites-https-digital-land-github-io-project-brownfield-sites)**
+
+We made a [prototype map](https://digital-land.github.io/brownfield-sites-map/) of the data collected so far.
+
+**[27 September 2019](https://digital-land.github.io/weeknote/2019-09-27/#brownfield-sites-https-digital-land-github-io-project-brownfield-sites)**
+
+We began work on a nightly collection process, starting with the brownfield sites collector.
 
 **15 June 2019**
 
