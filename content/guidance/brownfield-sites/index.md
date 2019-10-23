@@ -1,277 +1,242 @@
 ---
-title: "Update your brownfield site register"
-summary: Use this guidance to ensure your brownfield site register meets the agreed format, is up to date, and is easy to find and use.
+title: "Publish your brownfield site data"
 ---
 
-Local planning authorities must maintain a register of their brownfield sites that is publicly available and in an agreed format.
+{{% contents %}}
+- Publish your brownfield site data
+- [Step 1: Create your CSV file]({{< ref "create-your-csv-file.md" >}})
+- [Step 2: Update your brownfield site web page]({{< ref "update-your-brownfield-site-web-page.md" >}})
+- [Step 3: Update the national register of brownfield sites]({{< ref "update-the-national-register-of-brownfield-sites.md" >}})
+{{% /contents %}}
 
-This guidance, alongside the [Check your brownfield site register service](https://brownfield-sites-status.herokuapp.com/), will help local authorities ensure brownfield site registers are:
+The Town and Country Planning (Brownfield Land Register) Regulations 2017 require local planning authorities to maintain a register of their brownfield sites. This guidance will help local authorities ensure brownfield site registers are:
 
-* in the agreed format and contain the required data
-* kept up-to-date
+* published in the agreed format and contain the required data
+* kept up to date
 * easily found online
 
-This ensures the data is fit for purpose and meets the needs of planners, developers, policymakers and communities.
+{{% inset-text %}}
+Please share any feedback on this guidance by emailing DigitalLand@communities.gov.uk
+{{% /inset-text %}}
 
-## Use the brownfield sites common data format
+##Make your data findable, usable and trustworthy
 
-Your register should be uploaded to your website as a .csv file that contains specific fields and content. If it isn’t the data will be difficult or impossible to use.
+Brownfield sites are an important part of cost-efficient and sustainable local planning and development. Data on them has a wide range of current and potential uses, including:
 
-### File type and name
+* planning land and housing development
+* creating new digital services
+* giving community members insight into local development
 
-Brownfield type registers must be saved in a comma separated value (.csv) file.
+But for data to be useful it must be easy to find, use, understand and trust. Local authorities should ensure that their brownfield site data is all of these by following this guidance, which gives a high-level overview of the data format and the publication process.
 
-A .csv file (or comma separated value file) is a universally recognised file format for storing tabular data in plain text. The following table of data comprises headers describing columns and data arranged in rows:
+We’re also developing a tool which you can try out to [check your brownfield site data](https://brownfield-sites-validator.cloudapps.digital/start). This is not a live service, but a prototype we are testing.
 
-| OrganisationLabel | SiteReference |
-| -------- | -----:|
-| Dacorum Borough Council | BLR/001
-| Dacorum Borough Council | BLR/002
-| Dacorum Borough Council | BLR/003 |
 
-This is represented in a .csv file in the following format:
+## Publishing brownfield site data: 3 steps
 
-```
-OrganisationLabel,SiteReference
-Dacorum Borough Council,BLR/001
-Dacorum Borough Council,BLR/002
-Dacorum Borough Council,BLR/003
-```
+Try to update your register as soon as a new brownfield site is identified or an existing one changes status. Local planning authorities must review their brownfield site register at least once a year but are encouraged to do so as often as possible to ensure the data is up to date, and to give better value to planners and developers. 
 
-One commonplace way to create a .csv file is to enter the values in an Excel spreadsheet and “save as .csv”.
+Publishing is a 3 step process:
 
-The .csv file name must be in the format brownfield-sites.[organisation code].csv, where [organisation code] can be found…
+1. Create a brownfield site CSV file
+2. Upload each of these files to your organisation’s website and give them a persistent URL, then clearly link to them from your brownfield site web page
+3. Update the national register of brownfield sites on the Ministry of Housing, Communities and Local Government (MHCLG) website
 
-So, for example, Dacorum local authority’s brownfield site register file would be named:
+{{% inset-text %}}
+You may not be able or authorised to complete all steps. Each step identifies the skills and authority required to complete it.
+{{% /inset-text %}}
 
-{{< tech-block >}}brownfield-sites-DAC.csv{{< /tech-block >}}
+{{% pagination-component %}}
+{{% pagination-next href="create-your-csv-file.md" text="Step 1: Create your CSV file" %}}
+{{% /pagination-component %}}
 
-For general information on creating a .csv file see the W3C’s [CSVs on the web: a primer](http://w3c.github.io/csvw/primer/).
+---
+title: "Step 1: Create your CSV file"
+---
 
-### Field definitions and formatting
+{{% contents %}}
+- [Publish your brownfield site data]({{< ref "_index.md" >}})
+- Step 1: Create your CSV file
+- [Step 2: Update your brownfield site web page]({{< ref "update-your-brownfield-site-web-page.md" >}})
+- [Step 3: Update the national register of brownfield sites]({{< ref "update-the-national-register-of-brownfield-sites.md" >}})
+{{% /contents %}}
 
-The .csv file must include:
+{{% inset-text %}}
+To complete step 1 you must be able to create or amend CSV files using spreadsheet software such as Microsoft Excel, Google Sheets or Apple Numbers, then when saving simply select ‘save as .csv file’. Find out more about [creating a CSV file](http://w3c.github.io/csvw/primer/).
+{{% /inset-text %}}
 
-* all columns listed below (even if all fields in a column are blank)
+
+Brownfield site data should be listed in a CSV file named brownfield-sites.csv
+
+##Field definitions and formatting
+
+The CSV file must include: 
+
+* all columns listed exactly as written below, even if all fields in a column are blank (column headers are case sensitive) 
 * 1 row of data for each brownfield site
 * data that carefully follows the instructions for each column
-Each field must contain only one entry (with the exception of planning history, which can contain multiple entries).
+Each row must contain a single entry for each unless stated otherwise. When a field requires a number use a digit (2) rather than a word (two).
 
-Use our [Check your brownfield site register](https://brownfield-sites-status.herokuapp.com/) service to check the .csv file for errors or omissions. The tool can automatically correct some of these.
+###OrganistaionURI
+Find your organisation in this list and enter the value in the “opendatacommunties” column. This is the URL of your organisation on https://opendatacommunities.org.
 
-Column 1
-**OrganisationURI**
+###SiteReference
+Enter a unique reference your organisation uses to identify the site, or create one if none exists. It should not be used by your organisation to identify any other sites, but can be borrowed from another dataset listing the site.
 
-Search for your local authority on the Local Government Association’s [Uniform resource identifiers (URIs) tool](https://uris.opendata.esd.org.uk/). Enter the URI, which will begin with ‘http://opendatacommunities.org/id/’. If a site is spread across local authority boundaries, a URI must be entered for each local authority that contains part of the site.
-
-Column 2
-**OrganisationLabel**
-
-Enter the official name of the local authority identified in column 1.
-
-Column 3
-**SiteReference**
-
-Enter the unique reference the local authority uses to identify the site. It mustn’t be used by the authority to identify any other sites, but can be borrowed from other another dataset listing the site.
-
-Column 4
-**PreviouslyPartOf**
-
-If the site was part of a different SiteReference on an earlier register, you can report that here. Otherwise leave this blank.
-
-Column 5
-**SiteNameAddress**
-
+###SiteNameAddress
 Enter the name and address of the site in a single line of text. Put the text in double quotes if you use commas to separate parts of the address (for example, “John Smith”, “110 Elm Street”, “Bath”, “BA1 2AB”).
 
-Column 6
-**SiteplanURL**
+###SitePlanURL
+Enter the URL of a webpage hosting the site plan, beginning with either “http://” or “https://”.
 
-Enter the address (URL) of the webpage hosting the site plan, beginning with either http:// or https://.
+###Latitude
+Enter the latitude of a point close to the centre of the site. The value should be 6 or fewer decimal places, using the WGS84 or ETRS89 coordinate systems specified by the open standards for government guidance on [exchange of location](https://www.gov.uk/government/publications/open-standards-for-government/exchange-of-location-point). This field was formerly called “GeoY”.
 
-Column 7
-**CoordinateReferenceSystem**
+###Longitude
+Enter the longitude of a point close to the centre of the site. The value should be 6 or fewer decimal places, using the WGS84 or ETRS89 coordinate system specified by the open standards for government guidance on [exchange of location](https://www.gov.uk/government/publications/open-standards-for-government/exchange-of-location-point). This field was formerly called “GeoX”.
 
-Enter the coordinate reference system that’s used for the location mapping fields ‘GeoX’ and ‘GeoY’. Local authorities should be using [ETRS89](https://en.wikipedia.org/wiki/European_Terrestrial_Reference_System_1989) – the adopted standard where precision mapping is needed – but WGS48 and OSGB36 are also valid entries.
+! Be sure to check that you don’t mix up the latitude and longitude values. Any location in the UK will have a latitude from about 49 to 57 and a longitude from about -7 to 2.
 
-Column 8
-**GeoX**
-
-Enter the longitude or east grid reference for the centre of the site. Longitude will typically be stated to 6 decimal places of a degree. Easting will typically be a whole number, or stated up to 2 decimal places.
-
-Column 9
-**GeoY**
-Enter the latitude or north grid reference for the centre of the site. Latitude will typically be stated to 6 decimal places of a degree. Northing will typically be a whole number, or stated up to 2 decimal places.
-
-Column 10
-**Hectares**
-
+###Hectares
 Enter the land area of the site in hectares, up to 2 decimal places.
 
-Column 11
-**OwnershipStatus**
+###OwnershipStatus
+Indicate the site’s ownership by entering one of the following values: 
 
-Choose which one of the following describes who owns the site:
-
-* owned by a public authority
-* not owned by a public authority
-* mixed ownership
-* unknown ownership
-
+* “owned by a public authority” for a site wholly owned by a public authority
+* “mixed ownership” for a site on land partly owned by a public authority (‘mixed ownership’) 
+* “not owned by a public authority” for a site not owned in any part by a public authority
+* “unknown” where the ownership of the site is unknown or unclear to your organisation
 For more information see paragraph 5 of [Schedule 2 of the 2017 Regulations](http://www.legislation.gov.uk/uksi/2017/403/schedule/2/made).
 
-Column 12
-**Deliverable**
+###PlanningStatus
+Choose one of the following to indicate what stage of the planning process the site is at:
 
-Enter ‘Yes’ if there is a reasonable prospect that residential development will take place on the land within 5 years beginning with the entry. Otherwise leave this field blank.
+* “permissioned”
+* “not permissioned”
+* “pending decision”
 
-Column 13
-**PlanningStatus**
+When part of a site is permissioned, it should be recorded as “permissioned”, and the notes field used to explain why it’s only partly permissioned. For more information see paragraph 5 of [Schedule 2 of the 2017 Regulations](http://www.legislation.gov.uk/uksi/2017/403/schedule/2/made).
 
-Choose one of the following to indicate what stage of the planning process the site is at, if any:
+You can leave this field blank if the planning status is unclear or unknown.
 
-* permissioned
-* not permissioned
-* pending decision
+###PermissionType
+Choose one of the following to indicate what permission type the site has:
 
-When part of a site is permissioned, it should be recorded as ‘permissioned’ here and the notes field used to explain why it’s only partly permissioned. For more information see paragraph 5 of [Schedule 2 of the 2017 Regulations](http://www.legislation.gov.uk/uksi/2017/403/schedule/2/made).
+* “full planning permission”
+* “outline planning permission”
+* “reserved matters approval”
+* “permission in principle”
+* “technical details consent”
+* “planning permission granted under an order”
+* “other”
 
-Column 12
-**Deliverable**
+Where more than one permission exists for the site, identify the latest permission granted and any other permissions, including the date that such permission was granted or deemed to have been granted, in the ’Notes’ column. ‘planning permission granted under an order’ means planning permission granted under a local development order, a mayoral development order or a neighbourhood development order.
 
-Enter ‘Yes’ if there is a reasonable prospect that residential development will take place on the land within 5 years beginning with the entry. Otherwise leave this field blank.
+###PermissionDate
+Enter the date the most recent permission was granted on the site, in the format YYYY-MM-DD. If no permission has been granted leave this blank. 
 
-Column 13
-**PlanningStatus**
+###PlanningHistory
+Enter links to any web pages that give information on the site’s planning history (include the http:// or https:// prefix). Fields in this column can contain more than one link, as long as you separate multiple links with the pipe character (‘|’). You can leave this field blank.
 
-Choose one of the following to indicate what stage of the planning process the site is at, if any:
+###Deliverable
+Enter ‘Y’ if there is a reasonable prospect that residential development will take place on the land within 5 years of the date you enter this site in the register. Otherwise leave this field blank.
 
-* permissioned
-* not permissioned
-* pending decision
-
-When part of a site is permissioned, it should be recorded as ‘permissioned’ here and the notes field used to explain why it’s only partly permissioned. For more information see paragraph 5 of [Schedule 2 of the 2017 Regulations](http://www.legislation.gov.uk/uksi/2017/403/schedule/2/made)..
-
-Column 14
-**PermissionType**
-
-If you entered ‘permissioned’ in column 13 enter one of the following:
-
-* full planning permission
-* outline planning permission
-* reserved matters approval
-* permission in principle
-* technical details consent
-* planning permission granted under an order
-* other
-
-Otherwise leave this blank. The terms are defined in paragraph 5 of [Schedule 2 of the 2017 Regulations](http://www.legislation.gov.uk/uksi/2017/403/schedule/2/made). If there is more than one permission for the site, identify the latest permission granted in this field. Use the ‘Notes’ column to list any other permissions, including the date each was granted.
-
-Column 15
-**PermissionDate**
-
-Enter the date the most recent permission was granted on the site, in the format yyyy-mm-dd. If no permission has been granted leave this blank.
-
-Column 16
-**PlanningHistory**
-
-Enter links here to any webpages that give information on the site’s planning history (include the http:// or https:// prefix and separate multiple links with the pipe character, i.e. ‘|’). You have the option to leave this field blank.
-
-Column 17
-**ProposedForPIP**
-
-Enter ‘yes’ if the site has been proposed for residential development (permission in principle). Otherwise leave blank. This field must be entered not later than 7 days after the local authority visibly posts a notice on or near the land for which this proposal is being made.
-
-Column 18
-**MinNetDwellings**
-
+###NetDwellingsRangeFrom
 Enter the minimum number of dwellings that the local authority estimates the site should support, as defined in [regulation 2 of the 2017 Regulations](http://www.legislation.gov.uk/uksi/2017/403/regulation/2/made).
 
-Column 19
-**DevelopmentDescription**
+###NetDwellingsRangeTo
+Enter the maximum number of dwellings that the local authority estimates the site should support, as defined in [regulation 2 of the 2017 Regulations](http://www.legislation.gov.uk/uksi/2017/403/regulation/2/made).
 
-Describe any housing development proposed for the site, in up to 4,000 characters. Leave blank if you make an entry for columns 22 and 23.
+###HazardousSubstances
+Enter ‘Y’ if the local authority is required by [regulation 26(3) of the Planning (Hazardous Substances) Regulations 2015](https://www.legislation.gov.uk/uksi/2015/627/regulation/26/made) to conduct an environmental impact assessment on the proposed development. Otherwise leave this blank. 
 
-Column 20
-**NonHousingDevelopment**
+###Notes
+Enter any general information about a site that developers might find useful. This field can contain multiple entries.
 
-Describe any non-housing development proposed for the site, in up to 4,000 characters. Indicate how the buildings or land will be used, and the scale of any such development. Leave blank if not relevant.
+Describe any housing development proposed for the site.
 
-Column 21
-**Part2**
-
-Enter ‘yes’ if you will fill out columns 22, 23 and/or 24. Leave this blank if you haven’t used any of those columns or if you entered ‘yes’ in column 17.
-
-Column 22
-**NetDwellingsRangeFrom**
-
-If column 19 is blank, enter the minimum number of dwellings that, in the authority’s opinion, the land is capable of supporting. Otherwise leave this blank.
-
-Column 23
-**NetDwellingsRangeTo**
-
-If column 19 is blank, enter the maximum number of dwellings that, in the authority’s opinion, the land is capable of supporting. Otherwise leave this blank.
-
-Column 24
-**HazardousSubstances**
-
-Enter ‘yes’ if the local authority is required by [regulation 26(3) of the Planning (Hazardous Substances) Regulations 2015](https://www.legislation.gov.uk/uksi/2015/627/regulation/26/made) to conduct an environmental impact assessment on the proposed development. Otherwise leave blank.
-
-Column 25
-**SiteInformation**
-
-If you enter ‘yes’ in column 24, enter here links to any webpages that give:
+You may include links to any webpages that give:
 * information on planning decisions related to any environmental impact assessments
 * the results of any related consultations
-* an explanation of how they were taken into account when making the decisions
-Otherwise leave this blank. Include the http:// or https:// prefix and separate multiple links with the pipe character, i.e. ‘|’.
+* an explanation of how they were taken into account when making the decisions 
 
-Column 26
-**Notes**
+You may also describe any non-housing development proposed for the site. Indicate how the buildings or land will be used, and the scale of any such development.
 
-Enter any general information about a site that developers might find useful (up to 4,000 characters). This field is optional and can be left blank.
+This field should be no longer than 4,000 characters. You can leave this blank.
 
-Column 27
-**FirstAddedDate**
+###FirstAddedDate
+Enter the date that the site was first added to this register, in the format YYYY-MM-DD. 
 
-Enter the date that the site was first added to this register, in the format yyyy-mm-dd.
+###LastUpdatedDate
+Enter the date this entry in the register was updated, in the format YYYY-MM-DD.
 
-Column 28
-**LastUpdateDate**
+###EndDate
+If the site  no longer needs to be listed it should remain on the register and not be deleted. Enter the date the site was developed or determined to no longer be a brownfield site, in the format YYYY-MM-DD.
 
-Enter the date that the register was last updated, in the format yyyy-mm-dd. If it hasn’t been updated since it was first added to the register, repeat that date.
+---
 
-## Check the file using our validator
+##Checking your publication
+We’re also developing a tool which you can try out to [check your brownfield site data](https://brownfield-sites-validator.cloudapps.digital/start). This is not a live service, but a prototype we are testing.
 
-After you’ve updated your .csv file, use our validation tool to [check your brownfield site register}(https://brownfield-sites-validator.herokuapp.com/start) service for common errors and omissions. It will also fix many of these for you.
+---
+title: "Step 2: Update your brownfield sites web page"
+---
 
-## Keep your register up to date
+{{% contents %}}
+- [Publish your brownfield site data]({{< ref "_index.md" >}})
+- [Step 1: Create your CSV file]({{< ref "create-your-csv-file.md" >}})
+- Step 2: Update your brownfield site web page
+- [Step 3: Update the national register of brownfield sites]({{< ref "update-the-national-register-of-brownfield-sites.md" >}})
+{{% /contents %}}
 
-Try to update your register as soon as a new brownfield site is identified or an existing one changes status.
+{{% inset-text %}}
+To complete step 2 you must be able to edit (or create) your local authority’s brownfield sites web page. If you aren’t able or authorised to do this, speak to someone who is (this might be the person who updates your local planning authority’s developer contribution or planning application web pages).
+{{% /inset-text %}}
 
-While local planning authorities are required to review their brownfield site registers at least once a year, updating them more frequently will give better value to planners and developers.
+Upload the brownfield site CSV file to your local planning authority's website using a [persistent URL](https://en.wikipedia.org/wiki/Persistent_uniform_resource_locator) (a web address that will not change over time). For example, Norfolk’s local planning authority might use the following persistent URL (this is an example, not live data):
 
-## Make sure users can find your register
+https://www.norfolk.gov.uk/brownfield-site.csv
 
-Brownfield site data isn’t useful if it can’t be found. Ensure people can find it by:
+When you upload the file you should:
 
-* uploading the register to your planning authority’s website at a URL (web address) that won’t change
-* notifying MHCLG if for some reason the URL does change
-* using the agreed convention when naming the file
+* keep your older files online – it’s important to retain a history of all brownfield site files
+* the newest version of the brownfield data file should be called brownfield-site.csv 
+* the previous version should be kept and renamed brownfield-site-YYYYMMDD.csv, with the actual date in place of YYYYMMDD (for example brownfield-site-20190731.csv)
 
-## Common problems with brownfield site registers
+You should then update your local planning authority’s brownfield sites web page to make the CSV files publicly available. If your website does not have a page on brownfield sites, you or someone in the web team will need to create one.
 
-A number of problems frequently occur in brownfield site registers. Look out for:
+The page must list the persistent URL as defined above. The URLs must be written out in full. The URL should not change. However, if it ever does change, you must tell us.
 
-* using the wrong coordinate system
-  - in other words, rather than ‘GeoX’ and ‘GeoY’ (the ETRS89 system) registers sometimes use latitude and longitude (OSGB35) or northing and easting (WGS84)
-* accidentally transposed longitude and latitude
-  - any location in the UK will have a latitude in the range of ~49 to 57 and a longitude in the range of ~-7 to 2
-* incorrect column headings
-  - column headings are case sensitive (eg SiteNameAddress is correct, but sitenameaddress is not)
-* mandatory fields that are empty
-* incorrect date formats
-  - eg 2015-05-02 is correct, but 2nd May 2015 is not)
-* fields containing invalid values
-  - eg text appears where a number is required
-  - an invalid value appears where a specific type or range of value is required
+{{% pagination-component %}}
+{{% pagination-prev href="create-your-csv-file.md" text="Step 1: Create your CSV file" %}}
+{{% pagination-next href="update-the-national-register-of-brownfield-sites.md" text="Step 3: Update the national register of brownfield sites" %}}
+{{% /pagination-component %}}
+
+---
+title: "Step 3: Update the national register of brownfield sites"
+---
+
+{{% contents %}}
+- [Publish your developer contributions data]({{< ref "_index.md" >}})
+- [Step 1: Create your CSV file]({{< ref "create-your-csv-file.md" >}})
+- [Step 2: Update your brownfield sites web page]({{< ref "update-your-brownfield-sites-web-page.md" >}})
+- Step 3: Update the national register of brownfield sites
+{{% /contents %}}
+
+The Ministry of Housing, Communities and Local Government (MHCLG) will maintain a national register of brownfield sites.
+
+The first time you create and publish your CSV file you must tell us where this is published (the persistent URL created in step 2). You must also tell us if this URL ever changes.
+
+Email the URL you created in step 2 to DigitalLand@communities.gov.uk and we will add them to the national register.
+
+You will soon be able to submit the URL through an online tool the Digital Land team are developing. When this is ready, the team will make an announcement on the [Digital Land blog](https://digital-land.github.io/blog-post/) and this guidance will be updated.
+
+! If have any questions or feedback, please fill out this feedback form or email DigitalLand@communities.gov.uk
+
+{{% pagination-component %}}
+{{% pagination-prev href="update-your-brownfield-sites-web-page.md" text="Step 2: Update your brownfield sites web page" %}}
+{{% /pagination-component %}}
+
+National planning practice guidance on [brownfield land registers and permission in principle](https://www.gov.uk/government/collections/planning-practice-guidance
+) should be read alongside this document.
