@@ -1,44 +1,26 @@
 {{ define "content_inner" }}
 
-  <span class="govuk-caption-xl">{{ if isset .Params "cat_name" }}{{ .Params.cat_name | humanize }}{{ end }}</span>
-	<h1 class="govuk-heading-xl">
-	  {{ .Title }}
-	</h1>
+  {{ if isset .Params "cat_name" }}
+      <span class="govuk-caption-xl">{{ .Params.cat_name | humanize }}</span>
+  {{ end }}
+
+	<h1 class="govuk-heading-xl">{{ .Title }}</h1>
+  <div class="govuk-body-l">{{ .Content }}</div>
 
 	<div class="govuk-grid-row">
 		<div class="govuk-grid-column-two-thirds">
-			<p class="govuk-body-l">{{ .Params.lede }}</p>
-      <div class="markdown-output">
-        {{ .Content }}
-      </div>
-      <!-- 
-      an alternative way
-      {{ range .Site.Params.users }}{{ . }}{{ end }}
-      -->
 
       <ul class="govuk-list">
-
-      {{ $needs := (where .Site.Pages "Section" "needs")  }}
-      {{ range .Data.Pages }}
-        <li>
-        
+        {{ $needs := (where .Site.Pages "Section" "needs")  }}
+        {{ range .Data.Pages }}
         {{ $userType := .Params.abbr }}
-        
-        <h2 class="govuk-heading-m"><a href="{{ .URL }}">{{ $userType }}</a></h2>
-        <div class="markdown-output">{{ .Content }}</div>
-        <h3 class="govuk-body">Their needs:</h3>
-        <ul class="govuk-list govuk-list--bullet">
-        {{ range $needs }}
-          {{ if in .Params.user $userType }}
-            <li><a href="{{ .URL }}">{{ .Title }}</a></li>
-          {{ end }}
+          <li>
+            <a href="{{ .Permalink }}" class="govuk-link govuk-body-l">{{ $userType }}</a>
+            <p class="govuk-body">{{ .Params.Summary }}</p>
+          </li>
         {{ end }}
-        </ul>
-        </li>
-      {{ end }}
-  
       </ul>
-      
+
 		</div>
 	</div>
 

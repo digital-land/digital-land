@@ -1,0 +1,4 @@
+---
+title: Weeknotes
+aliases: [/event]
+---

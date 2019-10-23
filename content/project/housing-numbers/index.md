@@ -1,8 +1,10 @@
 ---
 title: "Housing numbers"
-status: alpha
+status: investigation
 label: "project:housing-numbers"
 hasContent: true
+pageFeedback: true
+summary: We’re collecting and publishing the number of houses each authority has committed to build as a way to explore how we can find and use data from local plans.
 ---
 
 ## Current areas of investigation
@@ -17,11 +19,11 @@ What is the best way to collect and publish data from local plans?
 
 #### What we're testing
 
-We’re focussing on one piece of data from local plans. We’ve now collected the housing numbers from most local plans, and are testing a tool to help us publish this data. 
+We’re focussing on one piece of data from local plans. We’ve now collected the housing numbers from most local plans, and are testing a tool to help us publish this data.
 
 #### What we’ve learned
 
-We now know that each local plan varies hugely in structure, format and how the data is presented. This means that finding one piece of information in each local plan can be challenging. 
+We now know that each local plan varies hugely in structure, format and how the data is presented. This means that finding one piece of information in each local plan can be challenging.
 
 By focussing on finding housing numbers, we have developed efficient ways to find the right data in local plans. This will inform the discovery phase of our wider local plans project.
 
@@ -45,7 +47,7 @@ Take a look at what [we’ve built so far](https://local-plans-prototype.herokua
 
 **April 2019**
 
-We collected the [latest housing numbers](https://local-plans-prototype.herokuapp.com/planning-authority) from emerging and adopted local plans. We plan to validate these numbers with local planning authorities.
+We collected the [latest housing numbers](https://local-plans-prototype.herokuapp.com/) from emerging and adopted local plans. We plan to validate these numbers with local planning authorities.
 
 **19 March 2019**
 

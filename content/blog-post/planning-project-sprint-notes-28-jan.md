@@ -20,7 +20,7 @@ related:
 
 * Kicked off the project! See [this blog post](https://digital-land.github.io/blog-post/kicking-off-the-planning-permissions-project/).
 * Created a draft roadmap for the Discovery and Alpha phases of this work.
-* Arranged and held 7+ stakeholder and user research interviews to find out more about the lifecycle of a planning application, the data links around planning applications and permissions, the schema that existing planning application/permissions viewing tools have, what kinds of people make use of planning applications/permissions data, and how a central government data source might be able to help them. 
+* Arranged and held 7+ stakeholder and user research interviews to find out more about the lifecycle of a planning application, the data links around planning applications and permissions, the schema that existing planning application/permissions viewing tools have, what kinds of people make use of planning applications/permissions data, and how a central government data source might be able to help them.
 
 ## This sprint we will…
 
@@ -35,6 +35,6 @@ related:
 * How could a user check on start, progress, and completion of a planned site?
 * How might we get more structured data flowing through the system?
 
-## And finally… 
+## And finally…
 
 * There has been a lot of work in this area already, and we are researching and talking to people who have worked on products around planning applications and permissions, e.g. [Planning Alerts](https://github.com/openaustralia/planningalerts/blob/master/app/models/application.rb), [Adrian Short’s scraper](https://github.com/adrianshort/uk_planning_scraper/blob/master/lib/uk_planning_scraper/application.rb), [PlanIt](http://planit.org.uk/dictionary/) and [PlanningFinder](https://www.planningfinder.co.uk/). We need to learn from previous successes, challenges, and lessons learned. Let us know if you have a connection or idea of someone we could talk to in our research!

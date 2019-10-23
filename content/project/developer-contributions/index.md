@@ -1,9 +1,11 @@
 ---
 title: "Developer contributions"
-status: alpha
+status: beta
 type: project
 label: "project:developer-contributions"
 hasContent: true
+pageFeedback: true
+summary: Help us develop a common data format that local planning authorities can use to publish their developer contributions data.
 ---
 
 ## Help us develop a common data format
@@ -24,7 +26,7 @@ Finding published viability assessments is extremely difficult. Would providing 
 
 #### What we will test
 
-* [an index of viability assessments](https://section-106-prototype.cloudapps.digital/viability/)
+* [an index of viability assessments](https://section-106-prototype.herokuapp.com/viability/)
 
 {{< /in-progress-issue >}}
 
@@ -36,7 +38,7 @@ Will presenting what contribution agreements have been made, where funds have be
 
 #### What we will test
 
-* [a visualisation of developer contribution data](https://section-106-prototype.cloudapps.digital/developer-contributions/section106-wide)
+* [a visualisation of developer contribution data](https://section-106-prototype.herokuapp.com/developer-contributions/section106-wide)
 
 {{< /in-progress-issue >}}
 
@@ -48,7 +50,7 @@ Section 106 contributions are published as documents. Would offering planning au
 
 #### What we tested
 
-* [a tool to collect Section 106 data](https://section-106-prototype.cloudapps.digital/create-section106)
+* [a tool to collect Section 106 data](https://section-106-prototype.herokuapp.com/create-section106)
 
 #### What we've learned
 
@@ -63,7 +65,7 @@ Developer contributions data will need to be published in line with the data for
 
 #### What we will test
 
-* [a tool to check your developer contribution data](https://section-106-prototype.cloudapps.digital/validate-start)
+* [a tool to check your developer contribution data](https://section-106-prototype.herokuapp.com/validate-start)
 
 {{< /in-progress-issue >}}
 
@@ -76,6 +78,14 @@ Developer contributions data will need to be published in line with the data for
 {{< govuk-section-break "xl" >}}
 
 ## Timeline
+
+**4 June 2019**
+
+Regulations officially laid and the government published their response to the consultation.
+
+**May 2019**
+
+We updated the guidance based on our learnings from the user testing sessions. Specifically we've tried to target the guidance to different audiences based on the tools they use to manage their contributions.
 
 **28 March 2019**
 
@@ -123,7 +133,7 @@ We met with [Exacom](http://exacom.co.uk/) to learn how developer contributions 
 
 **September 2018**
 
-We conducted user research to understand more about how developer contributions are managed, and what user needs we could address through making the data available. This included sessions with [Southwark Council](https://www.southwark.gov.uk/), [Dacorum Borough Council](http://www.dacorum.gov.uk/), [Lambeth Council](https://www.lambeth.gov.uk), [Islington Council](https://www.islington.gov.uk/) and [Waltham Forest Council](https://walthamforest.gov.uk/).  
+We conducted user research to understand more about how developer contributions are managed, and what user needs we could address through making the data available. This included sessions with [Southwark Council](https://www.southwark.gov.uk/), [Dacorum Borough Council](http://www.dacorum.gov.uk/), [Lambeth Council](https://www.lambeth.gov.uk), [Islington Council](https://www.islington.gov.uk/) and [Waltham Forest Council](https://walthamforest.gov.uk/).
 
 **June 2018**
 

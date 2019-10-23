@@ -1,0 +1,1 @@
+From December 2020, local authorities must publish an [infrastructure funding statement](https://www.gov.uk/guidance/community-infrastructure-levy#para175). It is anticipated that the statement will be produced using [published developer contribution data](https://digital-land.github.io/project/developer-contributions/) alongside some supplementary information.

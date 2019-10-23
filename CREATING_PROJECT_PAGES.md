@@ -41,3 +41,19 @@ To add links to the sections on the page add items like
 - [Help us develop a common data format](#help-us-develop-a-common-data-format)
 ```
 to the `_contents.md` file, replacing "Help us develop a common data format" and "help-us-develop-a-common-data-format" with the correct section headings.
+
+### Adding a call to action highlight box
+
+You can add a call to action box using the `cta-box` shortcode in a markdown file.
+
+Only use if absolutely necessary and only use one **call to action** box per page.
+
+This component should not be used as a substitute for the **start button** component.
+
+Example use:
+
+```
+{{% cta-box %}}
+Read the latest guidance on [Brownfield site registers](#some-url).
+{{% /cta-box %}}
+```

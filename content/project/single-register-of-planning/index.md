@@ -3,6 +3,8 @@ title: "Single register of planning"
 status: alpha
 type: project
 hasContent: true
+pageFeedback: true
+summary: We're working with mySociety to make planning application data more trustworthy and up to date, as well as easier to find and use.
 ---
 
 ## Goals

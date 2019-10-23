@@ -2,9 +2,10 @@
 title: "Data principles"
 label: "guidance:data-principles"
 hasContent: true
+summary: Follow our data principles to ensure consistency of data across all data sets.
 ---
 
-To ensure consistency of data that has been  provided from multiple sources, we have established a set of principles that are used across all data sets. 
+To ensure consistency of data that has been  provided from multiple sources, we have established a set of principles that are used across all data sets.
 
 {{< govuk-section-break "xl" >}}
 
@@ -12,7 +13,7 @@ To ensure consistency of data that has been  provided from multiple sources, we 
 
 Our data models share similar principles of a [relational database](https://en.wikipedia.org/wiki/Relational_database). This helps to reduce duplication and makes the data easier to maintain, which in turn increases the trust and usefulness of the data.
 
-When modelling the data standard for [developer contributions](/guidance/developer-contributions/) we created 3 files which can be linked together using unique identifiers. The first .csv contained a list of all agreements. In the second .csv we listed all the contributions, linking them back to the agreement they came from. In the third .csv we listed all the transactions and linked them to the contribution they are being paid towards. 
+When modelling the data standard for [developer contributions](/guidance/developer-contributions/) we created 3 files which can be linked together using unique identifiers. The first .csv contained a list of all agreements. In the second .csv we listed all the contributions, linking them back to the agreement they came from. In the third .csv we listed all the transactions and linked them to the contribution they are being paid towards.
 
 This style of data model means that each .csv only has to contain the minimum amount of required information, but we can link to related datasets to provide context and further detail.
 
@@ -39,7 +40,7 @@ Showing any changes in data helps to make the data more trustworthy and provides
 
 ### Date format
 
-Dates can be [written in many different ways](https://xkcd.com/1179/). To avoid confusion, all dates should comply with the internationally recognised [ISO 8601 standard](https://en.wikipedia.org/wiki/ISO_8601). 
+Dates can be [written in many different ways](https://xkcd.com/1179/). To avoid confusion, all dates should comply with the internationally recognised [ISO 8601 standard](https://en.wikipedia.org/wiki/ISO_8601).
 
 {{% inset-text %}}
 A date should be represented as `YYYY-MM-DD`, so for example, 4 June 2018 would be written as `2018-06-04`.
@@ -97,7 +98,7 @@ Data should be published in a format that is available without the use of propri
 
 {{< govuk-section-break "xl" >}}
 
-## Easily accessible 
+## Easily accessible
 
 All data should be accessible without any unnecessary requirements, such as providing an email address or credentials.
 

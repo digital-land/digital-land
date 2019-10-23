@@ -1,4 +1,7 @@
-[Local plans](https://www.gov.uk/guidance/plan-making) set out local planning policies, identify how land is used, and decide what will be built where. They are a rich source of information, but the equally useful data used to produce them isn’t easily extracted. For example, a local plan might show a map of where housing will be built, but the data that made the map (such as addresses and coordinates) is not made available.
+A [local plan](https://www.gov.uk/guidance/plan-making) sets out all local planning policies and decisions for authorities. It identifies how land is used, decides what will be built where and is used to determine all local planning decisions. Every local planning authority is required to update its local plan every 5 years.
 
+Local plans are a rich source of information, but the data used to produce that information isn’t easily extracted. For example, a local plan might show a map of where housing will be built, but the data that made the map (such as addresses and coordinates) is not available. 
 
-The Digital Land team and policy specialists at the Ministry of Housing, Communities and Local Government are working with local planning authorities to design a data format for publishing local plan data so that it’s easy to find, use and trust. 
+Local plans are published in a wide range of formats and aren’t always consistent in what types of information they include, or how they define or represent that information. This makes it difficult to collect, use and compare data across local plans and difficult for machines to read the data. 
+
+The Digital Land team is working with local planning authorities to investigate ways that useful data might be extracted from local plans more easily and how the process of producing local plans might be improved.

@@ -1,10 +1,11 @@
 ---
 title: "Update your brownfield site register"
+summary: Use this guidance to ensure your brownfield site register meets the agreed format, is up to date, and is easy to find and use.
 ---
 
-Local planning authorities must maintain a register of their brownfield sites that is publicly available and in an agreed format. 
+Local planning authorities must maintain a register of their brownfield sites that is publicly available and in an agreed format.
 
-This guidance, alongside the [Check your brownfield site register service](https://brownfield-sites-validator.cloudapps.digital/start), will help local authorities ensure brownfield site registers are:
+This guidance, alongside the [Check your brownfield site register service](https://brownfield-sites-status.herokuapp.com/), will help local authorities ensure brownfield site registers are:
 
 * in the agreed format and contain the required data
 * kept up-to-date
@@ -14,11 +15,11 @@ This ensures the data is fit for purpose and meets the needs of planners, develo
 
 ## Use the brownfield sites common data format
 
-Your register should be uploaded to your website as a .csv file that contains specific fields and content. If it isn’t the data will be difficult or impossible to use. 
+Your register should be uploaded to your website as a .csv file that contains specific fields and content. If it isn’t the data will be difficult or impossible to use.
 
 ### File type and name
 
-Brownfield type registers must be saved in a comma separated value (.csv) file. 
+Brownfield type registers must be saved in a comma separated value (.csv) file.
 
 A .csv file (or comma separated value file) is a universally recognised file format for storing tabular data in plain text. The following table of data comprises headers describing columns and data arranged in rows:
 
@@ -41,7 +42,7 @@ One commonplace way to create a .csv file is to enter the values in an Excel spr
 
 The .csv file name must be in the format brownfield-sites.[organisation code].csv, where [organisation code] can be found…
 
-So, for example, Dacorum local authority’s brownfield site register file would be named: 
+So, for example, Dacorum local authority’s brownfield site register file would be named:
 
 {{< tech-block >}}brownfield-sites-DAC.csv{{< /tech-block >}}
 
@@ -49,19 +50,19 @@ For general information on creating a .csv file see the W3C’s [CSVs on the web
 
 ### Field definitions and formatting
 
-The .csv file must include: 
+The .csv file must include:
 
-* all columns listed below (even if all fields in a column are blank) 
+* all columns listed below (even if all fields in a column are blank)
 * 1 row of data for each brownfield site
 * data that carefully follows the instructions for each column
 Each field must contain only one entry (with the exception of planning history, which can contain multiple entries).
 
-Use our [Check your brownfield site register](https://brownfield-sites-validator.cloudapps.digital/start) service to check the .csv file for errors or omissions. The tool can automatically correct some of these.
+Use our [Check your brownfield site register](https://brownfield-sites-status.herokuapp.com/) service to check the .csv file for errors or omissions. The tool can automatically correct some of these.
 
 Column 1
 **OrganisationURI**
 
-Search for your local authority on the Local Government Association’s [Uniform resource identifiers (URIs) tool](https://uris.opendata.esd.org.uk/). Enter the URI, which will begin with ‘http://opendatacommunities.org/id/’. If a site is spread across local authority boundaries, a URI must be entered for each local authority that contains part of the site. 
+Search for your local authority on the Local Government Association’s [Uniform resource identifiers (URIs) tool](https://uris.opendata.esd.org.uk/). Enter the URI, which will begin with ‘http://opendatacommunities.org/id/’. If a site is spread across local authority boundaries, a URI must be entered for each local authority that contains part of the site.
 
 Column 2
 **OrganisationLabel**
@@ -110,7 +111,7 @@ Enter the land area of the site in hectares, up to 2 decimal places.
 Column 11
 **OwnershipStatus**
 
-Choose which one of the following describes who owns the site: 
+Choose which one of the following describes who owns the site:
 
 * owned by a public authority
 * not owned by a public authority
@@ -154,7 +155,7 @@ When part of a site is permissioned, it should be recorded as ‘permissioned’
 Column 14
 **PermissionType**
 
-If you entered ‘permissioned’ in column 13 enter one of the following: 
+If you entered ‘permissioned’ in column 13 enter one of the following:
 
 * full planning permission
 * outline planning permission
@@ -169,7 +170,7 @@ Otherwise leave this blank. The terms are defined in paragraph 5 of [Schedule 2 
 Column 15
 **PermissionDate**
 
-Enter the date the most recent permission was granted on the site, in the format yyyy-mm-dd. If no permission has been granted leave this blank. 
+Enter the date the most recent permission was granted on the site, in the format yyyy-mm-dd. If no permission has been granted leave this blank.
 
 Column 16
 **PlanningHistory**
@@ -199,7 +200,7 @@ Describe any non-housing development proposed for the site, in up to 4,000 chara
 Column 21
 **Part2**
 
-Enter ‘yes’ if you will fill out columns 22, 23 and/or 24. Leave this blank if you haven’t used any of those columns or if you entered ‘yes’ in column 17. 
+Enter ‘yes’ if you will fill out columns 22, 23 and/or 24. Leave this blank if you haven’t used any of those columns or if you entered ‘yes’ in column 17.
 
 Column 22
 **NetDwellingsRangeFrom**
@@ -214,7 +215,7 @@ If column 19 is blank, enter the maximum number of dwellings that, in the author
 Column 24
 **HazardousSubstances**
 
-Enter ‘yes’ if the local authority is required by [regulation 26(3) of the Planning (Hazardous Substances) Regulations 2015](https://www.legislation.gov.uk/uksi/2015/627/regulation/26/made) to conduct an environmental impact assessment on the proposed development. Otherwise leave blank. 
+Enter ‘yes’ if the local authority is required by [regulation 26(3) of the Planning (Hazardous Substances) Regulations 2015](https://www.legislation.gov.uk/uksi/2015/627/regulation/26/made) to conduct an environmental impact assessment on the proposed development. Otherwise leave blank.
 
 Column 25
 **SiteInformation**
@@ -222,8 +223,8 @@ Column 25
 If you enter ‘yes’ in column 24, enter here links to any webpages that give:
 * information on planning decisions related to any environmental impact assessments
 * the results of any related consultations
-* an explanation of how they were taken into account when making the decisions 
-Otherwise leave this blank. Include the http:// or https:// prefix and separate multiple links with the pipe character, i.e. ‘|’. 
+* an explanation of how they were taken into account when making the decisions
+Otherwise leave this blank. Include the http:// or https:// prefix and separate multiple links with the pipe character, i.e. ‘|’.
 
 Column 26
 **Notes**
@@ -233,7 +234,7 @@ Enter any general information about a site that developers might find useful (up
 Column 27
 **FirstAddedDate**
 
-Enter the date that the site was first added to this register, in the format yyyy-mm-dd. 
+Enter the date that the site was first added to this register, in the format yyyy-mm-dd.
 
 Column 28
 **LastUpdateDate**
@@ -253,18 +254,18 @@ While local planning authorities are required to review their brownfield site re
 ## Make sure users can find your register
 
 Brownfield site data isn’t useful if it can’t be found. Ensure people can find it by:
- 
+
 * uploading the register to your planning authority’s website at a URL (web address) that won’t change
-* notifying MHCLG if for some reason the URL does change                                                                                                                                                                                         
-* using the agreed convention when naming the file 
+* notifying MHCLG if for some reason the URL does change
+* using the agreed convention when naming the file
 
 ## Common problems with brownfield site registers
 
 A number of problems frequently occur in brownfield site registers. Look out for:
 
-* using the wrong coordinate system 
+* using the wrong coordinate system
   - in other words, rather than ‘GeoX’ and ‘GeoY’ (the ETRS89 system) registers sometimes use latitude and longitude (OSGB35) or northing and easting (WGS84)
-* accidentally transposed longitude and latitude 
+* accidentally transposed longitude and latitude
   - any location in the UK will have a latitude in the range of ~49 to 57 and a longitude in the range of ~-7 to 2
 * incorrect column headings
   - column headings are case sensitive (eg SiteNameAddress is correct, but sitenameaddress is not)

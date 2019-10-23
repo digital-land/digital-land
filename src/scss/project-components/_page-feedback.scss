@@ -1,0 +1,48 @@
+.dlf-pg-feedback {
+  margin-top: $govuk-gutter;
+  border-bottom: 10px solid govuk-colour("blue");
+  @include govuk-media-query($from: tablet) {
+    margin-top: $govuk-gutter * 2;
+	}
+}
+
+@if $using-helvetica == false {
+  .dlf-pg-feedback {
+    font-family: $govuk-font-family;
+  }
+}
+
+.dlf-pg-feedback__prompt {
+  width: $govuk-page-width;
+  margin: 0 auto;
+  padding: 10px 15px 0;
+  outline: 0;
+  color: govuk-colour("white");
+  background: govuk-colour("blue");
+}
+
+.dlf-pg-feedback__link {
+  @include govuk-focusable-fill;
+  font-weight: 400;
+  text-decoration: underline;
+
+  &:link {
+    color: govuk-colour("white");
+  }
+
+  &:visited {
+    color: govuk-colour("white");
+  }
+
+  &:hover {
+    color: govuk-colour("white");
+  }
+
+  &:active {
+    color: govuk-colour("white");
+  }
+
+  &:focus {
+    color: $govuk-text-colour;
+  }
+}

@@ -3,6 +3,8 @@ title: "Compulsory purchase orders"
 status: alpha
 label: "project:compulsory-purchase-order"
 hasContent: true
+pageFeedback: true
+summary: We want to investigate ways to make data from these Secretary of State-level decisions available.
 ---
 
 ## Upcoming areas of investigation
@@ -12,6 +14,34 @@ hasContent: true
 {{< govuk-section-break "xl" >}}
 
 ## Timeline
+
+**11 July 2019**
+
+We met with colleagues from the Knowledge and Information Management team to understand the steps we need to take to publish decision letters and inspector reports.
+
+**10 July 2019**
+
+Members of the team attended the [Compulsory Purchase Association National Conference](https://www.compulsorypurchaseassociation.org/cpa-conference-2019.html).
+
+**07 July 2019**
+
+We've collected CPO data from the current case management system. Using a combination of historic and current data we're now defining a schema for the register that can be easily maintained.
+
+**02 July 2019**
+
+Paul [created a script](https://gist.github.com/psd/2361887a4c725adcd311ed7e7ec6d0fa) which extracted the key information from the formatted MS Excel report and translated into a .csv file. From this we've been able to start modeling how the register may work.
+
+**27 June 2019**
+
+We re-visited the team in Birmingham with a goal of extracting historic CPO data from the legacy system. It was a successful trip, although the limitations of the system meant that the reports were only available in a formatted MS Excel file.
+
+**19 June 2019**
+
+We met with the planning caseworker team in Birmingham to understand more about the existing and legacy systems used to manage CPOs. We explored what data is entered and how we can extract the data with a view of making it publicly available.
+
+**28 May 2019**
+
+We met with colleagues from the compulsory purchase orders policy team, the planning inspectorate and planning casework unit to understand more about the process of raising a CPO, and to explore the opportunities of opening up their data.
 
 **Spring 2019**
 

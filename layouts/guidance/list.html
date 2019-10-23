@@ -1,0 +1,33 @@
+{{ define "content_inner" }}
+
+  {{ if isset .Params "cat_name" }}
+  <span class="govuk-caption-xl">{{ .Params.cat_name | humanize }}</span>
+  {{ end }}
+	<h1 class="govuk-heading-xl">
+	  {{ .Title }}
+	</h1>
+
+	<div class="govuk-grid-row">
+		<div class="govuk-grid-column-two-thirds">
+			<p class="govuk-body-l">{{ .Params.lede }}</p>
+      		<div class="markdown-output">
+        	{{ .Content }}
+      		</div>
+  		    <ul class="govuk-list">
+  		      {{ range .Data.Pages }}
+  		      <li>
+  		        <a href="{{ .Permalink }}" class="govuk-link govuk-body-l">{{ .Title }}</a>
+  		        <p class="govuk-body">{{ .Params.Summary | default .Summary }}</p>
+  		      </li>
+  		      {{ end }}
+  		      {{ range .Sections }}
+  		      <li>
+  		        <a href="{{ .Permalink }}" class="govuk-link govuk-body-l">{{ .Title }}</a>
+  		        <p class="govuk-body">{{ .Params.Summary | default .Summary }}</p>
+  		      </li>
+  		      {{ end }}
+  		    </ul>
+		</div>
+	</div>
+
+{{ end }}

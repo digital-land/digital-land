@@ -19,10 +19,12 @@ $govuk-images-path: "/govuk-frontend/assets/images/";
 @import "core/helvetica-fixes";
 
 // Import all project components
+@import "project-components/page-feedback";
 @import "project-components/blockquote";
 @import "project-components/hero";
 @import "project-components/definition-list";
 @import "project-components/tags";
+@import "project-components/highlight-box";
 
 @import "project-components/prototype-tracking";
 
@@ -212,5 +214,30 @@ $govuk-images-path: "/govuk-frontend/assets/images/";
   .byline__relations,
   footer {
     display: none;
+  }
+}
+
+// Equal panelling
+.equal-panels {
+  display: flex;
+  flex-direction: column;
+  @include govuk-media-query($from: tablet) {
+    flex-direction: row;
+  }
+
+  .equal-panels-single {
+    margin: 7.5px 15px;
+    flex: 1 1 0;
+    @include govuk-media-query($from: tablet) {
+      margin: 0 15px;
+    }
+    padding: 15px;
+    background: govuk-colour("blue");
+    p, a {
+      color: govuk-colour("white");
+    }
+    & :last-child {
+      margin-bottom: 0;
+    }
   }
 }
