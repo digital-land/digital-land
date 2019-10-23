@@ -3,17 +3,17 @@ title: "Step 1: Create your CSV file"
 ---
 
 {{% contents %}}
-- [Publish your brownfield site data]({{< ref "_index.md" >}})
+- [Publish your brownfield land data]({{< ref "_index.md" >}})
 - Step 1: Create your CSV file
-- [Step 2: Update your brownfield site web page]({{< ref "update-your-brownfield-site-web-page.md" >}})
-- [Step 3: Update the national register of brownfield sites]({{< ref "update-the-national-register-of-brownfield-site.md" >}})
+- [Step 2: Update your brownfield land web page]({{< ref "update-your-brownfield-land-web-page.md" >}})
+- [Step 3: Update the national register of brownfield sites]({{< ref "update-the-national-brownfield-land-register.md" >}})
 {{% /contents %}}
 
 {{% inset-text %}}
 To complete step 1 you must be able to create or amend CSV files using spreadsheet software such as Microsoft Excel, Google Sheets or Apple Numbers, then when saving simply select ‘save as .csv file’. Find out more about [creating a CSV file](http://w3c.github.io/csvw/primer/).
 {{% /inset-text %}}
 
-Brownfield site data should be listed in a CSV file named brownfield-sites.csv
+Brownfield site data should be listed in a CSV file named brownfield-land.csv
 
 ## Field definitions and formatting
 
@@ -123,8 +123,8 @@ If the site  no longer needs to be listed it should remain on the register and 
 ---
 
 ## Checking your publication
-We’re also developing a tool which you can try out to [check your brownfield site data](https://brownfield-sites-validator.cloudapps.digital/start). This is not a live service, but a prototype we are testing.
+We’re also developing a tool which you can try out to [check your brownfield land data](https://brownfield-sites-validator.cloudapps.digital/start). This is not a live service, but a prototype we are testing.
 
 {{% pagination-component %}}
-{{% pagination-next href="update-your-brownfield-site-web-page.md" text="Step 2: Update your brownfield sites webpage" %}}
+{{% pagination-next href="update-your-brownfield-land-web-page.md" text="Step 2: Update your brownfield land webpage" %}}
 {{% /pagination-component %}}
