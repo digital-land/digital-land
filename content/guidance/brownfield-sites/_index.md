@@ -8,7 +8,7 @@ summary: When publishing your brownfield site data, follow this guidance on how 
 - Publish your brownfield site data
 - [Step 1: Create your CSV file]({{< ref "create-your-csv-file.md" >}})
 - [Step 2: Update your brownfield site web page]({{< ref "update-your-brownfield-site-web-page.md" >}})
-- [Step 3: Update the national register of brownfield sites]({{< ref "update-the-national-register-of-brownfield-sites.md" >}})
+- [Step 3: Update the national register of brownfield sites]({{< ref "update-the-national-register-of-brownfield-site.md" >}})
 {{% /contents %}}
 
 The Town and Country Planning (Brownfield Land Register) Regulations 2017 require local planning authorities to maintain a register of their brownfield sites. This guidance will help local authorities ensure brownfield site registers are:
