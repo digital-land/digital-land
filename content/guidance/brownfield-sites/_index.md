@@ -21,7 +21,7 @@ The Town and Country Planning (Brownfield Land Register) Regulations 2017 requir
 Please share any feedback on this guidance by emailing DigitalLand@communities.gov.uk
 {{% /inset-text %}}
 
-##Make your data findable, usable and trustworthy
+## Make your data findable, usable and trustworthy
 
 Brownfield sites are an important part of cost-efficient and sustainable local planning and development. Data on them has a wide range of current and potential uses, including:
 
