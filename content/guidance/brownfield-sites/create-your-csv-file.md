@@ -24,7 +24,8 @@ The CSV file must include: 
 * data that carefully follows the instructions for each column
 Each row must contain a single entry for each unless stated otherwise. When a field requires a number use a digit (2) rather than a word (two).
 
-### OrganistaionURI Find your organisation in this list and enter the value in the “opendatacommunties” column. This is the URL of your organisation on https://opendatacommunities.org.
+### OrganistaionURI
+Find your organisation in this list and enter the value in the “opendatacommunties” column. This is the URL of your organisation on https://opendatacommunities.org.
 
 ### SiteReference
 Enter a unique reference your organisation uses to identify the site, or create one if none exists. It should not be used by your organisation to identify any other sites, but can be borrowed from another dataset listing the site.
