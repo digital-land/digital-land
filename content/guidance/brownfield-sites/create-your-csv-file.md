@@ -18,7 +18,8 @@ We’ve created a [brownfield land data CSV template](digital-land.github.io/gui
 {{% inset-text %}}
 The previous specification for brownfield land data contained several column headers that aren't listed here. Those fields are now optional. 
 The 'MinNetDwellings' field has been replaced by 'NetDwellingsRangeFrom' and 'NetDwellingsRangeTo'. 
-The following columns no longer appear but can be included under 'Notes': 
+The following columns no longer appear but can be included under 'Notes':
+
 * DevelopmentDescription
 * SiteInformation
 * NonHousingDevelopment
