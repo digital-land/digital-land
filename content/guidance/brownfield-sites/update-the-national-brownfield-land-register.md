@@ -17,11 +17,14 @@ Email the URL you created in step 2 to DigitalLand@communities.gov.uk and we wil
 
 You will soon be able to submit the URL through an online tool the Digital Land team are developing. When this is ready, the team will make an announcement on the [Digital Land blog](https://digital-land.github.io/blog-post/) and this guidance will be updated.
 
-! If have any questions or feedback, please fill out this feedback form or email DigitalLand@communities.gov.uk
+We also recommend that you add the URL to [data.gov.uk](www.data.gov.uk).
+
+{{% inset-text %}}
+If have any questions or feedback, please fill out this feedback form or email DigitalLand@communities.gov.uk
+{{% /inset-text %}}
 
 {{% pagination-component %}}
 {{% pagination-prev href="update-your-brownfield-land-web-page.md" text="Step 2: Update your brownfield land web page" %}}
 {{% /pagination-component %}}
 
-National planning practice guidance on [brownfield land registers and permission in principle](https://www.gov.uk/government/collections/planning-practice-guidance
-) should be read alongside this document.
+National planning practice guidance on [brownfield land registers and permission in principle](https://www.gov.uk/government/collections/planning-practice-guidance) should be read alongside this document.
