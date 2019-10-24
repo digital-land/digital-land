@@ -27,6 +27,12 @@ You should then update your local planning authority’s brownfield land web pag
 
 The page must list the persistent URL as defined above. The URLs must be written out in full. The URL should not change. However, if it ever does change, you must tell us.
 
+{{% inset-text %}}
+Before you publish this web page, please check if you need to [inform the Ordnance Survey](https://www.ordnancesurvey.co.uk/business-government/licensing-agreements/public-sector-derived-data) that you are publishing this data. 
+{{% /inset-text %}}
+
+You must state on this web page that the data is provided under the [Open Government Licence](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
+
 {{% pagination-component %}}
 {{% pagination-prev href="create-your-csv-file.md" text="Step 1: Create your CSV file" %}}
 {{% pagination-next href="update-the-national-brownfield-land-register.md" text="Step 3: Update the national brownfield land register" %}}
