@@ -26,5 +26,3 @@ If have any questions or feedback, please fill out this feedback form or email D
 {{% pagination-component %}}
 {{% pagination-prev href="update-your-brownfield-land-web-page.md" text="Step 2: Update your brownfield land web page" %}}
 {{% /pagination-component %}}
-
-National planning practice guidance on [brownfield land registers and permission in principle](https://www.gov.uk/government/collections/planning-practice-guidance) should be read alongside this document.
