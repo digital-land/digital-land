@@ -21,7 +21,7 @@ When you upload the file you should:
 
 * keep your older files online – it’s important to retain a history of all brownfield site files
 * the newest version of the brownfield data file should be called brownfield-land.csv 
-* the previous version should be kept and renamed brownfield-land-YYYYMMDD.csv, with the actual date in place of YYYYMMDD (for example brownfield-site-20190731.csv)
+* the previous version should be kept and renamed brownfield-land-YYYY-MM-DD.csv, with the actual date in place of YYYY-MM-DD (for example brownfield-site-2019-07-31.csv)
 
 You should then update your local planning authority’s brownfield land web page to make the CSV files publicly available. If your website does not have a page on brownfield land, you or someone in the web team will need to create one.
 
