@@ -5,7 +5,7 @@ summary: When publishing your brownfield land data, follow this guidance on how 
 ---
 
 {{% contents %}}
-- Publish your brownfield site data
+- Publish your brownfield land data
 - [Step 1: Create your CSV file]({{< ref "create-your-csv-file.md" >}})
 - [Step 2: Update your brownfield land web page]({{< ref "update-your-brownfield-land-web-page.md" >}})
 - [Step 3: Update the national brownfield land register]({{< ref "update-the-national-brownfield-land-register.md" >}})

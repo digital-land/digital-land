@@ -15,11 +15,15 @@ To complete step 1 you must be able to create or amend CSV files using spreadshe
 
 Brownfield site data should be listed in a CSV file named brownfield-land.csv
 
+{{% inset-text %}}
+The previous specification for brownfield land data contained several column headers that aren't listed here. Those fields are now optional. The 'MinNetDwellings' field has been replaced by 'NetDwellingsRangeFrom' and 'NetDwellingsRangeTo'. The following columns no longer appear but can be included under 'Notes': 'DevelopmentDescription', 'SiteInformation', 'NonHousingDevelopment' and 'ProposedForPIP'.
+{{% /inset-text %}}
+
 ## Field definitions and formatting
 
 The CSV file must include: 
 
-* all columns listed exactly as written below, even if all fields in a column are blank (column headers are case sensitive) 
+* all columns listed exactly as written below, even if all fields in a column are blank
 * 1 row of data for each brownfield site
 * data that carefully follows the instructions for each column
 Each row must contain a single entry for each unless stated otherwise. When a field requires a number use a digit (2) rather than a word (two).
@@ -46,7 +50,6 @@ Enter the longitude of a point close to the centre of the site. The value should
 Be sure to check that you don’t mix up the latitude (Geo Y) and longitude (Geo X) values. Any location in the UK will have a latitude (Geo Y) from about 49 to 57 and a longitude (Geo X) from about -7 to 2.
 {{% /inset-text %}}
 
-
 ### Hectares
 Enter the land area of the site in hectares, up to 2 decimal places.
 
@@ -62,9 +65,9 @@ For more information see paragraph 5 of [Schedule 2 of the 2017 Regulations](htt
 ### PlanningStatus
 Choose one of the following to indicate what stage of the planning process the site is at:
 
-* “permissioned”
-* “not permissioned”
-* “pending decision”
+* permissioned
+* not permissioned
+* pending decision
 
 When part of a site is permissioned, it should be recorded as “permissioned”, and the notes field used to explain why it’s only partly permissioned. For more information see paragraph 5 of [Schedule 2 of the 2017 Regulations](http://www.legislation.gov.uk/uksi/2017/403/schedule/2/made).
 
@@ -73,13 +76,13 @@ You can leave this field blank if the planning status is unclear or unknown.
 ### PermissionType
 Choose one of the following to indicate what permission type the site has:
 
-* “full planning permission”
-* “outline planning permission”
-* “reserved matters approval”
-* “permission in principle”
-* “technical details consent”
-* “planning permission granted under an order”
-* “other”
+* full planning permission
+* outline planning permission
+* reserved matters approval
+* permission in principle
+* technical details consent
+* planning permission granted under an order
+* other
 
 Where more than one permission exists for the site, identify the latest permission granted and any other permissions, including the date that such permission was granted or deemed to have been granted, in the ’Notes’ column. ‘planning permission granted under an order’ means planning permission granted under a local development order, a mayoral development order or a neighbourhood development order.
 
@@ -107,6 +110,7 @@ Enter any general information about a site that developers might find useful. Th
 Describe any housing development proposed for the site.
 
 You may include links to any webpages that give:
+
 * information on planning decisions related to any environmental impact assessments
 * the results of any related consultations
 * an explanation of how they were taken into account when making the decisions 
@@ -130,5 +134,5 @@ If the site  no longer needs to be listed it should remain on the register and 
 We’re also developing a tool which you can try out to [check your brownfield land data](https://brownfield-sites-validator.cloudapps.digital/start). This is not a live service, but a prototype we are testing.
 
 {{% pagination-component %}}
-{{% pagination-next href="update-your-brownfield-land-web-page.md" text="Step 2: Update your brownfield land webpage" %}}
+{{% pagination-next href="update-your-brownfield-land-web-page.md" text="Step 2: Update your brownfield land web page" %}}
 {{% /pagination-component %}}
