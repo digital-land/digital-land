@@ -131,5 +131,5 @@ If the site  no longer needs to be listed it should remain on the register and 
 We’re also developing a tool which you can try out to [check your brownfield land data](https://brownfield-sites-validator.cloudapps.digital/start). This is not a live service, but a prototype we are testing.
 
 {{% pagination-component %}}
-{{% pagination-next href="update-your-brownfield-land-web-page.md" text="Step 2: Update your brownfield land webpage" %}}
+{{% pagination-next href="update-your-brownfield-land-web-page.md" text="Step 2: Update your brownfield land web page" %}}
 {{% /pagination-component %}}
