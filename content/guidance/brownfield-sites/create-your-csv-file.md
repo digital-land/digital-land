@@ -15,11 +15,15 @@ To complete step 1 you must be able to create or amend CSV files using spreadshe
 
 Brownfield site data should be listed in a CSV file named brownfield-land.csv
 
+{{% inset-text %}}
+The previous specification for brownfield land data contained several column headers that aren't listed here. Those fields are now optional. The 'MinNetDwellings' field has been replaced by 'NetDwellingsRangeFrom' and 'NetDwellingsRangeTo'. The following columns no longer appear but can be included under 'Notes': 'DevelopmentDescription', 'SiteInformation', 'NonHousingDevelopment' and 'ProposedForPIP'.
+{{% /inset-text %}}
+
 ## Field definitions and formatting
 
 The CSV file must include: 
 
-* all columns listed exactly as written below, even if all fields in a column are blank (column headers are case sensitive) 
+* all columns listed exactly as written below, even if all fields in a column are blank
 * 1 row of data for each brownfield site
 * data that carefully follows the instructions for each column
 Each row must contain a single entry for each unless stated otherwise. When a field requires a number use a digit (2) rather than a word (two).
@@ -45,7 +49,6 @@ Enter the longitude of a point close to the centre of the site. The value should
 {{% inset-text %}}
 Be sure to check that you don’t mix up the latitude (Geo Y) and longitude (Geo X) values. Any location in the UK will have a latitude (Geo Y) from about 49 to 57 and a longitude (Geo X) from about -7 to 2.
 {{% /inset-text %}}
-
 
 ### Hectares
 Enter the land area of the site in hectares, up to 2 decimal places.
