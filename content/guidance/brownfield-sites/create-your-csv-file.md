@@ -62,9 +62,9 @@ For more information see paragraph 5 of [Schedule 2 of the 2017 Regulations](htt
 ### PlanningStatus
 Choose one of the following to indicate what stage of the planning process the site is at:
 
-* “permissioned”
-* “not permissioned”
-* “pending decision”
+* permissioned
+* not permissioned
+* pending decision
 
 When part of a site is permissioned, it should be recorded as “permissioned”, and the notes field used to explain why it’s only partly permissioned. For more information see paragraph 5 of [Schedule 2 of the 2017 Regulations](http://www.legislation.gov.uk/uksi/2017/403/schedule/2/made).
 
@@ -73,13 +73,13 @@ You can leave this field blank if the planning status is unclear or unknown.
 ### PermissionType
 Choose one of the following to indicate what permission type the site has:
 
-* “full planning permission”
-* “outline planning permission”
-* “reserved matters approval”
-* “permission in principle”
-* “technical details consent”
-* “planning permission granted under an order”
-* “other”
+* full planning permission
+* outline planning permission
+* reserved matters approval
+* permission in principle
+* technical details consent
+* planning permission granted under an order
+* other
 
 Where more than one permission exists for the site, identify the latest permission granted and any other permissions, including the date that such permission was granted or deemed to have been granted, in the ’Notes’ column. ‘planning permission granted under an order’ means planning permission granted under a local development order, a mayoral development order or a neighbourhood development order.
 
