@@ -32,6 +32,8 @@ You should then update your local planning authority’s developer contributions
 
 The page must list the persistent URLs as defined above. The URLs must be written out in full. (The URL should not change. However, if it ever does change, [you must tell us](https://digital-land.github.io/guidance/developer-contributions/update-the-national-register-of-developer-contributions/).)
 
+You must state on this web page that the data is provided under the [Open Government Licence](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
+
 {{% pagination-component %}}
 {{% pagination-prev href="create-your-csv-files.md" text="Step 1: Create your CSV files" %}}
 {{% pagination-next href="update-the-national-register-of-developer-contributions.md" text="Step 3: Update the national register of developer contributions" %}}
