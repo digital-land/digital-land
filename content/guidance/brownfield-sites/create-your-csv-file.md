@@ -13,6 +13,8 @@ Brownfield site data should be listed in a CSV file named brownfield-land.csv
 
 To complete step 1 you must be able to create or amend CSV files using spreadsheet software such as Microsoft Excel, Google Sheets or Apple Numbers, then when saving simply select ‘save as .csv file’. Find out more about [creating a CSV file](http://w3c.github.io/csvw/primer/).
 
+We’ve created a [brownfield land data CSV template](digital-land.github.io/guidance/brownfield-sites/brownfield-sites.csv). If it helps, you can use this example file and enter your own data, following the guidelines below.
+
 {{% inset-text %}}
 The previous specification for brownfield land data contained several column headers that aren't listed here. Those fields are now optional. 
 The 'MinNetDwellings' field has been replaced by 'NetDwellingsRangeFrom' and 'NetDwellingsRangeTo'. 
