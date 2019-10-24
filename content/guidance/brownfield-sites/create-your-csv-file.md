@@ -107,6 +107,7 @@ Enter any general information about a site that developers might find useful. Th
 Describe any housing development proposed for the site.
 
 You may include links to any webpages that give:
+
 * information on planning decisions related to any environmental impact assessments
 * the results of any related consultations
 * an explanation of how they were taken into account when making the decisions 
