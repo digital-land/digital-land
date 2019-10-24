@@ -31,7 +31,3 @@ The page must list the persistent URL as defined above. The URLs must be written
 {{% pagination-prev href="create-your-csv-file.md" text="Step 1: Create your CSV file" %}}
 {{% pagination-next href="update-the-national-brownfield-land-register.md" text="Step 3: Update the national brownfield land register" %}}
 {{% /pagination-component %}}
-
-{{% pagination-component %}}
-{{% pagination-next href="update-the-national-brownfield-land-register.md" text="Step 3: Update the national brownfield land register" %}}
-{{% /pagination-component %}}
