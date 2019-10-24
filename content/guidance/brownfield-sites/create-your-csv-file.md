@@ -36,13 +36,16 @@ Enter the name and address of the site in a single line of text. Put the text in
 ### SitePlanURL
 Enter the URL of a webpage hosting the site plan, beginning with either “http://” or “https://”.
 
-### GeoY Latitude
-Enter the latitude of a point close to the centre of the site. The value should be 6 or fewer decimal places, using the WGS84 or ETRS89 coordinate systems specified by the open standards for government guidance on [exchange of location](https://www.gov.uk/government/publications/open-standards-for-government/exchange-of-location-point). This field was formerly called “GeoY”.
+### GeoY
+Enter the latitude of a point close to the centre of the site. The value should be 6 or fewer decimal places, using the WGS84 or ETRS89 coordinate systems specified by the open standards for government guidance on [exchange of location](https://www.gov.uk/government/publications/open-standards-for-government/exchange-of-location-point).
 
-### GeoX Longitude
-Enter the longitude of a point close to the centre of the site. The value should be 6 or fewer decimal places, using the WGS84 or ETRS89 coordinate system specified by the open standards for government guidance on [exchange of location](https://www.gov.uk/government/publications/open-standards-for-government/exchange-of-location-point). This field was formerly called “GeoX”.
+### GeoX
+Enter the longitude of a point close to the centre of the site. The value should be 6 or fewer decimal places, using the WGS84 or ETRS89 coordinate system specified by the open standards for government guidance on [exchange of location](https://www.gov.uk/government/publications/open-standards-for-government/exchange-of-location-point). 
 
-! Be sure to check that you don’t mix up the latitude (Geo Y) and longitude (Geo X) values. Any location in the UK will have a latitude (Geo Y) from about 49 to 57 and a longitude (Geo X) from about -7 to 2.
+{{% inset-text %}}
+Be sure to check that you don’t mix up the latitude (Geo Y) and longitude (Geo X) values. Any location in the UK will have a latitude (Geo Y) from about 49 to 57 and a longitude (Geo X) from about -7 to 2.
+{{% /inset-text %}}
+
 
 ### Hectares
 Enter the land area of the site in hectares, up to 2 decimal places.
