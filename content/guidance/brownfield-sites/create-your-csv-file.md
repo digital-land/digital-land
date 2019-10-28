@@ -33,6 +33,7 @@ The CSV file must include: 
 * all columns listed exactly as written below, even if all fields in a column are blank
 * 1 row of data for each brownfield site
 * data that carefully follows the instructions for each column
+
 Each row must contain a single entry for each unless stated otherwise. When a field requires a number use a digit (2) rather than a word (two).
 
 ### OrganistaionURI
