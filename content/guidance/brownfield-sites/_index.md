@@ -11,7 +11,7 @@ summary: When publishing your brownfield land data, follow this guidance on how 
 - [Step 3: Update the national brownfield land register]({{< ref "update-the-national-brownfield-land-register.md" >}})
 {{% /contents %}}
 
-The Town and Country Planning (Brownfield Land Register) Regulations 2017 require local planning authorities to maintain a register of their brownfield sites. This guidance will help local authorities ensure brownfield land registers are:
+The Town and Country Planning (Brownfield Land Register) Regulations 2017 require local planning authorities to maintain a register of their brownfield sites that are suitable for housing. This guidance will help local authorities ensure brownfield land registers are:
 
 * published in the agreed format and contain the required data
 * kept up to date
@@ -25,7 +25,7 @@ Please share any feedback on this guidance by emailing DigitalLand@communities.g
 
 Brownfield land is an important part of cost-efficient and sustainable local planning and development. Data on brownfield land has a wide range of current and potential uses, including:
 
-* planning land and housing development
+* planning for housing-led development
 * creating new digital services
 * giving community members insight into local development
 

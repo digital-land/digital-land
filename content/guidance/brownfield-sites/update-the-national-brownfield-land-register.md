@@ -9,7 +9,7 @@ title: "Step 3: Update the national brownfield land register"
 - Step 3: Update the national brownfield land register
 {{% /contents %}}
 
-The Ministry of Housing, Communities and Local Government (MHCLG) will maintain a national brownfield land register.
+The Ministry of Housing, Communities and Local Government (MHCLG) will maintain a national brownfield land register, using the data you publish.
 
 The first time you create and publish your CSV file you must tell us where this is published (the persistent URL created in step 2). You must also tell us if this URL ever changes.
 
