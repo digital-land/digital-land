@@ -25,7 +25,7 @@ Please share any feedback on this guidance by emailing DigitalLand@communities.g
 
 Brownfield land is an important part of cost-efficient and sustainable local planning and development. Data on brownfield land has a wide range of current and potential uses, including:
 
-* planning housing-led development
+* planning for housing-led development
 * creating new digital services
 * giving community members insight into local development
 
