@@ -118,20 +118,29 @@ Our discovery phase explored these issues as well as how data is used in the dif
 
 ### Who we talked to
 
-As part of the discovery we spoke to:
+#### Local authorities
 
-*   Local authorities
-	*   We had in-depth conversations with the planning teams of 9 local authorities from across the country and at different stages in the development of their local plans. Some of these were involved in producing joint and strategic plans.
-*   Planning Development Policy Team
-	*   We held sessions with the planning development policy team to map the local plan lifecycle, from the setting of the local development scheme to a local plan being approved.
-*   The Planning Inspectorate
-	*   We held 3 sessions with the Planning Inspectorate (PINS) to map their business processes and to understand the inspection process and how they manage data.
-*   MHCLG Planning and Policy Directorate
-	*   We held 2 workshops – one with colleagues from the Planning Directorate and another with the Housing Directorate – to explore their needs.  
-*   Neighbourhood planning
-	*   We conducted an extended interview with a neighbourhood planning expert from Reading University to understand how neighbourhood planning groups contribute to and use local plans and what data requirements they might have in the future.  
-*   Proptech and consultancies supporting local plan making
-	*   We attended a session led by the Future Cities Catapult with proptech companies and consultancies working in this space.  
+We had in-depth conversations with the planning teams of 9 local authorities from across the country and at different stages in the development of their local plans. Some of these were involved in producing joint and strategic plans.
+
+#### Planning Development Policy Team
+
+We held sessions with the planning development policy team to map the local plan lifecycle, from the setting of the local development scheme to a local plan being approved.
+
+#### The Planning Inspectorate
+
+We held 3 sessions with the Planning Inspectorate (PINS) to map their business processes and to understand the inspection process and how they manage data.
+
+#### MHCLG Planning and Policy Directorate
+
+We held 2 workshops – one with colleagues from the Planning Directorate and another with the Housing Directorate – to explore their needs.  
+
+#### Neighbourhood planning
+
+We conducted an extended interview with a neighbourhood planning expert from Reading University to understand how neighbourhood planning groups contribute to and use local plans and what data requirements they might have in the future.  
+
+#### Proptech and consultancies supporting local plan making
+
+We attended a session led by the Future Cities Catapult with proptech companies and consultancies working in this space.  
 
 ### Insights (by user group)
 
@@ -211,24 +220,24 @@ Discovery led to a wide range of insights on the local plan making process, but 
 
 Other considerations that make it more difficult to extract data from local plans, some of which are the result of how local plans policy and the plan making process have been designed, include:
 
-*   a lack of standardisation to ensure consistent methods, formats for production of evidence and publication (which flags a need to provide local authorities with more guidance that defines what good looks like and how to supply evidence)
-*   an objective requirement for housing numbers when the local process for determining this is, judging from initial feedback from local authorities and examiners, a very subjective one
-*   authorities self publishing data, which affects the quality and reliability of that data - especially given many are not data experts
+* a lack of standardisation to ensure consistent methods, formats for production of evidence and publication (which flags a need to provide local authorities with more guidance that defines what good looks like and how to supply evidence)
+* an objective requirement for housing numbers when the local process for determining this is, judging from initial feedback from local authorities and examiners, a very subjective one
+* authorities self publishing data, which affects the quality and reliability of that data - especially given many are not data experts
 
 We also developed a prototype to extract housing numbers from local plans as part of our discovery and to test our assumptions about collecting data at source. This revealed that:
 
-*   the web addresses of published local plans and local development scheme timetables were inconsistent and unpredictable
-*   housing numbers were, when they could be found, expressed in a variety of ways
-*   it’s difficult to know which document on a local authority’s website is most up to date
+* the web addresses of published local plans and local development scheme timetables were inconsistent and unpredictable
+* housing numbers were, when they could be found, expressed in a variety of ways
+* it’s difficult to know which document on a local authority’s website is most up to date
 
 #### Opportunities for data extraction
 
 We can start to build a useful picture of where a plan is in its development by looking at emerging data that can be extracted at certain established milestones in the local plan lifecycle. This data is available when:
 
-*   the local development scheme is published (it proposes both a timetable for local plan publication and what general policy areas will be covered in it)
-*   the local plan is opened up for formal consultation with residents and stakeholders, which gives further details about areas of policy involved
-*   the local plan is submitted to PINS for examination
-*   the local plan is formally adopted by the local authority (and published)
+* the local development scheme is published (it proposes both a timetable for local plan publication and what general policy areas will be covered in it)
+* the local plan is opened up for formal consultation with residents and stakeholders, which gives further details about areas of policy involved
+* the local plan is submitted to PINS for examination
+* the local plan is formally adopted by the local authority (and published)
 
 At the third milestone (when a plan is submitted for examination according to Regulation 24), it could be possible to create a standardised executive summary of the plan containing policy areas and commitments etc, which could help examiners in their task of assessing the local plan. This could then be revised when the plan is adopted by the local authority. However, this may be beyond the remit of this discovery, which has a specific focus on data.
 
@@ -238,53 +247,50 @@ We arrived at 3 hypotheses based on our analysis of the discovery research.
 
 1. Better information about the status and stage of local plans in development could help:
 
-*   determine the accuracy of content
-*   better resourcing of local plan examination
-*   reduce uncertainty relating to planning permissions
-*   support intervention
+* determine the accuracy of content
+* better resourcing of local plan examination
+* reduce uncertainty relating to planning permissions
+* support intervention
 
 2. Better visibility and accessibility of the overarching content of emerging and existing local plans could improve:
 
-*   transparency and efficiency of planning decisions
-*   clarity of what local authorities are planning for and the feasibility of delivery
-*   opportunities for successful support or intervention
-*   the efficiency of the local plan examination process
+* transparency and efficiency of planning decisions
+* clarity of what local authorities are planning for and the feasibility of delivery
+* opportunities for successful support or intervention
+* the efficiency of the local plan examination process
 
 3. Greater consistency of part or all of the local plan content and supporting evidence could improve:
 
-*   users’ ability to aggregate and analyse content as data at scale
-*   collaboration across authorities and at a regional level
-*   efficiency of the end-to-end local plan making process
-*   the transparency of planning decisions
-*   the ability of local authorities and PINS to measure the delivery of local plans
+* users’ ability to aggregate and analyse content as data at scale
+* collaboration across authorities and at a regional level
+* efficiency of the end-to-end local plan making process
+* the transparency of planning decisions
+* the ability of local authorities and PINS to measure the delivery of local plans
 
 ### Recommendations
 
 We recommend testing the first 2 hypotheses (tracking the status of local plans and establishing what is covered by them) through the following interventions:
 
-*   setting a data standard for the timetable of local plan making
-	*   to be kept and maintained by each local authority and based on the existing local development scheme – this will help build a national picture of the plan making process.  
-*   setting a data standard for the policy areas contained in each local plan
-	*   this will help to index policy areas covered in a local plan, which will help build a national picture of planning policy
-*   tracking datasets needed for each planning policy (tentative)
-	*   this could help us prioritise the Digital Land work, assessing which data impacts the highest number of local planning policies
+* setting a data standard for the timetable of local plan making which will be kept and maintained by each local authority and based on the existing local development scheme. This will help build a national picture of the plan making process. 
+* setting a data standard for the policy areas contained in each local plan, which will help to index policy areas covered in a local plan, which will help build a national picture of planning policy
+* tracking datasets needed for each planning policy (tentative), which could help us prioritise the Digital Land work, assessing which data impacts the highest number of local planning policies
 
 We are currently preparing to investigate these interventions as part of an alpha for prototyping, building and testing.   
 
 Other possible projects include:
 
-*   developing the geospatial element of the data alongside the Geospatial Commission
-*   further discovery work on housing delivery and numbers, which will help us to:
-	*   better understand the relationship between this measurement and the housing delivery test metrics
-	*   explore how we might monitor the actual delivery of housing from systems such as Council Tax and the address register
+* developing the geospatial element of the data alongside the Geospatial Commission
+* further discovery work on housing delivery and numbers, which will help us to:
+- better understand the relationship between this measurement and the housing delivery test metrics
+- explore how we might monitor the actual delivery of housing from systems such as Council Tax and the address register
 
 #### Principles for further investigation
 
 We suggest using the following principles across projects:
 
-*   it isn’t necessary to overhaul or reinvent the entire process of local plan making
-*   where possible keep data as close to its original source as possible
-*   avoid adding unnecessary burdens on local authorities
+* it isn’t necessary to overhaul or reinvent the entire process of local plan making
+* where possible keep data as close to its original source as possible
+* avoid adding unnecessary burdens on local authorities
 
 ## Timeline
 
