@@ -9,11 +9,11 @@
 
     <div class="govuk-grid-row">
       <div class="govuk-grid-column-two-thirds">
-        {{ $live := where .Data.Pages ".Params.status" "live" }}
-        {{ $beta := where .Data.Pages ".Params.status" "beta" }}
-        {{ $alpha := where .Data.Pages ".Params.status" "alpha" }}
-        {{ $discovery := where .Data.Pages ".Params.status" "discovery" }}
-        {{ $investigation := where .Data.Pages ".Params.status" "investigation" }}
+        {{ $live := where (where .Site.Pages ".Params.status" "live") "Type" "in" "project" }}
+        {{ $beta := where (where .Site.Pages ".Params.status" "beta") "Type" "in" "project" }}
+        {{ $alpha := where (where .Site.Pages ".Params.status" "alpha") "Type" "in" "project" }}
+        {{ $discovery := where (where .Site.Pages ".Params.status" "discovery") "Type" "in" "project" }}
+        {{ $investigation := where (where .Site.Pages ".Params.status" "investigation") "Type" "in" "project" }}
 
         <ul class="govuk-list">
           {{ range $live }}
