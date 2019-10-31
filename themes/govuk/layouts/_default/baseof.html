@@ -4,6 +4,13 @@
 <!--[if gt IE 8]><!--><html lang="{{ .Site.Params.html_lang | default "en" }}"><!--<![endif]-->
   <head>
     <meta charset="utf-8" />
+    {{ if in .Permalink "/guidance/brownfield-sites/" }}
+      <meta http-equiv="refresh" content="0; url=https://www.gov.uk/government/publications/brownfield-land-registers-data-standard/publish-your-brownfield-land-data" />
+    {{ end }}
+    {{ if in .Permalink "/guidance/developer-contributions/" }}
+      <meta http-equiv="refresh" content="0; url=https://www.gov.uk/guidance/publish-your-developer-contributions-data" />
+    {{ end }}
+
     {{ if eq .Title .Site.Title }}
       <title>{{ .Site.Title }}</title>
     {{ else }}
