@@ -1,13 +1,11 @@
 ---
 title: "Discovery and alpha report"
-status: alpha
-type: project
 pageFeedback: true
 summary: We're working with mySociety to make planning application data more trustworthy and up to date, as well as easier to find and use.
 layout: "single"
 ---
 
-## Executive summary
+## Introduction
 
 This Discovery and Alpha project is rooted in a [commitment made](https://www.gov.uk/government/publications/autumn-budget-2017-documents/autumn-budget-2017#ensuring-that-planning-permissions-are-built-out-faster) in the Autumn 2017 budget to create a central register of residential planning permissions.
 
