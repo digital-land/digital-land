@@ -1,4 +1,5 @@
 ---
+section: "Single register of planning"
 title: "Discovery and alpha report"
 pageFeedback: true
 summary: We're working with mySociety to make planning application data more trustworthy and up to date, as well as easier to find and use.
