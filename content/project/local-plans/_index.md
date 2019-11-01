@@ -15,50 +15,6 @@ Local plans are published in a wide range of formats and aren’t always consist
 
 The Digital Land team carried out a discovery project on local plans during summer 2019. We spoke with representatives of the main user groups of local plans in order to better understand their needs from local plans and the obstacles to those needs being met.  The discovery identified users’ problems with extracting data from local plans and opportunities for solving some of these.
 
-## Project scope
-<div class="govuk-grid-row">
-  <div class="govuk-grid-column-one-third">
-    <p>
-    	<span class="govuk-body govuk-!-font-size-48 govuk-!-font-weight-bold">5</span><br>
-    	<span class="govuk-body-l">months</span>
-    </p>
-  </div>
-  <div class="govuk-grid-column-one-third">
-    <p>
-    	<span class="govuk-body govuk-!-font-size-48 govuk-!-font-weight-bold">12</span><br>
-    	<span class="govuk-body-l">team members</span>
-    </p>
-  </div>
-  <div class="govuk-grid-column-one-third">
-    <p>
-    	<span class="govuk-body govuk-!-font-size-48 govuk-!-font-weight-bold">17</span><br>
-    	<span class="govuk-body-l">sites visited</span>
-    </p>
-  </div>
-</div>
-
-## User research
-<div class="govuk-grid-row">
-  <div class="govuk-grid-column-one-third">
-    <p>
-    	<span class="govuk-body govuk-!-font-size-48 govuk-!-font-weight-bold">27</span><br>
-    	<span class="govuk-body-l">local planning authority officers</span>
-    </p>
-  </div>
-  <div class="govuk-grid-column-one-third">
-    <p>
-    	<span class="govuk-body govuk-!-font-size-48 govuk-!-font-weight-bold">26</span><br>
-    	<span class="govuk-body-l">policy colleagues</span>
-    </p>
-  </div>
-  <div class="govuk-grid-column-one-third">
-    <p>
-    	<span class="govuk-body govuk-!-font-size-48 govuk-!-font-weight-bold">3</span><br>
-    	<span class="govuk-body-l">Planning Inspectorate workshops</span>
-    </p>
-  </div>
-</div>
-
 ## User needs
 ### As a policymaker I need:
 - to know what stage a local plan is in the plan-making process ⇒ so that I can support local plan making
