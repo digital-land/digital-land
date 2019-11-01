@@ -27,11 +27,11 @@ The Digital Land team carried out a discovery project on local plans during summ
 
 **Late July**
 
-We will present our findings and agree next steps with the planning directorate steering group.
+We presented our findings and agreed next steps with the planning directorate steering group.
 
 **Mid July**
 
-We will be running workshops internally with the Local Digital team and stakeholders to share results and plan for alpha.
+We ran workshops internally with the Local Digital team and stakeholders to share results and plan for alpha.
 
 **Late June**
 
