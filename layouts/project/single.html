@@ -24,7 +24,9 @@
   </div>
   <div class="govuk-grid-row">
     <div class="govuk-grid-column-one-third markdown-output contents-section">
-      {{ (.Resources.GetMatch "_contents.md").Content }}
+      {{ with .Resources.GetMatch "_contents.md" -}}
+        {{ .Content }}
+      {{ end }}
     </div>
 	  <div class="govuk-grid-column-two-thirds markdown-output has-side-contents">
 			{{ .Content }}
