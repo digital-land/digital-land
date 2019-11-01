@@ -7,6 +7,50 @@ summary: We’re working with local planning authorities to design an improved f
 layout: single
 ---
 
+## Project scope
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-one-third">
+    <p>
+    	<span class="govuk-body govuk-!-font-size-48 govuk-!-font-weight-bold">5</span><br>
+    	<span class="govuk-body-l">months</span>
+    </p>
+  </div>
+  <div class="govuk-grid-column-one-third">
+    <p>
+    	<span class="govuk-body govuk-!-font-size-48 govuk-!-font-weight-bold">12</span><br>
+    	<span class="govuk-body-l">team members</span>
+    </p>
+  </div>
+  <div class="govuk-grid-column-one-third">
+    <p>
+    	<span class="govuk-body govuk-!-font-size-48 govuk-!-font-weight-bold">17</span><br>
+    	<span class="govuk-body-l">sites visited</span>
+    </p>
+  </div>
+</div>
+
+## User research
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-one-third">
+    <p>
+    	<span class="govuk-body govuk-!-font-size-48 govuk-!-font-weight-bold">27</span><br>
+    	<span class="govuk-body-l">local planning authority officers</span>
+    </p>
+  </div>
+  <div class="govuk-grid-column-one-third">
+    <p>
+    	<span class="govuk-body govuk-!-font-size-48 govuk-!-font-weight-bold">26</span><br>
+    	<span class="govuk-body-l">policy colleagues</span>
+    </p>
+  </div>
+  <div class="govuk-grid-column-one-third">
+    <p>
+    	<span class="govuk-body govuk-!-font-size-48 govuk-!-font-weight-bold">3</span><br>
+    	<span class="govuk-body-l">Planning Inspectorate workshops</span>
+    </p>
+  </div>
+</div>
+
 ## Insights
 
 ### Data extraction insights
