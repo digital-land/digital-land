@@ -33,12 +33,11 @@
       <div class="govuk-grid-row">
         <div class="govuk-grid-column-two-thirds">
           <ul class="govuk-list">
-            {{ $projectPages := where .Site.RegularPages "Section" "project"  }}
-            {{ $live := where $projectPages ".Params.status" "live" }}
-            {{ $beta := where $projectPages ".Params.status" "beta" }}
-            {{ $alpha := where $projectPages ".Params.status" "alpha" }}
-            {{ $discovery := where $projectPages ".Params.status" "discovery" }}
-            {{ $investigation := where $projectPages ".Params.status" "investigation" }}
+            {{ $live := where (where .Site.Pages ".Params.status" "live") "Type" "in" "project" }}
+            {{ $beta := where (where .Site.Pages ".Params.status" "beta") "Type" "in" "project" }}
+            {{ $alpha := where (where .Site.Pages ".Params.status" "alpha") "Type" "in" "project" }}
+            {{ $discovery := where (where .Site.Pages ".Params.status" "discovery") "Type" "in" "project" }}
+            {{ $investigation := where (where .Site.Pages ".Params.status" "investigation") "Type" "in" "project" }}
 
             {{ range $live }}
               <li>
