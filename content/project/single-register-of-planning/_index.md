@@ -2,9 +2,9 @@
 title: "Single register of planning"
 status: alpha
 type: project
-hasContent: true
 pageFeedback: true
 summary: We're working with mySociety to make planning application data more trustworthy and up to date, as well as easier to find and use.
+layout: "single"
 ---
 
 ## Goals
@@ -54,3 +54,10 @@ We will also be identifying gaps in our knowledge and looking to schedule more c
 ## Prototypes
 
 We’ve not yet started any prototypes for this project.
+
+{{< govuk-section-break "xl" >}}
+
+## Phases
+<p>
+	<a class="govuk-link govuk-body-l" href="/project/single-register-of-planning/discovery">Discovery and alpha</a> <strong class="govuk-tag">done</strong>
+</p>

@@ -2,7 +2,11 @@
 
   <div class="govuk-grid-row">
 		<div class="govuk-grid-column-full">
-      <span class="govuk-caption-xl">{{ .Section | humanize }}</span>
+      {{ if .Params.Section }}
+        <span class="govuk-caption-xl">{{ .Params.Section | humanize }}</span>
+      {{ else }}
+        <span class="govuk-caption-xl">{{ .Section | humanize }}</span>
+      {{ end }}
     	<h1 class="govuk-heading-xl">
     	  {{ .Title }}
     	</h1>
@@ -20,7 +24,9 @@
   </div>
   <div class="govuk-grid-row">
     <div class="govuk-grid-column-one-third markdown-output contents-section">
-      {{ (.Resources.GetMatch "_contents.md").Content }}
+      {{ with .Resources.GetMatch "_contents.md" -}}
+        {{ .Content }}
+      {{ end }}
     </div>
 	  <div class="govuk-grid-column-two-thirds markdown-output has-side-contents">
 			{{ .Content }}
@@ -82,6 +88,6 @@
     newListElement.classList.add("govuk-list--bullet");
     container.appendChild(newListElement);
     return newListElement;
-  } 
+  }
 </script>
 {{ end }}
