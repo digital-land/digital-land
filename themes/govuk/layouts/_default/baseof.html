@@ -152,7 +152,9 @@
 
     {{ block "body_end" . }}{{ end }}
 
-    <script>if (typeof window.GOVUK === 'undefined') document.body.className = document.body.className.replace('js-enabled', '')</script>
+    <script>
+      if (typeof window.GOVUK === 'undefined') document.body.className = document.body.className.replace('js-enabled', '')
+    </script>
 
     {{ template "_internal/google_analytics_async.html" . }}
   </body>
