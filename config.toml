@@ -23,7 +23,11 @@ staticDir = ["static", "src/govuk_template/assets", "src/govuk_elements/assets"]
   url = "/project/"
 
   [[params.propositionlinks]]
-  name = "Organisation"
+  name = "Datasets"
+  url = "/dataset/"
+
+  [[params.propositionlinks]]
+  name = "Organisations"
   url = "/organisation/"
 
   [[params.propositionlinks]]
@@ -31,8 +35,8 @@ staticDir = ["static", "src/govuk_template/assets", "src/govuk_elements/assets"]
   url = "/guidance/"
 
   [[params.propositionlinks]]
-  name = "Glossary"
-  url = "/glossary/"
+  name = "Tags"
+  url = "/tag/"
 
   [[params.propositionlinks]]
   name = "Weeknotes"
@@ -41,6 +45,10 @@ staticDir = ["static", "src/govuk_template/assets", "src/govuk_elements/assets"]
   [[params.propositionlinks]]
   name = "Blog"
   url = "/blog-post/"
+
+  [[params.propositionlinks]]
+  name = "Map"
+  url = "/map/"
 
   [[params.footer_meta_links]]
   name = "Cookies"
