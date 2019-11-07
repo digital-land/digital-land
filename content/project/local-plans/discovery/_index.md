@@ -17,7 +17,7 @@ layout: single
   </div>
   <div class="govuk-grid-column-one-third">
     <p>
-    	<span class="govuk-body govuk-!-font-size-48 govuk-!-font-weight-bold">12</span><br>
+    	<span class="govuk-body govuk-!-font-size-48 govuk-!-font-weight-bold">2</span><br>
     	<span class="govuk-body-l">team members</span>
     </p>
   </div>
