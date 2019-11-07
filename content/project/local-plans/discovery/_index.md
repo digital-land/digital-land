@@ -66,7 +66,7 @@ It is often impossible to extract ‘finished’ data from local plans, either d
 * there is an objective requirement for housing numbers when the local process for determining this is, judging from initial feedback from local authorities and examiners, a very subjective one
 * authorities self publish data, which affects the quality and reliability of that data - especially given many are not data experts
 
-We also developed a prototype to extract housing numbers from local plans as part of our discovery and to test our assumptions about collecting data at source. This revealed that:
+We also developed [a prototype to extract housing numbers from local plans](https://local-plans-prototype.herokuapp.com/) as part of our discovery and to test our assumptions about collecting data at source. This revealed that:
 
 * the web addresses of published local plans and local development scheme timetables were inconsistent and unpredictable
 * housing numbers were, when they could be found, expressed in a variety of ways
