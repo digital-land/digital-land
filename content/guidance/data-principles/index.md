@@ -63,6 +63,10 @@ As an example, in a [register of countries](https://www.registers.service.gov.uk
 
 {{% /inset-text %}}
 
+#### End dates
+
+Once an entry is no longer valid or active, do not delete it from your register. Instead, simply add an end date. Keeping historical entries is good practice. Not only do we encourage transparency because it increases trust in the data, but seeing changes and patterns over time is useful for planning, development and policy. 
+
 {{< govuk-section-break "xl" >}}
 
 ## IDs
@@ -81,6 +85,8 @@ When creating a unique identifier you should:
 ## Persistent URLs
 
 You should be able to link to a data set from a URL. It is important that overtime the URL does not change. If a URL changes then it will make finding the data more difficult and will break anything that relies on the data. Users of the data need to be able to trust that a URL will take them to the most up to date set of data.
+
+Please make sure you send us the URL to the CSV file, rather than to the web page the CSV file sits on.
 
 {{< govuk-section-break "xl" >}}
 
