@@ -50,7 +50,7 @@ If you are using Excel and the date automatically reformats, you can change the 
 
 1. Highlight the date columns.
 2. Select “format” (Ctrl + 1 on a windows machine).
-3. select “date” and choose the correct formatting.
+3. Select “date” and choose the correct formatting.
 
 Once you’re ready to publish the register, save the file as a CSV and upload it. Unfortunately, the next time you open the file the date formatting can revert, but so long as you correct it just before uploading, the formatting on the live version will be correct.
 
