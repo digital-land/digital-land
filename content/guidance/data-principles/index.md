@@ -46,6 +46,14 @@ Dates can be [written in many different ways](https://xkcd.com/1179/). To avoid 
 A date should be represented as `YYYY-MM-DD`, so for example, 4 June 2018 would be written as `2018-06-04`.
 {{% /inset-text %}}
 
+If you are using Excel and the date automatically reformats, you can change the settings by following these steps:
+
+1. Highlight the date columns.
+2. Select “format” (Ctrl + 1 on a windows machine).
+3. select “date” and choose the correct formatting.
+
+Once you’re ready to publish the register, save the file as a CSV and upload it. Unfortunately, the next time you open the file the date formatting can revert, but so long as you correct it just before uploading, the formatting on the live version will be correct.
+
 ### Entry, start and end dates
 
 Each record within a register has 3 date attributes. These describe when the record was created, when it came into effect, and from when a record was no longer active.
