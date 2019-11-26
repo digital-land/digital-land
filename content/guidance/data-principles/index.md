@@ -46,14 +46,6 @@ Dates can be [written in many different ways](https://xkcd.com/1179/). To avoid 
 A date should be represented as `YYYY-MM-DD`, so for example, 4 June 2018 would be written as `2018-06-04`.
 {{% /inset-text %}}
 
-If you are using Excel and the date automatically reformats, you can change the settings by following these steps:
-
-1. Highlight the date columns.
-2. Select “format” (Ctrl + 1 on a windows machine).
-3. Select “date” and choose the correct formatting.
-
-Once you’re ready to publish the register, save the file as a CSV and upload it. Unfortunately, the next time you open the file the date formatting can revert, but so long as you correct it just before uploading, the formatting on the live version will be correct.
-
 ### Entry, start and end dates
 
 Each record within a register has 3 date attributes. These describe when the record was created, when it came into effect, and from when a record was no longer active.
@@ -70,6 +62,10 @@ As an example, in a [register of countries](https://www.registers.service.gov.uk
 | The Czech Republic | 1993-01-01 |
 
 {{% /inset-text %}}
+
+#### End dates
+
+Once an entry is no longer valid or active, do not delete it from your register. Instead, simply add an end date. Keeping historical entries is good practice. Not only do we encourage transparency because it increases trust in the data, but seeing changes and patterns over time is useful for planning, development and policy. 
 
 {{< govuk-section-break "xl" >}}
 
@@ -89,6 +85,8 @@ When creating a unique identifier you should:
 ## Persistent URLs
 
 You should be able to link to a data set from a URL. It is important that overtime the URL does not change. If a URL changes then it will make finding the data more difficult and will break anything that relies on the data. Users of the data need to be able to trust that a URL will take them to the most up to date set of data.
+
+Please make sure you send us the URL to the CSV file, rather than to the web page the CSV file sits on.
 
 {{< govuk-section-break "xl" >}}
 
