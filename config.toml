@@ -35,6 +35,10 @@ staticDir = ["static", "src/govuk_template/assets", "src/govuk_elements/assets"]
   url = "/guidance/"
 
   [[params.propositionlinks]]
+  name = "Datasets"
+  url = "/dataset/"
+
+  [[params.propositionlinks]]
   name = "Organisations"
   url = "/organisation/"
 
