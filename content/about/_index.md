@@ -5,6 +5,8 @@ title: About us
 ### Who we are
 We’re a team of digital and policy specialists in the [Ministry of Housing, Communities and Local Government](https://www.gov.uk/government/organisations/ministry-of-housing-communities-and-local-government).
 
+Find out more about [how we work](/about/how-we-work).
+
 ### Our mission
 By making land and housing data easier to find, use and trust, we aim to make it easier for:
 
