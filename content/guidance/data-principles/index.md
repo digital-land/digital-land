@@ -30,7 +30,7 @@ The smaller the breadth of the data model, the easier it will be to maintain and
 
 ## Not deleting entries in a register
 
-One something changes, is superseded, or becomes redundant, a new record should be added to the register. The old one can be marked as expired through the use of an [end date](#entry-start-and-end-dates).
+Once something changes, is superseded, or becomes redundant, a new record should be added to the register. The old one can be marked as expired through the use of an [end date](#entry-start-and-end-dates).
 
 Showing any changes in data helps to make the data more trustworthy and provides reassurance. It also allows service provides to build historic views of the data to demonstrate what has changed over time.
 
