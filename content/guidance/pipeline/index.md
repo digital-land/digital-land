@@ -56,7 +56,7 @@ We found ~800 different [column headers](https://github.com/digital-land/brownfi
 
 ## 5. Harmonise
 
-We then look at the values in the data and check that everything is consistent with the data standard. This step can be the trickiest to do with certainty, because sometimes we have to interpret what the data publisher meant. For example, `yes` has been entered as `Y`, which we can confidently change. However, we cannot guess what the data publisher meant by an incorrect date, such as `2019-11-31` (since this date does not exist). Yet it would not be safe to assume that the correct value should be `2019-11-30`.
+We then look at the values in the data and check that everything is consistent with the data standard. This step can be the trickiest to do with certainty, because sometimes we have to interpret what the data publisher meant. For example, if `yes` has been entered as `Y`, we can confidently change this. However, we cannot guess what the data publisher meant by an incorrect date, such as `2019-11-31`. Since this date does not exist, it would not be safe to assume that the correct value should be `2019-11-30`.
 
 {{% cta-box %}}
 View the [harmonisation rules that we’ve been able to automate](https://github.com/digital-land/brownfield-land-collection/blob/master/bin/harmonise.py) based on what we've learned through the brownfield land project.
