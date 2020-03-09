@@ -13,6 +13,8 @@
 
     {{ if eq .Title .Site.Title }}
       <title>{{ .Site.Title }}</title>
+    {{ else if and (isset .Params "date") (eq .Type "weeknote") .Title }}
+      <title>{{ .Title }}: {{ dateFormat "2006-01-02" .Params.date }} | Weeknotes | {{ .Site.Title }}</title>
     {{ else }}
       <title>{{ if .Title }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
     {{ end }}
