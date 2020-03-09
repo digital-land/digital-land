@@ -34,9 +34,9 @@ If a resource has changed, we add it to our collection. The [brownfield collecti
 
 ## 2. Convert
 
-If the collected resource is not a [UTF-8 encoded CSV](https://www.w3schools.com/charsets/ref_html_utf8.asp) then we’ll try to convert it into one.
+If the collected resource is not a [UTF-8 encoded](https://www.w3schools.com/charsets/ref_html_utf8.asp) CSV file, we’ll try to convert it into one.
 
-We can convert certain file types with varying degrees of confidence. For example, a Microsoft Excel file may be easy to convert into a CSV file,whereas we would not be able to convert PDF or image files.  
+We can convert certain file types with varying degrees of confidence. For example, a Microsoft Excel file may be easy to convert into a CSV file, whereas we would not be able to convert PDF or image files.  
 
 ## 3. Normalise
 
