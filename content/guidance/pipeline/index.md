@@ -48,7 +48,7 @@ Next we check (or “map”) the column headers in the resource against those in
 
 If we have made any changes to the data standard over time, the header names in a published resource may not have been updated to meet the new standard.
 
-We may also be able to identify and correctly map typos. For example, we can confidently map both `HazourdousSubstances` and `HazardousSubtances` to the correct header: `HazardousSubstances`.
+We may also be able to identify and correctly map typos. For example, we can confidently map both `HazourdousSubstances` and `HazardousSubtances` to the correctly spelled header: `HazardousSubstances`.
 
 {{% cta-box %}}
 We found ~800 different [column headers](https://github.com/digital-land/brownfield-land-collection/blob/master/index/count/column.csv) that were submitted to the brownfield land data collection, and which we have attempted to map against 20 headers in the standard.
