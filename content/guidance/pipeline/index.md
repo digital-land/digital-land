@@ -28,7 +28,7 @@ The pipeline follows these steps:
 
 The collector’s primary purpose is to gather all of the resources that we know about. Each night it visits the URL for each resource to check if it's still valid.
 
-We produce a [daily log](/resource/log/2020-01-16) which records what the collector has found. This includes any links that cannot be accessed, or new resources that have been found at a URL.
+We produce a [daily log](/resource/log/2020-03-09) which records what the collector has found. This includes any links that cannot be accessed, or new resources found at a URL.
 
 If a resource has changed, we add it to our collection. The [brownfield collection](https://github.com/digital-land/brownfield-land-collection/blob/master/dataset/brownfield-land.csv) is an example of a data collection.
 
@@ -50,7 +50,6 @@ If we have made any changes to the data standard over time, the header names in 
 
 We may also be able to identify and correctly map typos. For example, we can confidently map both `HazourdousSubstances` and `HazardousSubtances` to the correct header: `HazardousSubstances`.
 
-
 {{% cta-box %}}
 We found ~800 different [column headers](https://github.com/digital-land/brownfield-land-collection/blob/master/index/count/column.csv) that were submitted to the brownfield land data collection, and which we have attempted to map against 20 headers in the standard.
 {{% /cta-box %}}
@@ -66,4 +65,3 @@ View the [harmonisation rules that we’ve been able to automate](https://github
 ## 6. Transform
 
 The final step in our pipeline process takes each harmonised resource and builds a [national dataset](/dataset/brownfield-land/).
-
