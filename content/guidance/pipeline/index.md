@@ -51,7 +51,7 @@ If we have made any changes to the data standard over time, the header names in 
 We may also be able to identify and correctly map typos. For example, we can confidently map both `HazourdousSubstances` and `HazardousSubtances` to the correctly spelled header: `HazardousSubstances`.
 
 {{% cta-box %}}
-We found ~800 different [column headers](https://github.com/digital-land/brownfield-land-collection/blob/master/index/count/column.csv) that were submitted to the brownfield land data collection, and which we have attempted to map against 20 headers in the standard.
+We found ~800 different [column headers](https://github.com/digital-land/brownfield-land-collection/blob/master/index/count/column.csv) that were submitted to the brownfield land data collection. We have attempted to map these against 20 headers in the standard.
 {{% /cta-box %}}
 
 ## 5. Harmonise
