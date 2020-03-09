@@ -1,5 +1,5 @@
 ---
-title: "Pipeline – how we collect and process data"
+title: "Pipeline: how we collect and process data"
 label: "guidance:pipeline"
 hasContent: true
 summary: Our pipeline process collects individual publications of data and turns them into a national dataset.
