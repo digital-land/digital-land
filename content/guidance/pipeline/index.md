@@ -7,7 +7,7 @@ summary: Our pipeline process collects individual publications of data and turns
 
 One of our principles is that data should be maintained as close to the source as possible. This means that we often have to bring together over 350 sources to make 1 national dataset. Our “pipeline” describes the steps we take to collect data from each source and transform them into a national dataset.
 
-We support publishers of data by providing guidance and tools to help ensure their data meets the data standard. Any changes that we make to the data as it passes through the pipeline brings a risk that we’ll introduce errors.
+We support publishers of data by providing guidance and tools to help ensure their data meets the data standard. Any changes that we make to the data as it passes through the pipeline, brings a risk that we’ll introduce errors.
 
 {{% cta-box %}}
 For any resource, you can view its state at each step in the pipeline, allowing you to see what we've changed.
