@@ -36,11 +36,11 @@ If a resource has changed, we add it to our collection. The [brownfield collecti
 
 If the collected resource is not a [UTF-8 encoded](https://www.w3schools.com/charsets/ref_html_utf8.asp) CSV file, we’ll try to convert it into one.
 
-We can convert certain file types with varying degrees of confidence. For example, a Microsoft Excel file may be easy to convert into a CSV file, whereas we would not be able to convert PDF or image files.  
+We can convert certain file types with varying degrees of confidence. For example, a Microsoft Excel file may be easy to convert into a CSV file, whereas we would not be able to convert a PDF or image file.  
 
 ## 3. Normalise
 
-Once we have a UTF-8 CSV file, we strip out anything that is not recognisable as data, for example, if a row has no values, or if there are descriptions above the column headers.
+Once we have a UTF-8 CSV file, we strip out anything that is not recognisable as data, for example if a row has no values, or if there are descriptions above the column headers.
 
 ## 4. Map the headers
 
