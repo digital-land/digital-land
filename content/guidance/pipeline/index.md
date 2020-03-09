@@ -2,75 +2,68 @@
 title: "Pipeline – how we collect and process data"
 label: "guidance:pipeline"
 hasContent: true
-summary: This guidance describes our pipeline process of collecting individual publications of data and turning them into national datasets.
+summary: Our pipeline process collects individual publications of data and turns them into a national dataset.
 ---
 
-One of our principles is that data should be maintained as close to the source as possible. This means that we often have to bring together over 350 sources to make one national dataset.
-
-Our “pipeline” describes the steps we take to collect data from each of those sources and transform them into a national dataset.
+One of our principles is that data should be maintained as close to the source as possible. This means that we often have to bring together over 350 sources to make 1 national dataset. Our “pipeline” describes the steps we take to collect data from each source and transform them into a national dataset.
 
 We support publishers of data by providing guidance and tools to help ensure their data meets the data standard. Any changes that we make to the data as it passes through the pipeline brings a risk that we’ll introduce errors.
 
 {{% cta-box %}}
-For any resource you can view its state at each step in the pipeline, allowing you to see what we have changed.
+For any resource, you can view its state at each step in the pipeline, allowing you to see what we've changed.
 {{% /cta-box %}}
 
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/mattlucht/49547009136/in/datetaken-public/" title="Brownfield_Land_Report_-_Google_Slides"><img src="https://live.staticflickr.com/65535/49547009136_f3c86e9e31_b.jpg" alt="Brownfield_Land_Report_-_Google_Slides"></a>
 
 The pipeline follows these steps:
 
-1. Collect
-+ Convert
-+ Normalise
-+ Map
-+ Harmonise
-+ Transform
+1. [Collect](#1-collect)
+2. [Convert](#2-convert)
+3. [Normalise](#3-normalise)
+4. [Map](#4-map-the-headers)
+5. [Harmonise](#5-harmonise)
+6. [Transform](#6-transform)
 
 ## 1. Collect
 
-The collector’s primary purpose is to gather all of the resources that we know about.
+The collector’s primary purpose is to gather all of the resources that we know about. Each night it visits the URL for each resource to check if it's still valid.
 
-Each night it visits every link that we know about and checks whether the URL is still valid.
+We produce a [daily log](/resource/log/2020-01-16) which records what the collector has found. This includes any links that cannot be accessed, or new resources that have been found at a URL.
 
-We produce a [daily log](/resource/log/2020-01-16) which records what the collector has found. This reports any links that cannot be accessed or if a new resource has been found at a URL.
-
-If a resource has changed then we add it into our collection. As an example of a data collection, see the [brownfield collection](https://github.com/digital-land/brownfield-land-collection/blob/master/dataset/brownfield-land.csv).
+If a resource has changed, we add it to our collection. The [brownfield collection](https://github.com/digital-land/brownfield-land-collection/blob/master/dataset/brownfield-land.csv) is an example of a data collection.
 
 ## 2. Convert
 
-If the collected resource is not a UTF-8 encoded CSV then we’ll try to convert it to one.
+If the collected resource is not a [UTF-8 encoded CSV](https://www.w3schools.com/charsets/ref_html_utf8.asp) then we’ll try to convert it into one.
 
-We can convert certain file types with varying degrees of confidence, for instance, an Excel file.
-
-We are unable to reliably convert files that are in PDF or an image file so those file types will fail at this stage.
+We can convert certain file types with varying degrees of confidence. For example, a Microsoft Excel file may be easy to convert into a CSV file,whereas we would not be able to convert PDF or image files.  
 
 ## 3. Normalise
 
-Once we have a UTF-8 CSV file, we strip out anything that isn’t recognisable as data. For example, if a row has no values or where there are descriptions above the column headers.
+Once we have a UTF-8 CSV file, we strip out anything that is not recognisable as data, for example, if a row has no values, or if there are descriptions above the column headers.
 
 ## 4. Map the headers
 
-Next, we check (or “map”) the column headers in the resource against those in the data standard.
+Next we check (or “map”) the column headers in the resource against those in the data standard.
 
- If we have made any changes to the data standard over time, sometimes the header names in a published resource haven’t been updated to meet the new standard.
+If we have made any changes to the data standard over time, the header names in a published resource may not have been updated to meet the new standard.
 
-Or there might be typos that we can identify and correctly map. For instance, we can confidently map both `HazourdousSubstances` and `HazardousSubtances` to the correct header: `HazardousSubstances`.
+We may also be able to identify and correctly map typos. For example, we can confidently map both `HazourdousSubstances` and `HazardousSubtances` to the correct header: `HazardousSubstances`.
 
 
 {{% cta-box %}}
-Here you can see that there are ~800 different [column headers](https://github.com/digital-land/brownfield-land-collection/blob/master/index/count/column.csv) that appear in the brownfield land data collection, that we attempted to map against 20 headers in the standard.
+We found ~800 different [column headers](https://github.com/digital-land/brownfield-land-collection/blob/master/index/count/column.csv) that were submitted to the brownfield land data collection, and which we have attempted to map against 20 headers in the standard.
 {{% /cta-box %}}
 
 ## 5. Harmonise
 
-We then look at the values in the data and check that everything is consistent with the data standard. This step can be the trickiest to implement with certainty as it involves an element of interpreting what the data publisher meant.
-`yes` has been entered as `Y`, can confidently be changed. But an incorrect date of `2019-11-31` requires investigation to determine what the correct date should be. For instance, it wouldn’t be safe to assume that the correct value should be `2019-11-30`.
+We then look at the values in the data and check that everything is consistent with the data standard. This step can be the trickiest to do with certainty, because sometimes we have to interpret what the data publisher meant. For example, `yes` has been entered as `Y`, which we can confidently change. However, we cannot guess what the data publisher meant by an incorrect date, such as `2019-11-31` (since this date does not exist). Yet it would not be safe to assume that the correct value should be `2019-11-30`.
 
 {{% cta-box %}}
-Here you can see the [harmonisation rules that we’ve been able to automate](https://github.com/digital-land/brownfield-land-collection/blob/master/bin/harmonise.py) based on what we learnt through the brownfield land project.
+View the [harmonisation rules that we’ve been able to automate](https://github.com/digital-land/brownfield-land-collection/blob/master/bin/harmonise.py) based on what we've learned through the brownfield land project.
 {{% /cta-box %}}
 
 ## 6. Transform
 
-The final step takes each harmonised resource and builds a [national dataset](/dataset/brownfield-land/).
+The final step in our pipeline process takes each harmonised resource and builds a [national dataset](/dataset/brownfield-land/).
 
