@@ -28,7 +28,7 @@ The pipeline follows these steps:
 
 The collector’s primary purpose is to gather all of the resources that we know about. Each night it visits the URL for each resource to check if it's still valid.
 
-We produce a [daily log](/resource/log/2020-03-09) which records what the collector has found. This includes any links that cannot be accessed, or new resources found at a URL.
+We produce a [daily log](/resource/log/2020-03-09) which records what the collector has found. This includes any links that cannot be accessed and new resources found at a URL.
 
 If a resource has changed, we add it to our collection. The [brownfield collection](https://github.com/digital-land/brownfield-land-collection/blob/master/dataset/brownfield-land.csv) is an example of a data collection.
 
@@ -40,7 +40,7 @@ We can convert certain file types with varying degrees of confidence. For exampl
 
 ## 3. Normalise
 
-Once we have a UTF-8 CSV file, we strip out anything that is not recognisable as data, for example if a row has no values, or if there are descriptions above the column headers.
+Once we have a UTF-8 CSV file, we strip out anything that is not recognisable as data. For example if a row has no values, or if there are descriptions above the column headers.
 
 ## 4. Map the headers
 
@@ -56,7 +56,9 @@ We found ~800 different [column headers](https://github.com/digital-land/brownfi
 
 ## 5. Harmonise
 
-We then look at the values in the data and check that everything is consistent with the data standard. This step can be the trickiest to do with certainty, because sometimes we have to interpret what the data publisher meant. For example, if `yes` has been entered as `Y`, we can confidently change this. However, we cannot guess what the data publisher meant by an incorrect date, such as `2019-11-31`. Since this date does not exist, it would not be safe to assume that the correct value should be `2019-11-30`.
+We then look at the values in the data and check that everything is consistent with the data standard. This step can be the trickiest to do with certainty, because sometimes we have to interpret what the data publisher meant. 
+
+For example, if `yes` has been entered as `Y`, we can confidently change this. However, we cannot guess what the data publisher meant by an incorrect date, such as `2019-11-31`. Since this date does not exist, it would not be safe to assume that the correct value should be `2019-11-30`.
 
 {{% cta-box %}}
 View the [harmonisation rules that we’ve been able to automate](https://github.com/digital-land/brownfield-land-collection/blob/master/bin/harmonise.py) based on what we've learned through the brownfield land project.
