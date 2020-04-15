@@ -42,7 +42,7 @@ The Digital Land team carried out a discovery project on local plans during summ
 	<a class="govuk-link govuk-body-l" href="/project/local-plans/discovery">Discovery</a> <strong class="govuk-tag">done</strong>
 </p>
 <p>
-	<span class="govuk-body-l">Alpha</span> <strong class="govuk-tag">upcoming</strong>
+  <a class="govuk-link govuk-body-l" href="/project/local-plans/alpha">Alpha</a> <strong class="govuk-tag">current</strong>
 </p>
 
 ## Timeline
