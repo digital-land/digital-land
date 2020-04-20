@@ -4,12 +4,18 @@
   {{ else if not .p1.IsHome }}
     {{ template "breadcrumbnav" (dict "p1" .p1.Site.Home "p2" .p2 )  }}
   {{ end }}
-  {{ if eq .p1 .p2 }}
-    <li class="govuk-breadcrumbs__list-item" aria-current="page">{{ .p1.Title }}</li>
+  {{ if isset .p1.Params "breadcrumb" }}
+    {{ if eq .p1.Params.breadcrumb "last" }}
+      <li class="govuk-breadcrumbs__list-item" aria-current="page">{{ .p1.Title }}</li>
+    {{ end }}
   {{ else }}
-    <li class="govuk-breadcrumbs__list-item">
-      <a class="govuk-breadcrumbs__link" href="{{ .p1.Permalink }}">{{ .p1.Title }}</a>
-    </li>
+    {{ if eq .p1 .p2 }}
+      <li class="govuk-breadcrumbs__list-item" aria-current="page">{{ .p1.Title }}</li>
+    {{ else }}
+      <li class="govuk-breadcrumbs__list-item">
+        <a class="govuk-breadcrumbs__link" href="{{ .p1.Permalink }}">{{ .p1.Title }}</a>
+      </li>
+    {{ end }}
   {{ end }}
 {{ end }}
 
