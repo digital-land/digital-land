@@ -7,6 +7,7 @@ $using-helvetica: true;
 // import all GOVUK scss (contains plenty of helpers to use)
 @import "all";
 
+// Import all project components
 @import "project-components/blockquote";
 @import "project-components/prototype-tracking";
 @import "project-components/markdown";
