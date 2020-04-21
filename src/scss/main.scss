@@ -42,6 +42,15 @@ $govuk-images-path: "/govuk-frontend/assets/images/";
   padding-left: 0;
 }
 
+.govuk-header--no-border {
+  border-bottom-width: 0;
+
+  .govuk-header__container {
+    margin-bottom: 0;
+    border-bottom-width: 0;
+  }
+}
+
 // =====================
 // Project scss
 // =====================

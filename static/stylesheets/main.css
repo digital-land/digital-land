@@ -7080,6 +7080,15 @@ blockquote p:last-child:after {
   padding-left: 0;
 }
 
+.govuk-header--no-border {
+  border-bottom-width: 0;
+}
+
+.govuk-header--no-border .govuk-header__container {
+  margin-bottom: 0;
+  border-bottom-width: 0;
+}
+
 #content img {
   max-width: 100%;
 }

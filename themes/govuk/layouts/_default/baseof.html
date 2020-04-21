@@ -41,7 +41,7 @@
 
     <a href="#content" class="govuk-skip-link">{{ .Site.Params.skip_link_message | default "Skip to main content" }}</a>
 
-    <header role="banner" id="global-header" class="govuk-header {{ block "header_class" . }}{{ end }} with-proposition">
+    <header role="banner" id="global-header" class='govuk-header {{ block "govuk_header_classes" . }}{{ end }} with-proposition'>
       <div class="govuk-header__container govuk-width-container">
         <!--<div class="header-global">
           <div class="header-logo">
