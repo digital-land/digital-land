@@ -40,6 +40,10 @@
     @include govuk-responsive-margin(4, "top");
   }
 
+  li > p {
+    margin-bottom: 0;
+  }
+
   h1 {
     @extend .govuk-heading-xl;
     @include govuk-responsive-margin(8, "top");

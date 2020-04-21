@@ -6822,6 +6822,10 @@ blockquote p:last-child:after {
   }
 }
 
+.markdown-output li > p {
+  margin-bottom: 0;
+}
+
 .markdown-output h1 {
   margin-top: 30px;
 }
