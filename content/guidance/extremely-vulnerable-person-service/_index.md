@@ -37,7 +37,7 @@ Find out which [authorities are hub leads, and which local authorities sit under
 
 ### Add a data lead for your local authority hub
 
-Yes, so long as they are from a local authority hub. Email [transfer-coronavirus-data-service@digital.cabinet-office.gov.uk](mailto:transfer-coronavirus-data-service@digital.cabinet-office.gov.uk) with the new person’s:
+Each local authority hub can have as many data leads as they need. Email [transfer-coronavirus-data-service@digital.cabinet-office.gov.uk](mailto:transfer-coronavirus-data-service@digital.cabinet-office.gov.uk) with the new person’s:
 
 * First name
 * Last name

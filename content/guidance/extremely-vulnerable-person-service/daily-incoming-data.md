@@ -67,9 +67,10 @@ Local authority hubs must share this data with local authorities in their hub - 
 | BasicCareNeedsMet | Do they have someone they can talk to, help them wash, keep their house clean and help meet their basic needs? |
 | CarrySupplies | Can they carry the supplies into their property (or do they have someone who can help with this)? |
 
-#### * Essential Supplies
-Yes means they have access to essential supplies, so they do not need an emergency delivery.
-No means they do not have access to essential supplies, so they need some delivered.
+#### Options for Essential Supplies 
+**Yes** - means they have access to essential supplies, so they do not need an emergency delivery.
+
+**No** - means they do not have access to essential supplies, so they need some delivered.
 
 ## Data on social care and dietary requirements
 We are working toward this. The first iteration is a standardised offer – a very basic, food package that is an emergency provision for people who might otherwise starve. In order to get the data and food parcels out quickly, we have built the most basic service. 
