@@ -36,6 +36,12 @@ $govuk-images-path: "/govuk-frontend/assets/images/";
   max-width: 30em;
 }
 
+// digital land site only uses part of govuk-header
+.govuk-header__content {
+  width: 100%;
+  padding-left: 0;
+}
+
 // =====================
 // Project scss
 // =====================

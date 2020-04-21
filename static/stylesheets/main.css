@@ -7075,6 +7075,11 @@ blockquote p:last-child:after {
   max-width: 30em;
 }
 
+.govuk-header__content {
+  width: 100%;
+  padding-left: 0;
+}
+
 #content img {
   max-width: 100%;
 }
