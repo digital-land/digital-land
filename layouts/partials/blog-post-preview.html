@@ -1,7 +1,7 @@
 <article class="blog-post blog-post-preview">
   <header>
     <h2 class="govuk-heading-l">
-        <a href="{{ if isset .Params "external_url" }}{{ .Params.external_url }}{{ else }}{{ .URL }}{{ end }}">{{ .Title }}</a>
+        <a class="govuk-link" href="{{ if isset .Params "external_url" }}{{ .Params.external_url }}{{ else }}{{ .URL }}{{ end }}">{{ .Title }}</a>
     </h2>
     <p class="byline author vcard">
         <span class="visuallyhidden">Posted by:</span>
@@ -17,7 +17,7 @@
   <footer class="entry-footer">
     <ul class="govuk-list">
         <li>
-        <a class="read-more" href="{{ if isset .Params "external_url" }}{{ .Params.external_url }}{{ else }}{{ .URL }}{{ end }}">Read more <span class="visuallyhidden">about this topic</span></a>
+        <a class="govuk-link read-more" href="{{ if isset .Params "external_url" }}{{ .Params.external_url }}{{ else }}{{ .URL }}{{ end }}">Read more <span class="visuallyhidden">about this topic</span></a>
         </li>
     </ul>
   </footer>

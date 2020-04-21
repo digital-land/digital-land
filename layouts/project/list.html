@@ -5,7 +5,9 @@
     {{ end }}
 
     <h1 class="govuk-heading-xl">{{ .Title }}</h1>
-    <div class="govuk-body-l">{{ .Content }}</div>
+    <div class="markdown-output">
+      <div class="govuk-body-l">{{ .Content }}</div>
+    </div>
 
     <div class="govuk-grid-row">
       <div class="govuk-grid-column-two-thirds">
