@@ -2,17 +2,8 @@
 $govuk-fonts-path: "/govuk-frontend/assets/fonts/";
 $govuk-images-path: "/govuk-frontend/assets/images/";
 
-@import "settings/all";
-@import "tools/all";
-@import "helpers/all";
-
-@import "core/all";
-@import "objects/all";
-
-@import "components/all";
-
-@import "utilities/all";
-@import "overrides/all";
+// import all GOVUK Frontend scss
+@import "all";
 
 // common fixes when using helvetica
 // needs to come before components
@@ -43,6 +34,21 @@ $govuk-images-path: "/govuk-frontend/assets/images/";
 .govuk-body,
 .govuk-body-l {
   max-width: 30em;
+}
+
+// digital land site only uses part of govuk-header
+.govuk-header__content {
+  width: 100%;
+  padding-left: 0;
+}
+
+.govuk-header--no-border {
+  border-bottom-width: 0;
+
+  .govuk-header__container {
+    margin-bottom: 0;
+    border-bottom-width: 0;
+  }
 }
 
 // =====================
@@ -90,13 +96,13 @@ $govuk-images-path: "/govuk-frontend/assets/images/";
 .pattern-display-single {
   max-width: 150px;
   border-radius: 5%;
-  background: govuk-colour("grey-3");
+  background: govuk-colour("light-grey");
 }
 
 .pattern-icon {
   max-width: 200px;
   border-radius: 5%;
-  background: govuk-colour("grey-3");
+  background: govuk-colour("light-grey");
 }
 
 .pattern-page-header {
@@ -110,7 +116,7 @@ $govuk-images-path: "/govuk-frontend/assets/images/";
 .prototype-update-container {
   @include govuk-responsive-padding(6, "top");
   @include govuk-responsive-padding(6, "bottom");
-  border-bottom: 1px solid govuk-colour("grey-2");
+  border-bottom: 1px solid $govuk-border-colour;
 
   ul:last-child {
     margin-bottom: 0;
@@ -159,9 +165,9 @@ $govuk-images-path: "/govuk-frontend/assets/images/";
 .tech-block {
   padding: 15px;
   overflow: auto;
-  border: 1px solid govuk-colour("grey-2");
+  border: 1px solid govuk-colour("mid-grey");
   border-radius: 1px;
-  background: ("grey-4");
+  background: ("light-grey");
 
   code {
     // sass-lint:disable no-misspelled-properties no-duplicate-properties
@@ -177,7 +183,7 @@ $govuk-images-path: "/govuk-frontend/assets/images/";
 
 .blog-post {
   .byline {
-    color: govuk-colour("grey-1");
+    color: govuk-colour("dark-grey");
   }
 
   footer a {
@@ -187,7 +193,7 @@ $govuk-images-path: "/govuk-frontend/assets/images/";
 
 .blog-post-preview {
   padding: 30px 0;
-  border-top: 1px solid govuk-colour("grey-2");
+  border-top: 1px solid govuk-colour("mid-grey");
 
   h2 {
     margin-bottom: 0;
@@ -227,15 +233,18 @@ $govuk-images-path: "/govuk-frontend/assets/images/";
 
   .equal-panels-single {
     margin: 7.5px 15px;
+    padding: 15px;
+    background: govuk-colour("blue");
     flex: 1 1 0;
     @include govuk-media-query($from: tablet) {
       margin: 0 15px;
     }
-    padding: 15px;
-    background: govuk-colour("blue");
-    p, a {
+
+    p,
+    a {
       color: govuk-colour("white");
     }
+
     & :last-child {
       margin-bottom: 0;
     }

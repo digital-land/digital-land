@@ -4,7 +4,7 @@
     <span class="visuallyhidden">Related to:</span>
     {{ range .Param "related" }}
         {{ with ( $.Site.GetPage ( strings.TrimSuffix "/" . ) ) }}
-        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        <a class="govuk-link" href="{{ .Permalink }}">{{ .Title }}</a>
         {{ end }}
     {{ end }}
   </span>

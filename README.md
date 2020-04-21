@@ -20,6 +20,12 @@ To develop the site locally, run:
 
 - `npm run start` to generate css, start gulp watch task and run hugo server in the background
 
+### Submodules
+
+This project uses the digital-land-frontend system. It is included as a submodule. To update to the latest run:
+
+    git submodule update --init --recursive --remote
+
 ## Creating content
 
 See [creating content](CREATE-CONTENT.md) documentation.

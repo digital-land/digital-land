@@ -7,7 +7,7 @@ const clean         = require('gulp-clean');
 const config = {
 	scssPath: "src/scss",
 	destPath: "static/stylesheets",
-  assetPath: "static/govuk-frontend/assets"
+  assetPath: "static/govuk/assets"
 }
 
 // Delete our old css files
@@ -20,10 +20,11 @@ gulp.task('clean-css', function cleanCss () {
 gulp.task("scss", function compileSass () {
   return gulp.src( config.scssPath + '/*.scss')
   .pipe(sass({outputStyle: 'expanded',
-    includePaths: [ 'src/govuk_frontend_toolkit/stylesheets',
-      'src/govuk_template/assets/stylesheets',
-      'src/govuk_elements/assets/sass',
-      'src/govuk-frontend']})).on('error', sass.logError)
+    includePaths: [
+      'src/scss',
+      'digital-land-frontend/src/govuk',
+      'digital-land-frontend/src/scss' ]
+    })).on('error', sass.logError)
   .pipe(gulp.dest(config.destPath));
 });
 
@@ -44,7 +45,7 @@ gulp.task("watch", function watchAssets () {
 });
 
 gulp.task("copy-assets", function copyAssets () {
-  return gulp.src('src/govuk-frontend/assets/**/*')
+  return gulp.src('digital-land-frontend/src/govuk/assets/**/*')
     .pipe(gulp.dest(config.assetPath));
 });
 
