@@ -1,6 +1,8 @@
-<ul id="proposition-links">
+<ul id="navigation" class="govuk-header__navigation" aria-label="Top Level Navigation">
   {{ $url := .Site.BaseURL }}
   {{ range .Site.Params.propositionlinks }}
-    <li><a href="{{ .url }}">{{ .name }}</a></li>
+    <li class="govuk-header__navigation-item">
+      <a class="govuk-header__link" href="{{ .url }}">{{ .name }}</a>
+    </li>
   {{ end }}
 </ul>

@@ -8,8 +8,8 @@
   max-width: 30em;
   margin: $govuk-gutter-half 0;
   padding: 20px;
-  border: 1px solid govuk-colour("grey-2");
-  background: govuk-colour("grey-4");
+  border: 1px solid $govuk-border-colour;
+  background: govuk-colour("light-grey");
   @include govuk-media-query($from: tablet) {
     margin: $govuk-gutter 0;
     padding: $govuk-gutter;
