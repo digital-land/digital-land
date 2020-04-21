@@ -44,12 +44,17 @@ gulp.task("watch", function watchAssets () {
   gulp.watch("src/scss/**/*", gulp.series("scss"));
 });
 
+gulp.task("copy-dlf-css", function copyDlfCss () {
+  return gulp.src('digital-land-frontend/application/static/stylesheets/dl-frontend.css')
+    .pipe(gulp.dest(config.destPath));
+});
+
 gulp.task("copy-assets", function copyAssets () {
   return gulp.src('digital-land-frontend/src/govuk/assets/**/*')
     .pipe(gulp.dest(config.assetPath));
 });
 
-gulp.task("generate", gulp.series(lintSCSS, "clean-css", "copy-assets", "scss"));
+gulp.task("generate", gulp.series(lintSCSS, "clean-css", "copy-assets", "copy-dlf-css", "scss"));
 
 // Set watch as default task
 gulp.task("default", gulp.series("watch"));

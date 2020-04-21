@@ -2,27 +2,15 @@
 $govuk-fonts-path: "/govuk-frontend/assets/fonts/";
 $govuk-images-path: "/govuk-frontend/assets/images/";
 
-// import all GOVUK Frontend scss
+$using-helvetica: true;
+
+// import all GOVUK scss (contains plenty of helpers to use)
 @import "all";
 
-// common fixes when using helvetica
-// needs to come before components
-@import "core/helvetica-fixes";
-
-// Import all project components
-@import "project-components/page-feedback";
 @import "project-components/blockquote";
-@import "project-components/hero";
-@import "project-components/definition-list";
-@import "project-components/tags";
-@import "project-components/highlight-box";
-
 @import "project-components/prototype-tracking";
-
-@import "project-components/contents";
 @import "project-components/markdown";
 
-@import "project-components/pagination";
 
 * {
   font-family: "HelveticaNeue", "Helvetica Neue", "Arial", "Helvetica", sans-serif !important;
@@ -31,9 +19,12 @@ $govuk-images-path: "/govuk-frontend/assets/images/";
 // =====================
 // Hacks: or things I can't find in GOVUK design system
 // =====================
-.govuk-body,
 .govuk-body-l {
-  max-width: 30em;
+  max-width: 30em !important;
+}
+
+.govuk-body {
+  max-width: 38em;
 }
 
 // digital land site only uses part of govuk-header
@@ -49,6 +40,15 @@ $govuk-images-path: "/govuk-frontend/assets/images/";
     margin-bottom: 0;
     border-bottom-width: 0;
   }
+}
+
+// =======================
+// Digital land hugo hacks
+// =======================
+// some components need a few hacks/tweaks to work nicely with hugo output
+
+.markdown-output .dlf-pagination__list {
+  padding-left: 0 !important;
 }
 
 // =====================

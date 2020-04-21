@@ -30,6 +30,7 @@
     <meta property="og:image" content="/images/opengraph-image.png?0.24.0">
     <meta property="description" content="{{ .Params.metaDescription | default .Summary }}">
     {{ block "head" . }}
+      <link rel="stylesheet" media="all" href="/stylesheets/dl-frontend.css" />
       <link rel="stylesheet" media="all" href="/stylesheets/main.css" />
     {{ end }}
   </head>
