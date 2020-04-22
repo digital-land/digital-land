@@ -43,6 +43,13 @@ $using-helvetica: true;
   }
 }
 
+@if $using-helvetica == true {
+  .govuk-warning-text__icon {
+    padding-top: 1px;
+    padding-bottom: 2px;
+  }
+}
+
 // =======================
 // Digital land hugo hacks
 // =======================

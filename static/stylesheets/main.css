@@ -6560,6 +6560,11 @@ blockquote p:last-child:after {
   border-bottom-width: 0;
 }
 
+.govuk-warning-text__icon {
+  padding-top: 1px;
+  padding-bottom: 2px;
+}
+
 .markdown-output .dlf-pagination__list {
   padding-left: 0 !important;
 }
