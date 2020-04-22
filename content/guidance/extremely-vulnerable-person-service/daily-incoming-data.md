@@ -7,16 +7,15 @@ breadcrumb: "ignore"
 ---
 
 {{% contents %}}
-- [Overview]({{< ref "_index.md" >}})
-- Daily incoming data from people who have applied for support
+- [Introduction]({{< ref "_index.md" >}})
+- Daily incoming data
 - [NHS Shielded patient data]({{< ref "nhs-shielded-patient-data.md" >}})
-- [Wholesaler data on the delivery status of food parcels]({{< ref "_index.md" >}})
-- [Feedback loops]({{< ref "_index.md" >}})
-- [Further information]({{< ref "_index.md" >}})
-- [Contact us]({{< ref "_index.md" >}})
+- [Wholesaler food delivery data]({{< ref "wholesaler-food-delivery-data.md" >}})
+- [More information about the process]({{< ref "more-information-about-the-process.md" >}})
+- [Contact us]({{< ref "contact-us.md" >}})
 {{% /contents %}}
 
-## Daily incoming data on extremely vulnerable people who have applied for support
+## Daily incoming data
 
 This is the data on people who have applied for coronavirus support via the [clinically extremely vulnerable person’s service](https://www.gov.uk/coronavirus-extremely-vulnerable) (either on GOV.UK or via the phone line). This dataset is updated daily, which local authority hubs can access and send to the other local authorities in their hubs. 
 

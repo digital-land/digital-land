@@ -8,16 +8,15 @@ breadcrumb: "last"
 ---
 
 {{% contents %}}
-- Overview
-- [Daily incoming data from people who have applied for support]({{< ref "daily-incoming-data.md" >}})
+- Introduction
+- [Daily incoming data]({{< ref "daily-incoming-data.md" >}})
 - [NHS Shielded patient data]({{< ref "nhs-shielded-patient-data.md" >}})
-- [Wholesaler data on the delivery status of food parcels]({{< ref "_index.md" >}})
-- [Feedback loops]({{< ref "_index.md" >}})
-- [Further information]({{< ref "_index.md" >}})
-- [Contact us]({{< ref "_index.md" >}})
+- [Wholesaler food delivery data]({{< ref "wholesaler-food-delivery-data.md" >}})
+- [More information about the process]({{< ref "more-information-about-the-process.md" >}})
+- [Contact us]({{< ref "contact-us.md" >}})
 {{% /contents %}}
 
-## Overview
+## Introduction
 
 The information on this page is for local authorities receiving data on clinically extremely vulnerable people who require support during Covid-19. 
 

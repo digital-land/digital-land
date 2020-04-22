@@ -7,13 +7,12 @@ breadcrumb: "last"
 ---
 
 {{% contents %}}
-- [Overview]({{< ref "_index.md" >}})
-- [Daily incoming data from people who have applied for support]({{< ref "daily-incoming-data.md" >}})
+- [Introduction]({{< ref "_index.md" >}})
+- [Daily incoming data]({{< ref "daily-incoming-data.md" >}})
 - NHS Shielded patient data
-- [Wholesaler data on the delivery status of food parcels]({{< ref "_index.md" >}})
-- [Feedback loops]({{< ref "_index.md" >}})
-- [Further information]({{< ref "_index.md" >}})
-- [Contact us]({{< ref "_index.md" >}})
+- [Wholesaler food delivery data]({{< ref "wholesaler-food-delivery-data.md" >}})
+- [More information about the process]({{< ref "more-information-about-the-process.md" >}})
+- [Contact us]({{< ref "contact-us.md" >}})
 {{% /contents %}}
 
 ## NHS shielding patient data
