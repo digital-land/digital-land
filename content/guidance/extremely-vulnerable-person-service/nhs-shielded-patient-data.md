@@ -1,9 +1,10 @@
 ---
-title: "Information on the extremely vulnerable person’s service"
+title: "Guidance on the data for local authorities"
+caption: "Covid-19 clinically extremely vulnerable person’s service"
 label: "guidance:extremely-vulnerable-person-service-nhs-shielded-patient-data"
 summary: Info
 pageFeedback: true
-breadcrumb: "last"
+breadcrumb: "ignore"
 ---
 
 {{% contents %}}
@@ -17,35 +18,58 @@ breadcrumb: "last"
 
 ## NHS shielding patient data
 
-Hubs can access this data on their online account and share the relevant cuts with local authorities within their hub.
+There are currently 2 files of NHS patient data. Local authority hubs can access these on their [GOV.​UK transfer data account](https://transfer-coronavirus-data.service.gov.uk/). Hubs should share the relevant cuts of data with local authorities within their hub.
 
-In your account there are 2 files with ‘nhs-’ at the beginning of their titles:
+The first file was released on 2 April. It is the data on the original ~900k people the NHS deemed extremely vulnerable and contacted, advising them to apply for support.
 
-1. nhs-20200402-183828.csv
-2. nhs-20200409-105043.csv
+The second file was released on 9 April. This is because the NHS expanded their criteria for who is clinically extremely vulnerable. These people in the second batch of data have now also received letters and texts from the NHS.
 
-These contain highly sensitive data on NHS shielded patients. Some of the people listed may not have applied for support. 
+The NHS is continuing to identify people to add to the shielded patient list, so more NHS patient data should be released soon.
 
-The first file was released on 2 April. This is the NHS patient dataset that has been sent to all local authority hubs. It is the data on the original ~900k people the NHS deemed clinically extremely vulnerable and sent letters and texts to, advising them to apply for support.
+If you have found people listed in your daily incoming data, who do not appear in your NHS patient data files, this could be because they have only recently been identified by the NHS. These people should appear in the next NHS data file you receive.
 
-The second file was released on 9 April. This is because the NHS expanded their criteria for who is clinically extremely vulnerable. These people have now also received letters and texts from the NHS.
+Local authorities can contact people listed in the NHS patient data files.
 
-### File names
 
-Do not confuse the NHS data files (file names beginning with “nhs-”) with the incoming daily files (which do not have “nhs-” in their title). 
+### Do not share this data
+
+{{% warning-text %}}
+This is sensitive data which must not be shared, except for hubs sharing the relevant cut of the data with its corresponding local authority within their hub, and for any other reason set out in the [data sharing guidance](/).{{% /warning-text %}}
+
+
+### File names 
+
+In each hub’s GOV.​UK transfer data account, there are 2 files with titles beginning ‘nhs-’:
+
+1) ‘nhs-20200402-183828.csv’
+2) ‘nhs-20200409-105043.csv’
 
 The second part of the title is a timestamp for when the file was created. So, the first file was created on 2020-04-02 at 18:38:28. 
 
-### Purpose of the NHS shielded patient data
+{{% warning-text %}}
+Do not confuse the NHS patient data files with the daily incoming data. The NHS patient data file names begin with ‘nhs-’. The daily incoming data files do not have ‘nhs-’ in the title.
+{{% /warning-text %}}
 
-Each local authority should use this data to identify people in the area who are extremely vulnerable, but who have not applied for support.
+### Using the NHS shielded patient data
 
-Local authority hubs must pass each cut of this data to the corresponding local authority in their hub. Each local authority must then cross reference this one-off NHS data, with the data on extremely vulnerable people who have applied for support (the data which is updated daily). These are the people who have not applied to the service, but who could be in need of support.
+Each local authority should do the following 2 steps:
 
-### Do not share this data
-This is sensitive data which must not be shared, except for hubs sharing the relevant cut of the data with its corresponding local authority within their hub.
+1) Identify people who have not applied for support
 
-### Data fields and explanations
+Each local authority should use the 2 NHS patient data files to identify people in the area who are extremely vulnerable, but who have not applied for support.
+
+Local authorities should cross reference the NHS data files with the daily incoming data on extremely vulnerable people who have applied for support. The people who are in the NHS data, but not the daily incoming data, have not applied to the service but could be in need of support. You should do this with both NHS data files if you have not already.
+
+2) Check that you have not missed any newly included NHS patients
+
+Local authorities should also make sure they do not miss anyone who has been identified as clinically extremely vulnerable but who previously applied for support. These people will appear in the more recent NHS patient data file (nhs-20200409-105043.csv) and will also now appear in the daily incoming data. However, they may not appear at the top of the incoming data file, even though they are newly listed.
+
+{{% warning-text %}}
+It is important that you do not rely on the ordering of the data, as this could change. Please check each file thoroughly for newly listed people.
+{{% /warning-text %}}
+
+
+### Data column headers
 
 | Column header | Explanation |
 | ------------- |:------------|
@@ -70,4 +94,5 @@ This is sensitive data which must not be shared, except for hubs sharing the rel
 
 {{% pagination-component %}}
 {{% pagination-prev href="daily-incoming-data.md" text="Daily incoming data from people who have applied for support" %}}
+{{% pagination-next href="wholesaler-food-delivery-data.md" text="Wholesaler food delivery data" %}}
 {{% /pagination-component %}}

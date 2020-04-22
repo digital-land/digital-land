@@ -16,3 +16,8 @@ breadcrumb: "ignore"
 {{% /contents %}}
 
 ## More information about the process
+
+{{% pagination-component %}}
+{{% pagination-prev href="wholesaler-food-delivery-data.md" text="Wholesaler food delivery data" %}}
+{{% pagination-next href="contact-us.md" text="Contact us" %}}
+{{% /pagination-component %}}

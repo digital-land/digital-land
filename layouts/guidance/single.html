@@ -2,7 +2,7 @@
 
 	<div class="govuk-grid-row">
 		<div class="govuk-grid-column-two-thirds">
-      <span class="govuk-caption-xl">{{ .Section | humanize }}</span>
+      <span class="govuk-caption-xl">{{ if (isset .Params "caption") }}{{.Params.caption}}{{ else }}{{ .Section | humanize }}{{ end }}</span>
     	<h1 class="govuk-heading-xl">
     	  {{ .Title }}
     	</h1>

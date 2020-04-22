@@ -1,5 +1,6 @@
 ---
-title: "Information on the extremely vulnerable person’s service"
+title: "Guidance on the data for local authorities"
+caption: "Covid-19 clinically extremely vulnerable person’s service"
 label: "guidance:extremely-vulnerable-person-service-daily-incoming-data"
 summary: Info
 pageFeedback: true
@@ -15,41 +16,48 @@ breadcrumb: "ignore"
 - [Contact us]({{< ref "contact-us.md" >}})
 {{% /contents %}}
 
-## Daily incoming data
+##  Daily incoming data on extremely vulnerable people who have applied for support
 
-This is the data on people who have applied for coronavirus support via the [clinically extremely vulnerable person’s service](https://www.gov.uk/coronavirus-extremely-vulnerable) (either on GOV.UK or via the phone line). This dataset is updated daily, which local authority hubs can access and send to the other local authorities in their hubs. 
+This is the data on people who have applied for support via the clinically extremely vulnerable person’s service, through the [GOV.UK form](https://www.gov.uk/coronavirus-extremely-vulnerable) or phone line. 
 
-The data updates every day, at midday. 
+A new file is added to each hub’s [GOV.​UK transfer data account](https://transfer-coronavirus-data.service.gov.uk/) every day at 4pm.
 
-Each file will duplicate all previous data, but will also list additional people. When you download each new file, you may want to download the previous day’s file to compare the 2 and check which people are newly listed.
+### Sharing this data
 
-This also means that if people complete the web form or telephone process multiple times they will appear more than once. The person’s ID and timestamp can be used to determine which is the latest record.
+Hubs must share the relevant cuts of data with local authorities within their hub. Read the [data sharing guidance](/) for more detail.
 
 ### File names
 In your account, you should see data files named like this:
 
-* 20200323134222.csv
+{{< tech-block >}}20200323134222.csv{{< /tech-block >}}
 
-The name of each file is a timestamp of when each file was created. The above example would have been created on 2020-03-23 13:42:22. 
+The name of each file is a timestamp of when each file was created. The above example would have been created on 2020-03-23 13:42:22.
 
-### Sharing this data
-Local authority hubs must share this data with local authorities in their hub - sending to each local authority the data on people within that local authority. So, this data can be shared; what you do with it is up to you, so long as you respect the data protection principles. 
+{{< warning-text >}}Do not confuse the daily incoming data files with the NHS patient data files. The NHS patient data file names begin with ‘nhs-’. The daily incoming data files do not have ‘nhs-’ in the title.{{< /warning-text >}}
 
-### Data fields and explanations
+### Using the data
+
+Each file will duplicate all previous daily incoming data, but will also list newly registered people. When you download each new file, you may want to download the previous day’s file to compare the 2 and check which people are newly listed.
+
+This also means that if people complete the web form or telephone process multiple times, they will appear more than once. The person’s ID and timestamp can be used to determine which is the latest record.
+
+{{< warning-text >}}It is important that you do not rely on the ordering of the data, as this could change. Please check each file thoroughly for newly listed people.{{< /warning-text >}}
+
+### Data column headers
 
 | Column Header | Explanation  |
 | ------------- |:-------------|
 | Timestamp     | Time the data was recorded |
-| Reference     | A reference ID for the form /phone call    |
+| Reference     | A reference ID for the form/phone call |
 | LocalAuthorityDistrict | ONS code for this person’s address |
 | FirstName     | First name   |
 | MiddleName | Other names |
 | LastName | Last name |
-| Address1 | Address |
-| Address2 | Address |
-| Address3 | Address |
-| Address4 | Address |
-| Address5 | Address |
+| Address1 | Address (line 1) |
+| Address2 | Address (line 2) |
+| Address3 | Address (line 3) |
+| Address4 | Address (line 4) |
+| Address5 | Address (line 5) |
 | Postcode | Postcode |
 | Phone | Contact phone number (if they filled in online form) |
 | Mobile | Contact mobile number (if they filled in online form) |
@@ -61,23 +69,13 @@ Local authority hubs must share this data with local authorities in their hub - 
 | NHSNumber | NHS number |
 | ID | Unique ID per person |
 | DateOfBirth | Date of birth |
-| EssentialSupplies | Can the person get essential supplies? (Yes if they can; No if they cannot access essential supplies)* |
+| EssentialSupplies | Can the person get essential supplies?<br><br>**Yes** means they have access to essential supplies, so they do not need an emergency delivery.<br>**No** means they do not have access to essential supplies, so they need some delivered. |
 | DietaryRequirements | Do they have dietary requirements? |
 | BasicCareNeedsMet | Do they have someone they can talk to, help them wash, keep their house clean and help meet their basic needs? |
 | CarrySupplies | Can they carry the supplies into their property (or do they have someone who can help with this)? |
 
-#### Options for Essential Supplies 
-**Yes** - means they have access to essential supplies, so they do not need an emergency delivery.
-
-**No** - means they do not have access to essential supplies, so they need some delivered.
-
-## Data on social care and dietary requirements
-We are working toward this. The first iteration is a standardised offer – a very basic, food package that is an emergency provision for people who might otherwise starve. In order to get the data and food parcels out quickly, we have built the most basic service. 
-However, we are now working to introduce other measures to allow deliveries to be more tailored.
-
-
 
 {{% pagination-component %}}
-{{% pagination-prev href="_index.md" text="Information on the extremely vulnerable person service" %}}
+{{% pagination-prev href="_index.md" text="Introduction" %}}
 {{% pagination-next href="nhs-shielded-patient-data.md" text="NHS shielded patient data" %}}
 {{% /pagination-component %}}
