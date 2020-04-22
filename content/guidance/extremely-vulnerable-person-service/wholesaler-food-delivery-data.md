@@ -12,7 +12,6 @@ breadcrumb: "ignore"
 - [Daily incoming data]({{< ref "daily-incoming-data.md" >}})
 - [NHS Shielded patient data]({{< ref "nhs-shielded-patient-data.md" >}})
 - Wholesaler food delivery data
-- [More information about the process]({{< ref "more-information-about-the-process.md" >}})
 - [Contact us]({{< ref "contact-us.md" >}})
 {{% /contents %}}
 
@@ -76,5 +75,5 @@ The format of the wholesaler food delivery data is also changing. Instead of rec
 
 {{% pagination-component %}}
 {{% pagination-prev href="nhs-shielded-patient-data.md" text="NHS shielded patient data" %}}
-{{% pagination-next href="more-information-about-the-process.md" text="More information about the process" %}}
+{{% pagination-next href="contact-us.md" text="Contact us" %}}
 {{% /pagination-component %}}

@@ -12,7 +12,6 @@ breadcrumb: "ignore"
 - [Daily incoming data]({{< ref "daily-incoming-data.md" >}})
 - NHS Shielded patient data
 - [Wholesaler food delivery data]({{< ref "wholesaler-food-delivery-data.md" >}})
-- [More information about the process]({{< ref "more-information-about-the-process.md" >}})
 - [Contact us]({{< ref "contact-us.md" >}})
 {{% /contents %}}
 
@@ -41,8 +40,8 @@ This is sensitive data which must not be shared, except for hubs sharing the rel
 
 In each hub’s GOV.​UK transfer data account, there are 2 files with titles beginning ‘nhs-’:
 
-1) ‘nhs-20200402-183828.csv’
-2) ‘nhs-20200409-105043.csv’
+1. ‘nhs-20200402-183828.csv’
+2. ‘nhs-20200409-105043.csv’
 
 The second part of the title is a timestamp for when the file was created. So, the first file was created on 2020-04-02 at 18:38:28. 
 

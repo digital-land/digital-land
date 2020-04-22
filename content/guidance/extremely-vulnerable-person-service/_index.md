@@ -13,7 +13,6 @@ breadcrumb: "last"
 - [Daily incoming data]({{< ref "daily-incoming-data.md" >}})
 - [NHS shielded patient data]({{< ref "nhs-shielded-patient-data.md" >}})
 - [Wholesaler food delivery data]({{< ref "wholesaler-food-delivery-data.md" >}})
-- [More information about the process]({{< ref "more-information-about-the-process.md" >}})
 - [Contact us]({{< ref "contact-us.md" >}})
 {{% /contents %}}
 

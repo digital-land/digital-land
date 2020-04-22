@@ -12,7 +12,6 @@ breadcrumb: "ignore"
 - [Daily incoming data]({{< ref "daily-incoming-data.md" >}})
 - [NHS Shielded patient data]({{< ref "nhs-shielded-patient-data.md" >}})
 - [Wholesaler food delivery data]({{< ref "wholesaler-food-delivery-data.md" >}})
-- [More information about the process]({{< ref "more-information-about-the-process.md" >}})
 - Contact us
 {{% /contents %}}
 
@@ -27,5 +26,5 @@ If you want to get involved in the service more generally, you can join the conv
 As we try to improve the service, we’d like to hear about your experience and challenges, and how you’re using the data. If you would be interested in speaking to our user researcher, please contact Lorna at [DigitalLand@communities.gov.uk](DigitalLand@communities.gov.uk).
 
 {{% pagination-component %}}
-{{% pagination-prev href="more-information-about-the-process.md" text="More information about the process" %}}
+{{% pagination-prev href="wholesaler-food-delivery-data.md" text="Wholesaler food delivery data" %}}
 {{% /pagination-component %}}

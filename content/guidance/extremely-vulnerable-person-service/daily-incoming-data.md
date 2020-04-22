@@ -12,7 +12,6 @@ breadcrumb: "ignore"
 - Daily incoming data
 - [NHS Shielded patient data]({{< ref "nhs-shielded-patient-data.md" >}})
 - [Wholesaler food delivery data]({{< ref "wholesaler-food-delivery-data.md" >}})
-- [More information about the process]({{< ref "more-information-about-the-process.md" >}})
 - [Contact us]({{< ref "contact-us.md" >}})
 {{% /contents %}}
 
