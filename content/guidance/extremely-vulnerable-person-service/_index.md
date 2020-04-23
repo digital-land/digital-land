@@ -31,7 +31,7 @@ Local authority hubs currently receive 3 types of data, which they should share 
 Local authorities will soon receive a fourth set of data. This will have information on NHS patients who the Department for Work and Pensions (DWP) have been unable to contact. We will provide more information on this soon.
 
 {{% cta-box %}}
-Find out which [authorities are hub leads, and which local authorities sit within each hub](https://digital-land.github.io/organisation/hub).
+Find out which [authorities are hub leads, and which local authorities sit within each hub](https://digital-land.github.io/organisation/shielding-hub).
 {{% /cta-box %}}
 
 ### Access the data
