@@ -14,12 +14,6 @@
           {{ .Content }}
           </div>
           <ul class="govuk-list">
-            {{ range .Data.Pages }}
-              <li>
-                <a href="{{ .Permalink }}" class="govuk-link govuk-body-l">{{ .Title }}</a>
-                <p class="govuk-body">{{ .Params.Summary | default .Summary }}</p>
-              </li>
-            {{ end }}
             {{ range .Sections }}
               {{ if in .Permalink "/guidance/brownfield-sites/" }}
                 <li>
@@ -32,11 +26,19 @@
                   <p class="govuk-body">{{ .Params.Summary | default .Summary }}</p>
                 </li>
               {{ else }}
-                <li>
-                  <a href="{{ .Permalink }}" class="govuk-link govuk-body-l">{{ .Title }}</a>
-                  <p class="govuk-body">{{ .Params.Summary | default .Summary }}</p>
-                </li>
+                {{ if ne .Params.label "guidance:extremely-vulnerable-person-service" }}
+                  <li>
+                    <a href="{{ .Permalink }}" class="govuk-link govuk-body-l">{{ .Title }}</a>
+                    <p class="govuk-body">{{ .Params.Summary | default .Summary }}</p>
+                  </li>
+                  {{ end }}
               {{ end }}
+            {{ end }}
+            {{ range .Data.Pages }}
+              <li>
+                <a href="{{ .Permalink }}" class="govuk-link govuk-body-l">{{ .Title }}</a>
+                <p class="govuk-body">{{ .Params.Summary | default .Summary }}</p>
+              </li>
             {{ end }}
           </ul>
     </div>
