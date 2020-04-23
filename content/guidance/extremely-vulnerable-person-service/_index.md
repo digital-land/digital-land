@@ -44,7 +44,7 @@ Hubs currently access the wholesaler data through MiCollab, a separate online ac
 
 If you are a hub and have not received either the daily incoming data or the NHS patient data, or if you have issues accessing your GOV.UK transfer data account, email [transfer-coronavirus-data-service@digital.cabinet-office.gov.uk](mailto:transfer-coronavirus-data-service@digital.cabinet-office.gov.uk).
 
-If you are a hub and have not received wholesaler data, or have issues accessing your MiCollab account, email [sheilding@communties.gov.uk](mailto:sheilding@communties.gov.uk).
+If you are a hub and have not received wholesaler data, or have issues accessing your MiCollab account, email [shielding@communities.gov.uk](mailto:shielding@communities.gov.uk).
 
 ### Issues accessing data: local authorities who are not a hub
 
