@@ -26,7 +26,7 @@ Local authority hubs currently receive 3 types of data, which they should share 
 
 1. Daily incoming data on people who have applied for support – new file at 4pm every day
 2. NHS patient data – currently 2 files
-3. Wholesaler food delivery data – new files weekly 
+3. Wholesaler food delivery data – new files weekly
 
 Local authorities will soon receive a fourth set of data. This will have information on NHS patients who the Department for Work and Pensions (DWP) have been unable to contact. We will provide more information on this soon.
 
@@ -42,19 +42,19 @@ Hubs currently access the wholesaler data through MiCollab, a separate online ac
 
 ### Issues accessing data: hubs
 
-If you are a hub and have not received either the daily incoming data or the NHS patient data, or if you have issues accessing your GOV.UK transfer data account, email [transfer-coronavirus-data-service@digital.cabinet-office.gov.uk](transfer-coronavirus-data-service@digital.cabinet-office.gov.uk). 
+If you are a hub and have not received either the daily incoming data or the NHS patient data, or if you have issues accessing your GOV.UK transfer data account, email [transfer-coronavirus-data-service@digital.cabinet-office.gov.uk](mailto:transfer-coronavirus-data-service@digital.cabinet-office.gov.uk).
 
-If you are a hub and have not received wholesaler data, or have issues accessing your MiCollab account, email [sheilding@communties.gov.uk](sheilding@communties.gov.uk).
+If you are a hub and have not received wholesaler data, or have issues accessing your MiCollab account, email [sheilding@communties.gov.uk](mailto:sheilding@communties.gov.uk).
 
 ### Issues accessing data: local authorities who are not a hub
 
 [Contact your hub](https://digital-land.github.io/organisation/shielding-hub) to receive your data.
 
-If you do not have an email contact for your hub, please email [DigitalLand@communities.gov.uk](DigitalLand@communities.gov.uk) and we will send you contact details for your hub.
+If you do not have an email contact for your hub, please email [DigitalLand@communities.gov.uk](mailto:DigitalLand@communities.gov.uk) and we will send you contact details for your hub.
 
 ### Add a data lead for your local authority hub
 
-Each local authority hub can have multiple data leads. Email [transfer-coronavirus-data-service@digital.cabinet-office.gov.uk](transfer-coronavirus-data-service@digital.cabinet-office.gov.uk) with the new person’s:
+Each local authority hub can have multiple data leads. Email [transfer-coronavirus-data-service@digital.cabinet-office.gov.uk](mailto:transfer-coronavirus-data-service@digital.cabinet-office.gov.uk) with the new person’s:
 
 * first name
 * last name

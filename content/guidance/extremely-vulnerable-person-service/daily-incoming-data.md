@@ -17,7 +17,7 @@ breadcrumb: "ignore"
 
 ##  Daily incoming data on extremely vulnerable people who have applied for support
 
-This is the data on people who have applied for support via the clinically extremely vulnerable person’s service, through the [GOV.UK form](https://www.gov.uk/coronavirus-extremely-vulnerable) or phone line. 
+This is the data on people who have applied for support via the clinically extremely vulnerable person’s service, through the [GOV.UK form](https://www.gov.uk/coronavirus-extremely-vulnerable) or phone line.
 
 A new file is added to each hub’s [GOV.​UK transfer data account](https://transfer-coronavirus-data.service.gov.uk/) every day at 4pm.
 

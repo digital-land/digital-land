@@ -36,14 +36,14 @@ Local authorities can contact people listed in the NHS patient data files.
 This is sensitive data which must not be shared, except for hubs sharing the relevant cut of the data with its corresponding local authority within their hub, and for any other reason set out in the [data sharing guidance](/).{{% /warning-text %}}
 
 
-### File names 
+### File names
 
 In each hub’s GOV.​UK transfer data account, there are 2 files with titles beginning ‘nhs-’:
 
 1. ‘nhs-20200402-183828.csv’
 2. ‘nhs-20200409-105043.csv’
 
-The second part of the title is a timestamp for when the file was created. So, the first file was created on 2020-04-02 at 18:38:28. 
+The second part of the title is a timestamp for when the file was created. So, the first file was created on 2020-04-02 at 18:38:28.
 
 {{% warning-text %}}
 Do not confuse the NHS patient data files with the daily incoming data. The NHS patient data file names begin with ‘nhs-’. The daily incoming data files do not have ‘nhs-’ in the title.

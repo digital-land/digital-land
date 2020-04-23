@@ -24,7 +24,7 @@ Local authority hubs should have been emailed a link to a secure online folder (
 * File 1: Upcoming deliveries
 * File 2: Deliveries made or attempted
 
-Email [shielding@communities.gov.uk](shielding@communities.gov.uk) if you are a local authority hub and cannot access the wholesaler data.
+Email [shielding@communities.gov.uk](mailto:shielding@communities.gov.uk) if you are a local authority hub and cannot access the wholesaler data.
 
 ## File 1: Upcoming deliveries - data column headings
 
