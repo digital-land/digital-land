@@ -6,7 +6,7 @@
 
 To build/run site you need:
 
-- [Hugo](https://gohugo.io) - currently use version 0.54
+- [Hugo](https://gohugo.io) - currently use version v0.55.6, as any version above breaks the build
 - [Node](https://nodejs.org/en/) and [Npm](https://www.npmjs.com/)
 - [Gulp](https://gulpjs.com/)
 
