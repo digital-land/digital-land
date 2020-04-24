@@ -1,5 +1,6 @@
 ---
-title: "Information on the extremely vulnerable person’s service"
+title: "Extremely vulnerable person's service: guidance on the data"
+caption-ignore: true
 label: "guidance:extremely-vulnerable-person-service-more-information"
 summary: Info
 pageFeedback: true

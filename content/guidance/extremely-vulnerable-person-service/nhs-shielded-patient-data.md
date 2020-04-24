@@ -1,6 +1,6 @@
 ---
-title: "Guidance on the data for local authorities"
-caption: "Covid-19 clinically extremely vulnerable person’s service"
+title: "Extremely vulnerable person's service: guidance on the data"
+caption-ignore: true
 label: "guidance:extremely-vulnerable-person-service-nhs-shielded-patient-data"
 summary: Info
 pageFeedback: true
