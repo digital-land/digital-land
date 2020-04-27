@@ -26,12 +26,10 @@
                   <p class="govuk-body">{{ .Params.Summary | default .Summary }}</p>
                 </li>
               {{ else }}
-                {{ if ne .Params.label "guidance:extremely-vulnerable-person-service" }}
-                  <li>
-                    <a href="{{ .Permalink }}" class="govuk-link govuk-body-l">{{ .Title }}</a>
-                    <p class="govuk-body">{{ .Params.Summary | default .Summary }}</p>
-                  </li>
-                  {{ end }}
+                <li>
+                  <a href="{{ .Permalink }}" class="govuk-link govuk-body-l">{{ .Title }}</a>
+                  <p class="govuk-body">{{ .Params.Summary | default .Summary }}</p>
+                </li>
               {{ end }}
             {{ end }}
             {{ range .Data.Pages }}
