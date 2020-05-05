@@ -1,7 +1,7 @@
 {{ if (isset .Params "related") }}
   <span class="byline__relations">
     -
-    <span class="visuallyhidden">Related to:</span>
+    <span class="govuk-visually-hidden">Related to:</span>
     {{ range .Param "related" }}
         {{ with ( $.Site.GetPage ( strings.TrimSuffix "/" . ) ) }}
         <a class="govuk-link" href="{{ .Permalink }}">{{ .Title }}</a>
