@@ -15,9 +15,9 @@
           {{ .Title }}
         </h1>
         <p class="byline author vcard">
-          <span class="visuallyhidden">Posted by:</span>
+          <span class="govuk-visually-hidden">Posted by:</span>
           <span class="author url fn" rel="author">{{ .Params.author }}</span>,
-          <span class="visuallyhidden">Posted on:</span>
+          <span class="govuk-visually-hidden">Posted on:</span>
           <time class="updated" datetime="{{ .Date }}" pubdate="">{{ .Date.Format "2 January 2006" }}</time>
           {{ partial "byline-related.html" . }}
         </p>
