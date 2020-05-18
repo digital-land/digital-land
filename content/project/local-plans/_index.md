@@ -47,19 +47,23 @@ The Digital Land team carried out a discovery project on local plans during summ
 
 ## Timeline
 
-**Late July**
+**January 2020**
+
+We opened a supplier opportunity through [Digital Marketplace](https://www.digitalmarketplace.service.gov.uk/digital-outcomes-and-specialists/opportunities/11591) for the local plans alpha phase.
+
+**Late July 2019**
 
 We presented our findings and agreed next steps with the planning directorate steering group.
 
-**Mid July**
+**Mid July 2019**
 
 We ran workshops internally with the Local Digital team and stakeholders to share results and plan for alpha.
 
-**Late June**
+**Late June 2019**
 
 We completed a full analysis of discovery findings, ID user traits, pain points and user needs. We also created hypotheses for moving into alpha (or breaking the project down into several different alphas).
 
-**Early June**
+**Early June 2019**
 
 We completed interviews with 9 local authorities across England who are at various stages in their plan making process. We also completed interviews with neighbourhood planning experts to understand the use of local plans after they have been adopted.
 
