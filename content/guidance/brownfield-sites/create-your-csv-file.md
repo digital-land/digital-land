@@ -16,8 +16,8 @@ To complete step 1 you must be able to create or amend CSV files using spreadshe
 We’ve created a [brownfield land data CSV template](digital-land.github.io/guidance/brownfield-sites/brownfield-sites.csv). If it helps, you can use this example file and enter your own data, following the guidelines below.
 
 {{% inset-text %}}
-The previous specification for brownfield land data contained several column headers that aren't listed here. Those fields are now optional. 
-The 'MinNetDwellings' field has been replaced by 'NetDwellingsRangeFrom' and 'NetDwellingsRangeTo'. 
+The previous specification for brownfield land data contained several column headers that aren't listed here. Those fields are now optional.
+The 'MinNetDwellings' field has been replaced by 'NetDwellingsRangeFrom' and 'NetDwellingsRangeTo'.
 The following columns no longer appear but can be included under 'Notes':
 
 * DevelopmentDescription
@@ -37,7 +37,7 @@ The CSV file must include: 
 Each row must contain a single entry for each unless stated otherwise. When a field requires a number use a digit (2) rather than a word (two).
 
 ### OrganistaionURI
-Find your organisation in this list and enter the value in the “opendatacommunties” column. This is the URL of your organisation on https://opendatacommunities.org.
+Find your organisation in this list and enter the value in the “opendatacommunities” column. This is the URL of your organisation on https://opendatacommunities.org.
 
 ### SiteReference
 Enter a unique reference your organisation uses to identify the site, or create one if none exists. It should not be used by your organisation to identify any other sites, but can be borrowed from another dataset listing the site.
@@ -52,7 +52,7 @@ Enter the URL of a webpage hosting the site plan, beginning with either “http:
 Enter the latitude of a point close to the centre of the site. The value should be 6 or fewer decimal places, using the WGS84 or ETRS89 coordinate systems specified by the open standards for government guidance on [exchange of location](https://www.gov.uk/government/publications/open-standards-for-government/exchange-of-location-point).
 
 ### GeoX
-Enter the longitude of a point close to the centre of the site. The value should be 6 or fewer decimal places, using the WGS84 or ETRS89 coordinate system specified by the open standards for government guidance on [exchange of location](https://www.gov.uk/government/publications/open-standards-for-government/exchange-of-location-point). 
+Enter the longitude of a point close to the centre of the site. The value should be 6 or fewer decimal places, using the WGS84 or ETRS89 coordinate system specified by the open standards for government guidance on [exchange of location](https://www.gov.uk/government/publications/open-standards-for-government/exchange-of-location-point).
 
 {{% inset-text %}}
 Be sure to check that you don’t mix up the latitude (Geo Y) and longitude (Geo X) values. Any location in the UK will have a latitude (Geo Y) from about 49 to 57 and a longitude (Geo X) from about -7 to 2.

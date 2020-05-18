@@ -10,16 +10,16 @@
 	<div class="govuk-grid-row">
 		<div class="govuk-grid-column-two-thirds">
 			<p class="govuk-body-l">{{ .Params.lede }}</p>
-      <div class="markdown-output">
-        {{ .Content }}
-      </div>
+      		<div class="markdown-output">
+        	{{ .Content }}
+      		</div>
 
 			<ul class="govuk-list govuk-list--bullet">
-	    {{ range .Data.Pages }}
-        <li>
-					<a href="{{.Permalink}}">{{.Title}}</a>
-        </li>
-	    {{ end }}
+	    	{{ range .Data.Pages }}
+        		<li>
+					<a class="govuk-link" href="{{.Permalink}}">{{.Title}}</a>
+        		</li>
+	    		{{ end }}
 			</ul>
 
 		</div>
