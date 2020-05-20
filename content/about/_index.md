@@ -20,7 +20,7 @@ By making land and housing data easier to find, use and trust, we aim to make it
 
 * policy teams in MHCLG to create policy based on high quality, relevant data
 
-Read more about the problems with [land and housing data](https://digital-land.github.io/about/data/) we're working to solve.
+Read more about the problems with [land and housing data](/about/data/) we're working to solve.
 
 ### Our vision
 We are developing a suite of free digital services that will help unlock land and housing data’s potential for everyone involved in land and housing development. Improving data will help open up the housing market to smaller businesses and help transform the relationship between planners, developers and communities.
