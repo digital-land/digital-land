@@ -36,13 +36,13 @@ A data standard for local plans and an accessible way to access the data can ope
 
 ## Prototypes
 
-A data standard: [data tables](https://docs.google.com/spreadsheets/d/1qo9qGum20Xnt_BTXgpW1eNEfPp_hZU9H6bJcP4O1pSg/edit?usp=sharing) and [guidance for publishing](https://docs.google.com/document/d/10BUc-Flk0TAnH8e9Gw3m7WetL9ZMx5eFRIkHcV9Lh2Y/edit?usp=sharing).
+* A data standard: [data tables](https://docs.google.com/spreadsheets/d/1qo9qGum20Xnt_BTXgpW1eNEfPp_hZU9H6bJcP4O1pSg/edit?usp=sharing) and [guidance for publishing](https://docs.google.com/document/d/10BUc-Flk0TAnH8e9Gw3m7WetL9ZMx5eFRIkHcV9Lh2Y/edit?usp=sharing).
 
-[Version 1](https://local-plan.herokuapp.com/v1) of the prototype focuses on an exemplar local plan page for local authorities, including a policy data table. It was tested with 3 local planning authorities.
+* [Version 1](https://local-plan.herokuapp.com/v1) of the prototype focuses on an exemplar local plan page for local authorities, including a policy data table. It was tested with 3 local planning authorities.
 
-[Version 2](https://local-plan.herokuapp.com/v2) of the prototype focuses on plan data (including plan timetables) at the national level and for individual planning authorities. It was tested with 5 (PINS and MHCLG) participants.
+* [Version 2](https://local-plan.herokuapp.com/v2) of the prototype focuses on plan data (including plan timetables) at the national level and for individual planning authorities. It was tested with 5 (PINS and MHCLG) participants.
 
-[Version 3](https://local-plan.herokuapp.com/v3) of the prototype includes a national dataset page on plans and policies, timetable overview, an overview and details page for a local planning authority and guidance on publishing plan data. It was tested with 5 local planning authorities.
+* [Version 3](https://local-plan.herokuapp.com/v3) of the prototype includes a national dataset page on plans and policies, timetable overview, an overview and details page for a local planning authority and guidance on publishing plan data. It was tested with 5 local planning authorities.
 
 ## Recommendations
 
