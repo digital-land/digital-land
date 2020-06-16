@@ -7,7 +7,7 @@ summary: We’re working with local planning authorities to design an improved f
 layout: single
 ---
 
-In March 2020, we opened an [supplier opportunity](https://www.digitalmarketplace.service.gov.uk/digital-outcomes-and-specialists/opportunities/11591) on Digital Marketplace to work on the Local Plans alpha phase. It was awarded to [dxw digital](https://www.dxw.com/).
+In March 2020, we opened an [supplier opportunity](https://www.digitalmarketplace.service.gov.uk/digital-outcomes-and-specialists/opportunities/11591) on Digital Marketplace to work on the local plans alpha phase. It was awarded to [dxw digital](https://www.dxw.com/).
 
 The alpha tested ideas for the better use of data held about, and within local plans. 
 
@@ -29,7 +29,7 @@ A data standard for local plans and an accessible way to access the data can ope
 
 * a national picture of of plan making
 * a useful picture of where a plan is in its development
-* better collaboration (formal and informal) between Local Planning Authorities
+* better collaboration (formal and informal) between local planning authorities
 * more options to connect with the content in local plans
 * intelligent mapping of planning decisions to policies
 * open data on development policies for others to build services on (PropTech)
@@ -48,10 +48,10 @@ A data standard for local plans and an accessible way to access the data can ope
 
 We recommend a private beta to test those elements of the project that are critical to the success of a national roll-out by working with users on a real version of the service. The beta should:
 
-* be tested in some real local geographies using groups of LPAs with shared objectives but different plans, policies, skills, resources and digital capacity
-* answer important questions about categories, resources, managing GIS data and the amount of time required from LPAs
+* be tested in some real local geographies using groups of local planning authorities with shared objectives but different plans, policies, skills, resources and digital capacity
+* answer important questions about categories, resources, managing GIS data and the amount of time required from local planning authorities
 * involve a wider group of stakeholders including infrastructure providers, proptech companies and councillors
-* create answers to the question “what’s in it for me?” asked by LPAs and test the hypothesis that the extra work of providing more than just plan production dates is outweighed by better evidence and decisions
+* create answers to the question “what’s in it for me?” asked by local planning authorities and test the hypothesis that the extra work of providing more than just plan production dates is outweighed by better evidence and decisions
 
 Find out more about the work dxw did in each sprint, in their weeknotes and show and tells below. 
 
