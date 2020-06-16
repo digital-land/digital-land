@@ -18,6 +18,12 @@
     @extend .govuk-body;
   }
 
+  .govuk-body-l {
+    p {
+      @extend .govuk-body-l;
+    }
+  }
+
   ul {
     @extend .govuk-list;
     @extend .govuk-list--bullet;
@@ -32,6 +38,10 @@
   ul,
   ol {
     @include govuk-responsive-margin(4, "top");
+  }
+
+  li > p {
+    margin-bottom: 0;
   }
 
   h1 {
@@ -54,6 +64,10 @@
     @include govuk-responsive-margin(7, "top");
   }
 
+  a {
+    @extend %govuk-link;
+  }
+
   table {
     @extend .govuk-table;
   }
@@ -69,7 +83,7 @@
   p code {
     padding: 2px 5px;
     color: darken(govuk-colour("blue"), 25);
-    background-color: govuk-colour("grey-4");
+    background-color: govuk-colour("light-grey");
     line-height: govuk-em(25, 19);
   }
 

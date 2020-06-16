@@ -1,7 +1,7 @@
 .prototype-summary-item {
   margin-bottom: $govuk-gutter-half;
   padding-top: 10px;
-  border-top: 1px solid govuk-colour("grey-3");
+  border-top: 1px solid govuk-colour("light-grey");
 
   &--inprogress {
     border-color: govuk-colour("turquoise");

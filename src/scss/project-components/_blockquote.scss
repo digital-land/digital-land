@@ -5,7 +5,7 @@ blockquote {
   padding: 10px $govuk-gutter-half 10px 2px;
   //@include govuk-responsive-padding(4, "left");
   border: 0;
-  background: govuk-colour("grey-3");
+  background: govuk-colour("light-grey");
 
   p {
     @include govuk-responsive-padding(3, "left");

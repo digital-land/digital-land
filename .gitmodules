@@ -1,0 +1,3 @@
+[submodule "digital-land-frontend"]
+	path = digital-land-frontend
+	url = https://github.com/digital-land/digital-land-frontend.git
