@@ -11,7 +11,7 @@ In March 2020, we opened an [supplier opportunity](https://www.digitalmarketplac
 
 The alpha tested ideas for the better use of data held about, and within local plans. 
 
-{{% cta-box %}} Read the [end of project alpha report](https://docs.google.com/presentation/d/1hDLvKZyKNM-bw1fBUPV-59XkNkzzeFv7SKvINwxqLGA/edit?usp=sharing). {{% /cta-box %}}
+{{% cta-box %}} Read the [end of project alpha report](https://docs.google.com/presentation/d/e/2PACX-1vRQAXERMxFtnHperwzobOKVbOofG5SXwurb31AJZzOx5c7k1ObsBinNBuZ9uc1Ifw/pub?start=false&loop=false&delayms=3000). {{% /cta-box %}}
 
 ## What we've learned
 
