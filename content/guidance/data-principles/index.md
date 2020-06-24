@@ -65,7 +65,7 @@ As an example, in a [register of countries](https://www.registers.service.gov.uk
 
 #### End dates
 
-Once an entry is no longer valid or active, do not delete it from your register. Instead, simply add an end date. Keeping historical entries is good practice. Not only do we encourage transparency because it increases trust in the data, but seeing changes and patterns over time is useful for planning, development and policy. 
+Once an entry is no longer valid or active, do not delete it from your register. Instead, simply add an end date. Keeping historical entries is good practice. Not only do we encourage transparency because it increases trust in the data, but seeing changes and patterns over time is useful for planning, development and policy.
 
 {{< govuk-section-break "xl" >}}
 
