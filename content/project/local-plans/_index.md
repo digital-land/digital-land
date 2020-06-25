@@ -15,6 +15,14 @@ Local plans are published in a wide range of formats and aren’t always consist
 
 The Digital Land team carried out a discovery project on local plans during summer 2019. We spoke with representatives of the main user groups of local plans in order to better understand their needs from local plans and the obstacles to those needs being met.  The discovery identified users’ problems with extracting data from local plans and opportunities for solving some of these.
 
+## Phases
+<p>
+	<a class="govuk-link govuk-body-l" href="/project/local-plans/discovery">Discovery</a> <strong class="govuk-tag">done</strong>
+</p>
+<p>
+  <a class="govuk-link govuk-body-l" href="/project/local-plans/alpha">Alpha</a> <strong class="govuk-tag">current</strong>
+</p>
+
 ## User needs
 
 ### As a policymaker I need:
@@ -45,14 +53,6 @@ The Digital Land team carried out a discovery project on local plans during summ
 - to know where local plans are in their production ⇒ so that we can resource and plan examinations
 - a reliable overview of local development schemes ⇒ so that we can have a provisional overview of a local plan’s content and timetable for publication
 - a reliable overview of the policy areas under review in an emerging local plan at the point it is submitted for examination and when it is adopted ⇒ so that we can resource and plan examinations
-
-## Phases
-<p>
-	<a class="govuk-link govuk-body-l" href="/project/local-plans/discovery">Discovery</a> <strong class="govuk-tag">done</strong>
-</p>
-<p>
-  <a class="govuk-link govuk-body-l" href="/project/local-plans/alpha">Alpha</a> <strong class="govuk-tag">current</strong>
-</p>
 
 ## Timeline
 
