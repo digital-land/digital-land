@@ -55,6 +55,26 @@ The alpha tested ideas for the better use of data held within, and about local p
   </div>
 </div>
 
+## User needs
+
+During the alpha, the team identified these additional user needs:
+
+### As a Planning Inspectorate (PINs) officer, I need: 
+- to be made aware of changes or revisions to a local authority's Local Development Scheme (LDS) ⇒ so that I am able to better resource and plan examinations
+- to be able to easily query the data contained in an LDS ⇒ so that I know it's accurate
+
+### As a local planning authority officer, I need:
+- to be able to see the vision / priorities / policies for neighbouring authorities ⇒ so that I can collaborate across authorities and comply with the duty to co-operate effectively
+- to benchmark against policies in neighbouring areas ⇒ so that I can determine what best practice looks like
+- to see which policies apply to particular sites ⇒ so I can make decisions on planning applications
+- consistent and easily accessible information on plan-making activities of other local authorities ⇒ so I can have the above results
+
+### As a policymaker, I need:
+- to know the history of a local development scheme ⇒ so I can contextualise the changes to dates made at each stage
+- to know which authorities have emerging policies on certain matters ⇒ so that I understand the impact of a national policy change
+
+[Read the full list of user needs](https://digital-land.github.io/project/local-plans/#user-needs).
+
 ## Outputs
 
 Dxw designed a data standard for local plans, as well as guidance on how to publish the data. They also designed and tested 3 prototypes to visualise data about and within local plans.
