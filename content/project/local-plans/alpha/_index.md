@@ -146,12 +146,12 @@ This will only work if local planning authorities see the value, which the beta 
 ## Show and Tells
 
 ### Sprint 1
-* [Recording - show and tell 1](https://drive.google.com/file/d/1BPeaV5t7rQQkbWN36k25V2sB5uDu1wPQ/view?usp=sharing)
-* [Slides - show and tell 1](https://docs.google.com/presentation/d/e/2PACX-1vTuDaPchTKcTdaflZGOOR2rJZkPqoZQ6kKnL3B99hgpvIiLvpQdSwdo6i90xR_tlIVIzOyNHRsgHOzY/pub?start=false&loop=false&delayms=3000&slide=id.g6e7e08d689_0_0)
+* [Recording of show and tell 1](https://drive.google.com/file/d/1BPeaV5t7rQQkbWN36k25V2sB5uDu1wPQ/view?usp=sharing)
+* [Slides for show and tell 1](https://docs.google.com/presentation/d/e/2PACX-1vTuDaPchTKcTdaflZGOOR2rJZkPqoZQ6kKnL3B99hgpvIiLvpQdSwdo6i90xR_tlIVIzOyNHRsgHOzY/pub?start=false&loop=false&delayms=3000&slide=id.g6e7e08d689_0_0)
 
 ### Sprint 2
-* [Slides - show and tell 2](https://docs.google.com/presentation/d/e/2PACX-1vRdSaZRUfosBbsnxDEhL4m6RvhmOnRXMGftJosvq9C2QdBOCwiVtzRsOiYVQ2mxVCdIwH-x7iAiMH8B/pub?start=false&loop=false&delayms=3000&slide=id.g6e7e08d689_0_0)
+* [Slides for show and tell 2](https://docs.google.com/presentation/d/e/2PACX-1vRdSaZRUfosBbsnxDEhL4m6RvhmOnRXMGftJosvq9C2QdBOCwiVtzRsOiYVQ2mxVCdIwH-x7iAiMH8B/pub?start=false&loop=false&delayms=3000&slide=id.g6e7e08d689_0_0)
 
 ### Sprint 3
-* [Recording - show and tell 3](https://drive.google.com/file/d/1BPeaV5t7rQQkbWN36k25V2sB5uDu1wPQ/view?usp=sharing)
-* [Slides - show and tell 3](https://docs.google.com/presentation/d/e/2PACX-1vQ01QmiwC8jzlRMma8it8vI4RUM-F7_4LhFcdJWMtbXPncRGeStjyOobPXRTQTW9aziV833dX3OjzbT/pub?start=false&loop=false&delayms=3000)
+* [Recording of show and tell 3](https://drive.google.com/file/d/1BPeaV5t7rQQkbWN36k25V2sB5uDu1wPQ/view?usp=sharing)
+* [Slides for show and tell 3](https://docs.google.com/presentation/d/e/2PACX-1vQ01QmiwC8jzlRMma8it8vI4RUM-F7_4LhFcdJWMtbXPncRGeStjyOobPXRTQTW9aziV833dX3OjzbT/pub?start=false&loop=false&delayms=3000)
