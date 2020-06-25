@@ -28,7 +28,7 @@ The alpha tested ideas for the better use of data held within, and about local p
   <div class="govuk-grid-column-one-third">
     <p>
     	<span class="govuk-body govuk-!-font-size-48 govuk-!-font-weight-bold">1</span><br>
-    	<span class="govuk-body-l">guidance on publishing</span>
+    	<span class="govuk-body-l">guidance on publishing data</span>
     </p>
   </div>
 </div>
