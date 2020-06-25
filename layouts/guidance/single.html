@@ -11,11 +11,24 @@
 		</div>
 	</div>
 
-	<div class="govuk-grid-row">
-		<div class="govuk-grid-column-two-thirds markdown-output">
-			{{ .Content }}
-		</div>
-	</div>
+  {{ if eq .Params.hasContent true }}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-one-third markdown-output contents-section">
+      {{ with .Resources.GetMatch "_contents.md" -}}
+        {{ .Content }}
+      {{ end }}
+    </div>
+    <div class="govuk-grid-column-two-thirds markdown-output has-side-contents">
+      {{ .Content }}
+    </div>
+  </div>
+  {{ else }}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds markdown-output">
+      {{ .Content }}
+    </div>
+  </div>
+  {{ end }}
 
   {{ if (isset .Params "tags") }}
 	<h2 class="govuk-heading-l">Tags</h2>
