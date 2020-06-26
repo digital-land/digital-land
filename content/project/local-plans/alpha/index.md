@@ -46,7 +46,7 @@ The data standard improves the quality, consistency and usefulness of data publi
 - the status of the local plan
 - when it was adopted 
 - what policies it contains 
-- other high level information
+- other high-level information
 
 This data standard is based on the learnings from the brownfield land and developer contributions data standards, developed by the Digital Land team.
 
