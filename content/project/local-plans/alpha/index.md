@@ -39,7 +39,7 @@ During the alpha project, the team identified these additional user needs:
 
 dxw proposed a data standard for local plans, as well as guidance on how to publish the data. They also designed and tested 3 prototypes to visualise data about and within local plans.
 
-### [Data standard](https://docs.google.com/spreadsheets/d/1qo9qGum20Xnt_BTXgpW1eNEfPp_hZU9H6bJcP4O1pSg/edit?usp=sharing)
+### [Data standard](https://drive.google.com/file/d/1p6Wv2EU7z5_X7TQqUBT_V-oEppCK21oP/view?usp=sharing)
 
 The data standard improves the quality, consistency and usefulness of data published about local plans. It looks at how we can standardise information on:
 - which area the plan cover 
@@ -50,7 +50,7 @@ The data standard improves the quality, consistency and usefulness of data publi
 
 This data standard is based on the learnings from the brownfield land and developer contributions data standards, developed by the Digital Land team.
 
-### [Guidance for publishing local plans data](https://docs.google.com/document/d/10BUc-Flk0TAnH8e9Gw3m7WetL9ZMx5eFRIkHcV9Lh2Y/edit?usp=sharing)
+### [Guidance for publishing local plans data](https://drive.google.com/file/d/1MOxY6m0MiPj7g4i3SooCPAUuvEBwoYQJ/view?usp=sharing)
 
 Clear, accessible guidance is important to help local planning authorities publish their data in accordance with the standard. This guidance builds on the Digital Land team’s existing guidance on publishing [brownfield land data](https://www.gov.uk/government/publications/brownfield-land-registers-data-standard/publish-your-brownfield-land-data), and [developer contributions data](https://www.gov.uk/guidance/publish-your-developer-contributions-data).
 
