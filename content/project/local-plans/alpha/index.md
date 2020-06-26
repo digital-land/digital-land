@@ -19,8 +19,8 @@ The project tested ideas for the better use of data held within and about local 
 During the alpha project, the team identified these additional user needs:
 
 #### As a Planning Inspectorate (PINs) officer, I need...
-- to be made aware of changes or revisions to a local authority's local development scheme (LDS) ⇒ so that I am able to better resource and plan examinations
-- to be able to easily query the data contained in an LDS ⇒ so that I know it's accurate
+- to be made aware of changes or revisions to a local authority's local development scheme ⇒ so that I am able to better resource and plan examinations
+- to be able to easily query the data contained in a local development scheme ⇒ so that I know it's accurate
 
 #### As a local planning authority officer, I need...
 - to be able to see the vision / priorities / policies for neighbouring authorities ⇒ so that I can collaborate across authorities and comply with the duty to co-operate effectively
@@ -34,23 +34,33 @@ During the alpha project, the team identified these additional user needs:
 
 {{% cta-box %}} [Read the full list of user needs](https://digital-land.github.io/project/local-plans/#user-needs). {{% /cta-box %}}
 
+
 ## Outputs
 
 dxw proposed a data standard for local plans, as well as guidance on how to publish the data. They also designed and tested 3 prototypes to visualise data about and within local plans.
 
 ### [Data standard](https://docs.google.com/spreadsheets/d/1qo9qGum20Xnt_BTXgpW1eNEfPp_hZU9H6bJcP4O1pSg/edit?usp=sharing)
 
-The data standard improves the quality, consistency and usefulness of data published about local plans. It looks at how we can standardise information on where the plan is for, it's status, when it was adopted, what policies it contains and other high level information. This data standard is based on the learnings from the brownfield land and developer contributions data standards, developed by the Digital Land team.
+The data standard improves the quality, consistency and usefulness of data published about local plans. It looks at how we can standardise information on:
+- which area the plan cover 
+- the status of the local plan
+- when it was adopted 
+- what policies it contains 
+- other high level information
+
+This data standard is based on the learnings from the brownfield land and developer contributions data standards, developed by the Digital Land team.
 
 ### [Guidance for publishing local plans data](https://docs.google.com/document/d/10BUc-Flk0TAnH8e9Gw3m7WetL9ZMx5eFRIkHcV9Lh2Y/edit?usp=sharing)
 
-Clear, accessible guidance is important to help local planning authorities publish their data in accordance with the standard. This guidance builds on the Digital Land team’s existing [data standards and guidance](https://digital-land.github.io/guidance/).
+Clear, accessible guidance is important to help local planning authorities publish their data in accordance with the standard. This guidance builds on the Digital Land team’s existing guidance on publishing [brownfield land data](https://www.gov.uk/government/publications/brownfield-land-registers-data-standard/publish-your-brownfield-land-data), and [developer contributions data](https://www.gov.uk/guidance/publish-your-developer-contributions-data).
 
 ### [Prototype 1: a local authority’s local plan page](https://local-plan.herokuapp.com/v1)
 
-This design was an example of a local plan page for local authorities, including a policy data table.
+This design was an example of a local plan page for local authorities, and included a table of policy data.
 
-It was tested with 3 local planning authorities, and has been invaluable in understanding where there is common language. This helped show some of the constraints around standardisation. Local plans respond to local needs, and the flexibility in their production is a strength of the system. However, this strength makes standardisation challenging.
+It was tested with 3 local planning authorities, and has helped our understanding of where there is common language. 
+
+It has also helped show some of the constraints around standardisation: local plans respond to local needs, and so the flexibility in their production is a strength of the system, however it also makes standardisation challenging.
 
 Watch [dxw’s first show and tell](https://drive.google.com/file/d/1BPeaV5t7rQQkbWN36k25V2sB5uDu1wPQ/view?usp=sharing) for further details about this prototype and learnings from the user testing.
 
