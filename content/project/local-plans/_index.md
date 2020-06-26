@@ -21,7 +21,7 @@ Read about the outputs and learnings from each phase of this project:
   <div class="equal-panels">
     <div class="equal-panels-single">
       <a href="/project/local-plans/discovery" class="govuk-body-l">Discovery</a>&nbsp;&nbsp;&nbsp;<strong class="govuk-tag govuk-tag--grey">done</strong>
-      <p class="govuk-body">We’re working with local planning authorities to design an improved format for publishing local plan data so that it’s easy to find, use and trust.</p>
+      <p class="govuk-body">The discovery helped us to better understand the problem space, and build recommendations for the alpha.</p>
     </div>
     <div class="equal-panels-single">
       <a href="/project/local-plans/alpha" class="govuk-body-l">Alpha</a>&nbsp;&nbsp;&nbsp;<strong class="govuk-tag govuk-tag--grey">done</strong>
