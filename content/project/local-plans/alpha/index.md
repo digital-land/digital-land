@@ -42,13 +42,14 @@ dxw proposed a data standard for local plans, as well as guidance on how to publ
 ### [Data standard](https://docs.google.com/spreadsheets/d/13mqs6lZy6SyO0xCKcIXtL71SnqnDAZ2hBj3RBpWP_DM/edit?usp=sharing)
 
 The data standard improves the quality, consistency and usefulness of data published about local plans. It looks at how we can standardise information on:
-- which area the plan cover 
-- the status of the local plan
-- when it was adopted 
-- what policies it contains 
-- other high-level information
 
-This data standard is based on the learnings from the brownfield land and developer contributions data standards, developed by the Digital Land team.
+* which area the plan cover 
+* the status of the local plan
+* when it was adopted 
+* what policies it contains 
+* other high-level information
+
+This data standard is based on the learnings from the brownfield land and developer contributions data standards, previously developed by the Digital Land team.
 
 ### [Guidance for publishing local plans data](https://docs.google.com/document/d/1Egi-EwFLFVWDi-QFNH5jiOwgcgDK9W6xnCFNGJSzxE8/edit?usp=sharing)
 
