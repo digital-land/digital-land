@@ -17,12 +17,18 @@ Local plans are published in a wide range of formats and aren’t always consist
 
 Read about the outputs and learnings from each phase of this project:
 
-<p>
-	<a class="govuk-link govuk-body-l" href="/project/local-plans/discovery">Discovery</a> <strong class="govuk-tag">done</strong>
-</p>
-<p>
-  <a class="govuk-link govuk-body-l" href="/project/local-plans/alpha">Alpha</a> <strong class="govuk-tag">done</strong>
-</p>
+<div class="govuk-grid-row">
+  <div class="equal-panels">
+    <div class="equal-panels-single">
+      <a href="/project/local-plans/discovery" class="govuk-body-l">Discovery</a>&nbsp;&nbsp;&nbsp;<strong class="govuk-tag govuk-tag--grey">done</strong>
+      <p class="govuk-body">We’re working with local planning authorities to design an improved format for publishing local plan data so that it’s easy to find, use and trust.</p>
+    </div>
+    <div class="equal-panels-single">
+      <a href="/project/local-plans/alpha" class="govuk-body-l">Alpha</a>&nbsp;&nbsp;&nbsp;<strong class="govuk-tag govuk-tag--grey">done</strong>
+      <p class="govuk-body">The alpha tested ideas for the better use of data held within, and about local plans.</p>
+    </div>
+  </div>
+</div>
 
 ## User needs
 
