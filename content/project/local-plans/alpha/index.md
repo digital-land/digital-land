@@ -38,15 +38,15 @@ During the project, the team identified these additional user needs:
 
 dxw proposed a data standard for local plans, as well as guidance on how to publish the data. They also designed and tested 3 prototypes to visualise data about and within local plans.
 
-#### [Data standard](https://docs.google.com/spreadsheets/d/1qo9qGum20Xnt_BTXgpW1eNEfPp_hZU9H6bJcP4O1pSg/edit?usp=sharing)
+### [Data standard](https://docs.google.com/spreadsheets/d/1qo9qGum20Xnt_BTXgpW1eNEfPp_hZU9H6bJcP4O1pSg/edit?usp=sharing)
 
 The data standard improves the quality, consistency and usefulness of data published about local plans. It looks at how we can standardise information on where the plan is for, it's status, when it was adopted, what policies it contains and other high level information. This data standard is based on the learnings from the brownfield land and developer contributions data standards, developed by the Digital Land team.
 
-#### [Guidance for publishing local plans data](https://docs.google.com/document/d/10BUc-Flk0TAnH8e9Gw3m7WetL9ZMx5eFRIkHcV9Lh2Y/edit?usp=sharing)
+### [Guidance for publishing local plans data](https://docs.google.com/document/d/10BUc-Flk0TAnH8e9Gw3m7WetL9ZMx5eFRIkHcV9Lh2Y/edit?usp=sharing)
 
 Clear, accessible guidance is important to help local planning authorities publish their data in accordance with the standard. This guidance builds on the Digital Land team’s existing [data standards and guidance](https://digital-land.github.io/guidance/).
 
-#### [Prototype 1: a local authority’s local plan page](https://local-plan.herokuapp.com/v1)
+### [Prototype 1: a local authority’s local plan page](https://local-plan.herokuapp.com/v1)
 
 This design was an example of a local plan page for local authorities, including a policy data table.
 
@@ -54,13 +54,13 @@ It was tested with 3 local planning authorities, and has been invaluable in unde
 
 Watch [dxw’s first show and tell](https://drive.google.com/file/d/1BPeaV5t7rQQkbWN36k25V2sB5uDu1wPQ/view?usp=sharing) for further details about this prototype and learnings from the user testing.
 
-#### [Prototype 2: a national picture of local plans](https://local-plan.herokuapp.com/v2)
+### [Prototype 2: a national picture of local plans](https://local-plan.herokuapp.com/v2)
 
 This prototype showed plan data (including plan timetables) at both the national level, and for individual planning authorities.
 
 It was tested with 5 participants from the Planning Inspectorate (PINS) and the Ministry of Housing, Communities and Local Government (MHCLG). This helped to explore how a national picture of plan-making could be presented on the web, for example by a particular geography (not necessarily a local authority boundary).
 
-#### [Prototype 3: helping authorities use and submit local plan data](https://local-plan.herokuapp.com/v3)
+### [Prototype 3: helping authorities use and submit local plan data](https://local-plan.herokuapp.com/v3)
 
 This prototype pulls together several of the alpha outputs, including the:
 
