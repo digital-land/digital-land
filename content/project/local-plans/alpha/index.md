@@ -56,13 +56,13 @@ Watch [dxw’s first show and tell](https://drive.google.com/file/d/1BPeaV5t7rQQ
 
 ### [Prototype 2: a national picture of local plans](https://local-plan.herokuapp.com/v2)
 
-This prototype showed plan data (including plan timetables) at both the national level, and for individual planning authorities.
+Prototype 2 showed plan data (including plan timetables) at both the national level, and for individual planning authorities.
 
 It was tested with 5 participants from the Planning Inspectorate (PINS) and the Ministry of Housing, Communities and Local Government (MHCLG). This helped to explore how a national picture of plan-making could be presented on the web, for example by a particular geography (not necessarily a local authority boundary).
 
 ### [Prototype 3: helping authorities use and submit local plan data](https://local-plan.herokuapp.com/v3)
 
-This prototype pulls together several of the alpha outputs, including the:
+Prototype 3 pulls together several of the alpha outputs, including the:
 
 * national dataset of plans and policies (the “View plan data” web page)
 * timetable overview for all current and emerging local plans
