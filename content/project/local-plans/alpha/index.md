@@ -18,7 +18,7 @@ The project tested ideas for the better use of data held within and about local 
 
 During the alpha project, the team identified these additional user needs:
 
-#### As a Planning Inspectorate (PINs) officer, I need...
+#### As a Planning Inspectorate (PINS) officer, I need...
 - to be made aware of changes or revisions to a local authority's local development scheme ⇒ so that I am able to better resource and plan examinations
 - to be able to easily query the data contained in a local development scheme ⇒ so that I know it's accurate
 
@@ -60,13 +60,13 @@ This design was an example of a local plan page for local authorities, and inclu
 
 It was tested with 3 local planning authorities, and has helped our understanding of where there is common language. 
 
-It has also helped show some of the constraints around standardisation: local plans respond to local needs, and so the flexibility in their production is a strength of the system, however it also makes standardisation challenging.
+It has also helped show some of the constraints around standardisation. Since local plans respond to local needs, the flexibility in their production is a strength of the system. However, this flexibility makes standardisation challenging.
 
-Watch [dxw’s first show and tell](https://drive.google.com/file/d/1BPeaV5t7rQQkbWN36k25V2sB5uDu1wPQ/view?usp=sharing) for further details about this prototype and learnings from the user testing.
+Watch [dxw’s first show and tell](https://drive.google.com/file/d/1BPeaV5t7rQQkbWN36k25V2sB5uDu1wPQ/view?usp=sharing) for further details on this prototype and learnings from the user testing.
 
 ### [Prototype 2: a national picture of local plans](https://local-plan.herokuapp.com/v2)
 
-Prototype 2 showed plan data (including plan timetables) at both the national level, and for individual planning authorities.
+Prototype 2 showed plan data (including plan timetables) at both the national level and for individual planning authorities.
 
 It was tested with 5 participants from the Planning Inspectorate (PINS) and the Ministry of Housing, Communities and Local Government (MHCLG). This helped to explore how a national picture of plan-making could be presented on the web, for example by a particular geography (not necessarily a local authority boundary).
 
@@ -86,19 +86,19 @@ Watch [dxw’s third show and tell](https://drive.google.com/file/d/1BPeaV5t7rQQ
 
 ## Learnings
 
-### Data standard
+#### Importance of the data
+Local plan and policy data is a vital and fundamental part of the emerging national data infrastructure for planning.
+
+#### Data standard
 A data standard for local plan timetables and policies improves how information about local plans can be communicated.
 
-### Common language
+#### Common language
 Whilst a data standard for plan timetables and policy categories is useful, the greatest value is creating a common language for describing policies.
 
-Many terms have very specific meanings, but those meanings can be different in different contexts. Examples of words that have caused confusion in user research are ‘area’, ‘strategic’, ‘supplementary’, ‘policy’, ‘evidence’, ‘status’ and ‘commitment’. It is important to use language that makes sense to all users of the data.
+Many terms have very specific meanings, but those meanings can change in different contexts. Examples of words that have caused confusion in user research are ‘area’, ‘strategic’, ‘supplementary’, ‘policy’, ‘evidence’, ‘status’ and ‘commitment’. It is important to use language that makes sense to all users of the data.
 
-### Presenting the data
+#### Presenting the data
 Presenting local plans data in a variety of clear, accessible formats, will help policymakers, planning inspectors, and local planning authorities recognise the value of the data. This will also help them to use the data more easily, and with greater confidence.
-
-### Importance of the data
-Local plan and policy data is a vital and fundamental part of the emerging national data infrastructure for planning.
 
 ## Opportunities
 
@@ -109,18 +109,16 @@ A data standard for local plans and an accessible way to access the data can ope
 * better collaboration (formal and informal) between neighbouring local planning authorities
 * more options to communicate content within local plans
 * intelligent mapping of planning decisions to policies
-* open data on development policies for others to build services on (such as a [PropTech company](https://digital-land.github.io/users/proptech/))
+* open data on development policies for others to build services on (such as [PropTech companies](https://digital-land.github.io/users/proptech/))
 
 ## Recommendations
 
-The team recommends a [private beta](https://www.gov.uk/service-manual/agile-delivery/how-the-beta-phase-works) to test parts of the project that are critical to the success of a national local plan dataset, and to test a real version of the service with users. The beta should:
+The team recommends a [private beta](https://www.gov.uk/service-manual/agile-delivery/how-the-beta-phase-works) to test parts of the project that are critical to the success of a national local plan dataset, and to test a real version of the service with users. The project will only work if local planning authorities see the value, which the beta must focus on. The beta should also:
 
-* be tested in some real local geographies using groups of local planning authorities with shared objectives but different plans, policies, skills, resources and digital capacity
-* answer important questions about policy categories, resources, managing GIS data and the amount of time required from local planning authorities
+* test with users across a range of geographies, with groups of local planning authorities with shared objectives but different plans, policies, skills, resources and digital capacity
+* answer important questions about policy categories, resources, managing GIS data, and the amount of time the solution might require from local planning authorities
 * involve a wider group of users including infrastructure providers, PropTech companies and councillors
 * create answers to the question “what’s in it for me?” asked by local planning authorities
-
-This will only work if local planning authorities see the value, which the beta must focus on.
 
 {{% cta-box %}} Read the [end of project alpha report](https://docs.google.com/presentation/d/e/2PACX-1vRQAXERMxFtnHperwzobOKVbOofG5SXwurb31AJZzOx5c7k1ObsBinNBuZ9uc1Ifw/pub?start=false&loop=false&delayms=3000). {{% /cta-box %}}
 
