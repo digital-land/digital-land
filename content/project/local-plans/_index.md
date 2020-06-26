@@ -21,7 +21,7 @@ Read about the outputs and learnings from each phase of this project:
   <div class="equal-panels">
     <div class="equal-panels-single">
       <a href="/project/local-plans/discovery" class="govuk-body-l">Discovery</a>&nbsp;&nbsp;&nbsp;<strong class="govuk-tag govuk-tag--grey">done</strong>
-      <p class="govuk-body">The discovery helped better understand the problem space, users, and opportunities.</p>
+      <p class="govuk-body">The discovery helped us to better understand the problem space, users, and opportunities.</p>
     </div>
     <div class="equal-panels-single">
       <a href="/project/local-plans/alpha" class="govuk-body-l">Alpha</a>&nbsp;&nbsp;&nbsp;<strong class="govuk-tag govuk-tag--grey">done</strong>
