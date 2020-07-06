@@ -1,10 +1,9 @@
 Contents
 
-- [Collect](#collect)
-- [Validate](#validate)
-- [Convert](#convert)
-- [Normalise](#normalise)
-- [Map](#map)
-- [Harmonise](#harmonise)
-- [Transform](#transform)
+- [Collect](#1-collect)
+- [Convert](#2-convert)
+- [Normalise](#3-normalise)
+- [Map](#4-map-the-headers)
+- [Harmonise](#5-harmonise)
+- [Transform](#6-transform)
 
