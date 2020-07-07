@@ -142,4 +142,4 @@ The team recommends a [private beta](https://www.gov.uk/service-manual/agile-del
 
 ### Sprint 3
 * [Recording of show and tell 3](https://drive.google.com/file/d/1BPeaV5t7rQQkbWN36k25V2sB5uDu1wPQ/view?usp=sharing)
-* [Slides for show and tell 3](https://docs.google.com/presentation/d/e/2PACX-1vQ01QmiwC8jzlRMma8it8vI4RUM-F7_4LhFcdJWMtbXPncRGeStjyOobPXRTQTW9aziV833dX3OjzbT/pub?start=false&loop=false&delayms=3000)
+* [Slides for show and tell 3](https://docs.google.com/presentation/d/e/2PACX-1vT2t1lR3-nPKvqJO8a950ijU6Z8BhbWjkdvtmakLsfYaSOYA0wUmNwRViNxX6N-cQ/pub?start=false&loop=false&delayms=3000)
