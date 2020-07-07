@@ -1,6 +1,6 @@
 ---
 title: "Local plans"
-status: alpha
+status: beta
 label: "project:local-plans"
 pageFeedback: true
 summary: We’re working with local planning authorities to design an improved format for publishing local plan data so that it’s easy to find, use and trust.
@@ -20,12 +20,13 @@ Read about the outputs and learnings from each phase of this project:
 <div class="govuk-grid-row">
   <div class="equal-panels">
     <div class="equal-panels-single">
-      <a href="/project/local-plans/discovery" class="govuk-body-l">Discovery</a>&nbsp;&nbsp;&nbsp;<strong class="govuk-tag govuk-tag--grey">done</strong>
-      <p class="govuk-body">The discovery helped us to better understand the problem space, users, and opportunities.</p>
+      <a href="/project/local-plans/discovery" class="govuk-body-l">Discovery</a><br/><br/><strong class="govuk-tag govuk-tag--grey">done</strong>
     </div>
     <div class="equal-panels-single">
-      <a href="/project/local-plans/alpha" class="govuk-body-l">Alpha</a>&nbsp;&nbsp;&nbsp;<strong class="govuk-tag govuk-tag--grey">done</strong>
-      <p class="govuk-body">The alpha tested ideas for the better use of data held within, and about local plans.</p>
+      <a href="/project/local-plans/alpha" class="govuk-body-l">Alpha</a><br/><br/><strong class="govuk-tag govuk-tag--grey">done</strong>
+    </div>
+    <div class="equal-panels-single">
+      <a href="/project/local-plans/beta" class="govuk-body-l">Beta</a><br/><br/><strong class="govuk-tag govuk-tag--grey">doing</strong>
     </div>
   </div>
 </div>
