@@ -94,7 +94,7 @@ The Digital Land team began the [beta phase](https://digital-land.github.io/proj
 
 **March 2020**
 
-[dxw](https://www.dxw.com/) began the 6-week alpha phase, working with the [Planning Advisory Service (PAS)](https://local.gov.uk/pas).
+[dxw](https://www.dxw.com/) were awarded the 6-week alpha project, working alongside the [Planning Advisory Service (PAS)](https://local.gov.uk/pas) and MHCLG.
 
 **January 2020**
 
