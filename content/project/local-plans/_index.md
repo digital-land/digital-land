@@ -82,7 +82,7 @@ The Digital Land team began the [beta phase](https://digital-land.github.io/proj
 
 **April 2020: [week 3 of alpha](https://digital-land.github.io/weeknote/2020-04-24/)**
 
-[dxw](https://www.dxw.com/) sent a survey to a group of local authorities to get insights into how local plans are structured. The team also mapped out the National Planning Policy Framework (NPPF) to better understand what is already required in local plans. 
+[dxw](https://www.dxw.com/) sent a survey to a group of local authorities to get insights into how local plans are structured. The team also mapped out the [National Planning Policy Framework (NPPF)](https://www.gov.uk/government/publications/national-planning-policy-framework--2) to better understand what is already required in local plans. 
 
 **April 2020: [week 2 of alpha](https://digital-land.github.io/weeknote/2020-04-17/)**
 
