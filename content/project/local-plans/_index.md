@@ -74,7 +74,7 @@ The Digital Land team began the [beta phase](https://digital-land.github.io/proj
 
 **May 2020: [week 5 of alpha](https://digital-land.github.io/weeknote/2020-05-07/)**
 
-[dxw](https://www.dxw.com/) test the [national picture prototype](https://local-plan.herokuapp.com/v2) with MHCLG policy colleagues, and wrote up [additional user needs](https://digital-land.github.io/project/local-plans/alpha/#user-needs). 
+[dxw](https://www.dxw.com/) tested the [national picture prototype](https://local-plan.herokuapp.com/v2) with MHCLG policy colleagues, and wrote up [additional user needs](https://digital-land.github.io/project/local-plans/alpha/#user-needs). 
 
 **May 2020: [week 4 of alpha](https://digital-land.github.io/weeknote/2020-05-01/)**
 
