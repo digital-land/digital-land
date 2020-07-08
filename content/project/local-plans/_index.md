@@ -64,6 +64,38 @@ Read about the outputs and learnings from each phase of this project:
 
 ## Timeline
 
+**July 2020**
+
+The Digital Land team began the [beta phase](https://digital-land.github.io/project/local-plans/beta/).
+
+**May 2020: week 6 of alpha**
+
+[dxw](https://www.dxw.com/) completed the [alpha phase](https://digital-land.github.io/project/local-plans/alpha/), designing a [third prototype which pulls together all the work](https://local-plan.herokuapp.com/v3), including [written guidance to help local authorities publish their local plan data](https://local-plan.herokuapp.com/v3/publish-data). The team also wrote up an [end of project report](https://docs.google.com/presentation/d/e/2PACX-1vRQAXERMxFtnHperwzobOKVbOofG5SXwurb31AJZzOx5c7k1ObsBinNBuZ9uc1Ifw/pub?start=false&loop=false&delayms=3000). 
+
+**May 2020: [week 5 of alpha](https://digital-land.github.io/weeknote/2020-05-07/)**
+
+[dxw](https://www.dxw.com/) test the [national picture prototype](https://local-plan.herokuapp.com/v2) with MHCLG policy colleagues, and wrote up [additional user needs](https://digital-land.github.io/project/local-plans/alpha/#user-needs). 
+
+**May 2020: [week 4 of alpha](https://digital-land.github.io/weeknote/2020-05-01/)**
+
+[dxw](https://www.dxw.com/) designed the [second alpha prototype](https://local-plan.herokuapp.com/v2), showing a national picture for plan making, along with the underlying data standard/schema to support this. They then tested the prototype with 3 people from the [Planning Inspectorate](https://www.gov.uk/government/organisations/planning-inspectorate), as well as researching with colleagues at MHCLG responsible for housing delivery and supply. 
+
+**April 2020: [week 3 of alpha](https://digital-land.github.io/weeknote/2020-04-24/)**
+
+[dxw](https://www.dxw.com/) sent a survey to a group of local authorities to get insights into how local plans are structured. The team also mapped out the National Planning Policy Framework (NPPF) to better understand what is already required in local plans. 
+
+**April 2020: [week 2 of alpha](https://digital-land.github.io/weeknote/2020-04-17/)**
+
+[dxw](https://www.dxw.com/) designed the [first prototype](https://local-plan.herokuapp.com/v1) and tested it with 3 local authorities.
+
+**April 2020: [week 1 of alpha](https://digital-land.github.io/weeknote/2020-04-10/)**
+
+[dxw](https://www.dxw.com/) ran a domain mapping workshop to explore the relationships between points of data in the plan making process.
+
+**March 2020**
+
+[dxw](https://www.dxw.com/) began the 6-week alpha phase, working with the [Planning Advisory Service (PAS)](https://local.gov.uk/pas).
+
 **January 2020**
 
 We opened a supplier opportunity through [Digital Marketplace](https://www.digitalmarketplace.service.gov.uk/digital-outcomes-and-specialists/opportunities/11591) for the local plans alpha phase.
