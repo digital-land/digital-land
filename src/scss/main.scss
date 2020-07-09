@@ -259,4 +259,10 @@ $using-helvetica: true;
   }
 }
 
-// Metrics
+// CTA padding when followed by a heading
+.highlight-box--cta {
+  & + h1, & + h2, & + h3, & + h4, & + h5, & + h6 {
+    margin-top: 20px;
+    padding-top: 15px;
+  }
+}
