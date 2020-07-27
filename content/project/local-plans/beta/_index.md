@@ -17,3 +17,5 @@ Working with the Planning directorate in The Ministry of Housing, Communities & 
 - create guidance and tools to help local planning authorities publish information about their local plans as data
 - collect and present this information, to form a national dataset of local planning policies which can be visualised in a [dashboard, and on a map](https://local-plan.herokuapp.com/v3/plan-data)
 - build a roadmap for developing further standards and specifications for publishing local plan making policies as data
+
+We will test our designs with a variety of users throughout the beta phase. [Read more about our user research plans](https://docs.google.com/presentation/d/e/2PACX-1vSD5pxJCNJA9A_ZC0N9RVvrKIZO2cdOGsYZHYAtCGxoGCpEFYwtBy9C9UDsu2EUm3L8Z005YHRnRbjR/pub?start=false&loop=false&delayms=3000).
