@@ -5,6 +5,11 @@
 //
 // ===================
 
+@import "core/lists";
+@import "core/links";
+@import "core/typography";
+@import "components/table/table";
+
 .markdown-output {
   @include govuk-responsive-margin(6, "bottom");
 
