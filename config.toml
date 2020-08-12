@@ -50,6 +50,10 @@ staticDir = ["static", "src/govuk_template/assets", "src/govuk_elements/assets"]
   name = "Cookies"
   url = "/cookies"
 
+  [[params.guidance_links]]
+  name = "Finding the local authority for an address"
+  url = "https://digital-land.github.io/local-authority-addresses/"
+  summary = "Follow our guidance when you are trying to work out which Local Authority an address is in."
 
 [taxonomies]
   tag = "tags"

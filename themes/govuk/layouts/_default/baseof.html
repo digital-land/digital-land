@@ -42,38 +42,7 @@
 
     <a href="#content" class="govuk-skip-link">{{ .Site.Params.skip_link_message | default "Skip to main content" }}</a>
 
-    <header role="banner" id="global-header" class='govuk-header {{ block "govuk_header_classes" . }}{{ end }} with-proposition'>
-      <div class="govuk-header__container govuk-width-container">
-        <!--<div class="header-global">
-          <div class="header-logo">
-            <a href="{{ .Site.Params.homepage_url | default "https://www.gov.uk" }}" title="{{ .Site.Params.logo_link_title | default "Go to the GOV.UK homepage" }}" id="logo" class="content">
-              <img src="/images/gov.uk_logotype_crown_invert_trans.png?0.24.0" width="36" height="32" alt="">
-             {{ .Site.Params.global_header_text | default "MHCLG" }}
-            </a>
-          </div>
-          {{ block "inside_header" . }}{{ end }}
-        </div>-->
-        {{ block "proposition_header" . }}
-			  <div class="header-proposition">
-			    <div class="govuk-header__content">
-            <a href="https://digital-land.github.io/" class="govuk-header__link govuk-header__link--service-name">
-              {{ block "service_name" . }}
-			            {{ if isset .Site.Params "servicename" }}{{ .Site.Params.servicename }}{{ end }}
-			        {{ end }}
-            </a>
-            <button type="button" class="govuk-header__menu-button govuk-js-header-toggle" aria-controls="navigation" aria-label="Show or hide Top Level Navigation">Menu</button>
-
-			      <nav>
-
-			        {{ partial "proposition-links.html" . }}
-
-			      </nav>
-			    </div>
-			  </div>
-				{{ end }}
-      </div>
-    </header>
-
+    {{ partial "header.html" . }}
 
     {{ block "after_header" . }}{{ end }}
 
@@ -137,12 +106,12 @@
 
     <div id="global-app-error" class="app-error hidden"></div>
 
-    <script src="/javascripts/govuk-template.js?0.24.0"></script>
-
     {{ block "body_end" . }}{{ end }}
 
+    <script src="https://digital-land.github.io/javascripts/govuk/govuk-frontend-3.0.0.min.js"></script>
     <script>
-      if (typeof window.GOVUK === 'undefined') document.body.className = document.body.className.replace('js-enabled', '')
+      // initiate all GOVUK components
+      window.GOVUKFrontend.initAll();
     </script>
 
     {{ template "_internal/google_analytics_async.html" . }}

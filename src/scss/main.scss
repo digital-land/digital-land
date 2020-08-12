@@ -5,7 +5,8 @@ $govuk-images-path: "/govuk-frontend/assets/images/";
 $using-helvetica: true;
 
 // import all GOVUK scss (contains plenty of helpers to use)
-@import "all";
+@import "settings/all";
+@import "helpers/all";
 
 // Import all project components
 @import "project-components/blockquote";

@@ -38,6 +38,14 @@
                 <p class="govuk-body">{{ .Params.Summary | default .Summary }}</p>
               </li>
             {{ end }}
+            {{ range .Site.Params.guidance_links }}
+              <li>
+                <a href="{{ .url }}" class="govuk-link govuk-body-l">{{ .name }}</a>
+                {{ if isset . "summary" }}
+                <p class="govuk-body">{{ .summary }}</p>
+                {{ end }}
+              </li>
+            {{ end }}
           </ul>
     </div>
   </div>
