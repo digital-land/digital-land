@@ -1,4 +1,5 @@
 {{ define "head" }}
+    <link rel="stylesheet" media="all" href="/stylesheets/dl-frontend.css" />
     <link rel="stylesheet" media="all" href="/stylesheets/main.css" />
     {{ with $.Parent.OutputFormats.Get "rss" -}}
       <link rel="{{ .Rel }}" type="application/rss+xml" href="{{ .Permalink }}" title="{{ $.Parent.Title | safeHTML }} - {{ $.Site.Title | safeHTML }}" />
