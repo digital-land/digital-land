@@ -59,5 +59,8 @@ We’ve not yet started any prototypes for this project.
 
 ## Phases
 <p>
-	<a class="govuk-link govuk-body-l" href="/project/single-register-of-planning/discovery">Discovery and alpha</a> <strong class="govuk-tag">done</strong>
+	<a class="govuk-link govuk-body-l" href="/project/single-register-of-planning/discovery">Discovery</a> <strong class="govuk-tag">done</strong>
+</p>
+<p>
+	<a class="govuk-link govuk-body-l" href="/project/single-register-of-planning/alpha">Alpha</a> <strong class="govuk-tag">done</strong>
 </p>
