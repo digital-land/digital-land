@@ -13,7 +13,7 @@ We support publishers of data by providing guidance and tools to help ensure the
 For any resource, you can view its state at each step in the pipeline, allowing you to see what we've changed.
 {{% /cta-box %}}
 
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/mattlucht/49547009136/in/datetaken-public/" title="Brownfield_Land_Report_-_Google_Slides"><img src="https://live.staticflickr.com/65535/49547009136_f3c86e9e31_b.jpg" alt="Brownfield_Land_Report_-_Google_Slides"></a>
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/mattlucht/49547009136/in/datetaken-public/" title="Pipeline process: collect; convert; normalise; map; harmonise; transform."><img src="https://live.staticflickr.com/65535/49547009136_f3c86e9e31_b.jpg" alt="Pipeline process: collect; convert; normalise; map; harmonise; transform."></a>
 
 The pipeline follows these steps:
 
