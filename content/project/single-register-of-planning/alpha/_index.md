@@ -166,7 +166,7 @@ We investigated a number of solutions for this translation layer, but settled on
 
 You can [try out the prototype here](https://planning-permissions:MHCLG@planning-permissions.herokuapp.com) – for a quick start, select “london-100.csv” as the input file, and “IDOX” as the schema template.
 
-[![](example.png)](example.png)
+[![](../discovery/example.png)](../discovery/example.png)
 
 The transformation logic being stored in a JSON config file also opens up the possibility for configuration to be made by a non-technical user, via a web interface, and for the tool to then read and use that configuration for its automatic processing.
 
