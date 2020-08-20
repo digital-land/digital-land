@@ -196,7 +196,7 @@ Our research work suggested a set of a principles that we can use to help guide 
 
 A system to collect data planning application data could be implemented in a number of ways, but we worked with the MHCLG Digital Land team to design a model consistent with their strategy of decentralised management of data.
 
-[![](technical_model.png)](technical_model.png)
+[![](../discovery/technical_model.png)](../discovery/technical_model.png)
 
 The diagram above illustrates this approach. The different components are described below:
 
