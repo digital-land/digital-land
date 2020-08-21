@@ -109,3 +109,5 @@ ENV/
 
 .DS_Store
 content/Alphas/.DS_Store
+
+/server
