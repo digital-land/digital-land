@@ -30,7 +30,8 @@
     <meta property="og:image" content="/images/opengraph-image.png?0.24.0">
     <meta property="description" content="{{ .Params.metaDescription | default .Summary }}">
     {{ block "head" . }}
-      <link rel="stylesheet" media="all" href="/stylesheets/dl-frontend.css" />
+      <!--<link rel="stylesheet" media="all" href="/stylesheets/dl-frontend.css" />-->
+      <link href="https://digital-land-design.herokuapp.com/static/stylesheets/dl-frontend.css" rel="stylesheet">
       <link rel="stylesheet" media="all" href="/stylesheets/main.css" />
     {{ end }}
   </head>
@@ -54,7 +55,7 @@
 
 
     {{ block "content" . }}
-		<div id="content" class="govuk-width-container">
+		<div id="content" class="govuk-width-container hugo-content">
       {{ partial "breadcrumbs.html" . }}
       <main class="govuk-main-wrapper">
 			{{ block "content_inner" . }}{{ end }}
