@@ -14,51 +14,42 @@ $using-helvetica: true;
 @import "project-components/markdown";
 
 
-* {
-  font-family: "HelveticaNeue", "Helvetica Neue", "Arial", "Helvetica", sans-serif !important;
-}
+// * {
+//   font-family: "HelveticaNeue", "Helvetica Neue", "Arial", "Helvetica", sans-serif !important;
+// }
 
 // =====================
 // Hacks: or things I can't find in GOVUK design system
 // =====================
-.govuk-body-l {
-  max-width: 30em !important;
-}
+// .govuk-body-l {
+//   max-width: 30em !important;
+// }
 
-.govuk-body {
-  max-width: 38em;
-}
+// .govuk-body {
+//   max-width: 38em;
+// }
 
 // digital land site only uses part of govuk-header
-.govuk-header__content {
-  width: 100%;
-  padding-left: 0;
-}
+// .govuk-header__content {
+//   width: 100%;
+//   padding-left: 0;
+// }
 
-.govuk-header--no-border {
-  border-bottom-width: 0;
-
-  .govuk-header__container {
-    margin-bottom: 0;
-    border-bottom-width: 0;
-  }
-}
-
-@if $using-helvetica == true {
-  .govuk-warning-text__icon {
-    padding-top: 1px;
-    padding-bottom: 2px;
-  }
-}
+// @if $using-helvetica == true {
+//   .govuk-warning-text__icon {
+//     padding-top: 1px;
+//     padding-bottom: 2px;
+//   }
+// }
 
 // =======================
 // Digital land hugo hacks
 // =======================
-// some components need a few hacks/tweaks to work nicely with hugo output
+// some components need a few tweaking to work nicely with hugo output
 
-.markdown-output .dlf-pagination__list {
-  padding-left: 0 !important;
-}
+// .markdown-output .dlf-pagination__list {
+//   padding-left: 0 !important;
+// }
 
 // =====================
 // Project scss
@@ -262,7 +253,12 @@ $using-helvetica: true;
 
 // CTA padding when followed by a heading
 .highlight-box--cta {
-  & + h1, & + h2, & + h3, & + h4, & + h5, & + h6 {
+  & + h1,
+  & + h2,
+  & + h3,
+  & + h4,
+  & + h5,
+  & + h6 {
     margin-top: 20px;
     padding-top: 15px;
   }
