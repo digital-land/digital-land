@@ -7,8 +7,6 @@
 To build/run site you need:
 
 - [Hugo](https://gohugo.io) - currently use version v0.55.6, as any version above breaks the build
-- [Node](https://nodejs.org/en/) and [Npm](https://www.npmjs.com/)
-- [Gulp](https://gulpjs.com/)
 
 
 ## The generated output is deployed via a github pages repo at [https://github.com/digital-land/digital-land.github.io](https://github.com/digital-land/digital-land.github.io)
@@ -18,7 +16,8 @@ To build/run site you need:
 
 To develop the site locally, run:
 
-- `npm run start` to generate css, start gulp watch task and run hugo server in the background
+- `make build` to build the site
+- `make serve` to start the server
 
 ### Submodules
 
