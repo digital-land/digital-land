@@ -11,7 +11,7 @@
 		</div>
 	</header>
 
-	<div id="content" class="govuk-width-container" role="main">
+	<div id="content" class="govuk-width-container hugo-content" role="main">
 
     <h3 class="govuk-heading-m">Patterns</h3>
     <div class="govuk-grid-row">
@@ -20,7 +20,7 @@
     {{ end }}
     </div>
 
-		<h3 class="govuk-heading-m">Interesting use cases <span class="small">(<a href="/portfolio/project">see more projects</a>)</span></h3>
+		<h3 class="govuk-heading-m">Interesting use cases <span class="govuk-!-font-size-19 govuk-!-font-weight-regular">(<a href="/portfolio/project">see more projects</a>)</span></h3>
 		<div class="govuk-grid-row">
 			{{ range first 4 ($.Site.GetPage "/portfolio/project").Pages }}
 				{{ partial "project-display.html" . }}

@@ -1,6 +1,5 @@
 {{ define "head" }}
     <link rel="stylesheet" media="all" href="/stylesheets/dl-frontend.css" />
-    <link rel="stylesheet" media="all" href="/stylesheets/main.css" />
     {{ with .OutputFormats.Get "rss" -}}
       <link rel="{{ .Rel }}" type="application/rss+xml" href="{{ .Permalink }}" title="{{ $.Title | safeHTML }} - {{ $.Site.Title | safeHTML }}" />
     {{ end -}}
