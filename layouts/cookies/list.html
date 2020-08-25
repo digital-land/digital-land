@@ -19,7 +19,7 @@
 
             <h3 class="govuk-heading-l">Change your cookie options</h3>
 
-            <form class="govuk-form">
+            <form id="cookie-form" class="govuk-form" onsubmit="return false;">
                 <fieldset class="govuk-fieldset" aria-describedby="cookie-ga-hint">
                     <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">Cookies that measure website use</legend>
                     <div id="cookie-ga-hint" class="govuk-!-margin-bottom-3">
@@ -43,10 +43,30 @@
                         </div>
                     </div>
                 </fieldset>
+                <button class="govuk-button" type="submit" onclick="saveCookiePrefs();">Save changes</button>
             </form>
 
 		</div>
 	</div>
+
+    <script src="https://digital-land-design.herokuapp.com/static/javascripts/dl-cookies.js"></script>
+    <script language="javascript">
+        function saveCookiePrefs() {
+            console.log("hi i'm saving cookie prefs")
+            if (document.getElementById("radio-ga-on").checked) {
+                acceptCookies()
+            } else {
+                declineCookies()
+            }
+        }
+        var cookiesPolicy = JSON.parse(getCookie("cookies_policy"))
+        if (cookiesPolicy != null) {
+            document.getElementById("radio-ga-on").checked = cookiesPolicy.usage
+            console.log("set radio button")
+        }
+
+        console.log(cookiesPolicy)
+    </script>
 
 {{ end }}
 
