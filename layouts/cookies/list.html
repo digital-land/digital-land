@@ -56,7 +56,6 @@
 <script src="/javascripts/dl-cookies.js"></script>
 <script language="javascript">
     function saveCookiePrefs() {
-        console.log("hi i'm saving cookie prefs")
         if (document.getElementById("radio-ga-on").checked) {
             acceptCookies()
         } else {
@@ -72,10 +71,8 @@
             } else {
                 document.getElementById("radio-ga-off").checked = true
             }
-            console.log("set radio button")
         }
 
-        console.log(cookiesPolicy)
     });
 </script>
 {{ end }}
