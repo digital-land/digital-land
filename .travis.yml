@@ -1,22 +1,17 @@
-language: node_js
-node_js:
-- "10"
-sudo: required
+language: go
+go:
+- 1.x
+
 before_install:
-- wget https://github.com/gohugoio/hugo/releases/download/v0.54.0/hugo_0.54.0_Linux-64bit.deb
-- sudo dpkg -i hugo*.deb
+- wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.54.0/hugo_0.54.0_Linux-64bit.deb
+- sudo dpkg -i /tmp/hugo.deb
+
 before_script:
-- npm install
 - git clone https://${GH_TOKEN}@github.com/digital-land/digital-land.github.io.git
   public
-cache:
-  directories:
-  - node_modules
-script:
-- npm run scss
+
 deploy:
   provider: script
   script: bash ./deploy.sh
   on:
     branch: master
-    

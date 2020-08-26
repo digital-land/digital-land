@@ -30,8 +30,8 @@
     <meta property="og:image" content="/images/opengraph-image.png?0.24.0">
     <meta property="description" content="{{ .Params.metaDescription | default .Summary }}">
     {{ block "head" . }}
-      <link rel="stylesheet" media="all" href="/stylesheets/dl-frontend.css" />
-      <link rel="stylesheet" media="all" href="/stylesheets/main.css" />
+      <!--<link rel="stylesheet" media="all" href="/stylesheets/dl-frontend.css" />-->
+      <link href="/stylesheets/dl-frontend.css" rel="stylesheet">
     {{ end }}
   </head>
 
@@ -42,6 +42,7 @@
 
     <a href="#content" class="govuk-skip-link">{{ .Site.Params.skip_link_message | default "Skip to main content" }}</a>
 
+    {{ partial "cookie-banner.html" }}
     {{ partial "header.html" . }}
 
     {{ block "after_header" . }}{{ end }}
@@ -54,7 +55,7 @@
 
 
     {{ block "content" . }}
-		<div id="content" class="govuk-width-container">
+		<div id="content" class="govuk-width-container hugo-content">
       {{ partial "breadcrumbs.html" . }}
       <main class="govuk-main-wrapper">
 			{{ block "content_inner" . }}{{ end }}
@@ -114,6 +115,7 @@
       window.GOVUKFrontend.initAll();
     </script>
 
-    {{ template "_internal/google_analytics_async.html" . }}
+    <script src="https://digital-land-design.herokuapp.com/static/javascripts/dl-cookies.js"></script>
+    <script src="https://digital-land-design.herokuapp.com/static/javascripts/dl-frontend.js"></script>
   </body>
 </html>
