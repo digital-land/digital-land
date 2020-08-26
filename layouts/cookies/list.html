@@ -32,7 +32,7 @@
                             <li>what you click on while you're visiting the site</li>
                         </ul>
                     </div>
-                    <div class="govuk-radios">
+                    <div class="govuk-form-group govuk-radios">
                         <div class="govuk-radios__item" data-children-count="1">
                             <input type="radio" name="cookies-usage" id="radio-ga-on" value="on" class="govuk-radios__input">
                             <label for="radio-ga-on" class="govuk-label govuk-radios__label">Use cookies that measure my website use</label>
@@ -43,22 +43,28 @@
                         </div>
                     </div>
                 </fieldset>
+
                 <button class="govuk-button" type="submit" onclick="saveCookiePrefs();">Save changes</button>
             </form>
 
 		</div>
 	</div>
 
-    <script src="/javascripts/dl-cookies.js"></script>
-    <script language="javascript">
-        function saveCookiePrefs() {
-            console.log("hi i'm saving cookie prefs")
-            if (document.getElementById("radio-ga-on").checked) {
-                acceptCookies()
-            } else {
-                declineCookies()
-            }
+{{ end }}
+
+{{ define "body_end" }}
+<script src="/javascripts/dl-cookies.js"></script>
+<script language="javascript">
+    function saveCookiePrefs() {
+        console.log("hi i'm saving cookie prefs")
+        if (document.getElementById("radio-ga-on").checked) {
+            acceptCookies()
+        } else {
+            declineCookies()
         }
+    }
+
+    document.addEventListener('DOMContentLoaded', (event) => {
         var cookiesPolicy = JSON.parse(getCookie("cookies_policy"))
         if (cookiesPolicy != null) {
             if (cookiesPolicy.usage) {
@@ -70,10 +76,6 @@
         }
 
         console.log(cookiesPolicy)
-    </script>
-
-{{ end }}
-
-{{ define "body_end" }}
-<!-- put js / js scripts here -->
+    });
+</script>
 {{ end }}
