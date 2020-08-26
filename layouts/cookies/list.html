@@ -49,7 +49,7 @@
 		</div>
 	</div>
 
-    <script src="https://digital-land-design.herokuapp.com/static/javascripts/dl-cookies.js"></script>
+    <script src="/javascripts/dl-cookies.js"></script>
     <script language="javascript">
         function saveCookiePrefs() {
             console.log("hi i'm saving cookie prefs")
@@ -61,7 +61,11 @@
         }
         var cookiesPolicy = JSON.parse(getCookie("cookies_policy"))
         if (cookiesPolicy != null) {
-            document.getElementById("radio-ga-on").checked = cookiesPolicy.usage
+            if (cookiesPolicy.usage) {
+                document.getElementById("radio-ga-on").checked = true
+            } else {
+                document.getElementById("radio-ga-off").checked = true
+            }
             console.log("set radio button")
         }
 
