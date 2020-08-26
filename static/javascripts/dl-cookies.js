@@ -23,7 +23,6 @@ function acceptCookies() {
     setCookie("cookies_preferences_set",true,365);
     setCookie("cookies_policy",JSON.stringify({"essential":true,"settings":true,"usage":true,"campaigns":true}),365);
     hideCookieBanner();
-    showCookieConfirmation();
     setTrackingCookies();
 }
 
