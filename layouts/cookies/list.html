@@ -67,7 +67,8 @@
 {{ define "body_end" }}
 <script src="/javascripts/dl-cookies.js"></script>
 <script language="javascript">
-    document.addEventListener('DOMContentLoaded', (event) => {
+    document.addEventListener('DOMContentLoaded', function(event) {
+        event.preventDefault()
         var _cookie_options_saved_el = document.querySelector(".cookie-message__confirmation")
         function saveCookiePrefs() {
             if (document.getElementById("radio-ga-on").checked) {
