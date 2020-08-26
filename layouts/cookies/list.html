@@ -1,5 +1,17 @@
 {{ define "content_inner" }}
 
+<div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+        <div class="cookie-message__confirmation govuk-!-margin-bottom-8" data-cookie-confirmation="true">
+            <section class="gem-c-notice" aria-label="Notice" aria-live="polite" role="region">
+                <h2 class="gem-c-notice__title govuk-heading-m">Your cookie settings were saved</h2>
+                <p class="govuk-body govuk-!-margin-bottom-0">Government services may set additional cookies and, if so, will have their own cookie policy and banner.</p>
+            </section>
+        </div>
+    </div>
+</div>
+
+
   {{ if isset .Params "cat_name" }}
   <span class="govuk-caption-xl">{{ .Params.cat_name | humanize }}</span>
   {{ end }}
@@ -55,15 +67,18 @@
 {{ define "body_end" }}
 <script src="/javascripts/dl-cookies.js"></script>
 <script language="javascript">
-    function saveCookiePrefs() {
-        if (document.getElementById("radio-ga-on").checked) {
-            acceptCookies()
-        } else {
-            declineCookies()
-        }
-    }
-
     document.addEventListener('DOMContentLoaded', (event) => {
+        var _cookie_options_saved_el = document.querySelector(".cookie-message__confirmation")
+        function saveCookiePrefs() {
+            if (document.getElementById("radio-ga-on").checked) {
+                acceptCookies()
+            } else {
+                declineCookies()
+            }
+            _cookie_options_saved_el.classList.add('saved')
+            scroll(0,0)
+        }
+
         var cookiesPolicy = JSON.parse(getCookie("cookies_policy"))
         if (cookiesPolicy != null) {
             if (cookiesPolicy.usage) {
@@ -73,6 +88,8 @@
             }
         }
 
+        // expose save function to window
+        window.saveCookiePrefs = saveCookiePrefs;
     });
 </script>
 {{ end }}
