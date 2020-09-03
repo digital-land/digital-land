@@ -4,8 +4,7 @@
     <div class="govuk-grid-column-two-thirds">
         <div class="cookie-message__confirmation govuk-!-margin-bottom-8" data-cookie-confirmation="true">
             <section class="gem-c-notice" aria-label="Notice" aria-live="polite" role="region">
-                <h2 class="gem-c-notice__title govuk-heading-m">Your cookie settings were saved</h2>
-                <p class="govuk-body govuk-!-margin-bottom-0">Government services may set additional cookies and, if so, will have their own cookie policy and banner.</p>
+                <h2 class="govuk-heading-m govuk-!-margin-bottom-0">Your cookie settings were saved</h2>
             </section>
         </div>
     </div>
@@ -27,23 +26,9 @@
             </div>
 
             <!-- section for cookie options HTML -->
-            <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
-
-            <h3 class="govuk-heading-l">Change your cookie options</h3>
-
-            <form id="cookie-form" class="govuk-form" onsubmit="return false;">
-                <fieldset class="govuk-fieldset" aria-describedby="cookie-ga-hint">
-                    <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">Cookies that measure website use</legend>
-                    <div id="cookie-ga-hint" class="govuk-!-margin-bottom-3">
-                        <p class="govuk-body">We use Google Analytics to measure how you use the website so we can improve it based on user needs.
-                        We do not allow Google to use or share the data about how you use this site.</p>
-                        <p class="govuk-body">Google Analytics sets cookies that store anonymised information about:</p>
-                        <ul class="govuk-list govuk-list--bullet">
-                            <li>how you got to the site</li>
-                            <li>the pages you visit on GOV.UK and government digital services, and how long you spend on each page</li>
-                            <li>what you click on while you're visiting the site</li>
-                        </ul>
-                    </div>
+            <form id="cookie-form" class="govuk-form govuk-!-margin-top-9" onsubmit="return false;">
+                <fieldset class="govuk-fieldset">
+                    <legend class="govuk-fieldset__legend govuk-fieldset__legend--l govuk-!-margin-bottom-6">Change your cookie options</legend>
                     <div class="govuk-form-group govuk-radios">
                         <div class="govuk-radios__item" data-children-count="1">
                             <input type="radio" name="cookies-usage" id="radio-ga-on" value="on" class="govuk-radios__input">
