@@ -6337,6 +6337,37 @@
   border-bottom: 3px solid #0b0c0c;
 }
 
+.dl-small-text {
+  font-family: "GDS Transport", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 1.14286;
+}
+
+@media print {
+  .dl-small-text {
+    font-family: sans-serif;
+  }
+}
+
+@media (min-width: 40.0625em) {
+  .dl-small-text {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.25;
+  }
+}
+
+@media print {
+  .dl-small-text {
+    font-size: 14pt;
+    line-height: 1.2;
+  }
+}
+
 .dlf-pg-feedback {
   margin-top: 30px;
   border-bottom: 10px solid #1d70b8;
@@ -10236,6 +10267,80 @@
 
 .equal-panels .equal-panels-single :last-child {
   margin-bottom: 0;
+}
+
+.lp-pins-stages {
+  margin-bottom: 30px;
+  padding: 15px;
+  color: #ffffff;
+  background: #b1b4b6;
+}
+
+.lp-pins-stages .govuk-details {
+  margin-bottom: 0;
+}
+
+.lp-pins-stages .govuk-details__summary,
+.lp-pins-stages .govuk-table,
+.lp-pins-stages .markdown-output table,
+.markdown-output .lp-pins-stages table {
+  color: #ffffff;
+}
+
+.lp-pins-stages .govuk-details__text {
+  border: 0;
+}
+
+.adopted-plan .lp-pins-stages {
+  background: #1d70b8;
+}
+
+.lp-pins-stages label,
+.lp-pins-stages legend,
+.lp-pins-stages span {
+  color: #ffffff;
+}
+
+.lp-current-stage {
+  font-family: "GDS Transport", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 1.11111;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #ffffff;
+}
+
+@media print {
+  .lp-current-stage {
+    font-family: sans-serif;
+  }
+}
+
+@media (min-width: 40.0625em) {
+  .lp-current-stage {
+    font-size: 24px;
+    font-size: 1.5rem;
+    line-height: 1.25;
+  }
+}
+
+@media print {
+  .lp-current-stage {
+    font-size: 18pt;
+    line-height: 1.15;
+  }
+}
+
+.lp-stage-tag {
+  margin-right: 15px;
+  padding: 0 8px;
+  border: 2px solid #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 [aria-sort] button,
