@@ -4,11 +4,11 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 rm -rf public/*
 
+# get latest committed version of dl-frontend assets
+make fetch/all
+
 # Build the project.
 hugo
-
-# get latest committed version of dl-frontend.css
-wget -O public/stylesheets/dl-frontend.css https://raw.githubusercontent.com/digital-land/digital-land-frontend/master/application/static/stylesheets/dl-frontend.css
 
 # Go To Public folder
 cd public
