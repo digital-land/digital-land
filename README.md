@@ -19,11 +19,11 @@ To develop the site locally, run:
 - `make build` to build the site
 - `make serve` to start the server
 
-### Submodules
+### Frontend assets
 
-This project uses the digital-land-frontend system. It is included as a submodule. To update to the latest run:
+This project uses the digital-land-frontend system. To update to the latest compiled assets run:
 
-    git submodule update --init --recursive --remote
+    make fetch/all
 
 ## Creating content
 

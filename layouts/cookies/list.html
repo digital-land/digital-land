@@ -1,0 +1,82 @@
+{{ define "content_inner" }}
+
+<div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+        <div class="cookie-message__confirmation govuk-!-margin-bottom-8" data-cookie-confirmation="true">
+            <section class="gem-c-notice" aria-label="Notice" aria-live="polite" role="region">
+                <h2 class="govuk-heading-m">Your cookie settings were saved</h2>
+                <p class="govuk-body govuk-!-margin-bottom-0">You can change your cookie settings at any time.</p>
+            </section>
+        </div>
+    </div>
+</div>
+
+
+  {{ if isset .Params "cat_name" }}
+  <span class="govuk-caption-xl">{{ .Params.cat_name | humanize }}</span>
+  {{ end }}
+	<h1 class="govuk-heading-xl">
+	  {{ .Title }}
+	</h1>
+
+	<div class="govuk-grid-row">
+		<div class="govuk-grid-column-two-thirds">
+			<p class="govuk-body-l">{{ .Params.lede }}</p>
+      		<div class="markdown-output">
+            {{ .Content }}
+            </div>
+
+            <!-- section for cookie options HTML -->
+            <form id="cookie-form" class="govuk-form govuk-!-margin-top-9" onsubmit="return false;">
+                <fieldset class="govuk-fieldset">
+                    <legend class="govuk-fieldset__legend govuk-fieldset__legend--l govuk-!-margin-bottom-6">Change your cookie options</legend>
+                    <div class="govuk-form-group govuk-radios">
+                        <div class="govuk-radios__item" data-children-count="1">
+                            <input type="radio" name="cookies-usage" id="radio-ga-on" value="on" class="govuk-radios__input">
+                            <label for="radio-ga-on" class="govuk-label govuk-radios__label">Use cookies that measure my website use</label>
+                        </div>
+                        <div class="govuk-radios__item" data-children-count="1">
+                            <input type="radio" name="cookies-usage" id="radio-ga-off" value="off" class="govuk-radios__input">
+                            <label for="radio-ga-off" class="govuk-label govuk-radios__label">Do not use cookies that measure my website use</label>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <button class="govuk-button" type="submit" onclick="saveCookiePrefs();">Save changes</button>
+            </form>
+
+		</div>
+	</div>
+
+{{ end }}
+
+{{ define "body_end" }}
+<script src="/javascripts/dl-cookies.js"></script>
+<script language="javascript">
+    document.addEventListener('DOMContentLoaded', function(event) {
+        event.preventDefault()
+        var _cookie_options_saved_el = document.querySelector(".cookie-message__confirmation")
+        function saveCookiePrefs() {
+            if (document.getElementById("radio-ga-on").checked) {
+                acceptCookies()
+            } else {
+                declineCookies()
+            }
+            _cookie_options_saved_el.classList.add('saved')
+            scroll(0,0)
+        }
+
+        var cookiesPolicy = JSON.parse(getCookie("cookies_policy"))
+        if (cookiesPolicy != null) {
+            if (cookiesPolicy.usage) {
+                document.getElementById("radio-ga-on").checked = true
+            } else {
+                document.getElementById("radio-ga-off").checked = true
+            }
+        }
+
+        // expose save function to window
+        window.saveCookiePrefs = saveCookiePrefs;
+    });
+</script>
+{{ end }}

@@ -4,6 +4,9 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 rm -rf public/*
 
+# get latest committed version of dl-frontend assets
+make fetch/all
+
 # Build the project.
 hugo
 
