@@ -23,10 +23,10 @@ We’ve also made the website text as simple as possible to understand.
 We know some parts of this website are not fully accessible:
 
 * the maps on our [brownfield land](https://digital-land.github.io/resource/f1e218c96f99e378fdbaed9a426c6b44d0e7d3b5fec63e201625047643c6da74/) and [organisations](https://digital-land.github.io/organisation/local-authority-eng/ASH/) pages are difficult to navigate using just a keyboard
-* there’s a limit to how far you can magnify the map these pages
+* there’s a limit to how far you can magnify the maps on these pages
 * some images published by past suppliers or external teams that we worked with do not have a text alternative
 
-We will outsource an accessibility audit on this website in the near future and will fix as many of the issues that are found as possible.
+We will outsource an accessibility audit on this website in the near future and fix as many of the issues that are found as possible.
 
 ## How to request content in an accessible format
 
@@ -38,7 +38,7 @@ If you need information in a different format, email <DigitalLand@communities.go
 
 ## Reporting accessibility problems with this website
 
-If you find any problems that are not listed on this page or you think we’re not meeting the accessibility requirements, please email <DigitalLand@communities.gov.uk> so that we can fix the issue.
+If you find any problems that are not listed on this page, or you think we’re not meeting the accessibility requirements, please email <DigitalLand@communities.gov.uk> so that we can fix the issue.
 
 ## Enforcement procedure
 
@@ -59,13 +59,14 @@ The content listed below is non-accessible for the following reasons.
 ### Non-text content
 
 Some images that were published by past suppliers or external teams that we worked with, do not have a text alternative, so people using a screen reader cannot access the information. This fails WCAG 2.1 success criterion 1.1.1 (non-text content).
-When working with any future suppliers, or allowing other teams to publish on this website, we will make it a requirement that any images meet accessibility standards.
+
+When working with suppliers in the future, or allowing other teams to publish on this website, we will make it a requirement that any images meet accessibility standards.
 
 ### Maps
 
 Our maps on the [organisation pages](https://digital-land.github.io/organisation/local-authority-eng/ASF/) and [brownfield resource pages](https://digital-land.github.io/resource/f1e218c96f99e378fdbaed9a426c6b44d0e7d3b5fec63e201625047643c6da74/) are not tabbable, which fails WCAG 2.1 success criterion 2.1.1 (keyboard). We use Leafletjs to produce the maps. At the moment they are created as a canvas element and are not tabbable. We are looking into making them tabbable.
 
-Our maps are also not screen reader accessible. To mitigate this we have included a descriptive heading, descriptive text, and a title attribute on the map elements. Also, the maps on the organisations pages display information which is available as text on the page.
+Our maps are also not screen-reader accessible. To mitigate this we have included a descriptive heading, descriptive text, and a title attribute on the map elements. Also, the maps on the organisations pages display information which is available as text on the page.
 
 ## Preparation of this accessibility statement
 
