@@ -6,7 +6,7 @@ This accessibility statement applies to the Digital Land website: [https://digit
 
 This website is run by the Digital Land team in the Ministry of Housing, Communities and Local Government.
 
-We want as many people as possible to be able to use this website. For example, that means you should be able to:
+We are always working to improve our website and want as many people as possible to be able to access and use it. For example, that means you should be able to:
 
 * change colours, contrast levels and fonts
 * zoom in up to 300% without the text spilling off the screen
@@ -30,11 +30,13 @@ We will outsource an accessibility audit on this website in the near future and 
 
 ## How to request content in an accessible format
 
-If you need information in a different format, email <DigitalLand@communities.gov.uk> and tell us:
+If you need information in a different format, for example large print or accessible PDF, email <DigitalLand@communities.gov.uk> and tell us:
 
 * the web address (URL) of the content
 * your name and email address
-* the format you need, for example large print, accessible PDF
+* the format you need
+
+We’ll consider your request and get back to you in 21 days.
 
 ## Reporting accessibility problems with this website
 
