@@ -75,14 +75,14 @@
 
     <div id="global-app-error" class="app-error hidden"></div>
 
-    <script src="https://digital-land.github.io/javascripts/govuk/govuk-frontend-3.0.0.min.js"></script>
+    <script src="/javascripts/govuk/govuk-frontend.min.js"></script>
     <script>
       // initiate all GOVUK components
       window.GOVUKFrontend.initAll();
     </script>
 
-    <script src="https://digital-land-design.herokuapp.com/static/javascripts/dl-cookies.js"></script>
-    <script src="https://digital-land-design.herokuapp.com/static/javascripts/dl-frontend.js"></script>
+    <script src="/javascripts/dl-cookies.js"></script>
+    <script src="/javascripts/dl-frontend.js"></script>
 
     {{ block "body_end" . }}{{ end }}
   </body>
