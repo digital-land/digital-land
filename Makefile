@@ -6,6 +6,7 @@ serve:
 
 fetch/css:
 	wget -O static/stylesheets/dl-frontend.css https://raw.githubusercontent.com/digital-land/frontend/master/digital_land_frontend/static/stylesheets/dl-frontend.css
+	wget -O static/stylesheets/styleguide.css https://raw.githubusercontent.com/digital-land/frontend/master/digital_land_frontend/static/stylesheets/styleguide.css
 
 fetch/js:
 	wget -O static/javascripts/dl-frontend.js https://raw.githubusercontent.com/digital-land/frontend/master/digital_land_frontend/static/javascripts/dl-frontend.js
