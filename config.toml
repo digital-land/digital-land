@@ -54,6 +54,10 @@ staticDir = ["static", "src/govuk_template/assets", "src/govuk_elements/assets"]
   name = "Accessibility statement"
   url = "/accessibility-statement"
 
+  [[params.footer_meta_links]]
+  name = "Design system"
+  url = "/design-system"
+
   [[params.guidance_links]]
   name = "Finding the local authority for an address"
   url = "https://digital-land.github.io/local-authority-addresses/"
