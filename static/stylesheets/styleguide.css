@@ -302,11 +302,11 @@
 Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 
 */
-.hljs {
+.hljs-container {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
-  background-color: #f8f8f8;
+  background-color: #f3f2f1;
   font-family: monospace;
 }
 
@@ -610,11 +610,14 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 }
 
 .app-subnav__section-item {
-  margin-bottom: 5px;
-  padding: 5px 0;
+  list-style: none;
 }
 
 .app-subnav__link {
+  display: block;
+  padding: 10px;
+  border-left: 4px solid transparent;
+  color: #1d70b8;
   text-decoration: none;
 }
 
@@ -623,7 +626,7 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 }
 
 .app-subnav__link:hover {
-  text-decoration: underline;
+  border-color: #1d70b8;
 }
 
 .app-subnav__link:focus {

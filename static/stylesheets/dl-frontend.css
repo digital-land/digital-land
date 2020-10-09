@@ -6823,6 +6823,22 @@
   background-color: #e7e5e3;
 }
 
+.dl-button--on-blue {
+  color: #1d70b8;
+  background-color: #ffffff;
+  box-shadow: 0 2px 0 #0b0c0c;
+  font-weight: bold;
+}
+
+.dl-button--on-blue:link, .dl-button--on-blue:visited, .dl-button--on-blue:active, .dl-button--on-blue:hover {
+  color: #1d70b8;
+  text-decoration: none;
+}
+
+.dl-button--on-blue:hover, .dl-button--on-blue:focus {
+  background-color: #f2f2f2;
+}
+
 .link-align-btn,
 .cancel-btn {
   display: none;
