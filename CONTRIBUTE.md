@@ -63,3 +63,5 @@ This image should be a 3:2 ratio.
 To add further information about the project please add a separate markdown file called ```creator-comments.md```.
 
 Thank you. We do appreicate all contributions.
+
+A test for Loic
