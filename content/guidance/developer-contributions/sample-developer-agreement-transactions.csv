@@ -1,0 +1,8 @@
+developer-agreement-transaction,developer-agreement-contribution,contribution-funding-status,amount,units,entry-date,start-date,end-date
+transaction-cmd-1,contributions-cmd-123,secured,60000,,2020-04-01,2020-04-01,
+transaction-cmd-2,contributions-cmd-456,secured,30000,,2020-04-01,2020-04-01,
+transaction-cmd-3,contributions-cmd-789,secured,10000,,2020-04-01,2020-04-01,
+transaction-cmd-4,contributions-cmd-123,received,60000,,2020-06-01,2020-06-01,
+transaction-cmd-5,contributions-cmd-456,received,30000,,2020-06-01,2020-06-01,
+transaction-cmd-6,contributions-cmd-789,received,10000,,2020-06-01,2020-06-01,
+transaction-cmd-7,,spent,50000,,2020-10-01,2020-10-01,
