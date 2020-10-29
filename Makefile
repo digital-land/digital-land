@@ -15,3 +15,6 @@ fetch/js:
 	wget -O static/javascripts/vendor/highlight.pack.js https://raw.githubusercontent.com/digital-land/frontend/master/digital_land_frontend/static/javascripts/vendor/highlight.pack.js
 
 fetch/all: fetch/css fetch/js
+
+init::
+	@:
