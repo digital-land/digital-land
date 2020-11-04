@@ -1,56 +1,86 @@
-function setCookie (name, value, days) {
-  var expires = ''
-  if (days) {
-    var date = new Date()
-    date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000))
-    expires = '; expires=' + date.toUTCString()
+(function (global, factory) {
+	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
+	typeof define === 'function' && define.amd ? define('DLMaps', ['exports'], factory) :
+	(factory((global.DLMaps = {})));
+}(this, (function (exports) { 'use strict';
+
+/* global L, fetch */
+
+// govuk consistent colours
+var colours = {
+  lightBlue: '#1d70b8',
+  darkBlue: '#003078',
+  brown: '#594d00',
+  yellow_brown: '#a0964e'
+};
+
+function Map ($module) {
+  this.$module = $module;
+}
+
+Map.prototype.init = function (params) {
+  this.setupOptions(params);
+  this.tiles = this.setTiles();
+  this.map = this.createMap();
+
+  // create layer to contain all boundaries
+  // needs to be featureGroup so that it has getBounds() func
+  this.geoBoundaries = L.featureGroup().addTo(this.map);
+
+  if (params.boundaryURLs.length) {
+    this.plotBoundaries(params.boundaryURLs);
   }
-  document.cookie = name + '=' + (value || '') + expires + '; path=/'
-}
+};
 
-function getCookie (name) {
-  var nameEQ = name + '='
-  var ca = document.cookie.split(';')
-  for (var i = 0; i < ca.length; i++) {
-    var c = ca[i]
-    while (c.charAt(0) === ' ') c = c.substring(1, c.length)
-    if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length)
-  }
-  return null
-}
+Map.prototype.setTiles = function () {
+  return L.tileLayer('https://tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png', {
+    attribution:
+      '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  })
+};
 
-function acceptCookies () { // eslint-disable-line no-unused-vars
-  setCookie('cookies_preferences_set', true, 365)
-  setCookie('cookies_policy', JSON.stringify({ essential: true, settings: true, usage: true, campaigns: true }), 365)
-  hideCookieBanner()
-  showCookieConfirmation()
-  setTrackingCookies()
-}
+Map.prototype.createMap = function () {
+  var latLng = L.latLng(this.default_pos[0], this.default_pos[1]);
+  return L.map(this.mapId, {
+    center: latLng,
+    zoom: this.default_zoom,
+    layers: [this.tiles]
+  })
+};
 
-function hideCookieBanner () {
-  var cookieBanner = document.getElementById('cookie-banner')
-  cookieBanner.style.display = 'none'
-}
+Map.prototype.plotBoundaries = function (urls) {
+  var that = this;
+  var count = 0;
+  urls.forEach(function (url) {
+    fetch(url)
+      .then((response) => {
+        return response.json()
+      })
+      .then((data) => {
+        let boundary = L.geoJSON(data, {
+          style: {
+            fillOpacity: 0.2,
+            weight: 2,
+            color: colours.darkBlue,
+            fillColor: colours.lightBlue
+          }
+        }).addTo(that.geoBoundaries);
+        count++;
+        // only pan map once all boundaries have loaded
+        if (count === urls.length) {
+          that.map.fitBounds(that.geoBoundaries.getBounds());
+        }
+      });
+  });
+};
 
-function showCookieConfirmation () {
-  var cookieBanner = document.getElementById('cookie-confirmation')
-  cookieBanner.style.display = 'block'
-}
+Map.prototype.setupOptions = function (params) {
+  params = params || {};
+  this.default_pos = params.default_pos || [52.561928, -1.464854];
+  this.default_zoom = params.default_zoom || 5;
+  this.mapId = params.mapId || 'aMap';
+};
 
-function setTrackingCookies () {
-  var cookiesPolicy = JSON.parse(getCookie('cookies_policy'))
-  var doNotTrack = cookiesPolicy == null || !cookiesPolicy.usage
-  if (doNotTrack) {
-    window['ga-disable-UA-127566551-1'] = true
-  } else {
-    window.ga = window.ga || function () { (ga.q = ga.q || []).push(arguments) }; ga.l = +new Date()
-    ga('create', 'UA-127566551-1', 'auto')
-    ga('send', 'pageview')
-  }
-}
+exports.Map = Map;
 
-if (getCookie('cookies_preferences_set')) {
-  hideCookieBanner()
-}
-
-setTrackingCookies()
+})));
