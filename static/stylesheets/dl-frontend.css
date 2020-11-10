@@ -7095,6 +7095,64 @@
   background: #0b0c0c;
 }
 
+.data-record {
+  padding: 15px 0 0;
+  overflow: hidden;
+  border: 1px solid #f3f2f1;
+  background: #f8f8f8;
+}
+
+.data-record__identifier {
+  margin-bottom: 0;
+  padding: 0 15px 15px;
+  border-bottom: 2px solid #505a5f;
+  word-wrap: break-word;
+}
+
+.data-record__properties {
+  margin-bottom: 0;
+  padding: 0 15px;
+}
+
+.data-record__properties .govuk-summary-list__row:last-of-type .govuk-summary-list__key,
+.data-record__properties .govuk-summary-list__row:last-of-type .govuk-summary-list__value {
+  border-bottom: 0;
+}
+
+.data-record__resource {
+  font-family: "GDS Transport", arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 1.14286;
+  margin-bottom: 15px;
+  padding: 15px 15px 0;
+  border-top: 1px solid #505a5f;
+}
+
+@media print {
+  .data-record__resource {
+    font-family: sans-serif;
+  }
+}
+
+@media (min-width: 40.0625em) {
+  .data-record__resource {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.25;
+  }
+}
+
+@media print {
+  .data-record__resource {
+    font-size: 14pt;
+    line-height: 1.2;
+  }
+}
+
 .data-table__viewer,
 .wide-table {
   padding-left: 10px;
@@ -8046,6 +8104,7 @@
   font-size: 14px;
   font-size: 0.875rem;
   line-height: 1.14286;
+  margin-bottom: 5px;
   list-style: none;
   line-height: 1.3;
 }
