@@ -1,6 +1,10 @@
 # Digital Land
 
-Architectural design records, technical notes, and issues for the digital land project.
+Technical documentation and issues for the digital land project.
+
+# Architectural decison records
+
+We have begun to record our technical decisions using Architecture Decision Records, as [described by Michael Nygard](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions) in [content/architecture/decisions/] in the format managed using Nat Pryce's [adr-tools](https://github.com/npryce/adr-tools), as recorded in [0001-record-architecture-decisions](content/architecture/decisions/0001-record-architecture-decisions.md).
 
 # Licence
 
