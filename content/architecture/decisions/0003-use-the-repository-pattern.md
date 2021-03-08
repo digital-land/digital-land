@@ -1,4 +1,4 @@
-# 3. repository-pattern.md
+# 3. Use the repository-pattern to access a database
 
 Date: 2021-03-05
 

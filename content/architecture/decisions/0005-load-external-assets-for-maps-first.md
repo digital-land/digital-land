@@ -1,4 +1,4 @@
-# 5. 3rd party map assets loaded before digital land frontend assets
+# 5. Load external assets for maps first
 
 Date: 2021-03-07
 
