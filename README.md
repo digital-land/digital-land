@@ -2,9 +2,10 @@
 
 Technical documentation and issues for the digital land project.
 
-# Architectural decison records
+# [Architectural decison records](content/architecture/decisions/)
 
-We have begun to record our technical decisions using Architecture Decision Records, as [described by Michael Nygard](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions) in [content/architecture/decisions/] in the format managed using Nat Pryce's [adr-tools](https://github.com/npryce/adr-tools), as recorded in [0001-record-architecture-decisions](content/architecture/decisions/0001-record-architecture-decisions.md).
+We have begun to record our technical decisions using Architecture Decision Records, as [described by Michael Nygard](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions) in in the format managed using Nat Pryce's [adr-tools](https://github.com/npryce/adr-tools), as recorded in [0001-record-architecture-decisions](content/architecture/decisions/0001-record-architecture-decisions.md).
+
 
 # Licence
 
