@@ -7,7 +7,7 @@ This note covers the various levels of testing we have in our test suite.
 Units tests focus on testing a single 'unit' of code. The definition of a unit can vary, but typically this test operates at the granularity of a single function or class. Some general principles we follow: 
 * Each test should focus on a single scenario. Ideally this should be clear from the name, but if not, a description can help to describe the test case. 
 * Tests should cover both happy path and edge case scenarios. 
-* TestDoubles are used to replace dependencies and isolate the functionality that is being tested
+* [TestDoubles](#test-doubles) are used to replace dependencies and isolate the functionality that is being tested
 * Tests should focus on the expected behaviour/output and not the implementation. There shouldn't be a need to test private methods.
 * Tests should be independent. The order of tests should not matter as the state between tests should be reset. 
 
@@ -25,3 +25,19 @@ End to end tests are used to test a complete workflow of an application. These f
 * Tests that compare against an expected output may need regular updating. It may be better to pick and choose elements of the output to verify 
 
 ## User Interface Tests
+
+TODO
+
+## Test Doubles
+
+Test Double is a generic term for any case where you replace a production object for testing purposes.
+
+There is a lot of confusion around the various types of Test Doubles. To ensure we have consistency we will use the definitions published by [Martin Fowler](https://martinfowler.com/bliki/TestDouble.html), originally defined by Gerard Meszaros;
+
+* *Dummy* objects are passed around but never actually used. Usually they are just used to fill parameter lists.
+* *Fake* objects actually have working implementations, but usually take some shortcut which makes them not suitable for production (an InMemoryTestDatabase is a good example).
+* *Stubs* provide canned answers to calls made during the test, usually not responding at all to anything outside what's programmed in for the test.
+* *Spies* are stubs that also record some information based on how they were called. One form of this might be an email service that records how many messages it was sent.
+* *Mocks* are pre-programmed with expectations which form a specification of the calls they are expected to receive. They can throw an exception if they receive a call they don't expect and are checked during verification to ensure they got all the calls they were expecting.
+
+
