@@ -1,23 +1,47 @@
-# 5. Load external assets for maps first
+# 5. Load external frontend assets first
 
 Date: 2021-03-07
 
 ## Status
 
-Proposed
+Accepted
 
 ## Context
 
-Some digital land pages have maps on them. We use [leafletjs](https://leafletjs.com/) to display the maps. And some leaflet plugins to add other features, e.g. a [button to make the maps fullscreen](https://github.com/Leaflet/Leaflet.fullscreen).
+The order the frontend assets are loaded matters.
 
-The assets (CSS and JS) required for maps and features to work are 3rd party code, loaded from 3rd party CDNs.
+We use a number of 3rd party assets, as well as writing our own CSS and JS. For example, our CSS builds on the GOV.UK frontend CSS. Likewise, our JS builds on the GOV.UK frontend JS. Therefore we need to include the 3rd party assets before our assets.
 
 ## Decision
 
-3rd party assets needed for the maps are loaded in the page head and before our CSS and JS.
+3rd party assets are loaded before Digital land frontend assets.
+
+Add CSS link elements to the head, before `dl-frontend.css`. E.g.
+
+```
+{%- block dlCss %}
+<!-- link tags for 3rd party stylesheets go here -->
+{{ super() }} # this includes all the digital land defined stylesheets
+{% endblock %}
+```
+
+Add Javascript to the end of the body, before `dl-frontend.js`. E.g.
+
+```
+{%- block bodyEndScripts %}
+<!-- script tags for 3rd party JS go here -->
+{{ super() }} # this includes all the digital land defined JS
+{% endblock %}
+```
+
+There will be times when you choose to load JS in the head to help maintain the dependencies. For example, it makes sense to keep the CSS and JS required for leaflet maps together. [We load these in the head](https://github.com/digital-land/frontend/blob/main/digital_land_frontend/templates/partials/dl-map-assets.html).
+
 
 ## Consequences
 
-* The same 3rd party assets are loaded for any map on the digital land site.
-* JS that relies on 3rd party extensions can be confident they have loaded before executing.
-* Our CSS comes last in the cascade and will take precedence 
+* 3rd party assets won't override our assets
+* Our CSS and JS can build on code inherited from 3rd party assets
+* Debugging is easier because we can trace the order CSS and JS is loaded
+* Using jinja blocks means we can maintain fine grain control on a specific page if we need to
+* Loading stylesheets in the head means the user should see the page content as you intended
+* Loading JS at the end of the page means failing JS will not block the page from loading. Important for our progressive enhancement approach to JS
