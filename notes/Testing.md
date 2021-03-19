@@ -10,6 +10,7 @@ Units tests focus on testing a single 'unit' of code. The definition of a unit c
 * [TestDoubles](#test-doubles) are used to replace dependencies and isolate the functionality that is being tested
 * Tests should focus on the expected behaviour/output and not the implementation. There shouldn't be a need to test private methods.
 * Tests should be independent. The order of tests should not matter as the state between tests should be reset. 
+* Tests should avoid disk access and reading from input files. Instead the test input should be encapsulated within the file containing the test.
 
 ## Integration Tests
 
@@ -40,4 +41,8 @@ There is a lot of confusion around the various types of Test Doubles. To ensure 
 * *Spies* are stubs that also record some information based on how they were called. One form of this might be an email service that records how many messages it was sent.
 * *Mocks* are pre-programmed with expectations which form a specification of the calls they are expected to receive. They can throw an exception if they receive a call they don't expect and are checked during verification to ensure they got all the calls they were expecting.
 
+## Writing Testable Code
 
+* Try to use dependency injection when writing classes and methods. Loosely speaking, we should avoid creating complex objects within a class or method; instead the instantiated object should be provided (*injected*) to the class or method. 
+* Further still, if only a small part of the object is used, try to pass in only the necessary components rather than the entire object. Ideally these components should be passed as native python types. 
+* It may be possible to extract the logic from loops and other iterative code into testable functions. This provides a finer granularity for testing. 
