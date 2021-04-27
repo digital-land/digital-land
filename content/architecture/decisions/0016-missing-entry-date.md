@@ -18,7 +18,7 @@ It's impossible for us to guess the correct value for the entry-date, so we will
 
 ## Consequences
 
- - We should be explicit with data providers about the importance and usage of the entry-date field, so that they can treat it with the care it deserves.
+ - We should be explicit with data providers about the importance and usage of the entry-date field, so that they can treat it with the care it deserves (where possible).
  - The existing mechanism to default missing entry-date values to the date of the first collection will remain in place.
  - Patches should be added to set entry-date in cases where it is known to be wrong.
- - Data providers will have visibility of any changes that our processes make to entry-date values, so that they can correct the source data ahead of any future submissions.
+ - Data providers will have visibility of any changes that our processes make to entry-date values, so that they can correct the source data ahead of any future submissions (where possible).
