@@ -1,4 +1,4 @@
-## Digital Land
+# Digital Land
 
 <!-- vim-markdown-toc Marked -->
 
@@ -27,7 +27,7 @@
   * [Datasettee](#datasettee)
 * [Data model](#data-model)
   * [Domain Terminology](#domain-terminology)
-  * [Base data model:](#base-data-model:)
+  * [Base data model](#base-data-model)
 * [List of Datasets](#list-of-datasets)
 * [External Links](#external-links)
   * [Live Site](#live-site)
@@ -128,12 +128,12 @@ The typical execution flow for a pipeline might look like:
       <!-- * `Lookup` -->
       <!-- * `Slugger` -->
     * It will operate on the data using the following (in-order) operations:
-      * `convert` - Converts all data to CSV format and exposes as a stream
-      * `normalise`- Normalise whitespace, strip null characters & blank lines
+      * [`convert`](https://digital-land.github.io/guidance/pipeline/#2-convert) - Converts all data to CSV format and exposes as a stream
+      * [`normalise`](https://digital-land.github.io/guidance/pipeline/#3-normalise) - Normalise whitespace, strip null characters & blank lines
       * `line_conversion` - ?
-      * `mapping` - Map field names to those of desired outputs
-      * `filtering` - Filter data based on pipeline-specific regex filter patters
-      * `harmonisation`- ?
+      * [`mapping`](https://digital-land.github.io/guidance/pipeline/#4-map-the-headers) - Map field names to those of desired outputs
+      * `filtering` - Filter data based on pipeline-specific regex filter patterns
+      * [`harmonisation`](https://digital-land.github.io/guidance/pipeline/#5-harmonise)
   * `load-entries` will load the artifacts and insert them into a local sqlite3 database
   * `build-dataset` is an interface to serialize data from a local sqlite3 database
     * It queries the database via the `slugs` table to discover which data sources it will attempt to update
@@ -182,13 +182,15 @@ https://digital-land-dashboard.herokuapp.com/
 ## Data model
 
 ### Domain Terminology
+
 * Entity
 * Slug
 * Entry
 * Fact
 * Provenance
 
-### Base data model:
+### Base data model
+
 * "entity" (name could change) (referred to as record on the frontend)
 * start date
 * end date
@@ -235,14 +237,18 @@ PermissionType
 ## External Links
 
 ### Live Site
+
 * [Digital Land homepage](https://www.digital-land.info/)
 * [Digital Land API Documentation](https://www.digital-land.info/docs)
+* [Digital Land Guidance](https://digital-land.github.io/guidance/)
 
 ### Useful Repositories
+
 * [Digital Land CLI Repository](https://github.com/digital-land/digital-land-python)
 * [Digital Land Makerules Repository](https://github.com/digital-land/makerules/)
 * [Digital Land Specification Repository](https://github.com/digital-land/specification/)
 
 ### Other Documentation
+
 * [Living Document](https://docs.google.com/presentation/d/1kwbPaEcKrRej2ckVFibwu1YYDfh5SdKIXNZradcbEaM/edit#slide=id.ge28ee0d90f_0_34)
 
