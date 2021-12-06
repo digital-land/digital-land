@@ -29,6 +29,65 @@ The typical execution flow for a pipeline might look like:
 11. Commit harmonised files
 12. Push dataset files to S3
 
+#### Update makerules/Commit updated makerules
+
+* Makefile rules are version controlled within https://github.com/digital-land/makerules/
+* For the collection repos these definitions are refreshed as the first stage of the pipeline run, and commited to the collection repository
+
+#### Install dependencies
+
+* Install the collector and assoicated python dependencies defined within the collector repository (typically within `requirements.txt` or `setup.py`)
+* If `specification` files are defined for this collector, they are also refreshed from [the specification repo](https://github.com/digital-land/specification/) on Github.
+
+#### Fetch dataset files from S3
+
+* Existing dataset files are fetched from S3 via `aws s3 sync`
+* These represent the output of previous pipeline runs
+
+#### Run the collector
+
+* Entrypoint for collector is typically in `makerules/collection.mk`
+  * This will call through to the `collect` entrypoint contained within the [`digital-land` cli](https://github.com/digital-land/digital-land-python)
+* Passed into this command will be the path to the CSV file containing endpoints to be polled for this collection.
+* For each poll, if the poll doesn't terminate in an error condition, the raw payloads fetched will be saved in `collection/log/<iso-date>/<hash>.<extension>`
+  * where `<iso-date>` is the [ISO 8601 Calendar date with day of month](https://en.wikipedia.org/wiki/ISO_8601#Calendar_dates) and `<hash>` is the `SHA256` hash of the content returned from the poll.
+
+#### Commit collection
+
+* The `collection` folder, containing the raw payloads fetched in the previous step are commited to the collection repository, and pushed to the upstream remote in Github
+
+#### Update the collection dataset
+
+* This step updates the `collection/log.csv` and `collection/resource.csv` files
+  * `collection/resource.csv` contains a record of the latest attempt to update a collection, with the hash and size of the result, along with organization type, endpoints polled and start and end date
+  * `collection/log.csv` contains records corresponding to every attempt made to poll and endpoint, the content type, status code, start date, end date and time taken
+* A new make entrypoint is added to the local `collection/pipeline.mk` which serves this dataset
+
+#### Commit updated collection
+
+* The `collection` folder, containing the files modified in the previous step are commited to the collection repository, and pushed to the upstream remote in Github
+
+#### Push collection files to S3
+
+* The `collection` folder, containing the files modified in the previous steps are pushed up to the collection S3 bucket
+
+#### Run the pipeline to make the dataset
+
+* The `make dataset` entrypoint is aliased to the `build-dataset` `make` macro.
+
+* `load-entries` will load the artifacts and insert them into a local sqllite3 database
+
+* `build-dataset` is an interface to serialize data from a local sqllite3 database
+  * It queries the database via the `slugs` table to discover which data sources it will attempt to update
+  * It then rebuild's the `Entity`s from `Slug`'s in memory from a snapshot, once they've been table having validated it against a schema
+  * And writes those to disk as a CSV
+
+#### Commit harmonised files
+
+#### Push dataset files to S3
+
+#### Datasettee stuff goes here???
+
 
 ### Anatomy of a collection repository
 
@@ -47,11 +106,7 @@ Currently most of the pipeline is triggered via Github Actions which are trigger
 
 Some of these more long-running jobs have been moved over to AWS Batch
 
-Output of each pipeline is a CSV
-
-Data hash is used as identifier(?)
-
-
+<!-- Output of each pipeline is a CSV -->
 
 ## Infrastructure
 
@@ -70,7 +125,14 @@ https://digital-land-dashboard.herokuapp.com/
 
 ## Data model
 
-Base data model:
+### Domain Terminology
+* Entity
+* Slug
+* Entry
+* Fact
+* Provenance
+
+### Base data model:
 * "entity" (name could change) (refered to as record on the frontend)
 * start date
 * end date
@@ -115,7 +177,16 @@ PermissionType
 ## List of Datasets
 
 ## External Links
+
+### Live Site
 * [Digital Land homepage](https://www.digital-land.info/)
 * [Digital Land API Documentation](https://www.digital-land.info/docs)
+
+### Useful Repositories
+* [Digital Land CLI Repository](https://github.com/digital-land/digital-land-python)
+* [Digital Land Makerules Repository](https://github.com/digital-land/makerules/)
+* [Digital Land Specification Repository](https://github.com/digital-land/specification/)
+
+### Other Documentation
 * [Living Document](https://docs.google.com/presentation/d/1kwbPaEcKrRej2ckVFibwu1YYDfh5SdKIXNZradcbEaM/edit#slide=id.ge28ee0d90f_0_34)
 
