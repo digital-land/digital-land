@@ -69,11 +69,11 @@ The typical execution flow for a pipeline might look like:
 #### Update and commit makerules
 
 * Makefile rules are version controlled within https://github.com/digital-land/makerules/
-* For the collection repos these definitions are refreshed as the first stage of the pipeline run, and commited to the collection repository
+* For the collection repos these definitions are refreshed as the first stage of the pipeline run, and committed to the collection repository
 
 #### Install dependencies
 
-* Install the collector and assoicated python dependencies defined within the collector repository (typically within `requirements.txt` or `setup.py`)
+* Install the collector and associated python dependencies defined within the collector repository (typically within `requirements.txt` or `setup.py`)
 * If `specification` files are defined for this collector, they are also refreshed from [the specification repo](https://github.com/digital-land/specification/) on Github.
 
 #### Fetch dataset files from S3
@@ -91,7 +91,7 @@ The typical execution flow for a pipeline might look like:
 
 #### Commit collection
 
-* The `collection` folder, containing the raw payloads fetched in the previous step are commited to the collection repository, and pushed to the upstream remote in Github
+* The `collection` folder, containing the raw payloads fetched in the previous step are committed to the collection repository, and pushed to the upstream remote in Github
 
 #### Update the collection dataset
 
@@ -102,7 +102,7 @@ The typical execution flow for a pipeline might look like:
 
 #### Commit updated collection
 
-* The `collection` folder, containing the files modified in the previous step are commited to the collection repository, and pushed to the upstream remote in Github
+* The `collection` folder, containing the files modified in the previous step are committed to the collection repository, and pushed to the upstream remote in Github
 
 #### Push collection files to S3
 
@@ -134,12 +134,13 @@ The typical execution flow for a pipeline might look like:
       * `mapping` - Map field names to those of desired outputs
       * `filtering` - Filter data based on pipeline-specific regex filter patters
       * `harmonisation`- ?
-  * `load-entries` will load the artifacts and insert them into a local sqllite3 database
-  * `build-dataset` is an interface to serialize data from a local sqllite3 database
+  * `load-entries` will load the artifacts and insert them into a local sqlite3 database
+  * `build-dataset` is an interface to serialize data from a local sqlite3 database
     * It queries the database via the `slugs` table to discover which data sources it will attempt to update
-    * It then rebuilds the `Entity` instances from `Slug`'s added to the sqllite database from a snapshot.
-      * Some pipelines will have schema added from within `specification/schema.csv`. This doesn't seem to do anything right now but might do something in the subclassed `Entity` instances?
-    * The `Enttity` instances are then serialized to disk as a CSV
+    * It then rebuilds the `Entity` instances from `Slug`'s added to the sqlite database from a snapshot.
+      * Some pipelines will have schema added from within `specification/schema.csv`.
+      <!-- This doesn't seem to do anything right now but might do something in the subclassed `Entity` instances? -->
+    * The `Entity` instances are then serialized to disk as a CSV
 
 #### Commit harmonised files
 
@@ -188,7 +189,7 @@ https://digital-land-dashboard.herokuapp.com/
 * Provenance
 
 ### Base data model:
-* "entity" (name could change) (refered to as record on the frontend)
+* "entity" (name could change) (referred to as record on the frontend)
 * start date
 * end date
 * geojson (transformed to point or polygon)
