@@ -1,5 +1,42 @@
 ## Digital Land
 
+<!-- vim-markdown-toc Marked -->
+
+* [Overview](#overview)
+* [Architecture](#architecture)
+  * [Pipeline run process](#pipeline-run-process)
+    * [Update and commit makerules](#update-and-commit-makerules)
+    * [Install dependencies](#install-dependencies)
+    * [Fetch dataset files from S3](#fetch-dataset-files-from-s3)
+    * [Run the collector](#run-the-collector)
+    * [Commit collection](#commit-collection)
+    * [Update the collection dataset](#update-the-collection-dataset)
+    * [Commit updated collection](#commit-updated-collection)
+    * [Push collection files to S3](#push-collection-files-to-s3)
+    * [Run the pipeline to make the dataset](#run-the-pipeline-to-make-the-dataset)
+    * [Commit harmonised files](#commit-harmonised-files)
+    * [Push dataset files to S3](#push-dataset-files-to-s3)
+    * [Datasettee stuff goes here???](#datasettee-stuff-goes-here???)
+  * [Anatomy of a collection repository](#anatomy-of-a-collection-repository)
+    * [Inputs](#inputs)
+    * [Outputs](#outputs)
+    * [Execution Environment](#execution-environment)
+* [Infrastructure](#infrastructure)
+* [Monitoring](#monitoring)
+* [Services](#services)
+  * [Frontend](#frontend)
+  * [Datasettee](#datasettee)
+* [Data model](#data-model)
+  * [Domain Terminology](#domain-terminology)
+  * [Base data model:](#base-data-model:)
+* [List of Datasets](#list-of-datasets)
+* [External Links](#external-links)
+  * [Live Site](#live-site)
+  * [Useful Repositories](#useful-repositories)
+  * [Other Documentation](#other-documentation)
+
+<!-- vim-markdown-toc -->
+
 ##  Overview
 
 The core value proposition of Digital Land is to present Geographical Information System (GIS) data, in the form of static artifacts and API endpoints, to relevant consumers. The data served will primarily be focused around that which would impact UK planning applications in the short or long term.
@@ -13,23 +50,24 @@ This data is ingested from various third parties, including central government, 
 
 ### Pipeline run process
 
-For a collection that executes via Github Actions, the execution flow is defined within [`./.github/workflows/run.yml](https://github.com/digital-land/brownfield-land-collection/blob/main/.github/workflows/run.yml)
+For a collection that executes via Github Actions, the execution flow is defined within [`./.github/workflows/run.yml`](https://github.com/digital-land/brownfield-land-collection/blob/main/.github/workflows/run.yml)
 
 The typical execution flow for a pipeline might look like:
-1. Update makerules
-2. Commit updated makerules
-3. Install dependencies
-4. Fetch dataset files from S3
-5. Run the collector
-6. Commit collection
-7. Update the collection dataset
-8. Commit updated collection
-9. Push collection files to S3
-10. Run the pipeline to make the dataset
-11. Commit harmonised files
-12. Push dataset files to S3
+1. [Update makerules](#update-and-commit-makerules)
+2. [Commit updated makerules](#update-and-commit-makerules)
 
-#### Update makerules/Commit updated makerules
+3. [Install dependencies](#install-dependencies)
+4. [Fetch dataset files from S3](#fetch-dataset-files-from-s3)
+5. [Run the collector](#run-the-collector)
+6. [Commit collection](#commit-collection)
+7. [Update the collection dataset](#update-the-collection-dataset)
+8. [Commit updated collection](#commit-updated-collection)
+9. [Push collection files to S3](#push-collection-files-to-s3)
+10. [Run the pipeline to make the dataset](#run-the-pipeline-to-make-the-dataset)
+11. [Commit harmonised files](#commit-harmonised-files)
+12.[Push dataset files to S3](#push-dataset-files-to-s3)
+
+#### Update and commit makerules
 
 * Makefile rules are version controlled within https://github.com/digital-land/makerules/
 * For the collection repos these definitions are refreshed as the first stage of the pipeline run, and commited to the collection repository
@@ -91,16 +129,16 @@ The typical execution flow for a pipeline might look like:
 
 ### Anatomy of a collection repository
 
-### Inputs
+#### Inputs
 
 Within a repository, the sources to be polled are contained in collection/sources.csv
 
-### Outputs
+#### Outputs
 
 collection/log.csv is appended
 
 
-### Execution Environment
+#### Execution Environment
 
 Currently most of the pipeline is triggered via Github Actions which are triggered on a daily basis.
 
