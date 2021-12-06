@@ -16,7 +16,6 @@
     * [Run the pipeline to make the dataset](#run-the-pipeline-to-make-the-dataset)
     * [Commit harmonised files](#commit-harmonised-files)
     * [Push dataset files to S3](#push-dataset-files-to-s3)
-    * [Datasettee stuff goes here???](#datasettee-stuff-goes-here???)
   * [Anatomy of a collection repository](#anatomy-of-a-collection-repository)
     * [Inputs](#inputs)
     * [Outputs](#outputs)
@@ -37,7 +36,7 @@
 
 <!-- vim-markdown-toc -->
 
-##  Overview
+## Overview
 
 The core value proposition of Digital Land is to present Geographical Information System (GIS) data, in the form of static artifacts and API endpoints, to relevant consumers. The data served will primarily be focused around that which would impact UK planning applications in the short or long term.
 
@@ -65,7 +64,7 @@ The typical execution flow for a pipeline might look like:
 9. [Push collection files to S3](#push-collection-files-to-s3)
 10. [Run the pipeline to make the dataset](#run-the-pipeline-to-make-the-dataset)
 11. [Commit harmonised files](#commit-harmonised-files)
-12.[Push dataset files to S3](#push-dataset-files-to-s3)
+12. [Push dataset files to S3](#push-dataset-files-to-s3)
 
 #### Update and commit makerules
 
@@ -111,21 +110,40 @@ The typical execution flow for a pipeline might look like:
 
 #### Run the pipeline to make the dataset
 
-* The `make dataset` entrypoint is aliased to the `build-dataset` `make` macro.
-
-* `load-entries` will load the artifacts and insert them into a local sqllite3 database
-
-* `build-dataset` is an interface to serialize data from a local sqllite3 database
-  * It queries the database via the `slugs` table to discover which data sources it will attempt to update
-  * It then rebuild's the `Entity`s from `Slug`'s in memory from a snapshot, once they've been table having validated it against a schema
-  * And writes those to disk as a CSV
+* The `make dataset` entrypoint calls through to the `build-dataset` and `run-pipeline` `make` macros.
+<!-- TODO figure how how it actually does this  -->
+* Three [`digital-land` CLI](https://github.com/digital-land/digital-land-python) entrypoints seem to be called off the back of this
+  * `pipeline` orchestrates the transformation pipeline that runs on the data
+    <!-- * It will instantiate pipeline-specific instances of: -->
+      <!-- * `Organisation` -->
+      <!-- * `Issues` -->
+      <!-- * `Collection` -->
+      <!-- * `patches` -->
+      <!-- * `Converter` -->
+      <!-- * `Normaliser` -->
+      <!-- * `Mapper` -->
+      <!-- * `Filterer` -->
+      <!-- * `Harmoniser` -->
+      <!-- * `Transformer` -->
+      <!-- * `Lookup` -->
+      <!-- * `Slugger` -->
+    * It will operate on the data using the following (in-order) operations:
+      * `convert` - Converts all data to CSV format and exposes as a stream
+      * `normalise`- Normalise whitespace, strip null characters & blank lines
+      * `line_conversion` - ?
+      * `mapping` - Map field names to those of desired outputs
+      * `filtering` - Filter data based on pipeline-specific regex filter patters
+      * `harmonisation`- ?
+  * `load-entries` will load the artifacts and insert them into a local sqllite3 database
+  * `build-dataset` is an interface to serialize data from a local sqllite3 database
+    * It queries the database via the `slugs` table to discover which data sources it will attempt to update
+    * It then rebuilds the `Entity` instances from `Slug`'s added to the sqllite database from a snapshot.
+      * Some pipelines will have schema added from within `specification/schema.csv`. This doesn't seem to do anything right now but might do something in the subclassed `Entity` instances?
+    * The `Enttity` instances are then serialized to disk as a CSV
 
 #### Commit harmonised files
 
 #### Push dataset files to S3
-
-#### Datasettee stuff goes here???
-
 
 ### Anatomy of a collection repository
 
@@ -136,7 +154,6 @@ Within a repository, the sources to be polled are contained in collection/source
 #### Outputs
 
 collection/log.csv is appended
-
 
 #### Execution Environment
 
