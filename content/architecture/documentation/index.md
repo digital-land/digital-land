@@ -54,7 +54,6 @@ For a collection that executes via Github Actions, the execution flow is defined
 The typical execution flow for a pipeline might look like:
 1. [Update makerules](#update-and-commit-makerules)
 2. [Commit updated makerules](#update-and-commit-makerules)
-
 3. [Install dependencies](#install-dependencies)
 4. [Fetch dataset files from S3](#fetch-dataset-files-from-s3)
 5. [Run the collector](#run-the-collector)
@@ -140,7 +139,7 @@ The typical execution flow for a pipeline might look like:
     * It then rebuilds the `Entity` instances from `Slug`'s added to the sqlite database from a snapshot.
       * Some pipelines will have schema added from within `specification/schema.csv`.
       <!-- This doesn't seem to do anything right now but might do something in the subclassed `Entity` instances? -->
-    * The `Entity` instances are then serialized to disk as a CSV
+    * The `Entity` instances are then serialized to disk as a CSV file
 
 #### Commit harmonised files
 
@@ -150,11 +149,18 @@ The typical execution flow for a pipeline might look like:
 
 #### Inputs
 
-Within a repository, the sources to be polled are contained in collection/sources.csv
+* [collection/source.csv](https://github.com/digital-land/brownfield-land/blob/main/collection/source.csv) — the list of data sources by organisation, see [specification/source](https://digital-land.github.io/specification/schema/source/)
+* [collection/endpoint.csv](https://github.com/digital-land/brownfield-land/blob/main/collection/endpoint.csv) — the list of endpoint URLs for the collection, see [specification/endpoint](https://digital-land.github.io/specification/schema/endpoint)
+* [collection/resource/](https://github.com/digital-land/brownfield-land/blob/main/collection/resource/) — collected resources
+* [collection/resource.csv](https://github.com/digital-land/brownfield-land/blob/main/collection/resource.csv) — a list of collected resources, see [specification/resource](https://digital-land.github.io/specification/schema/resource)
 
 #### Outputs
 
-collection/log.csv is appended
+* [collection/log/](https://github.com/digital-land/brownfield-land/blob/main/collection/log/) — individual log JSON files, created by the collection process
+* [collection/log.csv](https://github.com/digital-land/brownfield-land/blob/main/collection/log.csv) — a collection log assembled from the individual log files, see [specification/log](https://digital-land.github.io/specification/schema/log)
+* [collection/resource.csv](https://github.com/digital-land/brownfield-land/blob/main/collection/resource.csv) — a list of collected resources, see [specification/resource](https://digital-land.github.io/specification/schema/resource)
+* [fixed/](https://github.com/digital-land/brownfield-land/blob/main/fixed/) — ?
+* [harmonised/](https://github.com/digital-land/brownfield-land/blob/main/harmonised/) — The output of the [`harmonise` stage of the pipeline](#run-the-pipeline-to-make-the-dataset)
 
 #### Execution Environment
 
@@ -171,13 +177,20 @@ AWS (everything else)
 
 ## Monitoring
 
-https://digital-land-dashboard.herokuapp.com/
+Pipeline status dashboard: https://digital-land-dashboard.herokuapp.com/
 
 ## Services
 
 ### Frontend
 
+Frontend repos:
+* https://github.com/digital-land/digital-land-frontend
+* https://github.com/digital-land/digital-land.info
+
 ### Datasettee
+
+* Self-hosted
+* Built via https://github.com/digital-land/datasette-builder/
 
 ## Data model
 
@@ -191,46 +204,46 @@ https://digital-land-dashboard.herokuapp.com/
 
 ### Base data model
 
-* "entity" (name could change) (referred to as record on the frontend)
-* start date
-* end date
-* geojson (transformed to point or polygon)
-* well-known-text
-* typology
-* JSON (dumping ground, keys may be promoted to proper fields at some point)
+<!-- * "entity" (name could change) (referred to as record on the frontend) -->
+<!-- * start date -->
+<!-- * end date -->
+<!-- * geojson (transformed to point or polygon) -->
+<!-- * well-known-text -->
+<!-- * typology -->
+<!-- * JSON (dumping ground, keys may be promoted to proper fields at some point) -->
 
-Example: [Brownfield land](https://github.com/digital-land/brownfield-land-collection/blob/547a6d4b79a9dfa3bcb7dcbe59502c3c0c1cd09e/fixed/f19782aef6adaa956ae2e4c28f69bd042ece9d7f5d6a5490e1e71fc636e4e249.txt#L1)
+<!-- Example: [Brownfield land](https://github.com/digital-land/brownfield-land-collection/blob/547a6d4b79a9dfa3bcb7dcbe59502c3c0c1cd09e/fixed/f19782aef6adaa956ae2e4c28f69bd042ece9d7f5d6a5490e1e71fc636e4e249.txt#L1) -->
 
-```
-PermissionDate
-PlanningHistory
-ProposedForPIP
-MinNetDwellings
-DevelopmentDescription
-NonHousingDevelopment
-Part2
-NetDwellingsRangeFrom
-NetDwellingsRangeTo
-HazardousSubstances
-SiteInformation
-Notes
-FirstAddedDate
-LastUpdatedDate
-OrganisationURI
-OrganisationLabel
-SiteReference
-PreviouslyPartOf
-SiteNameAddress
-SiteplanURL
-CoordinateReferenceSystem
-GeoX
-GeoY
-Hectares
-OwnershipStatus
-Deliverable
-PlanningStatus
-PermissionType
-```
+<!-- ``` -->
+<!-- PermissionDate -->
+<!-- PlanningHistory -->
+<!-- ProposedForPIP -->
+<!-- MinNetDwellings -->
+<!-- DevelopmentDescription -->
+<!-- NonHousingDevelopment -->
+<!-- Part2 -->
+<!-- NetDwellingsRangeFrom -->
+<!-- NetDwellingsRangeTo -->
+<!-- HazardousSubstances -->
+<!-- SiteInformation -->
+<!-- Notes -->
+<!-- FirstAddedDate -->
+<!-- LastUpdatedDate -->
+<!-- OrganisationURI -->
+<!-- OrganisationLabel -->
+<!-- SiteReference -->
+<!-- PreviouslyPartOf -->
+<!-- SiteNameAddress -->
+<!-- SiteplanURL -->
+<!-- CoordinateReferenceSystem -->
+<!-- GeoX -->
+<!-- GeoY -->
+<!-- Hectares -->
+<!-- OwnershipStatus -->
+<!-- Deliverable -->
+<!-- PlanningStatus -->
+<!-- PermissionType -->
+<!-- ``` -->
 
 ## List of Datasets
 
