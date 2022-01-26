@@ -1,5 +1,4 @@
 # Digital Land
-
 <!-- vim-markdown-toc Marked -->
 
 * [Overview](#overview)
@@ -45,7 +44,6 @@ This data is ingested from various third parties, including central government, 
 ## Architecture
 
 ![Image High Level Architectural Diagram](./images/HighLevelArchitectureDiagram.png)
-
 
 ### Pipeline run process
 
@@ -109,8 +107,7 @@ The typical execution flow for a pipeline might look like:
 
 #### Run the pipeline to make the dataset
 
-* The `make dataset` entrypoint calls through to the `build-dataset` and `run-pipeline` `make` macros.
-<!-- TODO figure how how it actually does this  -->
+* The `make dataset` entrypoint calls through to the `dataset` target defined in `collection/pipeline.mk` in the collection.
 * Three [`digital-land` CLI](https://github.com/digital-land/digital-land-python) entrypoints seem to be called off the back of this
   * `pipeline` orchestrates the transformation pipeline that runs on the data
     <!-- * It will instantiate pipeline-specific instances of: -->
@@ -129,10 +126,18 @@ The typical execution flow for a pipeline might look like:
     * It will operate on the data using the following (in-order) operations:
       * [`convert`](https://digital-land.github.io/guidance/pipeline/#2-convert) - Converts all data to CSV format and exposes as a stream
       * [`normalise`](https://digital-land.github.io/guidance/pipeline/#3-normalise) - Normalise whitespace, strip null characters & blank lines
-      * `line_conversion` - ?
+      * `line_conversion` - Standardise CSV line endings as `CRLF` as defined in CSV specification
       * [`mapping`](https://digital-land.github.io/guidance/pipeline/#4-map-the-headers) - Map field names to those of desired outputs
+        * Also contains hard-coded hack for GeoX and GeoY some people get them the wrong way round (only co-constraint here)
       * `filtering` - Filter data based on pipeline-specific regex filter patterns
-      * [`harmonisation`](https://digital-land.github.io/guidance/pipeline/#5-harmonise)
+      * [`harmonisation`](https://digital-land.github.io/guidance/pipeline/#5-harmonise) - Fix value types
+        * Apply co-constraints
+        * Apply patches to values
+        * Produces `issue.csv`
+      * [`transform`](https://digital-land.github.io/guidance/pipeline/#6-transform) - migration of fields
+      * `lookup` - Looking up entity numbers from `pipeline/lookup.csv`
+      * `slugger` - Generate slug for row
+
   * `load-entries` will load the artifacts and insert them into a local sqlite3 database
   * `build-dataset` is an interface to serialize data from a local sqlite3 database
     * It queries the database via the `slugs` table to discover which data sources it will attempt to update
@@ -161,6 +166,7 @@ The typical execution flow for a pipeline might look like:
 * [collection/resource.csv](https://github.com/digital-land/brownfield-land/blob/main/collection/resource.csv) — a list of collected resources, see [specification/resource](https://digital-land.github.io/specification/schema/resource)
 * [fixed/](https://github.com/digital-land/brownfield-land/blob/main/fixed/) — ?
 * [harmonised/](https://github.com/digital-land/brownfield-land/blob/main/harmonised/) — The output of the [`harmonise` stage of the pipeline](#run-the-pipeline-to-make-the-dataset)
+* `/var/converted/` - contains csv files (named by hash of resource) with outputs of intermediary steps to create `transformed/` file
 
 #### Execution Environment
 
@@ -191,6 +197,7 @@ Frontend repos:
 
 * Self-hosted
 * Built via https://github.com/digital-land/datasette-builder/
+* Ingests pipeline outputs as `.sqlite3` database artifacts
 
 ## Data model
 
@@ -260,6 +267,7 @@ Frontend repos:
 * [Digital Land CLI Repository](https://github.com/digital-land/digital-land-python)
 * [Digital Land Makerules Repository](https://github.com/digital-land/makerules/)
 * [Digital Land Specification Repository](https://github.com/digital-land/specification/)
+* [Digital Land AWS batch Dockerfile and entrypoints](https://github.com/digital-land/aws-batch-docker)
 
 ### Other Documentation
 
