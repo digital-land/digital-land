@@ -23,6 +23,7 @@
 * [Monitoring](#monitoring)
 * [Services](#services)
   * [User-Facing Services](#user-facing-services)
+  * [User-Facing Service Libraries](#user-facing-service-libraries)
   * [Datasettee](#datasettee)
 * [Data model](#data-model)
   * [Domain Terminology](#domain-terminology)
@@ -208,8 +209,14 @@ Some of these more long-running jobs have been moved over to AWS Batch, but most
 
 ### User-Facing Services
 
+* [digital-land.info service repo](https://github.com/digital-land/digital-land.info)
+* [performance.digital-land.info service repo](https://github.com/digital-land/performance-prototype)
+* [data-manager.digital-land.info service repo](https://github.com/digital-land/data-manager)
+* [feedback.digital-land.info service repo](https://github.com/digital-land/feedback-prototype)
+
+### User-Facing Service Libraries
+
 * https://github.com/digital-land/digital-land-frontend
-* https://github.com/digital-land/digital-land.info
 
 ### Datasettee
 
