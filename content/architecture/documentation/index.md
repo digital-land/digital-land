@@ -198,7 +198,6 @@ Some of these more long-running jobs have been moved over to AWS Batch, but most
 
 * Heroku (dashboard, design system, performance dashboard, data manager)
 * AWS (digital-land.info, datasettee, image repositories, S3, databases)
-* GOV.UK PaaS (migration in progress)
 
 ## Monitoring
 
