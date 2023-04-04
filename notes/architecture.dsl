@@ -1,5 +1,30 @@
-// https://structurizr.com/dsl
+/*
 
+Architecture Overview
+---------------------
+
+This document is a 'diagram as code' representation of the current state of the 
+Data Operations system. 
+
+The document is composed of three main parts:
+
+1. A model that describes the systems and their relationships,
+2. A series of views that tell us how to look at the model
+2.a A short list of styling items that control the shape and colour of diagram elements.
+
+Displaying the diagrams
+
+1. Copy the text, and go to Structurizr - DSL, https://structurizr.com/dsl
+2. Paste the text and press the 'Render' button at the top. This generates the diagrams in the display area on the right.
+
+Note: The structurizr web site generates a series of views from high-level to quite low level from the information in the model.
+
+Select the [System Landscape] (#System Landscape) diagram from the drop-down on the right.
+
+Note that the diagrams are somewhat interactive - if you see the  magnifying glass icon on a system/container/component that 
+means you can double-click it to open up the next level view.
+
+*/
 workspace {
   !identifiers hierarchical
 
