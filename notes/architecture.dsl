@@ -1,29 +1,32 @@
+// https://structurizr.com/dsl
+
 workspace {
   !identifiers hierarchical
 
     model {
         ripa = person "RIPA" "A person using the system"
-        lpa = softwareSystem "Local Planning Authority" 
+        lpa = softwareSystem "Data Publisher Systems" 
         
-        aws = softwareSystem "Amazon Web Services" {
-            S3 = container "S3"
-            ECS = container "ECS" 
-        }
 
         group "data.planning.gov.uk" {
         
+            aws = softwareSystem "S3 Data Store" "Amazon" {
+                S3 = container "S3"
+                ECS = container "ECS" 
+            }
+        
             planning_data = softwareSystem "Planning Data" "Web"{
-                
-                rest = container "REST API"  
                 postgres = container "Postgres" "Stores geo elements." "" "Database"
-    
-                webapp = container "Web Application" {
-                    map = component "Map"
-                }
+                fast_api_application = container "Fast API Application" "Web front end and REST API"
+                datasette = container "Datasette Explorer Application" "SQLite explorer"
+                datasette_tiles = container "Datasette Tiles Server"
+                efs = container "EFS System"
                 
             } // planning_data
+            
+            loaders = softwareSystem "Loaders" "Delivers collection data to AWS"
     
-            digital_land_python = softwareSystem "Digital-Land Python" "Ingest and validate data from LPAs" {
+            digital_land_python = softwareSystem "Collections" "Ingest and validate data from LPAs. Runs on GitHub" {
                 script = container "load.sh"
                 collect = container "Collect" 
                 validate = container "Validate" 
@@ -34,11 +37,24 @@ workspace {
         
         
     # System Boundary Relationsips
-    ripa -> planning_data.webapp "Uses"
-    ripa -> planning_data.rest "Uses"
+    ripa -> planning_data.fast_api_application "Uses"
+    ripa -> planning_data.datasette "Uses"
 
     # Container Relationships
-    planning_data.rest -> planning_data.postgres "Reads from"
+    loaders -> aws.S3 "Reads from"
+    planning_data -> aws.S3 "Reads from"
+    
+    # WEB
+    planning_data.fast_api_application -> planning_data.postgres
+    planning_data.fast_api_application -> planning_data.datasette
+    planning_data.fast_api_application -> planning_data.datasette_tiles
+    planning_data.fast_api_application -> aws
+    
+    planning_data.datasette -> planning_data.efs
+    planning_data.datasette_tiles -> planning_data.efs
+    planning_data.fast_api_application -> aws
+
+    loaders -> planning_data "Provides Data"
     
     # Component Relationships
     digital_land_python.script -> digital_land_python.collect "Get CSV files"
@@ -50,22 +66,25 @@ workspace {
     digital_land_python.convert -> digital_land_python.script "SQLite"
     
     digital_land_python.script -> digital_land_python.publish
-    digital_land_python.collect -> aws.s3 "Reads from"
+    digital_land_python.collect -> aws.s3 "Reads / Writes"
     digital_land_python.collect -> lpa "Reads from"
     digital_land_python.publish -> aws.s3 "Writes to"
     } //  model
-    
 
     views {
 
         systemlandscape "SystemLandscape" {
             include *
-            autoLayout lr
         }
     
         systemContext planning_data {
             include *
             autolayout rl
+        }
+        
+         systemContext loaders {
+            include *
+            autolayout lr
         }
 
         systemContext lpa {
@@ -73,7 +92,7 @@ workspace {
             autolayout lr
         }
 
-        component planning_data.webapp {
+        component planning_data.fast_api_application {
             include *
             autolayout lr
         }
@@ -87,6 +106,12 @@ workspace {
             include *
             autolayout lr
         }
+        
+        container planning_data  {
+            include *
+            autolayout lr
+        }
+        
         
        dynamic digital_land_python "IngestProcess"  {
             autolayout 
