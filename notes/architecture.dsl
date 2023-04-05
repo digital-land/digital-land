@@ -22,6 +22,8 @@ Note: The structurizr web site generates a series of views from high-level to qu
 Select the [System Context] Digital-Land Python diagram from the drop-down on the right.
 Note that the diagrams are somewhat interactive - if you see the 'Planning Data' Software System, it has a magnifying glass icon which means you can double-click it to open up the next level view.
 
+Icons sourced from https://icons8.com under the terms of their free license
+
 */
 workspace {
   !identifiers hierarchical
