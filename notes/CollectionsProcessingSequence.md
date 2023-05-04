@@ -1,4 +1,4 @@
-# Sequence of Events in getting anbd publishing a collection
+# Sequence of Events in getting and publishing a collection
 
 This diagram represents the processing of a collection, initiated either by a LPA Officer or by a scheduled process.
 
