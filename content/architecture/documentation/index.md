@@ -254,6 +254,12 @@ A Fact is a piece of information relating to an entity. Entities are generated f
 * `end-date` - optional, date at which fact ceases to apply
 * `entry-date` - optional, date at which fact was first collected
 
+### Processes
+
+#### WKT Boundary Validation
+
+When [normalising a WKT](https://github.com/digital-land/digital-land-python/blob/main/digital_land/datatype/wkt.py) entity, it is validated by checking whether it lies within a boundary. The boundary is required to be a WKT of type Polygon or MultiPolygon. If there is no given boundary, or if the given boundary is of the wrong type, a default bounding box of England is used for validation.
+
 ## List of Datasets
 
 ## External Links
