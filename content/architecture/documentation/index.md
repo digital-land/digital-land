@@ -1,4 +1,7 @@
 # Digital Land
+
+> **_NOTE:_** Please note this has been superseded by https://digital-land.github.io/technical-documentation/
+
 <!-- vim-markdown-toc Marked -->
 
 * [Overview](#overview)
