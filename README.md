@@ -1,6 +1,6 @@
 # Digital Land
 
-> **_NOTE:_**  This repository used to host technical documentation for the Planning Data Platform.  The repository has been retained
+> **_DEPRECATION NOTICE:_**  This repository used to host technical documentation for the Planning Data Platform.  The repository has been retained
 for historical reference.
 
 > Technical documentation is now available here:
