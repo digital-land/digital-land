@@ -1,9 +1,8 @@
 # Digital Land
 
-> **_DEPRECATION NOTICE:_**  This repository used to host technical documentation for the Planning Data Platform.  The repository has been retained
-for historical reference.
+This repository contains issues and documentation for the Planning Data Service.
 
-> Technical documentation is now available here:
+Technical documentation for the platform is here:
 
 > https://digital-land.github.io/technical-documentation/
 
