@@ -19,29 +19,31 @@ Displaying the diagrams
 
 Note: The structurizr web site generates a series of views from high-level to quite low level from the information in the model.
 
-Select the [System Landscape] (#System Landscape) diagram from the drop-down on the right.
+Select the [System Context] Digital-Land Python diagram from the drop-down on the right.
+Note that the diagrams are somewhat interactive - if you see the 'Planning Data' Software System, it has a magnifying glass icon which means you can double-click it to open up the next level view.
 
-Note that the diagrams are somewhat interactive - if you see the  magnifying glass icon on a system/container/component that 
-means you can double-click it to open up the next level view.
+Icons sourced from https://icons8.com under the terms of their free license
 
 */
 workspace {
   !identifiers hierarchical
 
     model {
-        ripa = person "RIPA" "A person using the system"
+        ripa = person "Data User" "A person using the system"
         lpa = softwareSystem "Data Publisher Systems" 
         
-
-        group "data.planning.gov.uk" {
+        group "Digital Land (data.planning.gov.uk)" {
         
             aws = softwareSystem "S3 Data Store" "Amazon" {
+                tags "s3"
                 S3 = container "S3"
                 ECS = container "ECS" 
             }
         
             planning_data = softwareSystem "Planning Data" "Web"{
-                postgres = container "Postgres" "Stores geo elements." "" "Database"
+                postgres = container "Postgres" "Stores geo elements." {
+                    tags "postgres"
+                }
                 fast_api_application = container "Fast API Application" "Web front end and REST API"
                 datasette = container "Datasette Explorer Application" "SQLite explorer"
                 datasette_tiles = container "Datasette Tiles Server"
@@ -176,9 +178,15 @@ workspace {
                 background #85bbf0
                 color #000000
             }
-            element "Database" {
+            element "postgres" {
+                icon https://img.icons8.com/color/128/postgreesql.png
                 shape Cylinder
             }
+            element "s3" {
+                shape RoundedBox
+                icon https://img.icons8.com/color/2x/amazon-s3.png
+            }
+ 
         } // styles
     } // views
 
