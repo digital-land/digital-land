@@ -1,10 +1,12 @@
-# Digital Land
+# Planning Data Service Project
 
-This repository contains [issues](https://github.com/digital-land/digital-land/issues) and documentation for the Planning Data Service.
+This repository contains [issues](https://github.com/digital-land/digital-land/issues) [discussions](https://github.com/digital-land/digital-land/discussions) and other documentation for the [Planning Data Platform](https://planning.data.gov.uk).
 
-Technical documentation for the platform is here:
+Technical documentation for the platform is currently here: https://digital-land.github.io/technical-documentation/
 
-> https://digital-land.github.io/technical-documentation/
+# Contributing
+
+This is where planning data team work in the open. Contributions of issues and ideas are welcome and help us improve the service. 
 
 # Licence
 
