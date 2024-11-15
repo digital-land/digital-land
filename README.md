@@ -1,4 +1,4 @@
-# Planning Data Service Project
+# The Planning Data Platform is an open source project
 
 This repository contains [issues](https://github.com/digital-land/digital-land/issues) [discussions](https://github.com/digital-land/digital-land/discussions) and other documentation for the [Planning Data Platform](https://planning.data.gov.uk).
 
