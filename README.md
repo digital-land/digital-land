@@ -1,6 +1,6 @@
 # Digital Land
 
-This repository contains issues and documentation for the Planning Data Service.
+This repository contains [issues](https://github.com/digital-land/digital-land/issues) and documentation for the Planning Data Service.
 
 Technical documentation for the platform is here:
 
